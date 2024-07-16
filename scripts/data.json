@@ -92,6 +92,11 @@
     "path": "fonts/其他字体/手书体.ttf"
   },
   {
+    "name": "抖音美好体",
+    "path": "fonts/其他字体/抖音美好体.ttf",
+    "home": "https://github.com/bytedance/fonts"
+  },
+  {
     "name": "摄图摩登小方体",
     "path": "fonts/其他字体/摄图摩登小方体.ttf"
   },
