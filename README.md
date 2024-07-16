@@ -1,7 +1,7 @@
 收录商用免费汉字字体
 ===
 
-![收录商用免费汉字字体 Free Font](https://github.com/user-attachments/assets/c692b55e-9946-4fb7-9a1d-e5fe8c60ea09)
+![收录商用免费汉字字体 Free Font](https://github.com/user-attachments/assets/e050dbf1-464c-44ac-89a8-eaf21490200c)
 
 当前项目收集的汉字字体基于 [free-font](https://github.com/wordshub/free-font) 开源项目。由于原项目已不再维护，我建立了这个新项目，为《[字帖宝宝](https://github.com/jaywcjlove/copybook-generator)》的用户提供字体下载和使用的便利。
 
