@@ -42,7 +42,7 @@ function createPosterImage(filePath, fontName = "") {
     const buffer = canvas.toBuffer('image/jpeg');
     const fileName = `docs/images/${fontName}-poster.jpg`;
     fs.writeFileSync(fileName, buffer);
-    console.log(`Image created and saved as ${fileName}! ${filePath}`);
+    console.log(`Image created and saved as \x1b[32;1m${fileName}\x1b[0m! ${filePath}`);
 }
 
 async function getFontFiles(dirPath) {
