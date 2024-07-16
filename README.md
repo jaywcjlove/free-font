@@ -3,6 +3,8 @@
 
 当前项目收集的汉字字体基于 [free-font](https://github.com/wordshub/free-font) 开源项目。由于原项目已不再维护，我建立了这个新项目，为《[字帖宝宝](https://github.com/jaywcjlove/copybook-generator)》的用户提供字体下载和使用的便利。
 
+![收录商用免费汉字字体 Free Font](https://github.com/user-attachments/assets/c692b55e-9946-4fb7-9a1d-e5fe8c60ea09)
+
 汉字字体制作是一项庞大的工程。常用汉字字库表包含 6763 个汉字，GBK 标准中共有 20902 个汉字，而最新出版的 GB_18064 标准则包含六万多个字符。由于汉字的字形复杂，完成一套中文字体需要耗费大量专业人士的精力和时间。我们提倡大家使用正版字体，为中文字体制作创造一个良性的环境。
 
 ## 添加商用字体
