@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/main.mjs && npm run build",
-    "build": "ejsc \"templates/**/*\" -o \"web\"",
-    "dev": "ejsc \"templates/**/*\" -o \"web\" -w"
+    "build": "ejsc \"templates/**/*\" -o \"docs\"",
+    "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },
   "keywords": [],
   "author": "jaywcjlove",

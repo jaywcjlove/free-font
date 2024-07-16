@@ -40,7 +40,7 @@ function createPosterImage(filePath, fontName = "") {
 
     // 保存图片到文件
     const buffer = canvas.toBuffer('image/jpeg');
-    const fileName = `web/images/${fontName}-poster.jpg`;
+    const fileName = `docs/images/${fontName}-poster.jpg`;
     fs.writeFileSync(fileName, buffer);
     console.log(`Image created and saved as ${fileName}! ${filePath}`);
 }
@@ -72,8 +72,8 @@ function removeRootPathSegment(filePath) {
 }
 
 ;(async () => {
-  await fs.emptyDir('web/images');
-  const files = await getFontFiles("./web/fonts");
+  await fs.emptyDir('docs/images');
+  const files = await getFontFiles("./docs/fonts");
   const resultData = []
   for (const filename of files) {
     let fontName = path.basename(filename, path.extname(filename)).trim();
