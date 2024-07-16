@@ -78,7 +78,7 @@ function removeRootPathSegment(filePath) {
   for (const filename of files) {
     let fontName = path.basename(filename, path.extname(filename)).trim();
     if (!fontName.startsWith("__")) {
-      let data = fontDatas.find((item) => item.fontName === fontName) || {};
+      let data = fontDatas.find((item) => item.name === fontName) || {};
       data.name = fontName;
       data.path = removeRootPathSegment(filename);
       resultData.push(data);
