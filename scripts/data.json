@@ -176,6 +176,10 @@
     "path": "fonts/其他字体/问藏书房.ttf"
   },
   {
+    "name": "隨峰體",
+    "path": "fonts/其他字体/隨峰體.ttf"
+  },
+  {
     "name": "刻石录明體",
     "path": "fonts/刻石录系列/刻石录明體.ttf"
   },
@@ -755,7 +759,8 @@
   },
   {
     "name": "阿里妈妈灵动体",
-    "path": "fonts/阿里巴巴/阿里妈妈灵动体.ttf"
+    "path": "fonts/阿里巴巴/阿里妈妈灵动体.ttf",
+    "home": "https://www.alibabafonts.com/#/more"
   },
   {
     "name": "阿里巴巴普惠体-Bold",
