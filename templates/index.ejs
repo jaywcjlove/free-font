@@ -1,0 +1,17 @@
+<%- include('./_partial/header', {  }); %>
+<header>
+  <h1>Free Font</h1>
+  <p>收录商用免费汉字字体，已收录 <a href="https://github.com/jaywcjlove/free-font" target="_blank"><%= DATA.length %></a> 个汉字字体</p>
+</header>
+<main>
+  <% DATA.forEach(function(font, idx){ %>
+    <a href="<%=font.path%>" download="<%=font.name%>.ttf">
+      <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
+      <p>
+        <span><%=font.name%></span>
+        <mark>下载字体</mark>
+      </p>
+    </a>
+  <% }); %>
+</main>
+<%- include('./_partial/footer', { }); %>
