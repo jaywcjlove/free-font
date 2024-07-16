@@ -55,51 +55,67 @@ header p {
   padding-bottom: 3em;
 }
 
-main > a, main > a > span, main > a > img {
+
+main > div, main > div a, main > div span, main > div img {
   display: block;
 }
 
-main > a > img {
+main > div  img {
   width: 100%;
   min-height: 68px;
   border-radius: 6px;
 }
 
-main > a {
+main > div a {
+  padding: 6px;
+
+}
+main > div {
   border: 1px solid transparent;
   background: #ffffff0d;
-  padding: 6px;
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
   font-size: 14px;
   transition: all 0.3s;
+  position: relative;
 }
-
-main > a:hover mark {
-  background: #2c87b1;
-  color: white;
-}
-main > a:hover {
+main > div:hover {
   border: 1px solid #ffffff3b;
   background: #333;
 }
-main > a > p {
+main > div p {
   padding-top: 3px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main > a > p > span {
+main > div p > span {
   color: #a1a1a1;
 }
-main > a > p > mark {
+
+main > div:hover > .button {
+  background: #2c87b1;
+  color: white;
+}
+
+main > div > .button {
   background: #3d3d3d;
   border-radius: 3px;
   font-size: 12px;
   color: #898989;
   padding: 0 2px;
   transition: all 0.3s;
+  position: absolute;
+  display: inline-flex;
+  right: 6px;
+  bottom: 6px;
+}
+
+
+main > div > .button:hover {
+  background: #007636;
+  color: white;
 }
 
 main {

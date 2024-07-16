@@ -1,17 +1,19 @@
-<%- include('./_partial/header', {  }); %>
+<%- include('./_partial/header', { type: "home" }); %>
 <header>
-  <h1>免费汉字字体</h1>
+  <h1><a href="./index.html">免费汉字字体</a></h1>
   <p>Free Font 收录商用免费汉字字体，已收录 <a href="https://github.com/jaywcjlove/free-font" target="_blank"><%= DATA.length %></a> 个汉字字体</p>
 </header>
 <main>
   <% DATA.forEach(function(font, idx){ %>
-    <a href="<%=font.path%>" download="<%=font.name%>.ttf">
-      <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
-      <p>
-        <span><%=font.name%></span>
-        <mark>下载字体</mark>
-      </p>
-    </a>
+    <div>
+      <a href="preview.html?p=<%=font.path%>&t=<%=font.name%>" target="_blank">
+        <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
+        <p>
+          <span><%=font.name%></span>
+        </p>
+      </a>
+      <a href="<%=font.path%>" class="button" download="<%=font.name%>">下载字体</a>
+    </div>
   <% }); %>
 </main>
 <%- include('./_partial/footer', { }); %>

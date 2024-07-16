@@ -1,5 +1,6 @@
 {
   "data": {
-    "templates/index.ejs": "./scripts/data.json"
+    "templates/index.ejs": "./scripts/data.json",
+    "templates/preview.ejs": "./scripts/data.json"
   }
 }
