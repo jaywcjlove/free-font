@@ -55,6 +55,7 @@ main > a, main > a > span, main > a > img {
 
 main > a > img {
   width: 100%;
+  min-height: 68px;
   border-radius: 6px;
 }
 
