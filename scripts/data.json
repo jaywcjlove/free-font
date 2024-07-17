@@ -75,6 +75,12 @@
     "path": "fonts/其他字体/包图小白体.ttf"
   },
   {
+    "name": "匯文明朝體",
+    "type": "艺术体",
+    "home": "https://zhuanlan.zhihu.com/p/344103391",
+    "path": "fonts/其他字体/匯文明朝體.otf"
+  },
+  {
     "name": "千图小兔体",
     "type": "艺术体",
     "path": "fonts/其他字体/千图小兔体.ttf"
@@ -682,49 +688,49 @@
   {
     "name": "源音黑體-Bold",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Bold.otf"
   },
   {
     "name": "源音黑體-ExtraLight",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-ExtraLight.otf"
   },
   {
     "name": "源音黑體-Heavy",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Heavy.otf"
   },
   {
     "name": "源音黑體-Light",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Light.otf"
   },
   {
     "name": "源音黑體-Medium",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Medium.otf"
   },
   {
     "name": "源音黑體-Normal",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Normal.otf"
   },
   {
     "name": "源音黑體-Regular",
     "type": "黑体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MoneMizuno/Genne-Gothic",
     "path": "fonts/源音黑體/源音黑體-Regular.otf"
   },
@@ -985,14 +991,14 @@
   {
     "name": "萌神拼音-HanSerif",
     "type": "艺术体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MaruTama/Mengshen-pinyin-font",
     "path": "fonts/萌神/萌神拼音-HanSerif.ttf"
   },
   {
     "name": "萌神拼音手写体",
     "type": "手绘体",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "home": "https://github.com/MaruTama/Mengshen-pinyin-font",
     "path": "fonts/萌神/萌神拼音手写体.ttf"
   },
