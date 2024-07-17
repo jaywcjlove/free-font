@@ -1308,5 +1308,12 @@
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/KNYuanmo",
     "path": "fonts/其他字体/荆南缘默体.ttf"
+  },
+  {
+    "name": "荆南麦圆体",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/maoken-fonts/KNMaiyuan",
+    "path": "fonts/其他字体/荆南麦圆体.ttf"
   }
 ]
