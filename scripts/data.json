@@ -1145,5 +1145,9 @@
     "license": "IPA-1.0",
     "home": "https://github.com/lxgw/LxgwXiHei",
     "path": "fonts/霞鹜/黑体/霞鹜新晰黑.ttf"
+  },
+  {
+    "name": "霞鹜漫黑",
+    "path": "fonts/霞鹜/黑体/霞鹜漫黑.ttf"
   }
 ]
