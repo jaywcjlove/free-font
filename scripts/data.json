@@ -1502,5 +1502,30 @@
     "name": "优设鲨鱼菲特健康体",
     "home": "https://www.uisdc.com/uisdc-sharkfit-font",
     "path": "fonts/其他字体/优设鲨鱼菲特健康体.ttf"
+  },
+  {
+    "name": "正風毛筆字體-Bold",
+    "type": "手绘体",
+    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Bold.ttf"
+  },
+  {
+    "name": "正風毛筆字體-ExtraLight",
+    "type": "手绘体",
+    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-ExtraLight.ttf"
+  },
+  {
+    "name": "正風毛筆字體-Light",
+    "type": "手绘体",
+    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Light.ttf"
+  },
+  {
+    "name": "正風毛筆字體-Medium",
+    "type": "手绘体",
+    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Medium.ttf"
+  },
+  {
+    "name": "正風毛筆字體-Regular",
+    "type": "手绘体",
+    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Regular.ttf"
   }
 ]
