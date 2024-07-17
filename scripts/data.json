@@ -1148,6 +1148,16 @@
   },
   {
     "name": "霞鹜漫黑",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/LxgwMarkerGothic",
     "path": "fonts/霞鹜/黑体/霞鹜漫黑.ttf"
+  },
+  {
+    "name": "得意黑",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/atelier-anchor/smiley-sans",
+    "path": "fonts/其他字体/得意黑.ttf"
   }
 ]
