@@ -534,6 +534,30 @@
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Regular.otf"
   },
   {
+    "name": "悠哉字体-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/yozai-font",
+    "path": "fonts/悠哉字体/悠哉字体-Bold.ttf"
+  },
+  {
+    "name": "悠哉字体-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/yozai-font",
+    "path": "fonts/悠哉字体/悠哉字体-Light.ttf"
+  },
+  {
+    "name": "悠哉字体-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/yozai-font",
+    "path": "fonts/悠哉字体/悠哉字体-Medium.ttf"
+  },
+  {
+    "name": "悠哉字体-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/yozai-font",
+    "path": "fonts/悠哉字体/悠哉字体-Regular.ttf"
+  },
+  {
     "name": "方正书宋简体",
     "type": "宋体",
     "path": "fonts/方正字体系列/方正书宋简体.ttf"
