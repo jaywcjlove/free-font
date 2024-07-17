@@ -1287,5 +1287,12 @@
     "license": "OFL-1.1",
     "home": "https://github.com/LingDong-/qiji-font",
     "path": "fonts/齊伋體/齊伋體.ttf"
+  },
+  {
+    "name": "龙珠体-Regular",
+    "type": "艺术体",
+    "license":"OFL-1.1",
+    "home": "https://github.com/maoken-fonts/LongZhuTi",
+    "path": "docs/fonts/龙珠体/龙珠体-Regular.ttf"
   }
 ]
