@@ -1,8 +1,11 @@
 {
   "data": {
+    "templates/index.ejs": "./scripts/data.json",
     "templates/kai.ejs": "./scripts/data.json",
     "templates/song.ejs": "./scripts/data.json",
-    "templates/index.ejs": "./scripts/data.json",
+    "templates/hei.ejs": "./scripts/data.json",
+    "templates/art.ejs": "./scripts/data.json",
+    "templates/handwriting.ejs": "./scripts/data.json",
     "templates/preview.ejs": "./scripts/data.json"
   }
 }

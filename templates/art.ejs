@@ -1,0 +1,10 @@
+<%- include('./_partial/header', { type: "home" }); %>
+<header>
+<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "艺术字体").length, type: "艺术字体" }); %>
+</header>
+<main>
+  <% DATA.filter((item) => item.type == "艺术字体").forEach(function(font, idx){ %>
+    <%- include('./_partial/home-list', { font }); %>
+  <% }); %>
+</main>
+<%- include('./_partial/footer', { }); %>

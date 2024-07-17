@@ -1,6 +1,6 @@
 <%- include('./_partial/header', { type: "home" }); %>
 <header>
-<%- include('./_partial/header-title', { length: DATA.length, type: "宋体" }); %>
+<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "楷体").length, type: "宋体" }); %>
 </header>
 <main>
   <% DATA.filter((item) => item.type == "宋体").forEach(function(font, idx){ %>

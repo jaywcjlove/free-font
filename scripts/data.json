@@ -16,14 +16,17 @@
   },
   {
     "name": "全字庫正楷體-98_1",
+    "type": "楷体",
     "path": "fonts/全字库系列/全字庫正楷體/全字庫正楷體-98_1.ttf"
   },
   {
     "name": "全字庫正楷體-Ext-B-98_1",
+    "type": "楷体",
     "path": "fonts/全字库系列/全字庫正楷體/全字庫正楷體-Ext-B-98_1.ttf"
   },
   {
     "name": "全字庫正楷體-Plus-98_1",
+    "type": "楷体",
     "path": "fonts/全字库系列/全字庫正楷體/全字庫正楷體-Plus-98_1.ttf"
   },
   {
@@ -52,26 +55,32 @@
   },
   {
     "name": "令东齐伋体",
+    "type": "艺术字体",
     "path": "fonts/其他字体/令东齐伋体.ttf"
   },
   {
     "name": "优设标题黑",
+    "type": "黑体",
     "path": "fonts/其他字体/优设标题黑.ttf"
   },
   {
     "name": "包图小白体",
+    "type": "艺术字体",
     "path": "fonts/其他字体/包图小白体.ttf"
   },
   {
     "name": "千图小兔体",
+    "type": "艺术字体",
     "path": "fonts/其他字体/千图小兔体.ttf"
   },
   {
     "name": "卓健橄榄简体",
+    "type": "艺术字体",
     "path": "fonts/其他字体/卓健橄榄简体.ttf"
   },
   {
     "name": "和田研中丸",
+    "type": "艺术字体",
     "path": "fonts/其他字体/和田研字体/和田研中丸.ttf"
   },
   {
@@ -92,6 +101,7 @@
   },
   {
     "name": "手书体",
+    "type": "手绘字体",
     "path": "fonts/其他字体/手书体.ttf"
   },
   {
@@ -101,74 +111,92 @@
   },
   {
     "name": "摄图摩登小方体",
+    "type": "艺术字体",
     "path": "fonts/其他字体/摄图摩登小方体.ttf"
   },
   {
     "name": "杨任东竹石体-Bold",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Bold.ttf"
   },
   {
     "name": "杨任东竹石体-Extralight",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Extralight.ttf"
   },
   {
     "name": "杨任东竹石体-Heavy",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Heavy.ttf"
   },
   {
     "name": "杨任东竹石体-Light",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Light.ttf"
   },
   {
     "name": "杨任东竹石体-Medium",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Medium.ttf"
   },
   {
     "name": "杨任东竹石体-Regular",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Regular.ttf"
   },
   {
     "name": "杨任东竹石体-Semibold",
+    "type": "艺术字体",
     "path": "fonts/其他字体/杨任东竹石体/杨任东竹石体-Semibold.ttf"
   },
   {
     "name": "江西拙楷",
+    "type": "楷体",
     "path": "fonts/其他字体/江西拙楷.ttf"
   },
   {
     "name": "清松手寫體1",
+    "type": "手绘字体",
     "path": "fonts/其他字体/清松手寫體/清松手寫體1.ttf"
   },
   {
     "name": "清松手寫體2",
+    "type": "手绘字体",
     "path": "fonts/其他字体/清松手寫體/清松手寫體2.ttf"
   },
   {
     "name": "清松手寫體3",
+    "type": "手绘字体",
     "path": "fonts/其他字体/清松手寫體/清松手寫體3.ttf"
   },
   {
     "name": "演示佛系体",
+    "type": "手绘字体",
     "path": "fonts/其他字体/演示佛系体.ttf"
   },
   {
     "name": "演示夏行楷",
+    "type": "楷体",
     "path": "fonts/其他字体/演示夏行楷.ttf"
   },
   {
     "name": "演示悠然小楷",
+    "type": "楷体",
     "path": "fonts/其他字体/演示悠然小楷.ttf"
   },
   {
     "name": "演示春风楷",
+    "type": "楷体",
     "path": "fonts/其他字体/演示春风楷.ttf"
   },
   {
     "name": "演示秋鸿楷",
+    "type": "楷体",
     "path": "fonts/其他字体/演示秋鸿楷.ttf"
   },
   {
     "name": "联盟起艺卢帅正锐黑体",
+    "type": "黑体",
     "path": "fonts/其他字体/联盟起艺卢帅正锐黑体.ttf"
   },
   {
@@ -177,14 +205,17 @@
   },
   {
     "name": "钟齐志莽行书",
+    "type": "手绘字体",
     "path": "fonts/其他字体/钟齐志莽行书.ttf"
   },
   {
     "name": "问藏书房",
+    "type": "艺术字体",
     "path": "fonts/其他字体/问藏书房.ttf"
   },
   {
     "name": "隨峰體",
+    "type": "手绘字体",
     "path": "fonts/其他字体/隨峰體.ttf"
   },
   {
@@ -193,22 +224,27 @@
   },
   {
     "name": "刻石录鋼筆鶴體",
+    "type": "手绘字体",
     "path": "fonts/刻石录系列/刻石录鋼筆鶴體.ttf"
   },
   {
     "name": "刻石录顏體",
+    "type": "艺术字体",
     "path": "fonts/刻石录系列/刻石录顏體.ttf"
   },
   {
     "name": "庞门正道标题体",
+    "type": "艺术字体",
     "path": "fonts/庞门正道字体系列/庞门正道标题体.ttf"
   },
   {
     "name": "庞门正道粗书体",
+    "type": "手绘字体",
     "path": "fonts/庞门正道字体系列/庞门正道粗书体.ttf"
   },
   {
     "name": "庞门正道轻松体",
+    "type": "艺术字体",
     "path": "fonts/庞门正道字体系列/庞门正道轻松体.otf"
   },
   {
@@ -248,198 +284,247 @@
   },
   {
     "name": "思源柔黑-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Bold.ttf"
   },
   {
     "name": "思源柔黑-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-ExtraLight.ttf"
   },
   {
     "name": "思源柔黑-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Heavy.ttf"
   },
   {
     "name": "思源柔黑-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Light.ttf"
   },
   {
     "name": "思源柔黑-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Medium.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Bold.ttf"
   },
   {
     "name": "思源柔黑-Monospace-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-ExtraLight.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Heavy.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Light.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Medium.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Normal.ttf"
   },
   {
     "name": "思源柔黑-Monospace-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Monospace-Regular.ttf"
   },
   {
     "name": "思源柔黑-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Normal.ttf"
   },
   {
     "name": "思源柔黑-P-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Bold.ttf"
   },
   {
     "name": "思源柔黑-P-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-ExtraLight.ttf"
   },
   {
     "name": "思源柔黑-P-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Heavy.ttf"
   },
   {
     "name": "思源柔黑-P-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Light.ttf"
   },
   {
     "name": "思源柔黑-P-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Medium.ttf"
   },
   {
     "name": "思源柔黑-P-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Normal.ttf"
   },
   {
     "name": "思源柔黑-P-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-P-Regular.ttf"
   },
   {
     "name": "思源柔黑-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源柔黑/思源柔黑-Regular.ttf"
   },
   {
     "name": "思源真黑-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Bold.ttf"
   },
   {
     "name": "思源真黑-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-ExtraLight.ttf"
   },
   {
     "name": "思源真黑-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Heavy.ttf"
   },
   {
     "name": "思源真黑-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Light.ttf"
   },
   {
     "name": "思源真黑-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Medium.ttf"
   },
   {
     "name": "思源真黑-Monospace-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Bold.ttf"
   },
   {
     "name": "思源真黑-Monospace-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-ExtraLight.ttf"
   },
   {
     "name": "思源真黑-Monospace-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Heavy.ttf"
   },
   {
     "name": "思源真黑-Monospace-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Light.ttf"
   },
   {
     "name": "思源真黑-Monospace-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Medium.ttf"
   },
   {
     "name": "思源真黑-Monospace-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Normal.ttf"
   },
   {
     "name": "思源真黑-Monospace-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Monospace-Regular.ttf"
   },
   {
     "name": "思源真黑-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Normal.ttf"
   },
   {
     "name": "思源真黑-P-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Bold.ttf"
   },
   {
     "name": "思源真黑-P-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-ExtraLight.ttf"
   },
   {
     "name": "思源真黑-P-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Heavy.ttf"
   },
   {
     "name": "思源真黑-P-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Light.ttf"
   },
   {
     "name": "思源真黑-P-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Medium.ttf"
   },
   {
     "name": "思源真黑-P-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Normal.ttf"
   },
   {
     "name": "思源真黑-P-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-P-Regular.ttf"
   },
   {
     "name": "思源真黑-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源真黑/思源真黑-Regular.ttf"
   },
   {
     "name": "思源黑体-Bold",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Bold.otf"
   },
   {
     "name": "思源黑体-ExtraLight",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-ExtraLight.otf"
   },
   {
     "name": "思源黑体-Heavy",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Heavy.otf"
   },
   {
     "name": "思源黑体-Light",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Light.otf"
   },
   {
     "name": "思源黑体-Medium",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Medium.otf"
   },
   {
     "name": "思源黑体-Normal",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Normal.otf"
   },
   {
     "name": "思源黑体-Regular",
+    "type": "黑体",
     "path": "fonts/思源字体系列/思源黑体/思源黑体-Regular.otf"
   },
   {
@@ -460,10 +545,12 @@
   },
   {
     "name": "方正黑体简体",
+    "type": "黑体",
     "path": "fonts/方正字体系列/方正黑体简体.ttf"
   },
   {
     "name": "明体系列-Bold",
+    "type": "艺术字体",
     "path": "fonts/明体系列/明体系列/明体系列-Bold.ttf"
   },
   {
@@ -536,10 +623,12 @@
   },
   {
     "name": "沐瑶软笔手写体",
+    "type": "手绘字体",
     "path": "fonts/沐瑶字体系列/沐瑶软笔手写体.ttf"
   },
   {
     "name": "沐瑶随心手写体",
+    "type": "手绘字体",
     "path": "fonts/沐瑶字体系列/沐瑶随心手写体.ttf"
   },
   {
@@ -594,6 +683,7 @@
   },
   {
     "name": "王漢宗中行書繁",
+    "type": "手绘字体",
     "path": "fonts/王汉宗字体系列/王漢宗中行書繁.ttf"
   },
   {
@@ -652,6 +742,7 @@
   },
   {
     "name": "王漢宗特黑體繁",
+    "type": "黑体",
     "path": "fonts/王汉宗字体系列/王漢宗特黑體繁.ttf"
   },
   {
@@ -681,6 +772,7 @@
   },
   {
     "name": "王漢宗粗黑體實陰",
+    "type": "黑体",
     "path": "fonts/王汉宗字体系列/王漢宗粗黑體實陰.ttf"
   },
   {
@@ -698,6 +790,7 @@
   },
   {
     "name": "王漢宗細黑體繁",
+    "type": "黑体",
     "path": "fonts/王汉宗字体系列/王漢宗細黑體繁.ttf"
   },
   {
@@ -706,6 +799,7 @@
   },
   {
     "name": "王漢宗綜藝體雙空陰",
+    "type": "艺术字体",
     "path": "fonts/王汉宗字体系列/王漢宗綜藝體雙空陰.ttf"
   },
   {
@@ -718,14 +812,17 @@
   },
   {
     "name": "王漢宗超黑體俏皮動物一",
+    "type": "黑体",
     "path": "fonts/王汉宗字体系列/王漢宗超黑體俏皮動物一.ttf"
   },
   {
     "name": "王漢宗酷儷海報",
+    "type": "艺术字体",
     "path": "fonts/王汉宗字体系列/王漢宗酷儷海報.ttf"
   },
   {
     "name": "王漢宗酷正海報",
+    "type": "艺术字体",
     "path": "fonts/王汉宗字体系列/王漢宗酷正海報.ttf"
   },
   {
@@ -740,46 +837,57 @@
   },
   {
     "name": "王漢宗魏碑體左下空陰",
+    "error": "无法预览??",
     "path": "fonts/王汉宗字体系列/王漢宗魏碑體左下空陰.ttf"
   },
   {
     "name": "站酷小薇LOGO体",
+    "type": "艺术字体",
     "path": "fonts/站酷字体系列/站酷小薇LOGO体.otf"
   },
   {
     "name": "站酷庆科黄油体",
+    "type": "艺术字体",
     "path": "fonts/站酷字体系列/站酷庆科黄油体.ttf"
   },
   {
     "name": "站酷快乐体",
+    "type": "艺术字体",
     "path": "fonts/站酷字体系列/站酷快乐体.ttf"
   },
   {
     "name": "站酷文艺体",
+    "type": "艺术字体",
     "path": "fonts/站酷字体系列/站酷文艺体.ttf"
   },
   {
     "name": "站酷酷黑体",
+    "type": "黑体",
     "path": "fonts/站酷字体系列/站酷酷黑体.ttf"
   },
   {
     "name": "站酷高端黑",
+    "type": "黑体",
     "path": "fonts/站酷字体系列/站酷高端黑.ttf"
   },
   {
     "name": "胡晓波男神体",
+    "type": "艺术字体",
     "path": "fonts/胡晓波字体系列/胡晓波男神体.otf"
   },
   {
     "name": "胡晓波真帅体",
+    "type": "艺术字体",
     "path": "fonts/胡晓波字体系列/胡晓波真帅体.otf"
   },
   {
     "name": "胡晓波骚包体",
+    "type": "艺术字体",
     "path": "fonts/胡晓波字体系列/胡晓波骚包体.otf"
   },
   {
     "name": "钉钉进步体-Regular",
+    "type": "艺术字体",
     "path": "fonts/阿里巴巴/钉钉进步体-Regular.ttf",
     "home": "https://www.alibabafonts.com/#/more"
   },
@@ -796,6 +904,7 @@
   },
   {
     "name": "阿里妈妈数黑体-Bold",
+    "type": "黑体",
     "path": "fonts/阿里巴巴/阿里妈妈数黑体-Bold.ttf",
     "home": "https://www.alibabafonts.com/#/more"
   },
