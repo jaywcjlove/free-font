@@ -1391,5 +1391,77 @@
     "license": "OFL-1.1",
     "home": "https://github.com/justfont/open-huninn-font",
     "path": "fonts/其他字体/加粉圓.ttf"
+  },
+  {
+    "name": "缝合像素简体-10px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-10px-比例.ttf"
+  },
+  {
+    "name": "缝合像素简体-10px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-10px-等宽.ttf"
+  },
+  {
+    "name": "缝合像素简体-12px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-12px-比例.ttf"
+  },
+  {
+    "name": "缝合像素简体-12px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-12px-等宽.ttf"
+  },
+  {
+    "name": "缝合像素简体-8px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-8px-比例.ttf"
+  },
+  {
+    "name": "缝合像素简体-8px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素简体-8px-等宽.ttf"
+  },
+  {
+    "name": "缝合像素繁体-10px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-10px-比例.ttf"
+  },
+  {
+    "name": "缝合像素繁体-10px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-10px-等宽.ttf"
+  },
+  {
+    "name": "缝合像素繁体-12px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-12px-比例.ttf"
+  },
+  {
+    "name": "缝合像素繁体-12px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-12px-等宽.ttf"
+  },
+  {
+    "name": "缝合像素繁体-8px-比例",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-8px-比例.ttf"
+  },
+  {
+    "name": "缝合像素繁体-8px-等宽",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/fusion-pixel-font",
+    "path": "fonts/缝合像素字体/缝合像素繁体-8px-等宽.ttf"
   }
 ]
