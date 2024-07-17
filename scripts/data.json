@@ -1564,5 +1564,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/Chenyu-otf/chenyuluoyan_thin",
     "path": "fonts/辰宇落雁體/辰宇落雁體.ttf"
+  },
+  {
+    "name": "Charlie手寫體",
+    "license": "MIT",
+    "home": "https://github.com/charlie-moomoo/CharlieHandwriting",
+    "path": "fonts/其他字体/Charlie手寫體.ttf"
   }
 ]
