@@ -1550,5 +1550,19 @@
     "type": "艺术体",
     "home": "https://mp.weixin.qq.com/s/8AWfAT3tKKfd37ejWmRs7w",
     "path": "fonts/其他字体/Aa剑豪体.ttf"
+  },
+  {
+    "name": "辰宇落雁體-等宽",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Chenyu-otf/chenyuluoyan_thin",
+    "path": "fonts/辰宇落雁體/辰宇落雁體-等宽.ttf"
+  },
+  {
+    "name": "辰宇落雁體",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Chenyu-otf/chenyuluoyan_thin",
+    "path": "fonts/辰宇落雁體/辰宇落雁體.ttf"
   }
 ]
