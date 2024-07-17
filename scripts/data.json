@@ -1385,5 +1385,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/ACh-K/Cubic-11",
     "path": "fonts/其他字体/俐方體11號.ttf"
+  },
+  {
+    "name": "加粉圓",
+    "license": "OFL-1.1",
+    "home": "https://github.com/justfont/open-huninn-font",
+    "path": "fonts/其他字体/加粉圓.ttf"
   }
 ]
