@@ -1482,5 +1482,11 @@
     "type": "艺术体",
     "home": "https://github.com/LingDong-/rrpl",
     "path": "fonts/其他字体/递归部首打包语言字体RRPL.ttf"
+  },
+  {
+    "name": "飞花宋体",
+    "type": "宋体",
+    "home": "https://github.com/Skr-ZERO/FlyFlowerSong",
+    "path": "fonts/其他字体/飞花宋体.ttf"
   }
 ]
