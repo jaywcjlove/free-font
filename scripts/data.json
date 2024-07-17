@@ -244,6 +244,7 @@
   {
     "name": "钟齐志莽行书",
     "type": "手绘体",
+    "home": "https://github.com/m4rc1e/zhimangxing/",
     "path": "fonts/其他字体/钟齐志莽行书.ttf"
   },
   {
@@ -1543,5 +1544,11 @@
     "name": "润植家康熙字典美化体",
     "home": "https://mp.weixin.qq.com/s/Qr5-0zkUVhc_CYApCZ382g",
     "path": "fonts/润植家康熙字典美化体/润植家康熙字典美化体.ttf"
+  },
+  {
+    "name": "Aa剑豪体",
+    "type": "艺术体",
+    "home": "https://mp.weixin.qq.com/s/8AWfAT3tKKfd37ejWmRs7w",
+    "path": "fonts/其他字体/Aa剑豪体.ttf"
   }
 ]
