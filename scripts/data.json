@@ -70,6 +70,13 @@
     "path": "fonts/其他字体/优设标题黑.ttf"
   },
   {
+    "name": "剔骨仿宋",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/LingDong-/tk-fangsong-font",
+    "path": "fonts/其他字体/剔骨仿宋.ttf"
+  },
+  {
     "name": "包图小白体",
     "type": "艺术体",
     "path": "fonts/其他字体/包图小白体.ttf"
@@ -226,6 +233,13 @@
     "name": "钟齐志莽行书",
     "type": "手绘体",
     "path": "fonts/其他字体/钟齐志莽行书.ttf"
+  },
+  {
+    "name": "铁蒺藜体",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Buernia/Tiejili",
+    "path": "fonts/其他字体/铁蒺藜体.ttf"
   },
   {
     "name": "问藏书房",
@@ -1030,6 +1044,20 @@
     "path": "fonts/站酷字体系列/站酷高端黑.ttf"
   },
   {
+    "name": "美績点陣體",
+    "license": "OFL-1.1",
+    "type": "艺术体",
+    "home": "https://github.com/ItMarki/MisekiBitmap",
+    "path": "fonts/美績点陣體/美績点陣體.ttf"
+  },
+  {
+    "name": "美績点陣體Mincho",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ItMarki/MisekiBitmap",
+    "path": "fonts/美績点陣體/美績点陣體Mincho.ttf"
+  },
+  {
     "name": "胡晓波男神体",
     "type": "艺术体",
     "path": "fonts/胡晓波字体系列/胡晓波男神体.otf"
@@ -1210,6 +1238,20 @@
     "path": "fonts/霞鹜/黑体/霞鹜漫黑.ttf"
   },
   {
+    "name": "鼠标仿手写体",
+    "license": "OFL-1.1",
+    "type": "手绘体",
+    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
+    "path": "fonts/鼠标仿手写体/鼠标仿手写体.ttf"
+  },
+  {
+    "name": "鼠标仿手写体Mono",
+    "license": "OFL-1.1",
+    "type": "手绘体",
+    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
+    "path": "fonts/鼠标仿手写体/鼠标仿手写体Mono.ttf"
+  },
+  {
     "name": "齊伋體-combo",
     "type": "艺术体",
     "license": "OFL-1.1",
@@ -1229,33 +1271,5 @@
     "license": "OFL-1.1",
     "home": "https://github.com/LingDong-/qiji-font",
     "path": "fonts/齊伋體/齊伋體.ttf"
-  },
-  {
-    "name": "铁蒺藜体",
-    "type": "艺术体",
-    "license": "OFL-1.1",
-    "home": "https://github.com/Buernia/Tiejili",
-    "path": "fonts/其他字体/铁蒺藜体.ttf"
-  },
-  {
-    "name": "鼠标仿手写体",
-    "license": "OFL-1.1",
-    "type": "手绘体",
-    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
-    "path": "fonts/鼠标仿手写体/鼠标仿手写体.ttf"
-  },
-  {
-    "name": "鼠标仿手写体Mono",
-    "license": "OFL-1.1",
-    "type": "手绘体",
-    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
-    "path": "fonts/鼠标仿手写体/鼠标仿手写体Mono.ttf"
-  },
-  {
-    "name": "剔骨仿宋",
-    "type": "艺术体",
-    "license": "OFL-1.1",
-    "home": "https://github.com/LingDong-/tk-fangsong-font",
-    "path": "fonts/其他字体/剔骨仿宋.ttf"
   }
 ]
