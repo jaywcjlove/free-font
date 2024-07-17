@@ -1235,6 +1235,20 @@
     "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/Buernia/Tiejili",
-    "path": "docs/fonts/其他字体/铁蒺藜体.ttf"
+    "path": "fonts/其他字体/铁蒺藜体.ttf"
+  },
+  {
+    "name": "鼠标仿手写体",
+    "license": "OFL-1.1",
+    "type": "手绘体",
+    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
+    "path": "fonts/鼠标仿手写体/鼠标仿手写体.ttf"
+  },
+  {
+    "name": "鼠标仿手写体Mono",
+    "license": "OFL-1.1",
+    "type": "手绘体",
+    "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
+    "path": "fonts/鼠标仿手写体/鼠标仿手写体Mono.ttf"
   }
 ]
