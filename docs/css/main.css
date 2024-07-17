@@ -55,8 +55,13 @@ header p {
   padding-bottom: 3em;
 }
 
+nav a {
+  padding: 2px 4px;
+}
+
 nav a.active {
   background: #454545;
+  color: #c3c3c3;
   padding: 2px 4px;
   border-radius: 3px;
   font-weight: 200;
