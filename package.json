@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/main.mjs && npm run build",
+    "one": "node scripts/main.mjs -a",
     "build": "ejsc \"templates/**/*\" -o \"docs\"",
     "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },

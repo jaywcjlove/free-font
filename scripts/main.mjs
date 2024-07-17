@@ -72,20 +72,46 @@ function removeRootPathSegment(filePath) {
 }
 
 ;(async () => {
-  await fs.emptyDir('docs/images');
-  const files = await getFontFiles("./docs/fonts");
-  const resultData = []
-  for (const filename of files) {
-    let fontName = path.basename(filename, path.extname(filename)).trim();
-    if (!fontName.startsWith("__")) {
-      let data = fontDatas.find((item) => item.name === fontName) || {};
-      data.name = fontName;
-      data.path = removeRootPathSegment(filename);
-      resultData.push(data);
-      await createPosterImage(filename, fontName);
+  let argv = process.argv;
+  if (argv.includes("-a")) {
+    let fontPath = argv[argv.length - 1]
+    if (!!fontPath && fontPath !== "-a") {
+      let fontName = path.basename(fontPath, path.extname(fontPath)).trim();
+      if (fontName) {
+        const resultData = [...fontDatas];
+        let dataIndex = resultData.findIndex((item) => item.name === fontName)
+        if (dataIndex === -1) {
+          resultData.push({
+            name: fontName,
+            path: removeRootPathSegment(fontPath)
+          })
+        } else {
+          resultData[dataIndex].name = fontName;
+          resultData[dataIndex].path = removeRootPathSegment(fontPath);
+        }
+        await createPosterImage(fontPath, fontName);
+        fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
+      }
     } else {
-      console.log(`Skip 2 font file: \x1b[35;1m ${filename} \x1b[0m"`);
+      console.log("Please enter a font file path");
     }
+  } else {
+    // create all images
+    await fs.emptyDir('docs/images');
+    const files = await getFontFiles("./docs/fonts");
+    const resultData = []
+    for (const filename of files) {
+      let fontName = path.basename(filename, path.extname(filename)).trim();
+      if (!fontName.startsWith("__")) {
+        let data = fontDatas.find((item) => item.name === fontName) || {};
+        data.name = fontName;
+        data.path = removeRootPathSegment(filename);
+        resultData.push(data);
+        await createPosterImage(filename, fontName);
+      } else {
+        console.log(`Skip 2 font file: \x1b[35;1m ${filename} \x1b[0m"`);
+      }
+    }
+    fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
   }
-  fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
 })();

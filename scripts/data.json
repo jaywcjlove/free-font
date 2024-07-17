@@ -1229,5 +1229,12 @@
     "license": "OFL-1.1",
     "home": "https://github.com/LingDong-/qiji-font",
     "path": "fonts/齊伋體/齊伋體.ttf"
+  },
+  {
+    "name": "铁蒺藜体",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Buernia/Tiejili",
+    "path": "docs/fonts/其他字体/铁蒺藜体.ttf"
   }
 ]
