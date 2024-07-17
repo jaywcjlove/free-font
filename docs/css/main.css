@@ -55,6 +55,17 @@ header p {
   padding-bottom: 3em;
 }
 
+nav a.active {
+  background: #454545;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 200;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 2em;
+}
 
 main > div, main > div a, main > div span, main > div img {
   display: block;

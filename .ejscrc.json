@@ -1,5 +1,7 @@
 {
   "data": {
+    "templates/kai.ejs": "./scripts/data.json",
+    "templates/song.ejs": "./scripts/data.json",
     "templates/index.ejs": "./scripts/data.json",
     "templates/preview.ejs": "./scripts/data.json"
   }

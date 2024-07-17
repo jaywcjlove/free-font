@@ -24,6 +24,9 @@
   "type": "艺术字体",
   // 许可协议
   "license": "商免",
+  // 是否需要授权
+  "authorize": true,
+  "description": "字体描述....",
   // 字体在 web 目录中的位置 - 注意斜杠 `/`
   "path": "fonts/其他字体/和田研字体/和田研中丸.ttf",
   // 官网
