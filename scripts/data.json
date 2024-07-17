@@ -1506,26 +1506,32 @@
   {
     "name": "正風毛筆字體-Bold",
     "type": "手绘体",
-    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Bold.ttf"
+    "path": "fonts/正風毛筆字體/正風毛筆字體-Bold.ttf"
   },
   {
     "name": "正風毛筆字體-ExtraLight",
     "type": "手绘体",
-    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-ExtraLight.ttf"
+    "path": "fonts/正風毛筆字體/正風毛筆字體-ExtraLight.ttf"
   },
   {
     "name": "正風毛筆字體-Light",
     "type": "手绘体",
-    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Light.ttf"
+    "path": "fonts/正風毛筆字體/正風毛筆字體-Light.ttf"
   },
   {
     "name": "正風毛筆字體-Medium",
     "type": "手绘体",
-    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Medium.ttf"
+    "path": "fonts/正風毛筆字體/正風毛筆字體-Medium.ttf"
   },
   {
     "name": "正風毛筆字體-Regular",
     "type": "手绘体",
-    "path": "docs/fonts/正風毛筆字體/正風毛筆字體-Regular.ttf"
+    "path": "fonts/正風毛筆字體/正風毛筆字體-Regular.ttf"
+  },
+  {
+    "name": "宅在家粉條甜",
+    "type": "艺术体",
+    "home": "https://home.gamer.com.tw/creationDetail.php?sn=5378926",
+    "path": "fonts/其他字体/宅在家粉條甜.ttf"
   }
 ]
