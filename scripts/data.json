@@ -67,6 +67,7 @@
   {
     "name": "优设标题黑",
     "type": "黑体",
+    "home": "https://www.uisdc.com/uisdc-first-free-font",
     "path": "fonts/其他字体/优设标题黑.ttf"
   },
   {
@@ -1496,5 +1497,10 @@
     "name": "金山技术体",
     "home": "https://design.ksyun.com/font",
     "path": "fonts/其他字体/金山技术体.ttf"
+  },
+  {
+    "name": "优设鲨鱼菲特健康体",
+    "home": "https://www.uisdc.com/uisdc-sharkfit-font",
+    "path": "fonts/其他字体/优设鲨鱼菲特健康体.ttf"
   }
 ]
