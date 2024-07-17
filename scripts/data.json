@@ -239,6 +239,20 @@
     "path": "fonts/刻石录系列/刻石录顏體.ttf"
   },
   {
+    "name": "小赖字体MonoSC",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/kose-font",
+    "path": "fonts/小赖字体/小赖字体MonoSC.ttf"
+  },
+  {
+    "name": "小赖字体SC",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/kose-font",
+    "path": "fonts/小赖字体/小赖字体SC.ttf"
+  },
+  {
     "name": "庞门正道标题体",
     "type": "艺术体",
     "path": "fonts/庞门正道字体系列/庞门正道标题体.ttf"
@@ -535,24 +549,28 @@
   },
   {
     "name": "悠哉字体-Bold",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/lxgw/yozai-font",
     "path": "fonts/悠哉字体/悠哉字体-Bold.ttf"
   },
   {
     "name": "悠哉字体-Light",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/lxgw/yozai-font",
     "path": "fonts/悠哉字体/悠哉字体-Light.ttf"
   },
   {
     "name": "悠哉字体-Medium",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/lxgw/yozai-font",
     "path": "fonts/悠哉字体/悠哉字体-Medium.ttf"
   },
   {
     "name": "悠哉字体-Regular",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/lxgw/yozai-font",
     "path": "fonts/悠哉字体/悠哉字体-Regular.ttf"
