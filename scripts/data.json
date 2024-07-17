@@ -945,39 +945,70 @@
     "path": "fonts/阿里巴巴普惠体/阿里巴巴普惠体-Regular.ttf"
   },
   {
+    "name": "霞鶩緻宋-现代",
+    "license": "IPA-1.0",
+    "type": "宋体",
+    "home": "https://github.com/lxgw/LxgwZhiSong",
+    "path": "fonts/霞鹜/宋体/霞鶩緻宋-现代.ttf"
+  },
+  {
+    "name": "霞鶩緻宋-经典",
+    "path": "fonts/霞鹜/宋体/霞鶩緻宋-经典.ttf"
+  },
+  {
     "name": "霞鹜文楷-Bold",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Bold.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Bold.ttf"
   },
   {
     "name": "霞鹜文楷-Light",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Light.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Light.ttf"
   },
   {
     "name": "霞鹜文楷-Mono-Bold",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Bold.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Bold.ttf"
   },
   {
     "name": "霞鹜文楷-Mono-Light",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Light.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Light.ttf"
   },
   {
     "name": "霞鹜文楷-Mono-Regular",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Regular.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Regular.ttf"
   },
   {
     "name": "霞鹜文楷-Regular",
     "type": "楷体",
+    "license": "OFL-1.1",
     "home": "https://github.com/lxgw/LxgwWenKai",
-    "path": "fonts/霞鹜文楷/霞鹜文楷-Regular.ttf"
+    "path": "fonts/霞鹜/文楷/霞鹜文楷-Regular.ttf"
+  },
+  {
+    "name": "霞鹜尚智黑",
+    "type": "黑体",
+    "license": "IPA-1.0",
+    "home": "https://github.com/lxgw/LxgwXiHei",
+    "path": "fonts/霞鹜/黑体/霞鹜尚智黑.ttf"
+  },
+  {
+    "name": "霞鹜新晰黑",
+    "type": "黑体",
+    "license": "IPA-1.0",
+    "home": "https://github.com/lxgw/LxgwXiHei",
+    "path": "fonts/霞鹜/黑体/霞鹜新晰黑.ttf"
   }
 ]
