@@ -115,7 +115,13 @@
     "path": "fonts/其他字体/和田研字体/和田研细丸P.ttf"
   },
   {
+    "name": "字体视界法棍体",
+    "type": "艺术体",
+    "path": "fonts/其他字体/字体视界法棍体.ttf"
+  },
+  {
     "name": "字体视界法棍体拼音版",
+    "type": "艺术体",
     "path": "fonts/其他字体/字体视界法棍体拼音版.ttf"
   },
   {
@@ -139,6 +145,11 @@
     "name": "摄图摩登小方体",
     "type": "艺术体",
     "path": "fonts/其他字体/摄图摩登小方体.ttf"
+  },
+  {
+    "name": "新叶念体",
+    "type": "手绘体",
+    "path": "fonts/其他字体/新叶念体.otf"
   },
   {
     "name": "杨任东竹石体-Bold",
@@ -240,6 +251,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/Buernia/Tiejili",
     "path": "fonts/其他字体/铁蒺藜体.ttf"
+  },
+  {
+    "name": "锐字真言体",
+    "type": "艺术体",
+    "path": "fonts/其他字体/锐字真言体.ttf"
   },
   {
     "name": "问藏书房",

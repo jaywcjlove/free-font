@@ -68,6 +68,21 @@ $ npm start   # 生成字体海报 & 生成 html 网站
 $ npm run dev # 监听模板改变，生成 html 网站
 ```
 
+如何你的电脑是苹果 M1 芯片，需要检查你的 Node.js 版本是否适用于 arm64，然后切换到 arm64 版本的 nodejs
+
+```sh
+$ node -p process.arch
+$ n --arch arm64 current
+$ npx puppeteer browsers install chrome
+```
+
+如果您使用的是`nvm` 通过下面命令切换
+
+```sh
+nvm install --arch=arm64 node
+nvm use --arch=arm64 node
+```
+
 本地大文件提交，首先，你需要安装 [Git LFS](https://git-lfs.com/)，命令安装如下：
 
 ```sh

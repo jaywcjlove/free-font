@@ -1,9 +1,12 @@
-import { createCanvas, registerFont } from 'canvas';
 import fs from 'fs-extra';
 import path from 'path';
-//import data from './data.json' assert { type: 'json' };
-
+import puppeteer from 'puppeteer';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import { createRequire } from "module";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const fontDatas = createRequire(import.meta.url)("./data.json");
 
 function containsNoChineseCharacters(str) {
@@ -12,37 +15,61 @@ function containsNoChineseCharacters(str) {
   // 测试字符串中是否包含中文汉字
   return !chineseCharacterPattern.test(str);
 }
+// 动态生成 HTML 内容
+const generateHTMLContent = (fontPath, fileName) => `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('${fontPath}') format('truetype');
+      /*src: url('../docs/fonts/美績点陣體/美績点陣體.ttf') format('truetype');*/
+    }
+    html { height: 100%; }
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: #141414;
+      font-family: 'CustomFont', sans-serif;
+    }
+    .poster > div:first-child { line-height: 1; padding: 0 12px; }
+    .poster > div:last-child { font-size: 28px; padding-top: 6px; }
+    .poster { text-align: center; font-size: 42px; color: #ffffff; }
+  </style>
+  <title>Font Preview</title>
+</head>
+<body>
+  <div class="poster">
+    <div>${fileName}</div>
+    <div>Hello World! 123</div>
+  </div>
+</body>
+</html>
+`;
 
-function createPosterImage(filePath, fontName = "") {
-    // 注册自定义字体
-    registerFont(filePath, { family: fontName });
-    
-    const width = 420;
-    const height = 180;
-    const canvas = createCanvas(width, height);
-    const context = canvas.getContext('2d');
-
-    context.fillStyle = '#141414'; // 白色背景
-    context.fillRect(0, 0, width, height);
-
-
-    context.font = `48px "${fontName}"`;
-    context.fillStyle = '#ffffff'; // 黑色文本
-    context.textAlign = 'center';
-    context.textBaseline = 'middle';
-
-    let fontText = containsNoChineseCharacters(fontName) ? `${fontName}字体` : fontName;
-    // const text = 'Hello, World!\n 你好世界！';
-    context.fillText(fontText, width / 2, height / 2  - 16, width - 25);
-
-    context.font = `32px "${fontName}"`;
-    context.fillText("Hello World!", width / 2, height / 2 + 28, width);
-
-    // 保存图片到文件
-    const buffer = canvas.toBuffer('image/jpeg');
-    const fileName = `docs/images/${fontName}-poster.jpg`;
-    fs.writeFileSync(fileName, buffer);
-    console.log(`Image created and saved as \x1b[32;1m${fileName}\x1b[0m! ${filePath}`);
+async function createPosterImage(page, filePath, fontName = "") {
+  const fontPath = path.relative(__dirname, path.resolve(filePath)).split(path.sep).join("/");
+  const htmlFilePath = path.join(__dirname, 'poster.html');
+  const fontText = containsNoChineseCharacters(fontName) ? `${fontName}字体` : fontName;
+  const htmlContent = generateHTMLContent(fontPath, fontText.replace(/-/g, " "));
+  fs.writeFileSync(htmlFilePath, htmlContent);
+  const fileHTMLPath = `file:${htmlFilePath}`;
+  await page.goto(fileHTMLPath, { waitUntil: 'networkidle2' });
+  const width = 420;
+  const height = 180;
+  const deviceScaleFactor = 1;
+  await page.setViewport({ width: width, height: height, deviceScaleFactor });
+  const buffer = await page.screenshot({ type: 'jpeg' });
+  const fileName = `docs/images/${fontName}-poster.jpg`;
+  fs.writeFileSync(fileName, buffer);
+  console.log(`Image created and saved as \x1b[32;1m${fileName}\x1b[0m! ${filePath}`);
 }
 
 async function getFontFiles(dirPath) {
@@ -73,6 +100,8 @@ function removeRootPathSegment(filePath) {
 
 ;(async () => {
   let argv = process.argv;
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
   if (argv.includes("-a")) {
     let fontPath = argv[argv.length - 1]
     if (!!fontPath && fontPath !== "-a") {
@@ -89,7 +118,7 @@ function removeRootPathSegment(filePath) {
           resultData[dataIndex].name = fontName;
           resultData[dataIndex].path = removeRootPathSegment(fontPath);
         }
-        await createPosterImage(fontPath, fontName);
+        await createPosterImage(page, fontPath, fontName);
         fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
       }
     } else {
@@ -107,11 +136,12 @@ function removeRootPathSegment(filePath) {
         data.name = fontName;
         data.path = removeRootPathSegment(filename);
         resultData.push(data);
-        await createPosterImage(filename, fontName);
+        await createPosterImage(page, filename, fontName);
       } else {
         console.log(`Skip 2 font file: \x1b[35;1m ${filename} \x1b[0m"`);
       }
     }
     fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
   }
+  await browser.close();
 })();
