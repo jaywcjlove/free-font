@@ -1571,5 +1571,65 @@
     "type": "手绘体",
     "home": "https://github.com/charlie-moomoo/CharlieHandwriting",
     "path": "fonts/其他字体/Charlie手寫體.ttf"
+  },
+  {
+    "name": "小米MiSans-Bold",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Bold.ttf"
+  },
+  {
+    "name": "小米MiSans-Demibold",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Demibold.ttf"
+  },
+  {
+    "name": "小米MiSans-ExtraLight",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-ExtraLight.ttf"
+  },
+  {
+    "name": "小米MiSans-Heavy",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Heavy.ttf"
+  },
+  {
+    "name": "小米MiSans-Light",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Light.ttf"
+  },
+  {
+    "name": "小米MiSans-Medium",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Medium.ttf"
+  },
+  {
+    "name": "小米MiSans-Normal",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Normal.ttf"
+  },
+  {
+    "name": "小米MiSans-Regular",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Regular.ttf"
+  },
+  {
+    "name": "小米MiSans-Semibold",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Semibold.ttf"
+  },
+  {
+    "name": "小米MiSans-Thin",
+    "type": "黑体",
+    "home": "https://hyperos.mi.com/font/zh/download/",
+    "path": "fonts/小米/小米MiSans-Thin.ttf"
   }
 ]
