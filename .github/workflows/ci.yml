@@ -16,8 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
-      - run: npm run start
+      # - run: npm install
+      # - run: npm run start
       - name: Create Tag
         id: create_tag
         uses: jaywcjlove/create-tag-action@main
