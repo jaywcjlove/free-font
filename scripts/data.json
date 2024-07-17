@@ -934,6 +934,16 @@
     "path": "fonts/胡晓波字体系列/胡晓波骚包体.otf"
   },
   {
+    "name": "萌神拼音-HanSerif",
+    "type": "艺术体",
+    "path": "fonts/萌神/萌神拼音-HanSerif.ttf"
+  },
+  {
+    "name": "萌神拼音手写体",
+    "type": "手绘体",
+    "path": "fonts/萌神/萌神拼音手写体.ttf"
+  },
+  {
     "name": "钉钉进步体-Regular",
     "type": "艺术体",
     "path": "fonts/阿里巴巴/钉钉进步体-Regular.ttf",
