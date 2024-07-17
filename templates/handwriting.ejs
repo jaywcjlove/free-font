@@ -1,9 +1,9 @@
 <%- include('./_partial/header', { type: "home" }); %>
 <header>
-<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "手绘字体").length, type: "手绘字体" }); %>
+<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "手绘体").length, type: "手绘体" }); %>
 </header>
 <main>
-  <% DATA.filter((item) => item.type == "手绘字体").forEach(function(font, idx){ %>
+  <% DATA.filter((item) => item.type == "手绘体").forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>
