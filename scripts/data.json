@@ -1250,5 +1250,12 @@
     "type": "手绘体",
     "home": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
     "path": "fonts/鼠标仿手写体/鼠标仿手写体Mono.ttf"
+  },
+  {
+    "name": "剔骨仿宋",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/LingDong-/tk-fangsong-font",
+    "path": "fonts/其他字体/剔骨仿宋.ttf"
   }
 ]
