@@ -742,6 +742,55 @@
     "path": "fonts/源音黑體/源音黑體-Regular.otf"
   },
   {
+    "name": "煮豆黑体-Bold",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Bold.ttf"
+  },
+  {
+    "name": "煮豆黑体-ExtraLight",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-ExtraLight.ttf"
+  },
+  {
+    "name": "煮豆黑体-Heavy",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Heavy.ttf"
+  },
+  {
+    "name": "煮豆黑体-Light",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Light.ttf"
+  },
+  {
+    "name": "煮豆黑体-Medium",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Medium.ttf"
+  },
+  {
+    "name": "煮豆黑体-Normal",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Normal.ttf"
+  },
+  {
+    "name": "煮豆黑体-Regular",
+    "type": "黑体",
+    "home": "https://github.com/Buernia/Zhudou-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/煮豆黑体/煮豆黑体-Regular.ttf"
+  },
+  {
     "name": "王漢宗中仿宋簡",
     "type": "宋体",
     "path": "fonts/王汉宗字体系列/王漢宗中仿宋簡.ttf"
