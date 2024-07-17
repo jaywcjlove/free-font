@@ -103,9 +103,21 @@ main > div:hover {
 main > div p {
   padding-top: 3px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 5px;
 }
+
+main > div .license {
+  font-size: 10px;
+  border-radius: 4px;
+  color: #15a52e;
+  padding: 0 3px;
+  background: #00560399;
+  position: absolute;
+  margin-top: -49px;
+  margin-left: 5px;
+}
+
 main > div p > span {
   color: #a1a1a1;
 }

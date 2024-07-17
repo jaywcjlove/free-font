@@ -631,7 +631,7 @@
   {
     "name": "方正楷体简体",
     "type": "楷体",
-    "authorize": true,
+    "license": "需要授权",
     "path": "fonts/方正字体系列/方正楷体简体.ttf"
   },
   {
@@ -1371,5 +1371,12 @@
     "license": "OFL-1.1",
     "home": "https://github.com/TrionesType/zhuque",
     "path": "fonts/其他字体/朱雀仿宋.ttf"
+  },
+  {
+    "name": "最像素体",
+    "license": "个人免费",
+    "type": "艺术体",
+    "home": "https://github.com/SolidZORO/zpix-pixel-font",
+    "path": "fonts/其他字体/最像素体.ttf"
   }
 ]

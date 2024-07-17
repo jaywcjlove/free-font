@@ -54,3 +54,20 @@ main h2 {
 #font-status.done, #font-status.done::before {
   display: none;
 }
+
+
+#license > span {
+  font-size: 10px;
+  border-radius: 4px;
+  color: #15a52e;
+  padding: 1px 3px;
+  background: #00560399;
+}
+#license {
+  padding-top: 1em;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
