@@ -112,6 +112,13 @@
     "path": "fonts/其他字体/字体视界法棍体拼音版.ttf"
   },
   {
+    "name": "得意黑",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/atelier-anchor/smiley-sans",
+    "path": "fonts/其他字体/得意黑.ttf"
+  },
+  {
     "name": "手书体",
     "type": "手绘体",
     "path": "fonts/其他字体/手书体.ttf"
@@ -1154,10 +1161,24 @@
     "path": "fonts/霞鹜/黑体/霞鹜漫黑.ttf"
   },
   {
-    "name": "得意黑",
+    "name": "齊伋體-combo",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "home": "https://github.com/atelier-anchor/smiley-sans",
-    "path": "fonts/其他字体/得意黑.ttf"
+    "home": "https://github.com/LingDong-/qiji-font",
+    "path": "fonts/齊伋體/齊伋體-combo.ttf"
+  },
+  {
+    "name": "齊伋體-fallback",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/LingDong-/qiji-font",
+    "path": "fonts/齊伋體/齊伋體-fallback.ttf"
+  },
+  {
+    "name": "齊伋體",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/LingDong-/qiji-font",
+    "path": "fonts/齊伋體/齊伋體.ttf"
   }
 ]
