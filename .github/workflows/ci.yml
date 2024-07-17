@@ -6,8 +6,11 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'jaywcjlove/reference'
+    if: github.repository == 'jaywcjlove/free-font'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,7 +33,7 @@ jobs:
 
       - name: Create Release
         uses: jaywcjlove/create-tag-action@main
-        if: steps.create_tag.outputs.successful
+        if: steps.create_tag.outputs.successful == 'true'
         with:
           package-path: ./package.json
           version: ${{steps.create_tag.outputs.version}}

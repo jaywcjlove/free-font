@@ -1293,13 +1293,20 @@
     "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/LongZhuTi",
-    "path": "docs/fonts/龙珠体/龙珠体-Regular.ttf"
+    "path": "fonts/龙珠体/龙珠体-Regular.ttf"
   },
   {
     "name": "龙珠体ZHS-Regular",
     "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/LongZhuTi",
-    "path": "docs/fonts/龙珠体/龙珠体ZHS-Regular.ttf"
+    "path": "fonts/龙珠体/龙珠体ZHS-Regular.ttf"
+  },
+  {
+    "name": "荆南缘默体",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/maoken-fonts/KNYuanmo",
+    "path": "fonts/其他字体/荆南缘默体.ttf"
   }
 ]
