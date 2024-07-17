@@ -1568,6 +1568,7 @@
   {
     "name": "Charlie手寫體",
     "license": "MIT",
+    "type": "手绘体",
     "home": "https://github.com/charlie-moomoo/CharlieHandwriting",
     "path": "fonts/其他字体/Charlie手寫體.ttf"
   }
