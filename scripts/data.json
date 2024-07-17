@@ -943,5 +943,41 @@
   {
     "name": "阿里巴巴普惠体-Regular",
     "path": "fonts/阿里巴巴普惠体/阿里巴巴普惠体-Regular.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Bold",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Bold.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Light",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Light.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Mono-Bold",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Bold.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Mono-Light",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Light.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Mono-Regular",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Mono-Regular.ttf"
+  },
+  {
+    "name": "霞鹜文楷-Regular",
+    "type": "楷体",
+    "home": "https://github.com/lxgw/LxgwWenKai",
+    "path": "fonts/霞鹜文楷/霞鹜文楷-Regular.ttf"
   }
 ]
