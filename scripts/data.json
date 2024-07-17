@@ -298,16 +298,19 @@
   {
     "name": "庞门正道标题体",
     "type": "艺术体",
+    "home": "https://mp.weixin.qq.com/s/1ccpLCOrIn81JhV9ulwPIQ",
     "path": "fonts/庞门正道字体系列/庞门正道标题体.ttf"
   },
   {
     "name": "庞门正道粗书体",
     "type": "手绘体",
+    "home": "https://mp.weixin.qq.com/s/LZ_PMNc-3uX-Atmri4OLGQ",
     "path": "fonts/庞门正道字体系列/庞门正道粗书体.ttf"
   },
   {
     "name": "庞门正道轻松体",
     "type": "艺术体",
+    "home": "https://mp.weixin.qq.com/s/1ccpLCOrIn81JhV9ulwPIQ",
     "path": "fonts/庞门正道字体系列/庞门正道轻松体.otf"
   },
   {
@@ -1488,5 +1491,10 @@
     "type": "宋体",
     "home": "https://github.com/Skr-ZERO/FlyFlowerSong",
     "path": "fonts/其他字体/飞花宋体.ttf"
+  },
+  {
+    "name": "金山技术体",
+    "home": "https://design.ksyun.com/font",
+    "path": "fonts/其他字体/金山技术体.ttf"
   }
 ]
