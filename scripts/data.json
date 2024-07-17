@@ -1378,5 +1378,12 @@
     "type": "艺术体",
     "home": "https://github.com/SolidZORO/zpix-pixel-font",
     "path": "fonts/其他字体/最像素体.ttf"
+  },
+  {
+    "name": "俐方體11號",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ACh-K/Cubic-11",
+    "path": "fonts/其他字体/俐方體11號.ttf"
   }
 ]
