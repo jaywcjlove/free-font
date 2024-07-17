@@ -54,6 +54,12 @@
     "path": "fonts/其他字体/OPPOSans/OPPOSans-R.ttf"
   },
   {
+    "name": "京華老宋体",
+    "type": "宋体",
+    "path": "fonts/其他字体/京華老宋体.ttf",
+    "home": "https://zhuanlan.zhihu.com/p/677725322"
+  },
+  {
     "name": "令东齐伋体",
     "type": "艺术体",
     "path": "fonts/其他字体/令东齐伋体.ttf"
