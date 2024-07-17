@@ -953,7 +953,31 @@
   },
   {
     "name": "霞鶩緻宋-经典",
+    "license": "IPA-1.0",
+    "type": "宋体",
+    "home": "https://github.com/lxgw/LxgwZhiSong",
     "path": "fonts/霞鹜/宋体/霞鶩緻宋-经典.ttf"
+  },
+  {
+    "name": "霞鹜铭心宋-现代",
+    "license": "IPA-1.0",
+    "type": "宋体",
+    "home": "https://github.com/lxgw/LxgwHeartSerif",
+    "path": "fonts/霞鹜/宋体/霞鹜铭心宋-现代.ttf"
+  },
+  {
+    "name": "霞鹜铭心宋-经典",
+    "license": "IPA-1.0",
+    "type": "宋体",
+    "home": "https://github.com/lxgw/LxgwHeartSerif",
+    "path": "fonts/霞鹜/宋体/霞鹜铭心宋-经典.ttf"
+  },
+  {
+    "name": "霞鹜铭心宋",
+    "license": "IPA-1.0",
+    "type": "宋体",
+    "home": "https://github.com/lxgw/LxgwHeartSerif",
+    "path": "fonts/霞鹜/宋体/霞鹜铭心宋.ttf"
   },
   {
     "name": "霞鹜文楷-Bold",
