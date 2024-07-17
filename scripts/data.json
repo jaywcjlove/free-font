@@ -1322,5 +1322,47 @@
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/KNBobohei",
     "path": "fonts/荆南字坊/荆南波波黑.ttf"
+  },
+  {
+    "name": "方舟像素字体-10px-比例",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-10px-比例.ttf"
+  },
+  {
+    "name": "方舟像素字体-10px-等宽",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-10px-等宽.ttf"
+  },
+  {
+    "name": "方舟像素字体-12px-比例",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-12px-比例.ttf"
+  },
+  {
+    "name": "方舟像素字体-12px-等宽",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-12px-等宽.ttf"
+  },
+  {
+    "name": "方舟像素字体-16px-比例",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-16px-比例.ttf"
+  },
+  {
+    "name": "方舟像素字体-16px-等宽",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/ark-pixel-font-inherited",
+    "path": "fonts/方舟像素字体/方舟像素字体-16px-等宽.ttf"
   }
 ]
