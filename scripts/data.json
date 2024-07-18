@@ -1811,5 +1811,23 @@
     "license": "OFL-1.1",
     "home": "https://github.com/tonsky/FiraCode",
     "path": "fonts/english/FiraCode/FiraCode-SemiBold.ttf"
+  },
+  {
+    "name": "Monocraft-nerd-fonts-patched",
+    "license": "OFL-1.1",
+    "home": "https://github.com/IdreesInc/Monocraft",
+    "path": "fonts/english/Monocraft/Monocraft-nerd-fonts-patched.ttf"
+  },
+  {
+    "name": "Monocraft-no-ligatures",
+    "license": "OFL-1.1",
+    "home": "https://github.com/IdreesInc/Monocraft",
+    "path": "fonts/english/Monocraft/Monocraft-no-ligatures.ttf"
+  },
+  {
+    "name": "Monocraft",
+    "license": "OFL-1.1",
+    "home": "https://github.com/IdreesInc/Monocraft",
+    "path": "fonts/english/Monocraft/Monocraft.ttf"
   }
 ]
