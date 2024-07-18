@@ -2346,5 +2346,33 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/nanifont",
     "path": "fonts/何某手寫體/何某手寫體-SemiBold.ttf"
+  },
+  {
+    "name": "苦累蛙圓體-Bold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/kurewa-gothic",
+    "path": "fonts/苦累蛙圓體/苦累蛙圓體-Bold.ttf"
+  },
+  {
+    "name": "苦累蛙圓體-ExtraLight",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/kurewa-gothic",
+    "path": "fonts/苦累蛙圓體/苦累蛙圓體-ExtraLight.ttf"
+  },
+  {
+    "name": "苦累蛙圓體-Light",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/kurewa-gothic",
+    "path": "fonts/苦累蛙圓體/苦累蛙圓體-Light.ttf"
+  },
+  {
+    "name": "苦累蛙圓體-Regular",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/kurewa-gothic",
+    "path": "fonts/苦累蛙圓體/苦累蛙圓體-Regular.ttf"
   }
 ]
