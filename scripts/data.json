@@ -1775,5 +1775,41 @@
     "license": "OFL-1.1",
     "home": "https://github.com/cormullion/juliamono",
     "path": "fonts/english/JuliaMono/JuliaMono-SemiBoldItalic.ttf"
+  },
+  {
+    "name": "FiraCode-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-Bold.ttf"
+  },
+  {
+    "name": "FiraCode-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-Light.ttf"
+  },
+  {
+    "name": "FiraCode-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-Medium.ttf"
+  },
+  {
+    "name": "FiraCode-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-Regular.ttf"
+  },
+  {
+    "name": "FiraCode-Retina",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-Retina.ttf"
+  },
+  {
+    "name": "FiraCode-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tonsky/FiraCode",
+    "path": "fonts/english/FiraCode/FiraCode-SemiBold.ttf"
   }
 ]
