@@ -1642,18 +1642,42 @@
     "name": "3270-Regular",
     "license": "OFL-1.1",
     "home": "https://github.com/rbanffy/3270font",
-    "path": "fonts/english/3270-Regular.ttf"
+    "path": "fonts/english/3270/3270-Regular.ttf"
   },
   {
     "name": "3270-Condensed-Regular",
     "license": "OFL-1.1",
     "home": "https://github.com/rbanffy/3270font",
-    "path": "fonts/english/3270-Condensed-Regular.ttf"
+    "path": "fonts/english/3270/3270-Condensed-Regular.ttf"
   },
   {
     "name": "3270-SemiCondensed-Regular",
     "license": "OFL-1.1",
     "home": "https://github.com/rbanffy/3270font",
-    "path": "fonts/english/3270-SemiCondensed-Regular.ttf"
+    "path": "fonts/english/3270/3270-SemiCondensed-Regular.ttf"
+  },
+  {
+    "name": "London Underground Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface",
+    "path": "fonts/english/LondonUnderground/London Underground Bold.ttf"
+  },
+  {
+    "name": "London Underground Heavy",
+    "license": "OFL-1.1",
+    "home": "https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface",
+    "path": "fonts/english/LondonUnderground/London Underground Heavy.ttf"
+  },
+  {
+    "name": "London Underground Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface",
+    "path": "fonts/english/LondonUnderground/London Underground Medium.ttf"
+  },
+  {
+    "name": "London Underground Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface",
+    "path": "fonts/english/LondonUnderground/London Underground Regular.ttf"
   }
 ]
