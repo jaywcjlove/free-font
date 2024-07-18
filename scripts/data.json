@@ -2209,5 +2209,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/iepn/tsing-font",
     "path": "fonts/english/other/Tsing.ttf"
+  },
+  {
+    "name": "Brutalita",
+    "license": " BSD-3-Clause",
+    "home": "https://github.com/javierbyte/brutalita",
+    "path": "fonts/english/other/Brutalita.otf"
   }
 ]
