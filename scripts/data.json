@@ -2374,5 +2374,19 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/kurewa-gothic",
     "path": "fonts/苦累蛙圓體/苦累蛙圓體-Regular.ttf"
+  },
+  {
+    "name": "馬路口圓體-SC",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/maruko-gothic",
+    "path": "fonts/馬路口圓體/馬路口圓體-SC.ttf"
+  },
+  {
+    "name": "馬路口圓體-TC",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/maruko-gothic",
+    "path": "fonts/馬路口圓體/馬路口圓體-TC.ttf"
   }
 ]
