@@ -87,4 +87,5 @@ main h2 {
 
 #preview img {
   max-width: 760px;
+  width: 100%;
 }
