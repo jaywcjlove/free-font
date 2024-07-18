@@ -2230,44 +2230,86 @@
   },
   {
     "name": "精品點陣體-Blur",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體-Blur.ttf"
   },
   {
     "name": "精品點陣體-Bold_1.9",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體-Bold_1.9.ttf"
   },
   {
     "name": "精品點陣體",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體.ttf"
   },
   {
     "name": "精品點陣體_3D",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_3D.ttf"
   },
   {
     "name": "精品點陣體_Circle_Dot",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Circle_Dot.ttf"
   },
   {
     "name": "精品點陣體_Gradient",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Gradient.ttf"
   },
   {
     "name": "精品點陣體_Square_Dot",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Square_Dot.ttf"
+  },
+  {
+    "name": "莫大毛筆字體-Bold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/bakudaifont",
+    "path": "fonts/莫大毛筆字體/莫大毛筆字體-Bold.ttf"
+  },
+  {
+    "name": "莫大毛筆字體-ExtraLight",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/bakudaifont",
+    "path": "fonts/莫大毛筆字體/莫大毛筆字體-ExtraLight.ttf"
+  },
+  {
+    "name": "莫大毛筆字體-Light",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/bakudaifont",
+    "path": "fonts/莫大毛筆字體/莫大毛筆字體-Light.ttf"
+  },
+  {
+    "name": "莫大毛筆字體-Medium",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/bakudaifont",
+    "path": "fonts/莫大毛筆字體/莫大毛筆字體-Medium.ttf"
+  },
+  {
+    "name": "莫大毛筆字體-Regular",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/bakudaifont",
+    "path": "fonts/莫大毛筆字體/莫大毛筆字體-Regular.ttf"
   }
 ]
