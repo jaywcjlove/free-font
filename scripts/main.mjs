@@ -17,8 +17,26 @@ function containsNoChineseCharacters(str) {
   return !chineseCharacterPattern.test(str);
 }
 
+const chineseCharacterContent = `<div class="poem">
+  <div class="poem-title">《江雪》<i class="poet">柳宗元</i></div>
+  <div class="poem-content">
+    千山鸟飞绝，万径人踪灭。<br/>
+    孤舟蓑笠翁，独钓寒江雪。
+  </div>
+</div>
+<div class="poem">
+  <div class="poem-title">《江雪》<i class="poet">柳宗元</i></div>
+  <div class="poem-content">
+    千山鳥飛絕，萬徑人蹤滅。<br/>
+    孤舟蓑笠翁，獨釣寒江雪。
+  </div>
+</div>
+`;
+
+const englishCharacterContent = `<div class="poem-content" style="font-size: 24px;">The quick brown fox jumps over the lazy dog.</div>`
+
 /** 动态生成字体预览 HTML 内容 */
-const generatePreviewHTMLContent = (fontPath, fileName) => `<!DOCTYPE html>
+const generatePreviewHTMLContent = (fontPath, fileName, character = chineseCharacterContent) => `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -44,20 +62,7 @@ const generatePreviewHTMLContent = (fontPath, fileName) => `<!DOCTYPE html>
 <body>
   <div class="poster">
     <div>「${fileName}」</div>
-    <div class="poem">
-      <div class="poem-title">《江雪》<i class="poet">柳宗元</i></div>
-      <div class="poem-content">
-        千山鸟飞绝，万径人踪灭。<br/>
-        孤舟蓑笠翁，独钓寒江雪。
-      </div>
-    </div>
-    <div class="poem">
-      <div class="poem-title">《江雪》<i class="poet">柳宗元</i></div>
-      <div class="poem-content">
-        千山鳥飛絕，萬徑人蹤滅。<br/>
-        孤舟蓑笠翁，獨釣寒江雪。
-      </div>
-    </div>
+    ${character}
     <pre>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</pre>
     <pre>a b c d e f g h i j k l m n o p q r s t u v w x y z</pre>
     <pre>0 1 2 3 4 5 6 7 8 9</pre>
@@ -107,9 +112,10 @@ const generateHTMLContent = (fontPath, fileName) => `<!DOCTYPE html><html lang="
 async function createPosterImage(page, filePath, fontName = "") {
   const fontPath = path.relative(__dirname, path.resolve(filePath)).split(path.sep).join("/");
   const htmlFilePath = path.join(__dirname, 'poster.html');
-
-  const fontText = (containsNoChineseCharacters(fontName) ? `${fontName}字体` : fontName).replace(/-/g, " ");
-  const htmlContent = generateHTMLContent(fontPath, fontText);
+  /// 英文字体
+  const isEnglish = fontPath.split(path.sep).includes("english");
+  const fontText = isEnglish ? fontName : (containsNoChineseCharacters(fontName) ? `${fontName}字体` : fontName);
+  const htmlContent = generateHTMLContent(fontPath, fontText.replace(/-/g, " "));
   fs.writeFileSync(htmlFilePath, htmlContent);
 
   const fileHTMLPath = `file:${htmlFilePath}`;
@@ -124,12 +130,12 @@ async function createPosterImage(page, filePath, fontName = "") {
   console.log(`Image created and saved as \x1b[32;1m${fileName}\x1b[0m! ${filePath}`);
 
   const htmlPreviewFilePath = path.join(__dirname, 'preview.html');
-  const htmlPreviewContent = generatePreviewHTMLContent(fontPath, fontText);
+  const htmlPreviewContent = generatePreviewHTMLContent(fontPath, fontText.replace(/-/g, " "), isEnglish ? englishCharacterContent : chineseCharacterContent);
   fs.writeFileSync(htmlPreviewFilePath, htmlPreviewContent);
   const filePreviewHTMLPath = `file:${htmlPreviewFilePath}`;
   await page.goto(filePreviewHTMLPath, { waitUntil: 'networkidle2' });
   const previewWidth = 760;
-  const previewHeight = 560;
+  const previewHeight = isEnglish ? 320 : 560;
   const previewDeviceScaleFactor = 2;
   await page.setViewport({ width: previewWidth, height: previewHeight, deviceScaleFactor: previewDeviceScaleFactor});
   const previewBuffer = await page.screenshot({ type: 'jpeg' });

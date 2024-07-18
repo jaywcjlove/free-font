@@ -6,6 +6,8 @@
     "templates/hei.ejs": "./scripts/data.json",
     "templates/art.ejs": "./scripts/data.json",
     "templates/handwriting.ejs": "./scripts/data.json",
-    "templates/preview.ejs": "./scripts/data.json"
+    "templates/english.ejs": "./scripts/data.json",
+    "templates/preview.ejs": "./scripts/data.json",
+    "templates/preview.en.ejs": "./scripts/data.json"
   }
 }

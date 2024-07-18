@@ -92,3 +92,5 @@ git lfs track "*.ttf" # ⚠️ 会造成[付费]
 git lfs track "docs/fonts/全字库系列/全字庫正宋體/全字庫正宋體-Ext-B-98_1.ttf"
 git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-Ext-B-98_1.ttf"
 ```
+
+现在`拒绝`大文件提交，因为超过大文件存储空间是收费的

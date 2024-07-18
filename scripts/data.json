@@ -1637,5 +1637,23 @@
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/LongZhuTi",
     "path": "fonts/龙珠体/龙珠体ZHS-Regular.ttf"
+  },
+  {
+    "name": "3270-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rbanffy/3270font",
+    "path": "fonts/english/3270-Regular.ttf"
+  },
+  {
+    "name": "3270-Condensed-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rbanffy/3270font",
+    "path": "fonts/english/3270-Condensed-Regular.ttf"
+  },
+  {
+    "name": "3270-SemiCondensed-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rbanffy/3270font",
+    "path": "fonts/english/3270-SemiCondensed-Regular.ttf"
   }
 ]

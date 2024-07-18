@@ -1,0 +1,26 @@
+<%- include('./_partial/header', { type: "preview" }); %>
+<header>
+  <%- include('./_partial/header-title', { length: DATA.length, type: "" }); %>
+  <a href="" id="download">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
+      <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
+    </svg>    
+  </a>
+  <div id="license"></div>
+  <div id="preview"></div>
+</header>
+<main>
+  <p id="font-status" align="center"></p>
+  <h2>英文字体预览</h2>
+  <div contenteditable="true" spellcheck="false" style="padding: 1em 1em;font-size: 32px; background: transparent;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+  <div contenteditable="true" spellcheck="false" style="padding: 1em 1em;font-size: 32px; background: transparent;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  <div contenteditable="true" spellcheck="false" style="padding: 1em 1em;font-size: 32px; background: transparent;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+  <h2>大写字母预览</h2>
+  <pre contenteditable="true">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</pre>
+  <h2>小写字母预览</h2>
+  <pre contenteditable="true">a b c d e f g h i j k l m n o p q r s t u v w x y z</pre>
+  <h2>数字预览</h2>
+  <pre contenteditable="true">0 1 2 3 4 5 6 7 8 9</pre>
+</main>
+<%- include('./_partial/preview_scripts'); %>
+<%- include('./_partial/footer', { }); %>

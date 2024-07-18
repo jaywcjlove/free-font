@@ -1,0 +1,11 @@
+<%- include('./_partial/header', { type: "home" }); %>
+<% const englishData = DATA.filter((item) => item.path.split("/").includes("english")) %>
+<header>
+<%- include('./_partial/header-title', { length: englishData.length, type: "英文" }); %>
+</header>
+<main>
+  <% englishData.forEach(function(font, idx){ %>
+    <%- include('./_partial/home-list', { font }); %>
+  <% }); %>
+</main>
+<%- include('./_partial/footer', { }); %>

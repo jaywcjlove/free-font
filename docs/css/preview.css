@@ -1,7 +1,10 @@
 main {
   grid-template-columns: repeat(1, 1fr);
   border-radius: 1em;
-  padding-top: 3em;
+}
+
+main h2:first-of-type {
+  margin-top: 0;
 }
 
 main pre {
