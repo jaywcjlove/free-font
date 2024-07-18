@@ -1679,5 +1679,101 @@
     "license": "OFL-1.1",
     "home": "https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface",
     "path": "fonts/english/LondonUnderground/London Underground Regular.ttf"
+  },
+  {
+    "name": "JuliaMono-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-Black.ttf"
+  },
+  {
+    "name": "JuliaMono-BlackItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-BlackItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-Bold.ttf"
+  },
+  {
+    "name": "JuliaMono-BoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-BoldItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-BoldLatin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-BoldLatin.ttf"
+  },
+  {
+    "name": "JuliaMono-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-ExtraBold.ttf"
+  },
+  {
+    "name": "JuliaMono-ExtraBoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-ExtraBoldItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-Light.ttf"
+  },
+  {
+    "name": "JuliaMono-LightItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-LightItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-Medium.ttf"
+  },
+  {
+    "name": "JuliaMono-MediumItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-MediumItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-Regular.ttf"
+  },
+  {
+    "name": "JuliaMono-RegularItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-RegularItalic.ttf"
+  },
+  {
+    "name": "JuliaMono-RegularLatin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-RegularLatin.ttf"
+  },
+  {
+    "name": "JuliaMono-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-SemiBold.ttf"
+  },
+  {
+    "name": "JuliaMono-SemiBoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/cormullion/juliamono",
+    "path": "fonts/english/JuliaMono/JuliaMono-SemiBoldItalic.ttf"
   }
 ]
