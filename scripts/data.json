@@ -2377,14 +2377,14 @@
   },
   {
     "name": "馬路口圓體-SC",
-    "type": "手绘体",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/maruko-gothic",
     "path": "fonts/馬路口圓體/馬路口圓體-SC.ttf"
   },
   {
     "name": "馬路口圓體-TC",
-    "type": "手绘体",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/maruko-gothic",
     "path": "fonts/馬路口圓體/馬路口圓體-TC.ttf"
@@ -2430,5 +2430,103 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/naikaifont",
     "path": "fonts/內海字體/內海字體-SemiBold.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Black",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Black.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Bold",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Bold.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-DemiLight",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-DemiLight.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Light",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Light.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Medium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Medium.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Regular",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Regular.ttf"
+  },
+  {
+    "name": "獅尾半月字體sc-Thin",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體sc-Thin.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Black",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Black.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Bold",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Bold.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-DemiLight",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-DemiLight.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Light",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Light.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Medium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Medium.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Regular",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Regular.ttf"
+  },
+  {
+    "name": "獅尾半月字體tc-Thin",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/swei-halfmoon",
+    "path": "fonts/獅尾半月字體/獅尾半月字體tc-Thin.ttf"
   }
 ]
