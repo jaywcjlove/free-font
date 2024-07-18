@@ -1955,5 +1955,103 @@
     "home": "https://github.com/rubjo/victor-mono",
     "license": "OFL-1.1",
     "path": "fonts/english/VictorMono/VictorMono-ThinOblique.ttf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Bold",
+    "license": "OFL-1.1",
+    "type": "黑体",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Bold.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-ExtraLight",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-ExtraLight.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Heavy",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Heavy.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Light",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Light.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Medium",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Medium.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Normal",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Normal.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-CL-Regular",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-CL-Regular.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Bold",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Bold.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-ExtraLight",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-ExtraLight.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Heavy",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Heavy.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Light",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Light.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Medium",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Medium.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Normal",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Normal.otf"
+  },
+  {
+    "name": "秋空󠄁黑體-M-Regular",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "path": "fonts/秋空󠄁黑體/秋空󠄁黑體-M-Regular.otf"
   }
 ]
