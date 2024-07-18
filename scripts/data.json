@@ -2215,5 +2215,17 @@
     "license": " BSD-3-Clause",
     "home": "https://github.com/javierbyte/brutalita",
     "path": "fonts/english/other/Brutalita.otf"
+  },
+  {
+    "name": "Homecomputer-Sixtyfour",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jenskutilek/homecomputer-fonts",
+    "path": "fonts/english/Homecomputer/Homecomputer-Sixtyfour.ttf"
+  },
+  {
+    "name": "Homecomputer-Workbench",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jenskutilek/homecomputer-fonts",
+    "path": "fonts/english/Homecomputer/Homecomputer-Workbench.ttf"
   }
 ]
