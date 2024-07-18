@@ -2134,50 +2134,80 @@
   },
   {
     "name": "BungeeHairline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeHairline-Regular.ttf"
   },
   {
     "name": "BungeeInline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeInline-Regular.ttf"
   },
   {
     "name": "BungeeLayers-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeLayers-Regular.ttf"
   },
   {
     "name": "BungeeLayersInline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeLayersInline-Regular.ttf"
   },
   {
     "name": "BungeeLayersOutline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeLayersOutline-Regular.ttf"
   },
   {
     "name": "BungeeLayersShade-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeLayersShade-Regular.ttf"
   },
   {
     "name": "BungeeOutline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeOutline-Regular.ttf"
   },
   {
     "name": "BungeeRotated-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeRotated-Regular.ttf"
   },
   {
     "name": "BungeeRotatedInline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeRotatedInline-Regular.ttf"
   },
   {
     "name": "BungeeRotatedOutline-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeRotatedOutline-Regular.ttf"
   },
   {
     "name": "BungeeRotatedShade-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeRotatedShade-Regular.ttf"
   },
   {
     "name": "BungeeShade-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/djrrb/Bungee",
     "path": "fonts/english/Bungee/BungeeShade-Regular.ttf"
+  },
+  {
+    "name": "Tsing",
+    "license": "OFL-1.1",
+    "home": "https://github.com/iepn/tsing-font",
+    "path": "fonts/english/other/Tsing.ttf"
   }
 ]
