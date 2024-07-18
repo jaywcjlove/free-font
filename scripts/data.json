@@ -2227,5 +2227,47 @@
     "license": "OFL-1.1",
     "home": "https://github.com/jenskutilek/homecomputer-fonts",
     "path": "fonts/english/Homecomputer/Homecomputer-Workbench.ttf"
+  },
+  {
+    "name": "精品點陣體-Blur",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體-Blur.ttf"
+  },
+  {
+    "name": "精品點陣體-Bold_1.9",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體-Bold_1.9.ttf"
+  },
+  {
+    "name": "精品點陣體",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體.ttf"
+  },
+  {
+    "name": "精品點陣體_3D",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體_3D.ttf"
+  },
+  {
+    "name": "精品點陣體_Circle_Dot",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體_Circle_Dot.ttf"
+  },
+  {
+    "name": "精品點陣體_Gradient",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體_Gradient.ttf"
+  },
+  {
+    "name": "精品點陣體_Square_Dot",
+    "license": "OFL-1.1",
+    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "path": "fonts/精品點陣體/精品點陣體_Square_Dot.ttf"
   }
 ]
