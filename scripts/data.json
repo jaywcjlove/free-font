@@ -2388,5 +2388,47 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/maruko-gothic",
     "path": "fonts/馬路口圓體/馬路口圓體-TC.ttf"
+  },
+  {
+    "name": "內海字體-Bold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-Bold.ttf"
+  },
+  {
+    "name": "內海字體-ExtraLight",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-ExtraLight.ttf"
+  },
+  {
+    "name": "內海字體-Light",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-Light.ttf"
+  },
+  {
+    "name": "內海字體-Regular-Lite",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-Regular-Lite.ttf"
+  },
+  {
+    "name": "內海字體-Regular",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-Regular.ttf"
+  },
+  {
+    "name": "內海字體-SemiBold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/naikaifont",
+    "path": "fonts/內海字體/內海字體-SemiBold.ttf"
   }
 ]
