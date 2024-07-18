@@ -2311,5 +2311,40 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/bakudaifont",
     "path": "fonts/莫大毛筆字體/莫大毛筆字體-Regular.ttf"
+  },
+  {
+    "name": "何某手寫體-Bold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/nanifont",
+    "path": "fonts/何某手寫體/何某手寫體-Bold.ttf"
+  },
+  {
+    "name": "何某手寫體-ExtraLight",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/nanifont",
+    "path": "fonts/何某手寫體/何某手寫體-ExtraLight.ttf"
+  },
+  {
+    "name": "何某手寫體-Light",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/nanifont",
+    "path": "fonts/何某手寫體/何某手寫體-Light.ttf"
+  },
+  {
+    "name": "何某手寫體-Regular",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/nanifont",
+    "path": "fonts/何某手寫體/何某手寫體-Regular.ttf"
+  },
+  {
+    "name": "何某手寫體-SemiBold",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/max32002/nanifont",
+    "path": "fonts/何某手寫體/何某手寫體-SemiBold.ttf"
   }
 ]
