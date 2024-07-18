@@ -1829,5 +1829,131 @@
     "license": "OFL-1.1",
     "home": "https://github.com/IdreesInc/Monocraft",
     "path": "fonts/english/Monocraft/Monocraft.ttf"
+  },
+  {
+    "name": "VictorMono-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rubjo/victor-mono",
+    "path": "fonts/english/VictorMono/VictorMono-Bold.ttf"
+  },
+  {
+    "name": "VictorMono-BoldItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-BoldItalic.ttf"
+  },
+  {
+    "name": "VictorMono-BoldOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-BoldOblique.ttf"
+  },
+  {
+    "name": "VictorMono-ExtraLight",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-ExtraLight.ttf"
+  },
+  {
+    "name": "VictorMono-ExtraLightItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-ExtraLightItalic.ttf"
+  },
+  {
+    "name": "VictorMono-ExtraLightOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-ExtraLightOblique.ttf"
+  },
+  {
+    "name": "VictorMono-Italic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Italic.ttf"
+  },
+  {
+    "name": "VictorMono-Light",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Light.ttf"
+  },
+  {
+    "name": "VictorMono-LightItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-LightItalic.ttf"
+  },
+  {
+    "name": "VictorMono-LightOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-LightOblique.ttf"
+  },
+  {
+    "name": "VictorMono-Medium",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Medium.ttf"
+  },
+  {
+    "name": "VictorMono-MediumItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-MediumItalic.ttf"
+  },
+  {
+    "name": "VictorMono-MediumOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-MediumOblique.ttf"
+  },
+  {
+    "name": "VictorMono-Oblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Oblique.ttf"
+  },
+  {
+    "name": "VictorMono-Regular",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Regular.ttf"
+  },
+  {
+    "name": "VictorMono-SemiBold",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-SemiBold.ttf"
+  },
+  {
+    "name": "VictorMono-SemiBoldItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-SemiBoldItalic.ttf"
+  },
+  {
+    "name": "VictorMono-SemiBoldOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-SemiBoldOblique.ttf"
+  },
+  {
+    "name": "VictorMono-Thin",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-Thin.ttf"
+  },
+  {
+    "name": "VictorMono-ThinItalic",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-ThinItalic.ttf"
+  },
+  {
+    "name": "VictorMono-ThinOblique",
+    "home": "https://github.com/rubjo/victor-mono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/VictorMono/VictorMono-ThinOblique.ttf"
   }
 ]
