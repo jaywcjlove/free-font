@@ -56,12 +56,16 @@ main h2 {
 }
 
 
-#license > span {
+#license > span, #license > a {
   font-size: 10px;
   border-radius: 4px;
-  color: #15a52e;
   padding: 1px 3px;
+  color: #15a52e;
   background: #00560399;
+}
+#license > a {
+  color: #0091d2;
+  background: #00546f99;
 }
 #license {
   padding-top: 1em;

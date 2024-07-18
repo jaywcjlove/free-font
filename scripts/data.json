@@ -1631,5 +1631,11 @@
     "type": "黑体",
     "home": "https://hyperos.mi.com/font/zh/download/",
     "path": "fonts/小米/小米MiSans-Thin.ttf"
+  },
+  {
+    "name": "851电机文字体",
+    "type": "艺术体",
+    "home": "https://pm85122.onamae.jp/851Gkktt.html",
+    "path": "fonts/其他字体/851电机文字体.ttf"
   }
 ]
