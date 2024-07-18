@@ -2232,49 +2232,49 @@
     "name": "精品點陣體-Blur",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體-Blur.ttf"
   },
   {
     "name": "精品點陣體-Bold_1.9",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體-Bold_1.9.ttf"
   },
   {
     "name": "精品點陣體",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體.ttf"
   },
   {
     "name": "精品點陣體_3D",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_3D.ttf"
   },
   {
     "name": "精品點陣體_Circle_Dot",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Circle_Dot.ttf"
   },
   {
     "name": "精品點陣體_Gradient",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Gradient.ttf"
   },
   {
     "name": "精品點陣體_Square_Dot",
     "type": "艺术体",
     "license": "OFL-1.1",
-    "fonts": "https://github.com/scott0107000/BoutiqueBitmap9x9",
+    "home": "https://github.com/scott0107000/BoutiqueBitmap9x9",
     "path": "fonts/精品點陣體/精品點陣體_Square_Dot.ttf"
   },
   {
@@ -2528,5 +2528,41 @@
     "license": "OFL-1.1",
     "home": "https://github.com/max32002/swei-halfmoon",
     "path": "fonts/獅尾半月字體/獅尾半月字體tc-Thin.ttf"
+  },
+  {
+    "name": "retro-pixel-arcade",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-arcade.ttf"
+  },
+  {
+    "name": "retro-pixel-cute-mono",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-cute-mono.ttf"
+  },
+  {
+    "name": "retro-pixel-cute-prop",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-cute-prop.ttf"
+  },
+  {
+    "name": "retro-pixel-petty-5h",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-petty-5h.ttf"
+  },
+  {
+    "name": "retro-pixel-petty-5x5",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-petty-5x5.ttf"
+  },
+  {
+    "name": "retro-pixel-thick",
+    "license": "OFL-1.1",
+    "home": "https://github.com/TakWolf/retro-pixel-font",
+    "path": "fonts/english/retro-pixel/retro-pixel-thick.ttf"
   }
 ]
