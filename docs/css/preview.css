@@ -63,6 +63,12 @@ main h2 {
   color: #15a52e;
   background: #00560399;
 }
+
+#license > a:hover {
+  background: #009fe9;
+  color: white;
+}
+
 #license > a {
   color: #0091d2;
   background: #00546f99;
@@ -74,4 +80,8 @@ main h2 {
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+
+#preview img {
+  max-width: 760px;
 }
