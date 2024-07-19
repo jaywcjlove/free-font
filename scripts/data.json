@@ -3392,5 +3392,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/IciGist",
     "path": "fonts/english/other/IciGist.ttf"
+  },
+  {
+    "name": "ArtDisco",
+    "license": "OFL-1.1",
+    "home": "https://github.com/barrymieny/art-disco",
+    "path": "fonts/english/other/ArtDisco.otf"
   }
 ]
