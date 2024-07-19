@@ -3237,5 +3237,11 @@
     "license": "MIT",
     "home": "https://github.com/karaipsum/Postulated-Proto-Alphabet",
     "path": "fonts/english/other/AugmentedPostulatedProto.ttf"
+  },
+  {
+    "name": "SamanDere",
+    "license": "OFL-1.1",
+    "home": "https://github.com/tcgumus/saman",
+    "path": "fonts/english/other/SamanDere.ttf"
   }
 ]
