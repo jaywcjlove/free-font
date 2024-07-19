@@ -3386,5 +3386,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/Ziffera-veneta",
     "path": "fonts/english/other/ZifferaVeneta.ttf"
+  },
+  {
+    "name": "IciGist",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/IciGist",
+    "path": "fonts/english/other/IciGist.ttf"
   }
 ]
