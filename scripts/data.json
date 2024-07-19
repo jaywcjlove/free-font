@@ -3338,5 +3338,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/ijlion/chabans",
     "path": "fonts/english/other/Chabans.ttf"
+  },
+  {
+    "name": "AlmaVirgo",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/AlmaVirgo",
+    "path": "fonts/english/other/AlmaVirgo.ttf"
   }
 ]
