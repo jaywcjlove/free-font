@@ -3332,5 +3332,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/CapoLombardo",
     "path": "fonts/english/other/CapoLombardo.ttf"
+  },
+  {
+    "name": "Chabans",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ijlion/chabans",
+    "path": "fonts/english/other/Chabans.ttf"
   }
 ]
