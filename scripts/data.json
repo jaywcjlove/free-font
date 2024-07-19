@@ -3374,5 +3374,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/CapoVerso",
     "path": "fonts/english/other/CapoVerso.ttf"
+  },
+  {
+    "name": "CapoCresci",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/CapoCresci",
+    "path": "fonts/english/other/CapoCresci.ttf"
   }
 ]
