@@ -3039,5 +3039,125 @@
     "license": "OFL-1.1",
     "home": "https://github.com/grayscaleltd/farro",
     "path": "fonts/english/Farro/Farro-Regular.ttf"
+  },
+  {
+    "name": "Tektur-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Black.ttf"
+  },
+  {
+    "name": "Tektur-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Bold.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-Black.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-Bold.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-ExtraBold.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-Medium.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-Regular.ttf"
+  },
+  {
+    "name": "Tektur-Condensed-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Condensed-SemiBold.ttf"
+  },
+  {
+    "name": "Tektur-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-ExtraBold.ttf"
+  },
+  {
+    "name": "Tektur-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Medium.ttf"
+  },
+  {
+    "name": "Tektur-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-Regular.ttf"
+  },
+  {
+    "name": "Tektur-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiBold.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-Black.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-Bold.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-ExtraBold.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-Medium.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-Regular.ttf"
+  },
+  {
+    "name": "Tektur-SemiCondensed-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/hyvyys/Tektur",
+    "path": "fonts/english/Tektur/Tektur-SemiCondensed-SemiBold.ttf"
+  },
+  {
+    "name": "FoundationTitlesHand-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rsperberg/foundation-titles-hand",
+    "path": "fonts/english/FoundationTitlesHand/FoundationTitlesHand-SemiBold.ttf"
+  },
+  {
+    "name": "FoundationTitlesHand",
+    "license": "OFL-1.1",
+    "home": "https://github.com/rsperberg/foundation-titles-hand",
+    "path": "fonts/english/FoundationTitlesHand/FoundationTitlesHand.ttf"
   }
 ]
