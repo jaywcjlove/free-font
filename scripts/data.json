@@ -3368,5 +3368,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/Infido",
     "path": "fonts/english/other/infido.ttf"
+  },
+  {
+    "name": "CapoVerso",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/CapoVerso",
+    "path": "fonts/english/other/CapoVerso.ttf"
   }
 ]
