@@ -3249,5 +3249,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/mooniak/maname-font",
     "path": "fonts/english/other/Maname.ttf"
+  },
+  {
+    "name": "AvaraVariable",
+    "license": "OFL-1.1",
+    "home": "https://github.com/delucis/avara-variable",
+    "path": "fonts/english/other/AvaraVariable.ttf"
   }
 ]
