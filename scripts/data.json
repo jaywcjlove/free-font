@@ -3009,5 +3009,11 @@
     "home": "https://github.com/GuiWonder/EarlySummerMincho",
     "license": "OFL-1.1",
     "path": "fonts/初夏明朝體/初夏明朝體-VF.ttf"
+  },
+  {
+    "name": "StelpolvoSans",
+    "license": "OFL-1.1",
+    "home": "https://github.com/GuoPCinGitHub/StelpolvoSans",
+    "path": "fonts/english/other/StelpolvoSans.ttf"
   }
 ]
