@@ -3261,5 +3261,10 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/DisSenso",
     "path": "fonts/english/other/DisSenso.ttf"
+  },
+  {
+    "name": "Weltraum",
+    "home": "https://github.com/svaneke/weltraum",
+    "path": "fonts/english/other/Weltraum.otf"
   }
 ]
