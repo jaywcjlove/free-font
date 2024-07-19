@@ -2596,5 +2596,19 @@
     "license": "OFL-1.1",
     "home": "https://github.com/ItMarki/jyunsaikaai",
     "path": "fonts/芫茜雅楷/芫茜雅楷-Regular.ttf"
+  },
+  {
+    "name": "无界黑",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/maoken-fonts/unbounded-sans",
+    "path": "fonts/无界黑/无界黑.ttf"
+  },
+  {
+    "name": "无界黑SC",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/maoken-fonts/unbounded-sans",
+    "path": "fonts/无界黑/无界黑SC.ttf"
   }
 ]
