@@ -2706,5 +2706,19 @@
     "license": "OFL-1.1",
     "home": "https://github.com/isaozler/kode-mono",
     "path": "fonts/english/kode-mono/KodeMono-SemiBold.ttf"
+  },
+  {
+    "name": "缝合楷-台湾字形优先",
+    "type": "楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/FusionKai",
+    "path": "fonts/缝合楷/缝合楷-台湾字形优先.ttf"
+  },
+  {
+    "name": "缝合楷-日本字形优先",
+    "type": "楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/lxgw/FusionKai",
+    "path": "fonts/缝合楷/缝合楷-日本字形优先.ttf"
   }
 ]
