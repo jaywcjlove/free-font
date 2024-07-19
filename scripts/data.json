@@ -3350,5 +3350,17 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/Vulnus",
     "path": "fonts/english/other/vulnus.ttf"
+  },
+  {
+    "name": "PreTesto",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/PreTesto",
+    "path": "fonts/english/PreTesto/PreTesto.ttf"
+  },
+  {
+    "name": "PreTesto_it",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/PreTesto",
+    "path": "fonts/english/PreTesto/PreTesto_it.ttf"
   }
 ]
