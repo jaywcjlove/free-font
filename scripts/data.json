@@ -2212,7 +2212,7 @@
   },
   {
     "name": "Brutalita",
-    "license": " BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "home": "https://github.com/javierbyte/brutalita",
     "path": "fonts/english/other/Brutalita.otf"
   },
@@ -2939,5 +2939,12 @@
     "name": "南翔小龙棒棒体-四线三格体",
     "home": "https://www.zcool.com.cn/work/ZNDc1MDMzNDA=.html",
     "path": "fonts/english/南翔小龙棒棒体/南翔小龙棒棒体-四线三格体.ttf"
+  },
+  {
+    "name": "宇文天穹",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/MoonlitOwen/ThenKhung",
+    "path": "fonts/其他字体/宇文天穹.ttf"
   }
 ]
