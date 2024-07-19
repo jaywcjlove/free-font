@@ -3165,5 +3165,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/haideralipunjabi/DBSScouterFont",
     "path": "fonts/english/other/DBSScouter.ttf"
+  },
+  {
+    "name": "Beon",
+    "home": "https://github.com/noirblancrouge/Beon",
+    "license": "OFL-1.1",
+    "path": "fonts/english/other/Beon.ttf"
   }
 ]
