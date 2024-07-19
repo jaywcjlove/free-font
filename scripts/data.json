@@ -2919,5 +2919,25 @@
     "name": "Prima-Regular",
     "home": "https://github.com/WienerSchriften/Prima",
     "path": "fonts/english/Prima/Prima-Regular.otf"
+  },
+  {
+    "name": "南翔小龙棒棒体-常规体",
+    "home": "https://www.zcool.com.cn/work/ZNDc1MDMzNDA=.html",
+    "path": "fonts/english/南翔小龙棒棒体/南翔小龙棒棒体-常规体.ttf"
+  },
+  {
+    "name": "南翔小龙棒棒体-步骤体",
+    "home": "https://www.zcool.com.cn/work/ZNDc1MDMzNDA=.html",
+    "path": "fonts/english/南翔小龙棒棒体/南翔小龙棒棒体-步骤体.ttf"
+  },
+  {
+    "name": "南翔小龙棒棒体-四线三格步骤体",
+    "home": "https://www.zcool.com.cn/work/ZNDc1MDMzNDA=.html",
+    "path": "fonts/english/南翔小龙棒棒体/南翔小龙棒棒体-四线三格步骤体.ttf"
+  },
+  {
+    "name": "南翔小龙棒棒体-四线三格体",
+    "home": "https://www.zcool.com.cn/work/ZNDc1MDMzNDA=.html",
+    "path": "fonts/english/南翔小龙棒棒体/南翔小龙棒棒体-四线三格体.ttf"
   }
 ]
