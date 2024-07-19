@@ -2909,5 +2909,15 @@
     "license": "OFL-1.1",
     "home": "https://github.com/NightFurySL2001/WD-XL-font",
     "path": "fonts/滑油字/滑油字TC-Regular.otf"
+  },
+  {
+    "name": "Prima-Cursive",
+    "home": "https://github.com/WienerSchriften/Prima",
+    "path": "fonts/english/Prima/Prima-Cursive.otf"
+  },
+  {
+    "name": "Prima-Regular",
+    "home": "https://github.com/WienerSchriften/Prima",
+    "path": "fonts/english/Prima/Prima-Regular.otf"
   }
 ]
