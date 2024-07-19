@@ -3195,5 +3195,41 @@
     "license": "OFL-1.1",
     "home": "https://github.com/magictype/redrose",
     "path": "fonts/english/RedRose/RedRose-Regular.ttf"
+  },
+  {
+    "name": "LibertineSup-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Black.ttf"
+  },
+  {
+    "name": "LibertineSup-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Bold.ttf"
+  },
+  {
+    "name": "LibertineSup-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Light.ttf"
+  },
+  {
+    "name": "LibertineSup-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Medium.ttf"
+  },
+  {
+    "name": "LibertineSup-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Regular.ttf"
+  },
+  {
+    "name": "LibertineSup-Thin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/noirblancrouge/LibertineSuper",
+    "path": "fonts/english/LibertineSup/LibertineSup-Thin.ttf"
   }
 ]
