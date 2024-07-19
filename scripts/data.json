@@ -3255,5 +3255,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/delucis/avara-variable",
     "path": "fonts/english/other/AvaraVariable.ttf"
+  },
+  {
+    "name": "DisSenso",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/DisSenso",
+    "path": "fonts/english/other/DisSenso.ttf"
   }
 ]
