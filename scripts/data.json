@@ -2946,5 +2946,68 @@
     "license": "OFL-1.1",
     "home": "https://github.com/MoonlitOwen/ThenKhung",
     "path": "fonts/其他字体/宇文天穹.ttf"
+  },
+  {
+    "name": "初夏明朝體-Bold",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Bold.ttf"
+  },
+  {
+    "name": "初夏明朝體-ExtraLight",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-ExtraLight.ttf"
+  },
+  {
+    "name": "初夏明朝體-Heavy",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Heavy.ttf"
+  },
+  {
+    "name": "初夏明朝體-Light",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Light.ttf"
+  },
+  {
+    "name": "初夏明朝體-Medium",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Medium.ttf"
+  },
+  {
+    "name": "初夏明朝體-Regular",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Regular.ttf"
+  },
+  {
+    "name": "初夏明朝體-Screen",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-Screen.ttf"
+  },
+  {
+    "name": "初夏明朝體-SemiBold",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-SemiBold.ttf"
+  },
+  {
+    "name": "初夏明朝體-VF",
+    "type": "宋体",
+    "home": "https://github.com/GuiWonder/EarlySummerMincho",
+    "license": "OFL-1.1",
+    "path": "fonts/初夏明朝體/初夏明朝體-VF.ttf"
   }
 ]
