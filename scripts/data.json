@@ -3266,5 +3266,11 @@
     "name": "Weltraum",
     "home": "https://github.com/svaneke/weltraum",
     "path": "fonts/english/other/Weltraum.otf"
+  },
+  {
+    "name": "Capo1880",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/Capo1880",
+    "path": "fonts/english/other/Capo1880.ttf"
   }
 ]
