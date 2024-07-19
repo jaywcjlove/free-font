@@ -3344,5 +3344,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/AlmaVirgo",
     "path": "fonts/english/other/AlmaVirgo.ttf"
+  },
+  {
+    "name": "vulnus",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/Vulnus",
+    "path": "fonts/english/other/vulnus.ttf"
   }
 ]
