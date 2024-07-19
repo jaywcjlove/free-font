@@ -3171,5 +3171,11 @@
     "home": "https://github.com/noirblancrouge/Beon",
     "license": "OFL-1.1",
     "path": "fonts/english/other/Beon.ttf"
+  },
+  {
+    "name": "AugmentedNeo-Eorzean",
+    "license": "MIT",
+    "home": "https://github.com/karaipsum/Eorzean-Typeface",
+    "path": "fonts/english/other/AugmentedNeo-Eorzean.ttf"
   }
 ]
