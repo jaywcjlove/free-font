@@ -2867,5 +2867,19 @@
     "license": "OFL-1.1",
     "home": "https://github.com/ButTaiwan/iansui",
     "path": "fonts/其他字体/芫荽.ttf"
+  },
+  {
+    "name": "秋水書体.Bright",
+    "type": "楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/NoHeartPen/QiushuiShotai",
+    "path": "fonts/秋水書体/秋水書体.Bright.ttf"
+  },
+  {
+    "name": "秋水書体",
+    "type": "楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/NoHeartPen/QiushuiShotai",
+    "path": "fonts/秋水書体/秋水書体.ttf"
   }
 ]
