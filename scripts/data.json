@@ -3015,5 +3015,29 @@
     "license": "OFL-1.1",
     "home": "https://github.com/GuoPCinGitHub/StelpolvoSans",
     "path": "fonts/english/other/StelpolvoSans.ttf"
+  },
+  {
+    "name": "Farro-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/grayscaleltd/farro",
+    "path": "fonts/english/Farro/Farro-Bold.ttf"
+  },
+  {
+    "name": "Farro-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/grayscaleltd/farro",
+    "path": "fonts/english/Farro/Farro-Light.ttf"
+  },
+  {
+    "name": "Farro-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/grayscaleltd/farro",
+    "path": "fonts/english/Farro/Farro-Medium.ttf"
+  },
+  {
+    "name": "Farro-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/grayscaleltd/farro",
+    "path": "fonts/english/Farro/Farro-Regular.ttf"
   }
 ]
