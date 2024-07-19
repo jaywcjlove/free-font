@@ -3231,5 +3231,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/noirblancrouge/LibertineSuper",
     "path": "fonts/english/LibertineSup/LibertineSup-Thin.ttf"
+  },
+  {
+    "name": "AugmentedPostulatedProto",
+    "license": "MIT",
+    "home": "https://github.com/karaipsum/Postulated-Proto-Alphabet",
+    "path": "fonts/english/other/AugmentedPostulatedProto.ttf"
   }
 ]
