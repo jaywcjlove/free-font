@@ -3314,5 +3314,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/WCYS-Co/Baloo2-Latin",
     "path": "fonts/english/Baloo2Latin/Baloo2Latin-Regular.ttf"
+  },
+  {
+    "name": "InDieBusillis",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/In-die-busillis",
+    "path": "fonts/english/other/InDieBusillis.ttf"
   }
 ]
