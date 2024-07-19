@@ -2578,5 +2578,23 @@
     "license": "OFL-1.1",
     "home": "https://github.com/Skr-ZERO/MaokenAssortedSans",
     "path": "fonts/猫啃什锦黑/猫啃什锦黑.ttf"
+  },
+  {
+    "name": "芫茜雅楷-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ItMarki/jyunsaikaai",
+    "path": "fonts/芫茜雅楷/芫茜雅楷-Bold.ttf"
+  },
+  {
+    "name": "芫茜雅楷-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ItMarki/jyunsaikaai",
+    "path": "fonts/芫茜雅楷/芫茜雅楷-Light.ttf"
+  },
+  {
+    "name": "芫茜雅楷-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ItMarki/jyunsaikaai",
+    "path": "fonts/芫茜雅楷/芫茜雅楷-Regular.ttf"
   }
 ]
