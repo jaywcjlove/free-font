@@ -1,12 +1,11 @@
 <div align="center">
-	<br />
-	<br />
-  <h1>收录商用免费字体</h1>
   <a href="https://wangchujiang.com/free-font/">
 	  <img src="https://github.com/user-attachments/assets/e050dbf1-464c-44ac-89a8-eaf21490200c" alt="收录商用免费汉字(英文)字体 Free Font">
   </a>
 	<br />
 	<br />
+	<br />
+  <h1>收录商用免费字体</h1>
 </div>
 
 这个项目基于不再维护的[字集](https://github.com/wordshub/free-font)开源项目收集汉字字体。我建立了这个新项目，重新添加了许多中文字体，还包括一些开源英文字体，方便《[字帖宝宝](https://github.com/jaywcjlove/copybook-generator)》的用户下载和使用字体。
