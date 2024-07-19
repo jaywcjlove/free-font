@@ -3177,5 +3177,23 @@
     "license": "MIT",
     "home": "https://github.com/karaipsum/Eorzean-Typeface",
     "path": "fonts/english/other/AugmentedNeo-Eorzean.ttf"
+  },
+  {
+    "name": "RedRose-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/magictype/redrose",
+    "path": "fonts/english/RedRose/RedRose-Bold.ttf"
+  },
+  {
+    "name": "RedRose-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/magictype/redrose",
+    "path": "fonts/english/RedRose/RedRose-Light.ttf"
+  },
+  {
+    "name": "RedRose-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/magictype/redrose",
+    "path": "fonts/english/RedRose/RedRose-Regular.ttf"
   }
 ]
