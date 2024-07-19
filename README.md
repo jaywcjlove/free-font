@@ -27,7 +27,7 @@
   "description": "字体描述....",
   // 字体在 web 目录中的位置 - 注意斜杠 `/`
   "path": "fonts/其他字体/和田研字体/和田研中丸.ttf",
-  // 官网
+  // 官网/来源
   "home": 'https://zh.osdn.net/projects/jis2004/wiki/FrontPage'
 }
 ```
