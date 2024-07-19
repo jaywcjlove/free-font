@@ -3290,5 +3290,29 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/titoliDiTesta",
     "path": "fonts/english/other/TitoliDiTesta.ttf"
+  },
+  {
+    "name": "Baloo2Latin-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/WCYS-Co/Baloo2-Latin",
+    "path": "fonts/english/Baloo2Latin/Baloo2Latin-Bold.ttf"
+  },
+  {
+    "name": "Baloo2Latin-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/WCYS-Co/Baloo2-Latin",
+    "path": "fonts/english/Baloo2Latin/Baloo2Latin-ExtraBold.ttf"
+  },
+  {
+    "name": "Baloo2Latin-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/WCYS-Co/Baloo2-Latin",
+    "path": "fonts/english/Baloo2Latin/Baloo2Latin-Medium.ttf"
+  },
+  {
+    "name": "Baloo2Latin-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/WCYS-Co/Baloo2-Latin",
+    "path": "fonts/english/Baloo2Latin/Baloo2Latin-Regular.ttf"
   }
 ]
