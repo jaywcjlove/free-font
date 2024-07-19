@@ -2610,5 +2610,77 @@
     "license": "OFL-1.1",
     "home": "https://github.com/maoken-fonts/unbounded-sans",
     "path": "fonts/无界黑/无界黑SC.ttf"
+  },
+  {
+    "name": "mem-mono-3x3-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-mono-3x3-aseprite.ttf"
+  },
+  {
+    "name": "mem-mono-3x3",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-mono-3x3.ttf"
+  },
+  {
+    "name": "mem-mono-4x4-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-mono-4x4-aseprite.ttf"
+  },
+  {
+    "name": "mem-mono-4x4",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-mono-4x4.ttf"
+  },
+  {
+    "name": "mem-prop-3x5-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-3x5-aseprite.ttf"
+  },
+  {
+    "name": "mem-prop-3x5",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-3x5.ttf"
+  },
+  {
+    "name": "mem-prop-4x4-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-4x4-aseprite.ttf"
+  },
+  {
+    "name": "mem-prop-4x4",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-4x4.ttf"
+  },
+  {
+    "name": "mem-prop-5x5-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-5x5-aseprite.ttf"
+  },
+  {
+    "name": "mem-prop-5x5",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-5x5.ttf"
+  },
+  {
+    "name": "mem-prop-5x6-aseprite",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-5x6-aseprite.ttf"
+  },
+  {
+    "name": "mem-prop-5x6",
+    "license": "AGPL-3.0",
+    "home": "https://github.com/oidoid/mem",
+    "path": "fonts/english/mem/mem-prop-5x6.ttf"
   }
 ]
