@@ -3159,5 +3159,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/rsperberg/foundation-titles-hand",
     "path": "fonts/english/FoundationTitlesHand/FoundationTitlesHand.ttf"
+  },
+  {
+    "name": "DBSScouter",
+    "license": "OFL-1.1",
+    "home": "https://github.com/haideralipunjabi/DBSScouterFont",
+    "path": "fonts/english/other/DBSScouter.ttf"
   }
 ]
