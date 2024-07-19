@@ -3362,5 +3362,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/PreTesto",
     "path": "fonts/english/PreTesto/PreTesto_it.ttf"
+  },
+  {
+    "name": "infido",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/Infido",
+    "path": "fonts/english/other/infido.ttf"
   }
 ]
