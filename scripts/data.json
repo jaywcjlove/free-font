@@ -2723,6 +2723,7 @@
   },
   {
     "name": "諧靈附體-Bold",
+    "type": "楷体",
     "license": "OFL-1.1",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-Bold.otf"
@@ -2730,35 +2731,41 @@
   {
     "name": "諧靈附體-ExtraLight",
     "license": "OFL-1.1",
+    "type": "楷体",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-ExtraLight.otf"
   },
   {
     "name": "諧靈附體-Heavy",
     "license": "OFL-1.1",
+    "type": "楷体",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-Heavy.otf"
   },
   {
     "name": "諧靈附體-Light",
     "license": "OFL-1.1",
+    "type": "楷体",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-Light.otf"
   },
   {
     "name": "諧靈附體-Regular",
     "license": "OFL-1.1",
+    "type": "楷体",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-Regular.otf"
   },
   {
     "name": "諧靈附體-SemiBold",
     "license": "OFL-1.1",
+    "type": "楷体",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-SemiBold.otf"
   },
   {
     "name": "目哉像素flat",
+    "type": "艺术体",
     "license": "OFL-1.1",
     "home": "https://github.com/DWNfonts/MuzaiPixel",
     "path": "fonts/目哉像素/目哉像素flat.ttf"
@@ -2766,7 +2773,92 @@
   {
     "name": "目哉像素orig",
     "license": "OFL-1.1",
+    "type": "艺术体",
     "home": "https://github.com/DWNfonts/MuzaiPixel",
     "path": "fonts/目哉像素/目哉像素orig.ttf"
+  },
+  {
+    "name": "月星楷-Bold",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷-Bold.ttf"
+  },
+  {
+    "name": "月星楷-Light",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷-Light.ttf"
+  },
+  {
+    "name": "月星楷-Regular",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷-Regular.ttf"
+  },
+  {
+    "name": "月星楷HW-Bold",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷HW-Bold.ttf"
+  },
+  {
+    "name": "月星楷HW-Light",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷HW-Light.ttf"
+  },
+  {
+    "name": "月星楷HW-Regular",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷HW-Regular.ttf"
+  },
+  {
+    "name": "月星楷T-Bold",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷T-Bold.ttf"
+  },
+  {
+    "name": "月星楷T-Light",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷T-Light.ttf"
+  },
+  {
+    "name": "月星楷T-Regular",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷T-Regular.ttf"
+  },
+  {
+    "name": "月星楷THW-Bold",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷THW-Bold.ttf"
+  },
+  {
+    "name": "月星楷THW-Light",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷THW-Light.ttf"
+  },
+  {
+    "name": "月星楷THW-Regular",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "home": "https://github.com/GuiWonder/MoonStarsKai",
+    "path": "fonts/月星楷/月星楷THW-Regular.ttf"
   }
 ]
