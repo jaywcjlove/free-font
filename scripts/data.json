@@ -3326,5 +3326,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/SprangaLongobarda",
     "path": "fonts/english/other/SprangaLongobarda.ttf"
+  },
+  {
+    "name": "CapoLombardo",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/CapoLombardo",
+    "path": "fonts/english/other/CapoLombardo.ttf"
   }
 ]
