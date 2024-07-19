@@ -2756,5 +2756,17 @@
     "license": "OFL-1.1",
     "home": "https://github.com/justfont/AllPunType",
     "path": "fonts/諧靈附體/諧靈附體-SemiBold.otf"
+  },
+  {
+    "name": "目哉像素flat",
+    "license": "OFL-1.1",
+    "home": "https://github.com/DWNfonts/MuzaiPixel",
+    "path": "fonts/目哉像素/目哉像素flat.ttf"
+  },
+  {
+    "name": "目哉像素orig",
+    "license": "OFL-1.1",
+    "home": "https://github.com/DWNfonts/MuzaiPixel",
+    "path": "fonts/目哉像素/目哉像素orig.ttf"
   }
 ]
