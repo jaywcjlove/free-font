@@ -3320,5 +3320,11 @@
     "license": "OFL-1.1",
     "home": "https://github.com/m-casanova/In-die-busillis",
     "path": "fonts/english/other/InDieBusillis.ttf"
+  },
+  {
+    "name": "SprangaLongobarda",
+    "license": "OFL-1.1",
+    "home": "https://github.com/m-casanova/SprangaLongobarda",
+    "path": "fonts/english/other/SprangaLongobarda.ttf"
   }
 ]
