@@ -2564,5 +2564,19 @@
     "license": "OFL-1.1",
     "home": "https://github.com/TakWolf/retro-pixel-font",
     "path": "fonts/english/retro-pixel/retro-pixel-thick.ttf"
+  },
+  {
+    "name": "猫啃什锦黑-Lite",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Skr-ZERO/MaokenAssortedSans",
+    "path": "fonts/猫啃什锦黑/猫啃什锦黑-Lite.ttf"
+  },
+  {
+    "name": "猫啃什锦黑",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Skr-ZERO/MaokenAssortedSans",
+    "path": "fonts/猫啃什锦黑/猫啃什锦黑.ttf"
   }
 ]
