@@ -4987,5 +4987,21 @@
     "path": "fonts/english/other/Sligoil.otf",
     "size": "45.7 kB",
     "ctime": 1721501054472
+  },
+  {
+    "name": "Basteleur-Bold",
+    "home": "https://gitlab.com/velvetyne/basteleur",
+    "license": "OFL-1.1",
+    "path": "fonts/english/Basteleur/Basteleur-Bold.ttf",
+    "size": "161 kB",
+    "ctime": 1721501281053
+  },
+  {
+    "name": "Basteleur-Moonlight",
+    "home": "https://gitlab.com/velvetyne/basteleur",
+    "license": "OFL-1.1",
+    "path": "fonts/english/Basteleur/Basteleur-Moonlight.ttf",
+    "size": "132 kB",
+    "ctime": 1721501281057
   }
 ]
