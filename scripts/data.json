@@ -1929,13 +1929,6 @@
     "ctime": 1721128750983
   },
   {
-    "name": "全字庫正楷體-Ext-B-98_1",
-    "type": "楷体",
-    "path": "fonts/全字库系列/全字庫正楷體/全字庫正楷體-Ext-B-98_1.ttf",
-    "size": "65.1 MB",
-    "ctime": 1721138104949
-  },
-  {
     "name": "全字庫正楷體-Plus-98_1",
     "type": "楷体",
     "path": "fonts/全字库系列/全字庫正楷體/全字庫正楷體-Plus-98_1.ttf",
@@ -1948,13 +1941,6 @@
     "path": "fonts/全字库系列/全字庫正宋體/全字庫正宋體-98_1.ttf",
     "size": "35.6 MB",
     "ctime": 1721128750983
-  },
-  {
-    "name": "全字庫正宋體-Ext-B-98_1",
-    "type": "宋体",
-    "path": "fonts/全字库系列/全字庫正宋體/全字庫正宋體-Ext-B-98_1.ttf",
-    "size": "67.2 MB",
-    "ctime": 1721138089879
   },
   {
     "name": "全字庫正宋體-Plus-98_1",
@@ -4937,5 +4923,13 @@
     "path": "docs/fonts/其他字体/寒蝉手拙体.ttf",
     "size": "13.1 MB",
     "ctime": 1721453106008
+  },
+  {
+    "name": "Borel",
+    "license": "OFL-1.1",
+    "home": "https://github.com/RosaWagner/Borel",
+    "path": "fonts/english/other/Borel.ttf",
+    "size": "202 kB",
+    "ctime": 1721500488896
   }
 ]
