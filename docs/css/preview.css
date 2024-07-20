@@ -34,7 +34,9 @@ main h2 {
   box-shadow: 0px 0px 2px 3px #1b1b1b;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.23em;
+  min-width: 180px;
 }
 
 #download:hover {
@@ -66,6 +68,11 @@ main h2 {
   line-height: 14px;
   color: #15a52e;
   background: #00560399;
+}
+
+#license span.size {
+  background: #4b4b4ba6;
+  color: #909090;
 }
 
 #license > a:hover {

@@ -3,7 +3,7 @@
 <%- include('./_partial/header-title', { length: DATA.length, type: "全部" }); %>
 </header>
 <main>
-  <% DATA.forEach(function(font, idx){ %>
+  <% DATA.sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>

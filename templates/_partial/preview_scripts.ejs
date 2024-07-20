@@ -52,7 +52,9 @@
         const licenseElement = document.getElementById('license');
         const urlHome = urlParams.get('u');
         const license = urlParams.get('l');
+        const size = urlParams.get('s');
         let licenseText = [];
+        if (size) licenseText.push(`<span class="size">${size}</span>`);
         if (license) licenseText.push(`<span>${license}</span>`);
         if (urlHome) licenseText.push(`<a href="${urlHome}" target="_blank">来源</a>`);
         if (licenseText.length > 0) {

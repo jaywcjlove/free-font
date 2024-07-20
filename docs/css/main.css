@@ -109,13 +109,22 @@ main > div p {
 
 main > div .license {
   font-size: 10px;
-  border-radius: 4px;
-  color: #15a52e;
-  padding: 0 3px;
-  background: #00560399;
   position: absolute;
-  margin-top: -49px;
+  margin-top: -45px;
   margin-left: 5px;
+}
+
+main > div .license i.size {
+  background: #4b4b4ba6;
+  color: #909090;
+}
+main > div .license i {
+  padding: 0 2px;
+  border-radius: 3px;
+  font-style: normal;
+  color: #15a52e;
+  background: #00560399;
+
 }
 
 main > div p > span {

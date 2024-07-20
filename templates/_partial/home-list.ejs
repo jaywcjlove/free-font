@@ -1,10 +1,13 @@
 <div>
   <% const isEnglish = font.path.split("/").includes("english") %>
-  <a href="preview<%=isEnglish ? ".en" : ""%>.html?p=<%=font.path%>&t=<%=font.name%>&l=<%-encodeURIComponent(font.license ?? "商免")%><%=font.home ? `&u=${encodeURIComponent(font.home)}` : ""%>" target="_blank">
+  <a href="preview<%=isEnglish ? ".en" : ""%>.html?p=<%=font.path%>&s=<%=font.size%>&t=<%=font.name%>&l=<%-encodeURIComponent(font.license ?? "商免")%><%=font.home ? `&u=${encodeURIComponent(font.home)}` : ""%>" target="_blank">
     <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
     <p>
       <span><%=font.name%></span>
-      <span class="license"><%=font.license ?? "商免"%></span>
+      <span class="license">
+        <i><%=font.license ?? "商免"%></i>
+        <%-font.size ? `<i class="size">${font.size}</i>` : ""%>
+      </span>
     </p>
   </a>
   <a href="<%=font.path%>" class="button" download="<%=font.name%>">下载字体</a>

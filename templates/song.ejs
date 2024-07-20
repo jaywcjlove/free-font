@@ -3,7 +3,7 @@
 <%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "楷体").length, type: "宋体" }); %>
 </header>
 <main>
-  <% DATA.filter((item) => item.type == "宋体").forEach(function(font, idx){ %>
+  <% DATA.filter((item) => item.type == "宋体").sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>

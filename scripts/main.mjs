@@ -4,6 +4,7 @@ import puppeteer from 'puppeteer';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { createRequire } from "module";
+import prettyBytes from 'pretty-bytes';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -180,14 +181,17 @@ function removeRootPathSegment(filePath) {
       let fontName = path.basename(fontPath, path.extname(fontPath)).trim();
       if (fontName) {
         const resultData = [...fontDatas];
+        const stat = fs.statSync(fontPath);
         let dataIndex = resultData.findIndex((item) => item.name === fontName)
         if (dataIndex === -1) {
           resultData.push({
             name: fontName,
-            path: removeRootPathSegment(fontPath)
+            path: removeRootPathSegment(fontPath),
+            size: prettyBytes(stat.size)
           })
         } else {
           resultData[dataIndex].name = fontName;
+          resultData[dataIndex].size = prettyBytes(stat.size)
           resultData[dataIndex].path = removeRootPathSegment(fontPath);
         }
         await createPosterImage(page, fontPath, fontName);
@@ -204,9 +208,11 @@ function removeRootPathSegment(filePath) {
     for (const filename of files) {
       let fontName = path.basename(filename, path.extname(filename)).trim();
       if (!fontName.startsWith("__")) {
+        const stat = fs.statSync(filename);
         let data = fontDatas.find((item) => item.name === fontName) || {};
         data.name = fontName;
         data.path = removeRootPathSegment(filename);
+        data.size = prettyBytes(stat.size)
         resultData.push(data);
         await createPosterImage(page, filename, fontName);
       } else {
