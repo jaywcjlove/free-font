@@ -5003,5 +5003,21 @@
     "path": "fonts/english/Basteleur/Basteleur-Moonlight.ttf",
     "size": "132 kB",
     "ctime": 1721501281057
+  },
+  {
+    "name": "瀞之库格尔黑体Sans",
+    "license": "OFL-1.1",
+    "home": "https://github.com/amazusa/ToronoKugel",
+    "path": "fonts/瀞之库格尔黑体/瀞之库格尔黑体Sans.otf",
+    "size": "4.12 MB",
+    "ctime": 1721501597553
+  },
+  {
+    "name": "瀞之库格尔黑体Serif",
+    "license": "OFL-1.1",
+    "home": "https://github.com/amazusa/ToronoKugel",
+    "path": "fonts/瀞之库格尔黑体/瀞之库格尔黑体Serif.otf",
+    "size": "5.9 MB",
+    "ctime": 1721501597568
   }
 ]
