@@ -4912,7 +4912,7 @@
     "name": "鸿雷板书简体-测试版",
     "type": "手绘体",
     "home": "https://www.zcool.com.cn/work/ZNDMzODk5ODQ=.html",
-    "path": "docs/fonts/其他字体/鸿雷板书简体-测试版.ttf",
+    "path": "fonts/其他字体/鸿雷板书简体-测试版.ttf",
     "size": "7.89 MB",
     "ctime": 1721452794553
   },
@@ -4920,7 +4920,7 @@
     "name": "寒蝉手拙体",
     "type": "手绘体",
     "home": "https://www.zcool.com.cn/work/ZMzAzODE0MTI=.html",
-    "path": "docs/fonts/其他字体/寒蝉手拙体.ttf",
+    "path": "fonts/其他字体/寒蝉手拙体.ttf",
     "size": "13.1 MB",
     "ctime": 1721453106008
   },
@@ -4931,5 +4931,53 @@
     "path": "fonts/english/other/Borel.ttf",
     "size": "202 kB",
     "ctime": 1721500488896
+  },
+  {
+    "name": "D-DIN-PRO-400-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-400-Regular.otf",
+    "size": "36.6 kB",
+    "ctime": 1721500727226
+  },
+  {
+    "name": "D-DIN-PRO-500-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-500-Medium.otf",
+    "size": "23.4 kB",
+    "ctime": 1721500727228
+  },
+  {
+    "name": "D-DIN-PRO-600-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-600-SemiBold.otf",
+    "size": "24 kB",
+    "ctime": 1721500727229
+  },
+  {
+    "name": "D-DIN-PRO-700-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-700-Bold.otf",
+    "size": "38.3 kB",
+    "ctime": 1721500727231
+  },
+  {
+    "name": "D-DIN-PRO-800-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-800-ExtraBold.otf",
+    "size": "25.5 kB",
+    "ctime": 1721500727237
+  },
+  {
+    "name": "D-DIN-PRO-900-Heavy",
+    "license": "OFL-1.1",
+    "home": "https://github.com/CyberFei/D-DIN-PRO",
+    "path": "fonts/english/D-DIN-PRO/D-DIN-PRO-900-Heavy.otf",
+    "size": "25.7 kB",
+    "ctime": 1721500727240
   }
 ]
