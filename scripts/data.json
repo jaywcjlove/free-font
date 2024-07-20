@@ -5006,6 +5006,7 @@
   },
   {
     "name": "瀞之库格尔黑体Sans",
+    "type": "黑体",
     "license": "OFL-1.1",
     "home": "https://github.com/amazusa/ToronoKugel",
     "path": "fonts/瀞之库格尔黑体/瀞之库格尔黑体Sans.otf",
@@ -5014,6 +5015,7 @@
   },
   {
     "name": "瀞之库格尔黑体Serif",
+    "type": "黑体",
     "license": "OFL-1.1",
     "home": "https://github.com/amazusa/ToronoKugel",
     "path": "fonts/瀞之库格尔黑体/瀞之库格尔黑体Serif.otf",
@@ -5022,6 +5024,7 @@
   },
   {
     "name": "可爱少女体",
+    "type": "艺术体",
     "home": "https://moji-waku.com/poprumcute/index.html",
     "path": "fonts/其他字体/可爱少女体.otf",
     "size": "2.55 MB",
@@ -5071,5 +5074,21 @@
     "path": "fonts/english/LLPixelFun/LLPixelFun-Rounded.ttf",
     "size": "24.7 kB",
     "ctime": 1721502814082
+  },
+  {
+    "name": "Pilowlava-Atome",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/StudioTriple/pilowlava/",
+    "path": "fonts/english/Pilowlava/Pilowlava-Atome.otf",
+    "size": "57 kB",
+    "ctime": 1721503086556
+  },
+  {
+    "name": "Pilowlava-Regular",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/StudioTriple/pilowlava/",
+    "path": "fonts/english/Pilowlava/Pilowlava-Regular.otf",
+    "size": "53.8 kB",
+    "ctime": 1721503086557
   }
 ]
