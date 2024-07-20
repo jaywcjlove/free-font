@@ -104,6 +104,7 @@ main > div p {
   padding-top: 3px;
   display: flex;
   align-items: center;
+  line-height: 1;
   gap: 5px;
 }
 
