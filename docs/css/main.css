@@ -110,7 +110,7 @@ main > div p {
 main > div .license {
   font-size: 10px;
   position: absolute;
-  margin-top: -45px;
+  margin-top: -47px;
   margin-left: 5px;
 }
 
@@ -189,6 +189,19 @@ main {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+footer sup {
+  position: absolute;
+    font-size: 10px;
+    color: #8d8d8d;
+}
+footer div, footer div a {
+  font-weight: 100;
+}
+footer div {
+  font-size: small;
+  padding-top: 0.35em;
 }
 
 footer {
