@@ -3506,5 +3506,29 @@
     "license": "OFL-1.1",
     "home": "https://github.com/uswds/public-sans",
     "path": "fonts/english/PublicSans/PublicSans-ThinItalic.ttf"
+  },
+  {
+    "name": "SpaceGrotesk-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/floriankarsten/space-grotesk",
+    "path": "fonts/english/SpaceGrotesk/SpaceGrotesk-Bold.ttf"
+  },
+  {
+    "name": "SpaceGrotesk-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/floriankarsten/space-grotesk",
+    "path": "fonts/english/SpaceGrotesk/SpaceGrotesk-Light.ttf"
+  },
+  {
+    "name": "SpaceGrotesk-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/floriankarsten/space-grotesk",
+    "path": "fonts/english/SpaceGrotesk/SpaceGrotesk-Medium.ttf"
+  },
+  {
+    "name": "SpaceGrotesk-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/floriankarsten/space-grotesk",
+    "path": "fonts/english/SpaceGrotesk/SpaceGrotesk-Regular.ttf"
   }
 ]
