@@ -3398,5 +3398,113 @@
     "license": "OFL-1.1",
     "home": "https://github.com/barrymieny/art-disco",
     "path": "fonts/english/other/ArtDisco.otf"
+  },
+  {
+    "name": "PublicSans-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Black.ttf"
+  },
+  {
+    "name": "PublicSans-BlackItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-BlackItalic.ttf"
+  },
+  {
+    "name": "PublicSans-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Bold.ttf"
+  },
+  {
+    "name": "PublicSans-BoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-BoldItalic.ttf"
+  },
+  {
+    "name": "PublicSans-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-ExtraBold.ttf"
+  },
+  {
+    "name": "PublicSans-ExtraBoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-ExtraBoldItalic.ttf"
+  },
+  {
+    "name": "PublicSans-ExtraLight",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-ExtraLight.ttf"
+  },
+  {
+    "name": "PublicSans-ExtraLightItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-ExtraLightItalic.ttf"
+  },
+  {
+    "name": "PublicSans-Italic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Italic.ttf"
+  },
+  {
+    "name": "PublicSans-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Light.ttf"
+  },
+  {
+    "name": "PublicSans-LightItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-LightItalic.ttf"
+  },
+  {
+    "name": "PublicSans-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Medium.ttf"
+  },
+  {
+    "name": "PublicSans-MediumItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-MediumItalic.ttf"
+  },
+  {
+    "name": "PublicSans-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Regular.ttf"
+  },
+  {
+    "name": "PublicSans-SemiBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-SemiBold.ttf"
+  },
+  {
+    "name": "PublicSans-SemiBoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-SemiBoldItalic.ttf"
+  },
+  {
+    "name": "PublicSans-Thin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-Thin.ttf"
+  },
+  {
+    "name": "PublicSans-ThinItalic",
+    "license": "OFL-1.1",
+    "home": "https://github.com/uswds/public-sans",
+    "path": "fonts/english/PublicSans/PublicSans-ThinItalic.ttf"
   }
 ]
