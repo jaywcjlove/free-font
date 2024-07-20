@@ -100,6 +100,7 @@
   {
     "name": "寒蝉端黑宋",
     "license": "OFL-1.1",
+    "type": "宋体",
     "home": "https://github.com/Warren2060/ChillDuanHeiSong",
     "path": "fonts/寒蝉端黑宋/寒蝉端黑宋.otf",
     "size": "37.9 MB",
@@ -1290,6 +1291,7 @@
   },
   {
     "name": "寒蝉端黑宋JP",
+    "type": "宋体",
     "license": "OFL-1.1",
     "home": "https://github.com/Warren2060/ChillDuanHeiSong",
     "path": "fonts/寒蝉端黑宋/寒蝉端黑宋JP.otf",
@@ -4662,5 +4664,21 @@
     "path": "fonts/english/other/ZifferaVeneta.ttf",
     "size": "250 kB",
     "ctime": 1721376662752
+  },
+  {
+    "name": "Typefesse_Claire-Obscure",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ohpla/typefesse",
+    "path": "fonts/english/Typefesse/Typefesse_Claire-Obscure.otf",
+    "size": "38.8 kB",
+    "ctime": 1721447641714
+  },
+  {
+    "name": "Typefesse_Pleine",
+    "license": "OFL-1.1",
+    "home": "https://github.com/ohpla/typefesse",
+    "path": "fonts/english/Typefesse/Typefesse_Pleine.otf",
+    "size": "24.2 kB",
+    "ctime": 1721447641715
   }
 ]

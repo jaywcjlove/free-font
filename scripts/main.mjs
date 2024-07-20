@@ -187,12 +187,14 @@ function removeRootPathSegment(filePath) {
           resultData.push({
             name: fontName,
             path: removeRootPathSegment(fontPath),
-            size: prettyBytes(stat.size)
+            size: prettyBytes(stat.size),
+            ctime: stat.ctime.getTime()
           })
         } else {
           resultData[dataIndex].name = fontName;
-          resultData[dataIndex].size = prettyBytes(stat.size)
           resultData[dataIndex].path = removeRootPathSegment(fontPath);
+          resultData[dataIndex].size = prettyBytes(stat.size)
+          resultData[dataIndex].ctime = stat.ctime.getTime()
         }
         await createPosterImage(page, fontPath, fontName);
         fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
@@ -213,6 +215,7 @@ function removeRootPathSegment(filePath) {
         data.name = fontName;
         data.path = removeRootPathSegment(filename);
         data.size = prettyBytes(stat.size)
+        data.ctime = stat.ctime.getTime();
         resultData.push(data);
         await createPosterImage(page, filename, fontName);
       } else {
