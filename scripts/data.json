@@ -4680,5 +4680,45 @@
     "path": "fonts/english/Typefesse/Typefesse_Pleine.otf",
     "size": "24.2 kB",
     "ctime": 1721447641715
+  },
+  {
+    "name": "Ouvrieres-affamees",
+    "license": "OFL-1.1",
+    "home": "https://github.com/laureazz/Ouvrieres",
+    "path": "fonts/english/Ouvrieres/Ouvrieres-affamees.ttf",
+    "size": "1.41 MB",
+    "ctime": 1721448075093
+  },
+  {
+    "name": "Ouvrieres-agricultrices",
+    "license": "OFL-1.1",
+    "home": "https://github.com/laureazz/Ouvrieres",
+    "path": "fonts/english/Ouvrieres/Ouvrieres-agricultrices.ttf",
+    "size": "1.44 MB",
+    "ctime": 1721448075100
+  },
+  {
+    "name": "Ouvrieres-exploratrices",
+    "license": "OFL-1.1",
+    "home": "https://github.com/laureazz/Ouvrieres",
+    "path": "fonts/english/Ouvrieres/Ouvrieres-exploratrices.ttf",
+    "size": "1.41 MB",
+    "ctime": 1721448075111
+  },
+  {
+    "name": "Ouvrieres-rassasiees",
+    "license": "OFL-1.1",
+    "home": "https://github.com/laureazz/Ouvrieres",
+    "path": "fonts/english/Ouvrieres/Ouvrieres-rassasiees.ttf",
+    "size": "1.6 MB",
+    "ctime": 1721448075123
+  },
+  {
+    "name": "Ouvrieres-soldates",
+    "license": "OFL-1.1",
+    "home": "https://github.com/laureazz/Ouvrieres",
+    "path": "fonts/english/Ouvrieres/Ouvrieres-soldates.ttf",
+    "size": "1.43 MB",
+    "ctime": 1721448075126
   }
 ]
