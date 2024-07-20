@@ -5032,6 +5032,7 @@
   },
   {
     "name": "字体传奇雪家黑",
+    "type": "黑体",
     "home": "http://www.ziticq.com/Interview/30",
     "path": "fonts/其他字体/字体传奇雪家黑.ttf",
     "size": "17.7 MB",
@@ -5093,6 +5094,7 @@
   },
   {
     "name": "Leefont蒙黑体",
+    "type": "黑体",
     "home": "https://mp.weixin.qq.com/s/vuGSb6gFWYHtqBmQRZtF1Q",
     "path": "fonts/其他字体/Leefont蒙黑体.ttf",
     "size": "4.82 MB",
@@ -5100,6 +5102,7 @@
   },
   {
     "name": "托加里特体-Black-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Black-2.otf",
     "size": "3.36 MB",
@@ -5107,6 +5110,7 @@
   },
   {
     "name": "托加里特体-Bold-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Bold-2.otf",
     "size": "3.45 MB",
@@ -5114,6 +5118,7 @@
   },
   {
     "name": "托加里特体-Heavy-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Heavy-2.otf",
     "size": "3.52 MB",
@@ -5121,6 +5126,7 @@
   },
   {
     "name": "托加里特体-Light-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Light-2.otf",
     "size": "3.06 MB",
@@ -5128,6 +5134,7 @@
   },
   {
     "name": "托加里特体-Medium-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Medium-2.otf",
     "size": "3.29 MB",
@@ -5135,6 +5142,7 @@
   },
   {
     "name": "托加里特体-Regular-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Regular-2.otf",
     "size": "3.24 MB",
@@ -5142,9 +5150,19 @@
   },
   {
     "name": "托加里特体-Thin-2",
+    "type": "艺术体",
     "home": "https://moji-waku.com/togalite/index.html",
     "path": "fonts/托加里特体/托加里特体-Thin-2.otf",
     "size": "2.55 MB",
     "ctime": 1721503973437
+  },
+  {
+    "name": "标小智无界黑",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "home": "https://www.zcool.com.cn/article/ZMTQzOTAyMA==.html",
+    "path": "fonts/其他字体/标小智无界黑.ttf",
+    "size": "2.02 MB",
+    "ctime": 1721504227064
   }
 ]
