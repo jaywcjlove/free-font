@@ -4741,8 +4741,15 @@
     "name": "龚帆免费体",
     "type": "手绘体",
     "home": "https://www.gtn9.com/work_show.aspx?ID=B4C63D7EAE382C1E&page=1",
-    "path": "docs/fonts/其他字体/龚帆免费体.ttf",
+    "path": "fonts/其他字体/龚帆免费体.ttf",
     "size": "10.5 MB",
     "ctime": 1721449907848
+  },
+  {
+    "name": "斗鱼追光体",
+    "home": "https://www.douyu.com/topic/douyuZGT",
+    "path": "fonts/其他字体/斗鱼追光体.otf",
+    "size": "4.99 MB",
+    "ctime": 1721450055372
   }
 ]
