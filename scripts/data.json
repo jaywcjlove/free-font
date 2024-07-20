@@ -5033,5 +5033,29 @@
     "path": "fonts/其他字体/字体传奇雪家黑.ttf",
     "size": "17.7 MB",
     "ctime": 1721502406772
+  },
+  {
+    "name": "Avara-Black",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/velvetyne/Avara/",
+    "path": "fonts/english/Avara/Avara-Black.otf",
+    "size": "22.4 kB",
+    "ctime": 1721502553311
+  },
+  {
+    "name": "Avara-Bold",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/velvetyne/Avara/",
+    "path": "fonts/english/Avara/Avara-Bold.otf",
+    "size": "16.3 kB",
+    "ctime": 1721502553312
+  },
+  {
+    "name": "Avara-BoldItalic",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/velvetyne/Avara/",
+    "path": "fonts/english/Avara/Avara-BoldItalic.otf",
+    "size": "19.8 kB",
+    "ctime": 1721502553313
   }
 ]
