@@ -5193,8 +5193,16 @@
     "name": "仓迹高德国妙黑",
     "type": "黑体",
     "home": "https://mp.weixin.qq.com/s/NioUj8kNNVXwqlgG3NVWcA",
-    "path": "docs/fonts/其他字体/仓迹高德国妙黑.otf",
+    "path": "fonts/其他字体/仓迹高德国妙黑.otf",
     "size": "3.85 MB",
     "ctime": 1721505000583
+  },
+  {
+    "name": "阿朱泡泡体",
+    "type": "艺术体",
+    "home": "https://www.zcool.com.cn/work/ZNDA2MzkyNTY=.html",
+    "path": "fonts/其他字体/阿朱泡泡体.ttf",
+    "size": "3.43 MB",
+    "ctime": 1721528918973
   }
 ]
