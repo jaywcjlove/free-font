@@ -5296,9 +5296,19 @@
   },
   {
     "name": "马善政毛笔楷书",
+    "type": "楷体",
     "home": "https://github.com/m4rc1e/mashanzheng",
     "path": "fonts/其他字体/马善政毛笔楷书.ttf",
     "size": "5.87 MB",
     "ctime": 1721543673122
+  },
+  {
+    "name": "玄冬楷书",
+    "type": "楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Skr-ZERO/Xuandong-Kaishu",
+    "path": "fonts/其他字体/玄冬楷书.ttf",
+    "size": "5.9 MB",
+    "ctime": 1721543856520
   }
 ]
