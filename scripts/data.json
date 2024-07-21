@@ -5388,5 +5388,13 @@
     "path": "fonts/english/other/AMDAL.ttf",
     "size": "33.8 kB",
     "ctime": 1721550511873
+  },
+  {
+    "name": "Gulax",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/velvetyne/Gulax",
+    "path": "fonts/english/other/Gulax.otf",
+    "size": "37.7 kB",
+    "ctime": 1721550744928
   }
 ]
