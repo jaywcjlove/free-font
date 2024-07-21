@@ -5284,5 +5284,14 @@
     "path": "fonts/余繁新语体/余繁丹青宋.otf",
     "size": "13.2 MB",
     "ctime": 1721543228724
+  },
+  {
+    "name": "余繁细柳体",
+    "license": "OFL-1.1",
+    "type": "艺术体",
+    "home": "https://github.com/chilingg/yufanxiliu",
+    "path": "fonts/余繁新语体/余繁细柳体.otf",
+    "size": "4.76 MB",
+    "ctime": 1721543345268
   }
 ]
