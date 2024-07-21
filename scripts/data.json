@@ -5231,5 +5231,41 @@
     "path": "fonts/汉仪字库/汉仪瘦金书繁.ttf",
     "size": "6.56 MB",
     "ctime": 1721530701462
+  },
+  {
+    "name": "余繁新语体-Bold",
+    "license": "MIT",
+    "type": "艺术体",
+    "home": "https://github.com/chilingg/yufanxinyu",
+    "path": "fonts/余繁新语体/余繁新语体-Bold.ttf",
+    "size": "2.84 MB",
+    "ctime": 1721542624575
+  },
+  {
+    "name": "余繁新语体-Light",
+    "license": "MIT",
+    "type": "艺术体",
+    "home": "https://github.com/chilingg/yufanxinyu",
+    "path": "fonts/余繁新语体/余繁新语体-Light.ttf",
+    "size": "2.86 MB",
+    "ctime": 1721542624584
+  },
+  {
+    "name": "余繁新语体-Medium",
+    "license": "MIT",
+    "type": "艺术体",
+    "home": "https://github.com/chilingg/yufanxinyu",
+    "path": "fonts/余繁新语体/余繁新语体-Medium.ttf",
+    "size": "2.84 MB",
+    "ctime": 1721542624593
+  },
+  {
+    "name": "余繁新语体-Regular",
+    "license": "MIT",
+    "type": "艺术体",
+    "home": "https://github.com/chilingg/yufanxinyu",
+    "path": "fonts/余繁新语体/余繁新语体-Regular.ttf",
+    "size": "2.31 MB",
+    "ctime": 1721542624600
   }
 ]
