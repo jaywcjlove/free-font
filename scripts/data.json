@@ -5275,5 +5275,14 @@
     "path": "fonts/余繁新语体/余繁真素体.otf",
     "size": "3.53 MB",
     "ctime": 1721542922677
+  },
+  {
+    "name": "余繁丹青宋",
+    "license": "OFL-1.1",
+    "type": "宋体",
+    "home": "https://github.com/chilingg/YufanDanQingSong",
+    "path": "fonts/余繁新语体/余繁丹青宋.otf",
+    "size": "13.2 MB",
+    "ctime": 1721543228724
   }
 ]
