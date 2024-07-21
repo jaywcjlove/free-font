@@ -5356,5 +5356,13 @@
     "path": "fonts/english/TerminalGrotesque/terminal-grotesque_open.otf",
     "size": "106 kB",
     "ctime": 1721549774657
+  },
+  {
+    "name": "HyperScrypt",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/StudioTriple/Hyper-Scrypt",
+    "path": "fonts/english/other/HyperScrypt.otf",
+    "size": "52.2 kB",
+    "ctime": 1721550086583
   }
 ]
