@@ -5396,5 +5396,29 @@
     "path": "fonts/english/other/Gulax.otf",
     "size": "37.7 kB",
     "ctime": 1721550744928
+  },
+  {
+    "name": "Outward-block",
+    "license": "OFL-1.1",
+    "home": "https://github.com/raoulaudouin/Outward",
+    "path": "fonts/english/Outward/Outward-block.ttf",
+    "size": "192 kB",
+    "ctime": 1721550878480
+  },
+  {
+    "name": "Outward-borders",
+    "license": "OFL-1.1",
+    "home": "https://github.com/raoulaudouin/Outward",
+    "path": "fonts/english/Outward/Outward-borders.ttf",
+    "size": "221 kB",
+    "ctime": 1721550878486
+  },
+  {
+    "name": "Outward-round",
+    "license": "OFL-1.1",
+    "home": "https://github.com/raoulaudouin/Outward",
+    "path": "fonts/english/Outward/Outward-round.ttf",
+    "size": "174 kB",
+    "ctime": 1721550878490
   }
 ]
