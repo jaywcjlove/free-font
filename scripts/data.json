@@ -5207,10 +5207,20 @@
   },
   {
     "name": "汉仪铸字童年体",
+    "type": "艺术体",
     "license": "个人免费",
     "home": "https://www.hanyi.com.cn/productdetail?id=2533",
     "path": "fonts/汉仪字库/汉仪铸字童年体.ttf",
     "size": "2.66 MB",
     "ctime": 1721529853780
+  },
+  {
+    "name": "汉仪平安行繁",
+    "type": "手绘体",
+    "license": "个人免费",
+    "home": "https://www.hanyi.com.cn/productdetail?id=448",
+    "path": "fonts/汉仪字库/汉仪平安行繁.ttf",
+    "size": "5.31 MB",
+    "ctime": 1721530368563
   }
 ]
