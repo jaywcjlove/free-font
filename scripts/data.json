@@ -5380,5 +5380,13 @@
     "path": "fonts/english/other/PicNic.otf",
     "size": "121 kB",
     "ctime": 1721550389702
+  },
+  {
+    "name": "AMDAL",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/velvetyne/amdal",
+    "path": "fonts/english/other/AMDAL.ttf",
+    "size": "33.8 kB",
+    "ctime": 1721550511873
   }
 ]
