@@ -3,6 +3,11 @@
   "private": false,
   "version": "2.4.0",
   "type": "module",
+  "homepage": "https://jaywcjlove.github.io/free-font/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/free-font"
+  },
   "scripts": {
     "start": "node scripts/main.mjs && npm run build",
     "one": "node scripts/main.mjs -a",

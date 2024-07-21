@@ -5340,5 +5340,21 @@
     "path": "fonts/其他字体/装甲明朝体.ttf",
     "size": "9.82 MB",
     "ctime": 1721548428250
+  },
+  {
+    "name": "terminal-grotesque",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/raphaelbastide/Terminal-Grotesque",
+    "path": "fonts/english/TerminalGrotesque/terminal-grotesque.otf",
+    "size": "57.8 kB",
+    "ctime": 1721549774655
+  },
+  {
+    "name": "terminal-grotesque_open",
+    "license": "OFL-1.1",
+    "home": "https://gitlab.com/raphaelbastide/Terminal-Grotesque",
+    "path": "fonts/english/TerminalGrotesque/terminal-grotesque_open.otf",
+    "size": "106 kB",
+    "ctime": 1721549774657
   }
 ]
