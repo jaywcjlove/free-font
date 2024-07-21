@@ -5367,9 +5367,18 @@
   },
   {
     "name": "Lithops",
+    "license": "OFL-1.1",
     "home": "https://gitlab.com/daytonamess/lithops",
     "path": "fonts/english/other/Lithops.ttf",
     "size": "2.16 MB",
     "ctime": 1721550237901
+  },
+  {
+    "name": "PicNic",
+    "home": "https://gitlab.com/mariellenils/PicNic",
+    "license": "OFL-1.1",
+    "path": "fonts/english/other/PicNic.otf",
+    "size": "121 kB",
+    "ctime": 1721550389702
   }
 ]
