@@ -5364,5 +5364,12 @@
     "path": "fonts/english/other/HyperScrypt.otf",
     "size": "52.2 kB",
     "ctime": 1721550086583
+  },
+  {
+    "name": "Lithops",
+    "home": "https://gitlab.com/daytonamess/lithops",
+    "path": "fonts/english/other/Lithops.ttf",
+    "size": "2.16 MB",
+    "ctime": 1721550237901
   }
 ]
