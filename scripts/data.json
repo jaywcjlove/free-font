@@ -5325,5 +5325,13 @@
     "path": "fonts/其他字体/逐浪萌芽字.ttf",
     "size": "2.62 MB",
     "ctime": 1721545340656
+  },
+  {
+    "name": "逐浪粗宋",
+    "type": "宋体",
+    "home": "https://github.com/z01font/ZoomlaCusong",
+    "path": "fonts/逐浪字库/逐浪粗宋.ttf",
+    "size": "2.18 MB",
+    "ctime": 1721545526948
   }
 ]
