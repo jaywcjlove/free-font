@@ -5267,5 +5267,13 @@
     "path": "fonts/余繁新语体/余繁新语体-Regular.ttf",
     "size": "2.31 MB",
     "ctime": 1721542624600
+  },
+  {
+    "name": "余繁真素体",
+    "license": "MIT",
+    "home": "https://github.com/chilingg/yufanzhensu",
+    "path": "fonts/余繁新语体/余繁真素体.otf",
+    "size": "3.53 MB",
+    "ctime": 1721542922677
   }
 ]
