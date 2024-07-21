@@ -1,0 +1,11 @@
+<%- include('./_partial/header', { type: "home" }); %>
+<% const openSource = DATA.filter((item) => item.home && item.home.includes("github.com")).sort((a, b) => a.ctime - b.ctime) %>
+<header>
+<%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>
+</header>
+<main>
+  <% openSource.sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
+    <%- include('./_partial/home-list', { font }); %>
+  <% }); %>
+</main>
+<%- include('./_partial/footer', { }); %>
