@@ -5420,5 +5420,21 @@
     "path": "fonts/english/Outward/Outward-round.ttf",
     "size": "174 kB",
     "ctime": 1721550878490
+  },
+  {
+    "name": "pinyin-step",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jaywcjlove/pinyin-font/",
+    "path": "fonts/english/pinyin/pinyin-step.ttf",
+    "size": "74.9 kB",
+    "ctime": 1721838198959
+  },
+  {
+    "name": "pinyin-regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jaywcjlove/pinyin-font/",
+    "path": "fonts/english/pinyin/pinyin-regular.ttf",
+    "size": "17.4 kB",
+    "ctime": 1721838198937
   }
 ]
