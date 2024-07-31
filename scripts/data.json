@@ -6041,8 +6041,45 @@
   {
     "name": "麦克笔手绘体",
     "type": "艺术体",
+    "home": "https://tanukifont.com/tanuki-permanent-marker/",
     "path": "fonts/其他字体/麦克笔手绘体.ttf",
     "size": "8.83 MB",
     "ctime": 1722438681125
+  },
+  {
+    "name": "曉聲通秋茄-雙拼注音",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-tsuipita",
+    "path": "fonts/曉聲通秋茄/曉聲通秋茄-雙拼注音.ttf",
+    "size": "31.3 MB",
+    "ctime": 1722440091228
+  },
+  {
+    "name": "曉聲通秋茄-拼音",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-tsuipita",
+    "path": "fonts/曉聲通秋茄/曉聲通秋茄-拼音.ttf",
+    "size": "31.9 MB",
+    "ctime": 1722440091396
+  },
+  {
+    "name": "曉聲通秋茄-注音",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-tsuipita",
+    "path": "fonts/曉聲通秋茄/曉聲通秋茄-注音.ttf",
+    "size": "31.2 MB",
+    "ctime": 1722440091326
+  },
+  {
+    "name": "曉聲通秋茄",
+    "type": "手绘体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-tsuipita",
+    "path": "fonts/曉聲通秋茄/曉聲通秋茄.ttf",
+    "size": "29.5 MB",
+    "ctime": 1722440091450
   }
 ]
