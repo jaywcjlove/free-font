@@ -5549,5 +5549,14 @@
     "path": "fonts/中文像素字体/中文像素字体-钻石点.otf",
     "size": "8.04 MB",
     "ctime": 1722400832829
+  },
+  {
+    "name": "香萃刻宋",
+    "type": "宋体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Kesong",
+    "path": "fonts/其他字体/香萃刻宋.ttf",
+    "size": "20.1 MB",
+    "ctime": 1722401203150
   }
 ]
