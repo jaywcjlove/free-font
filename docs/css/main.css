@@ -77,10 +77,11 @@ main > div, main > div a, main > div span, main > div img {
   display: block;
 }
 
-main > div  img {
+main > div img {
   width: 100%;
   min-height: 68px;
   border-radius: 6px;
+  margin-bottom: 6px;
 }
 
 main > div a {
@@ -102,7 +103,7 @@ main > div:hover {
   background: #333;
 }
 main > div p {
-  padding-top: 3px;
+  position: relative;
   display: flex;
   align-items: center;
   line-height: 1;
@@ -112,7 +113,7 @@ main > div p {
 main > div .license {
   font-size: 10px;
   position: absolute;
-  margin-top: -47px;
+  margin-top: -21px;
   margin-left: 5px;
 }
 
@@ -131,6 +132,8 @@ main > div .license i {
 
 main > div p > span {
   color: #a1a1a1;
+  position: relative;
+  top: -1px;
 }
 
 main > div:hover > .button {
