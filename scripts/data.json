@@ -5493,5 +5493,37 @@
     "path": "fonts/其他字体/飞波正点体.ttf",
     "size": "16 MB",
     "ctime": 1722399965100
+  },
+  {
+    "name": "寒蝉书体·龙藏楷书",
+    "type": "手绘体",
+    "home": "https://github.com/Warren2060/ChillCalligraphy",
+    "path": "fonts/寒蝉书体/寒蝉书体·龙藏楷书.otf",
+    "size": "3.86 MB",
+    "ctime": 1722400250706
+  },
+  {
+    "name": "寒蝉书体·龙藏楷书_Bold",
+    "type": "手绘体",
+    "home": "https://github.com/Warren2060/ChillCalligraphy",
+    "path": "fonts/寒蝉书体/寒蝉书体·龙藏楷书_Bold.otf",
+    "size": "4.25 MB",
+    "ctime": 1722400250690
+  },
+  {
+    "name": "寒蝉书体·龙藏楷书_ExtraBold",
+    "type": "手绘体",
+    "home": "https://github.com/Warren2060/ChillCalligraphy",
+    "path": "fonts/寒蝉书体/寒蝉书体·龙藏楷书_ExtraBold.otf",
+    "size": "4.21 MB",
+    "ctime": 1722400250716
+  },
+  {
+    "name": "寒蝉书体·龙藏楷书_Medium",
+    "type": "手绘体",
+    "home": "https://github.com/Warren2060/ChillCalligraphy",
+    "path": "fonts/寒蝉书体/寒蝉书体·龙藏楷书_Medium.otf",
+    "size": "3.67 MB",
+    "ctime": 1722400250726
   }
 ]
