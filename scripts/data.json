@@ -5448,9 +5448,18 @@
   {
     "name": "钟齐流江毛草",
     "license": "OFL-1.1",
+    "type": "手绘体",
     "home": "https://github.com/googlefonts/liujianmaocao",
     "path": "fonts/其他字体/钟齐流江毛草.ttf",
     "size": "4.95 MB",
     "ctime": 1722394253672
+  },
+  {
+    "name": "白路俏丽手写体",
+    "type": "手绘体",
+    "home": "https://www.zcool.com.cn/work/ZNjkxNjU4NTI=.html",
+    "path": "fonts/其他字体/白路字库/白路俏丽手写体.ttf",
+    "size": "4.48 MB",
+    "ctime": 1722394873627
   }
 ]
