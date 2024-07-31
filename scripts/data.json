@@ -5760,5 +5760,77 @@
     "path": "fonts/寒蝉字型/寒蝉点阵体_16px.ttf",
     "size": "12.6 MB",
     "ctime": 1722404465175
+  },
+  {
+    "name": "寒蝉无机体",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体.otf",
+    "size": "9.24 MB",
+    "ctime": 1722404914611
+  },
+  {
+    "name": "寒蝉无机体_CompactMedium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体_CompactMedium.otf",
+    "size": "9.92 MB",
+    "ctime": 1722404914521
+  },
+  {
+    "name": "寒蝉无机体_CompactRegular",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体_CompactRegular.otf",
+    "size": "9.37 MB",
+    "ctime": 1722404914457
+  },
+  {
+    "name": "寒蝉无机体_Medium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体_Medium.otf",
+    "size": "9.73 MB",
+    "ctime": 1722404914566
+  },
+  {
+    "name": "寒蝉无机体_WideMedium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体_WideMedium.otf",
+    "size": "9.62 MB",
+    "ctime": 1722404914489
+  },
+  {
+    "name": "寒蝉无机体_WideRegular",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉无机体_WideRegular.otf",
+    "size": "9.4 MB",
+    "ctime": 1722404914426
+  },
+  {
+    "name": "寒蝉有机",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉有机.otf",
+    "size": "9.11 MB",
+    "ctime": 1722404914662
+  },
+  {
+    "name": "寒蝉有机_Medium",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillTanHei",
+    "path": "fonts/寒蝉字型/寒蝉有机_Medium.otf",
+    "size": "9.44 MB",
+    "ctime": 1722404914643
   }
 ]
