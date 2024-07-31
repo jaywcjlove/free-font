@@ -5832,5 +5832,21 @@
     "path": "fonts/寒蝉字型/寒蝉有机_Medium.otf",
     "size": "9.44 MB",
     "ctime": 1722404914643
+  },
+  {
+    "name": "寒蝉团圆体_Round",
+    "home": "https://github.com/Warren2060/ChillReunion",
+    "license": "OFL-1.1",
+    "path": "fonts/寒蝉字型/寒蝉团圆体_Round.otf",
+    "size": "2.81 MB",
+    "ctime": 1722405356391
+  },
+  {
+    "name": "寒蝉团圆体_Sans",
+    "home": "https://github.com/Warren2060/ChillReunion",
+    "license": "OFL-1.1",
+    "path": "fonts/寒蝉字型/寒蝉团圆体_Sans.otf",
+    "size": "2.19 MB",
+    "ctime": 1722405356409
   }
 ]
