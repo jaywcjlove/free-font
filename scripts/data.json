@@ -5555,7 +5555,7 @@
     "type": "宋体",
     "license": "OFL-1.1",
     "home": "https://github.com/Miiiller/Xiangcui-Kesong",
-    "path": "fonts/其他字体/香萃刻宋.ttf",
+    "path": "fonts/香萃/香萃刻宋.ttf",
     "size": "20.1 MB",
     "ctime": 1722401203150
   },
@@ -5636,7 +5636,7 @@
     "type": "楷体",
     "home": "https://github.com/Miiiller/Xiangcui-Wave-Sans",
     "license": "OFL-1.1",
-    "path": "fonts/其他字体/香萃自在舒畅黑.ttf",
+    "path": "fonts/香萃/香萃自在舒畅黑.ttf",
     "size": "9.81 MB",
     "ctime": 1722402010140
   },
@@ -5648,5 +5648,32 @@
     "path": "fonts/其他字体/小帛宋体.ttf",
     "size": "41.1 MB",
     "ctime": 1722402149826
+  },
+  {
+    "name": "香萃打字机体 W15",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Dazijiti",
+    "path": "fonts/香萃/香萃打字机体 W15.ttf",
+    "size": "16.5 MB",
+    "ctime": 1722402881313
+  },
+  {
+    "name": "香萃打字机体 W35",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Dazijiti",
+    "path": "fonts/香萃/香萃打字机体 W35.ttf",
+    "size": "16.1 MB",
+    "ctime": 1722402886165
+  },
+  {
+    "name": "香萃打字机体 W40",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Dazijiti",
+    "path": "fonts/香萃/香萃打字机体 W40.ttf",
+    "size": "16.2 MB",
+    "ctime": 1722402890767
   }
 ]
