@@ -6026,9 +6026,16 @@
   },
   {
     "name": "源界明朝体",
+    "type": "艺术体",
     "home": "https://flopdesign.com/blog/font/5146/",
     "path": "fonts/其他字体/源界明朝体.ttf",
     "size": "23 MB",
     "ctime": 1722438233563
+  },
+  {
+    "name": "超级细",
+    "path": "fonts/其他字体/超级细.ttf",
+    "size": "2.75 MB",
+    "ctime": 1722438565615
   }
 ]
