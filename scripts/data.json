@@ -5675,5 +5675,32 @@
     "path": "fonts/香萃/香萃打字机体 W40.ttf",
     "size": "16.2 MB",
     "ctime": 1722402890767
+  },
+  {
+    "name": "空源黑体 L",
+    "type": "黑体",
+    "home": "https://github.com/Miiiller/Kongyuan-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/空源黑体/空源黑体 L.otf",
+    "size": "31.1 MB",
+    "ctime": 1722403137972
+  },
+  {
+    "name": "空源黑体 M",
+    "type": "黑体",
+    "home": "https://github.com/Miiiller/Kongyuan-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/空源黑体/空源黑体 M.otf",
+    "size": "31 MB",
+    "ctime": 1722403137810
+  },
+  {
+    "name": "空源黑体 R",
+    "type": "黑体",
+    "home": "https://github.com/Miiiller/Kongyuan-Sans",
+    "license": "OFL-1.1",
+    "path": "fonts/空源黑体/空源黑体 R.otf",
+    "size": "31 MB",
+    "ctime": 1722403137901
   }
 ]
