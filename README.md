@@ -12,7 +12,7 @@
 
 ## 添加商免字体
 
-将字体添加到 [`web/fonts`](./web/fonts/) 目录中，在 [`scripts/data.json`](./scripts/data.json) 中添加字体相关信息
+将字体添加到 [`docs/fonts`](./docs/fonts/) 目录中，在 [`scripts/data.json`](./scripts/data.json) 中添加字体相关信息
 
 ```js
 {
