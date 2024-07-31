@@ -6095,5 +6095,29 @@
     "path": "fonts/拼音鼎楷/拼音鼎楷W.ttf",
     "size": "16.1 MB",
     "ctime": 1722440715191
+  },
+  {
+    "name": "澳声通拼音文楷-Bold",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-pinyin-wenkai",
+    "license": "OFL-1.1",
+    "path": "fonts/澳声通拼音文楷/澳声通拼音文楷-Bold.ttf",
+    "size": "19.6 MB",
+    "ctime": 1722441106790
+  },
+  {
+    "name": "澳声通拼音文楷-Light",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-pinyin-wenkai",
+    "license": "OFL-1.1",
+    "path": "fonts/澳声通拼音文楷/澳声通拼音文楷-Light.ttf",
+    "size": "20.7 MB",
+    "ctime": 1722441106749
+  },
+  {
+    "name": "澳声通拼音文楷-Regular",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-pinyin-wenkai",
+    "license": "OFL-1.1",
+    "path": "fonts/澳声通拼音文楷/澳声通拼音文楷-Regular.ttf",
+    "size": "20 MB",
+    "ctime": 1722441106672
   }
 ]
