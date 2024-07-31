@@ -5848,5 +5848,23 @@
     "path": "fonts/寒蝉字型/寒蝉团圆体_Sans.otf",
     "size": "2.19 MB",
     "ctime": 1722405356409
+  },
+  {
+    "name": "寒蝉正楷体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/Chillkai",
+    "type": "楷体",
+    "path": "fonts/寒蝉字型/寒蝉正楷体.ttf",
+    "size": "35 MB",
+    "ctime": 1722405578271
+  },
+  {
+    "name": "寒蝉正楷体_Big5",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/Chillkai",
+    "type": "楷体",
+    "path": "fonts/寒蝉字型/寒蝉正楷体_Big5.ttf",
+    "size": "22.2 MB",
+    "ctime": 1722405596319
   }
 ]
