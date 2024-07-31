@@ -5639,5 +5639,14 @@
     "path": "fonts/其他字体/香萃自在舒畅黑.ttf",
     "size": "9.81 MB",
     "ctime": 1722402010140
+  },
+  {
+    "name": "小帛宋体",
+    "type": "宋体",
+    "home": "https://github.com/Miiiller/Xiaobo-Songti",
+    "license": "OFL-1.1",
+    "path": "fonts/其他字体/小帛宋体.ttf",
+    "size": "41.1 MB",
+    "ctime": 1722402149826
   }
 ]
