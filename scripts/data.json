@@ -6081,5 +6081,19 @@
     "path": "fonts/曉聲通秋茄/曉聲通秋茄.ttf",
     "size": "29.5 MB",
     "ctime": 1722440091450
+  },
+  {
+    "name": "拼音鼎楷",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-pinyin-kai",
+    "path": "fonts/拼音鼎楷/拼音鼎楷.ttf",
+    "size": "16.1 MB",
+    "ctime": 1722440715263
+  },
+  {
+    "name": "拼音鼎楷W",
+    "home": "https://github.com/jeffreyxuan/toneoz-font-pinyin-kai",
+    "path": "fonts/拼音鼎楷/拼音鼎楷W.ttf",
+    "size": "16.1 MB",
+    "ctime": 1722440715191
   }
 ]
