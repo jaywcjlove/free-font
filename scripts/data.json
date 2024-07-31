@@ -6009,5 +6009,19 @@
     "path": "fonts/其他字体/851手写杂字体.ttf",
     "size": "28.6 MB",
     "ctime": 1722437306364
+  },
+  {
+    "name": "花园明朝A",
+    "home": "http://fonts.jp/hanazono/",
+    "path": "fonts/花园明朝/花园明朝A.ttf",
+    "size": "22.8 MB",
+    "ctime": 1722437782178
+  },
+  {
+    "name": "花园明朝B",
+    "home": "http://fonts.jp/hanazono/",
+    "path": "fonts/花园明朝/花园明朝B.ttf",
+    "size": "30.7 MB",
+    "ctime": 1722437782231
   }
 ]
