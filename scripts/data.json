@@ -5525,5 +5525,29 @@
     "path": "fonts/寒蝉书体/寒蝉书体·龙藏楷书_Medium.otf",
     "size": "3.67 MB",
     "ctime": 1722400250726
+  },
+  {
+    "name": "中文像素字体-圆点",
+    "type": "艺术体",
+    "home": "https://github.com/wixette/dotted-chinese-fonts",
+    "path": "fonts/中文像素字体/中文像素字体-圆点.otf",
+    "size": "6.93 MB",
+    "ctime": 1722400832860
+  },
+  {
+    "name": "中文像素字体-方点",
+    "type": "艺术体",
+    "home": "https://github.com/wixette/dotted-chinese-fonts",
+    "path": "fonts/中文像素字体/中文像素字体-方点.otf",
+    "size": "9.47 MB",
+    "ctime": 1722400832886
+  },
+  {
+    "name": "中文像素字体-钻石点",
+    "type": "艺术体",
+    "home": "https://github.com/wixette/dotted-chinese-fonts",
+    "path": "fonts/中文像素字体/中文像素字体-钻石点.otf",
+    "size": "8.04 MB",
+    "ctime": 1722400832829
   }
 ]
