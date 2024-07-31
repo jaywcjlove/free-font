@@ -5720,5 +5720,21 @@
     "path": "fonts/香萃/香萃潮汐宋W40.ttf",
     "size": "5.9 MB",
     "ctime": 1722403376647
+  },
+  {
+    "name": "寒蝉圆体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillRound",
+    "path": "fonts/寒蝉字型/寒蝉圆体.ttf",
+    "size": "6.21 MB",
+    "ctime": 1722403960078
+  },
+  {
+    "name": "寒蝉圆体Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Warren2060/ChillRound",
+    "path": "fonts/寒蝉字型/寒蝉圆体Bold.ttf",
+    "size": "7 MB",
+    "ctime": 1722403960065
   }
 ]
