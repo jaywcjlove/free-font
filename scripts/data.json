@@ -5736,5 +5736,29 @@
     "path": "fonts/寒蝉字型/寒蝉圆体Bold.ttf",
     "size": "7 MB",
     "ctime": 1722403960065
+  },
+  {
+    "name": "寒蝉点阵体_7px",
+    "path": "fonts/寒蝉字型/寒蝉点阵体_7px.ttf",
+    "size": "2.02 MB",
+    "ctime": 1722404465196
+  },
+  {
+    "name": "寒蝉点阵体SE_7px",
+    "path": "fonts/寒蝉字型/寒蝉点阵体SE_7px.ttf",
+    "size": "78.4 kB",
+    "ctime": 1722404465210
+  },
+  {
+    "name": "寒蝉点阵体SE_16px",
+    "path": "fonts/寒蝉字型/寒蝉点阵体SE_16px.ttf",
+    "size": "497 kB",
+    "ctime": 1722404465181
+  },
+  {
+    "name": "寒蝉点阵体_16px",
+    "path": "fonts/寒蝉字型/寒蝉点阵体_16px.ttf",
+    "size": "12.6 MB",
+    "ctime": 1722404465175
   }
 ]
