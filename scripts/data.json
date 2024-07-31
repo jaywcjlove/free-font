@@ -5436,5 +5436,13 @@
     "path": "fonts/english/pinyin/pinyin-regular.ttf",
     "size": "20.8 kB",
     "ctime": 1721895623534
+  },
+  {
+    "name": "Pixellari",
+    "license": "OFL-1.1",
+    "home": "https://github.com/zedseven/Pixellari",
+    "path": "fonts/english/other/Pixellari.ttf",
+    "size": "39.9 kB",
+    "ctime": 1722392812247
   }
 ]
