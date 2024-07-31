@@ -5702,5 +5702,23 @@
     "path": "fonts/空源黑体/空源黑体 R.otf",
     "size": "31 MB",
     "ctime": 1722403137901
+  },
+  {
+    "name": "香萃潮汐宋W15",
+    "type": "宋体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Chaoxisong",
+    "path": "fonts/香萃/香萃潮汐宋W15.ttf",
+    "size": "5.78 MB",
+    "ctime": 1722403376615
+  },
+  {
+    "name": "香萃潮汐宋W40",
+    "type": "宋体",
+    "license": "OFL-1.1",
+    "home": "https://github.com/Miiiller/Xiangcui-Chaoxisong",
+    "path": "fonts/香萃/香萃潮汐宋W40.ttf",
+    "size": "5.9 MB",
+    "ctime": 1722403376647
   }
 ]
