@@ -97,6 +97,7 @@ main > div {
   font-size: 14px;
   transition: all 0.3s;
   position: relative;
+  overflow: hidden;
 }
 main > div:hover {
   border: 1px solid #ffffff3b;
@@ -133,7 +134,9 @@ main > div .license i {
 main > div p > span {
   color: #a1a1a1;
   position: relative;
+  white-space: nowrap;
   top: -1px;
+  font-size: 12px;
 }
 
 main > div:hover > .button {
@@ -165,13 +168,13 @@ main {
   margin: 0 auto;
   display: grid;
   gap: 0.95rem;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 0 12px;
 }
 
 @media (min-width: 600px) {
   main {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   header p {
     font-size: 1.15em;
@@ -186,13 +189,13 @@ main {
 
 @media (min-width: 900px) {
   main {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
   main {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
