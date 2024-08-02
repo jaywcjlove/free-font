@@ -6605,5 +6605,245 @@
     "path": "fonts/梦源字体/梦源宋体/梦源宋体-W9.ttc",
     "size": "38.6 MB",
     "ctime": 1722600355693
+  },
+  {
+    "name": "26FGalaxyHebrew-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Black.ttf",
+    "size": "40.7 kB",
+    "ctime": 1722627332712
+  },
+  {
+    "name": "26FGalaxyHebrew-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Bold.ttf",
+    "size": "37.5 kB",
+    "ctime": 1722627332718
+  },
+  {
+    "name": "26FGalaxyHebrew-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-ExtraBold.ttf",
+    "size": "39.7 kB",
+    "ctime": 1722627332724
+  },
+  {
+    "name": "26FGalaxyHebrew-Hairline",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Hairline.ttf",
+    "size": "37.1 kB",
+    "ctime": 1722627332737
+  },
+  {
+    "name": "26FGalaxyHebrew-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Light.ttf",
+    "size": "37.3 kB",
+    "ctime": 1722627332754
+  },
+  {
+    "name": "26FGalaxyHebrew-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Medium.ttf",
+    "size": "37.4 kB",
+    "ctime": 1722627332772
+  },
+  {
+    "name": "26FGalaxyHebrew-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Regular.ttf",
+    "size": "37.3 kB",
+    "ctime": 1722627332789
+  },
+  {
+    "name": "26FGalaxyHebrew-Thin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-Thin.ttf",
+    "size": "37.2 kB",
+    "ctime": 1722627332805
+  },
+  {
+    "name": "26FGalaxyHebrew-UltraLight",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrew-UltraLight.ttf",
+    "size": "37.4 kB",
+    "ctime": 1722627332823
+  },
+  {
+    "name": "26FGalaxyHebrewVF",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxyHebrewVF.ttf",
+    "size": "81.7 kB",
+    "ctime": 1722627332706
+  },
+  {
+    "name": "26FGalaxySans-Black",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Black.ttf",
+    "size": "56 kB",
+    "ctime": 1722627315707
+  },
+  {
+    "name": "26FGalaxySans-BlackOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-BlackOblique.ttf",
+    "size": "96.4 kB",
+    "ctime": 1722627315627
+  },
+  {
+    "name": "26FGalaxySans-Bold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Bold.ttf",
+    "size": "51.8 kB",
+    "ctime": 1722627315720
+  },
+  {
+    "name": "26FGalaxySans-BoldOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-BoldOblique.ttf",
+    "size": "90.8 kB",
+    "ctime": 1722627315631
+  },
+  {
+    "name": "26FGalaxySans-ExtraBold",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-ExtraBold.ttf",
+    "size": "55.7 kB",
+    "ctime": 1722627315743
+  },
+  {
+    "name": "26FGalaxySans-ExtraBoldOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-ExtraBoldOblique.ttf",
+    "size": "95.1 kB",
+    "ctime": 1722627315637
+  },
+  {
+    "name": "26FGalaxySans-Hairline",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Hairline.ttf",
+    "size": "51.4 kB",
+    "ctime": 1722627315751
+  },
+  {
+    "name": "26FGalaxySans-HairlineOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-HairlineOblique.ttf",
+    "size": "89.4 kB",
+    "ctime": 1722627315649
+  },
+  {
+    "name": "26FGalaxySans-Light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Light.ttf",
+    "size": "51.7 kB",
+    "ctime": 1722627315759
+  },
+  {
+    "name": "26FGalaxySans-LightOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-LightOblique.ttf",
+    "size": "89.6 kB",
+    "ctime": 1722627315655
+  },
+  {
+    "name": "26FGalaxySans-Medium",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Medium.ttf",
+    "size": "51.8 kB",
+    "ctime": 1722627315769
+  },
+  {
+    "name": "26FGalaxySans-MediumOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-MediumOblique.ttf",
+    "size": "90.4 kB",
+    "ctime": 1722627315666
+  },
+  {
+    "name": "26FGalaxySans-Oblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Oblique.ttf",
+    "size": "89.5 kB",
+    "ctime": 1722627315672
+  },
+  {
+    "name": "26FGalaxySans-ObliqueVF",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-ObliqueVF.ttf",
+    "size": "223 kB",
+    "ctime": 1722627378969
+  },
+  {
+    "name": "26FGalaxySans-Regular",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Regular.ttf",
+    "size": "51.5 kB",
+    "ctime": 1722627315774
+  },
+  {
+    "name": "26FGalaxySans-Thin",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-Thin.ttf",
+    "size": "51.6 kB",
+    "ctime": 1722627315787
+  },
+  {
+    "name": "26FGalaxySans-ThinOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-ThinOblique.ttf",
+    "size": "89.6 kB",
+    "ctime": 1722627315687
+  },
+  {
+    "name": "26FGalaxySans-UltraLight",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-UltraLight.ttf",
+    "size": "51.8 kB",
+    "ctime": 1722627315803
+  },
+  {
+    "name": "26FGalaxySans-UltraLightOblique",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySans-UltraLightOblique.ttf",
+    "size": "89.9 kB",
+    "ctime": 1722627315700
+  },
+  {
+    "name": "26FGalaxySansVF",
+    "license": "OFL-1.1",
+    "home": "https://github.com/C29H25N3O5/26F-Galaxy-Sans",
+    "path": "fonts/english/26F-Galaxy-Sans/26FGalaxySansVF.ttf",
+    "size": "99.6 kB",
+    "ctime": 1722627378977
   }
 ]
