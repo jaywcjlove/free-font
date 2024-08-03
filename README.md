@@ -1,3 +1,5 @@
+⚠️ GitHub [Page](https://jaywcjlove.github.io/free-font/) 无法更新，最新更新访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)
+
 <div align="center">
   <a href="https://wangchujiang.com/free-font/">
 	  <img src="https://github.com/user-attachments/assets/e050dbf1-464c-44ac-89a8-eaf21490200c" alt="收录商用免费汉字(英文)字体 Free Font">
@@ -21,7 +23,7 @@
   "size": "116 kB",  // - 文字大小
   "path": "fonts/其他字体/剔骨仿宋.ttf", // 字体在 web 目录中的位置 - 注意斜杠 `/`
   // ⚠️ 自动生成 ------- 不需要修改
-  
+
   // 分类
   "type": "艺术体",  // 英文字体放入 `docs/fonts/english` 目录即可
   // 许可协议
