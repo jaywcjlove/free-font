@@ -118,7 +118,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) 
 
-如果你有资源，可以很方便部署字体网站，这非常简单，只需要克隆 `main` 分支代码，将 `docs` 目录的静态资源部署到你的静态服务就可以了。
+如果你有资源，可以很方便部署字体网站，这非常简单，只需要克隆 `main` 分支代码，将 [`docs`](./docs/) 目录的静态资源部署到你的静态服务就可以了。
 
 ## License
 
