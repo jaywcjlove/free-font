@@ -1,4 +1,4 @@
-<%- include('./_partial/header', { type: "home", pageurl: "open-source.html" }); %>
+<%- include('./_partial/header', { type: "home", title: "开源字体", pageurl: "open-source.html" }); %>
 <% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => a.ctime - b.ctime) %>
 <header>
 <%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>

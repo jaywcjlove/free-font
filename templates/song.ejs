@@ -1,6 +1,6 @@
-<%- include('./_partial/header', { type: "home", pageurl: "song.html" }); %>
+<%- include('./_partial/header', { type: "home", title: "宋体", pageurl: "song.html" }); %>
 <header>
-<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "楷体").length, type: "宋体" }); %>
+<%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "宋体").length, type: "宋体" }); %>
 </header>
 <main>
   <% DATA.filter((item) => item.type == "宋体").sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>

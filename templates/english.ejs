@@ -1,4 +1,4 @@
-<%- include('./_partial/header', { type: "home", pageurl: "english.html" }); %>
+<%- include('./_partial/header', { type: "home", title: "英文字体", pageurl: "english.html" }); %>
 <% const englishData = DATA.filter((item) => item.path.split("/").includes("english")).sort((a, b) => a.ctime - b.ctime) %>
 <header>
 <%- include('./_partial/header-title', { length: englishData.length, type: "英文" }); %>
