@@ -39,7 +39,7 @@ jobs:
               <h1>Free Font 免费可商用字体</h1>
               <p style="font-size: 2em;">倒计时: <span id="countdown">10</span></p>
               <h2>页面将在 10 秒钟后自动跳转到<b>镜像网站</b></h2>
-              <p style="color: red;">⚠️ GitHub Page 已无法更新，最新更新，访问下面镜像网站</p>
+              <p style="color: red;">⚠️ GitHub Page 因体积太大已无法更新，最新更新，访问下面镜像网站</p>
               <div>
                 <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html" target="_blank">githack.com</a> &nbsp;
                 <a href="https://free-font.vercel.app" target="_blank">vercel.app</a>
@@ -85,7 +85,7 @@ jobs:
         working-directory: website
         run: |
           cat > README.md << EOF
-          ⚠️ GitHub [Page](https://jaywcjlove.github.io/free-font/) 无法更新，最新更新访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[Vercel](https://free-font.vercel.app)
+          ⚠️ GitHub [Page](https://jaywcjlove.github.io/free-font/) 因体积太大无法更新，最新更新访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[Vercel](https://free-font.vercel.app)
           EOF
 
       - name: Deploy
