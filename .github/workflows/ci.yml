@@ -81,6 +81,13 @@ jobs:
           cp index.html preview.en.html
           cp index.html open-source.html
 
+      - name: Create index.html page.
+        working-directory: website
+        run: |
+          cat > index.html << EOF
+          ⚠️ GitHub [Page](https://jaywcjlove.github.io/free-font/) 无法更新，最新更新访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[Vercel](https://free-font.vercel.app)
+          EOF
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
