@@ -6853,5 +6853,13 @@
     "path": "fonts/其他字体/品如手写体.ttf",
     "size": "6.04 MB",
     "ctime": 1722628656845
+  },
+  {
+    "name": "ChillMoonMono",
+    "home": "https://github.com/Warren2060/ChillMoonmono",
+    "license": "OFL-1.1",
+    "path": "fonts/english/other/ChillMoonMono.otf",
+    "size": "43.3 kB",
+    "ctime": 1722663286195
   }
 ]
