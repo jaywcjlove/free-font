@@ -5426,8 +5426,8 @@
     "license": "OFL-1.1",
     "home": "https://github.com/jaywcjlove/pinyin-font/",
     "path": "fonts/english/pinyin/pinyin-step.ttf",
-    "size": "80.3 kB",
-    "ctime": 1721895623544
+    "size": "79.9 kB",
+    "ctime": 1722753332250
   },
   {
     "name": "pinyin-regular",
@@ -5435,7 +5435,15 @@
     "home": "https://github.com/jaywcjlove/pinyin-font/",
     "path": "fonts/english/pinyin/pinyin-regular.ttf",
     "size": "20.8 kB",
-    "ctime": 1721895623534
+    "ctime": 1722753332238
+  },
+  {
+    "name": "pinyin-wenkai-light",
+    "license": "OFL-1.1",
+    "home": "https://github.com/jaywcjlove/pinyin-font/",
+    "path": "fonts/english/pinyin/pinyin-wenkai-light.ttf",
+    "size": "20.5 kB",
+    "ctime": 1722753332224
   },
   {
     "name": "Pixellari",
