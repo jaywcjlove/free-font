@@ -6869,5 +6869,53 @@
     "path": "fonts/english/other/ChillMoonMono.otf",
     "size": "43.3 kB",
     "ctime": 1722663286195
+  },
+  {
+    "name": "一點明體",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/一點明體.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503449
+  },
+  {
+    "name": "一點明體CP",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/一點明體CP.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503397
+  },
+  {
+    "name": "新一細明體",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/新一細明體.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503206
+  },
+  {
+    "name": "一點明體異體",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/一點明體異體.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503336
+  },
+  {
+    "name": "一點明體異體CP",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/一點明體異體CP.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503276
+  },
+  {
+    "name": "新一細明體異體",
+    "home": "https://github.com/ichitenfont/I.Ming",
+    "license": "IPA-1.0",
+    "path": "fonts/一點明體/新一細明體異體.ttf",
+    "size": "25.9 MB",
+    "ctime": 1724693503152
   }
 ]
