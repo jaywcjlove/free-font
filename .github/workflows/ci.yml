@@ -13,10 +13,10 @@ jobs:
       id-token: write
     steps:
       - run: mkdir -p website
-      - name: Create index.html page.
+      - name: Create info.html page.
         working-directory: website
         run: |
-          cat > index.html << EOF
+          cat > info.html << EOF
           <!DOCTYPE html>
           <html lang="zh-CN">
           <head>
@@ -68,18 +68,12 @@ jobs:
           </html>
           EOF
 
-      - name: Create other html page.
-        working-directory: website
+      - name: Move static resource files
         run: |
-          cp index.html art.html
-          cp index.html english.html
-          cp index.html handwriting.html
-          cp index.html hei.html
-          cp index.html kai.html
-          cp index.html song.html
-          cp index.html preview.html
-          cp index.html preview.en.html
-          cp index.html open-source.html
+          cp docs/*.html ./website
+          cp -rp docs/css ./website
+          cp -rp docs/icons ./website
+          cp -rp docs/images ./website
 
       - name: Create README.md
         working-directory: website
@@ -92,7 +86,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website
+          exclude_assets: 'docs/fonts'
+          publish_dir: ./docs
   build:
     if: github.repository == 'jaywcjlove/free-font'
     runs-on: ubuntu-latest

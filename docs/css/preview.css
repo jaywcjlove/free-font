@@ -26,10 +26,13 @@ main h2 {
   color: #818181;
 }
 
-#download {
+.download a:last-child {
+  margin-top: 1em;
+}
+.download a {
   text-align: center;
   background: #fffefe36;
-  padding: 0.65em 1em;
+  padding: 0.35em 0.86em;
   border-radius: 2em;
   box-shadow: 0px 0px 2px 3px #1b1b1b;
   display: inline-flex;
@@ -39,7 +42,7 @@ main h2 {
   min-width: 180px;
 }
 
-#download:hover {
+.download a:hover {
   background: #2279a0;
   color: white;
 }
@@ -59,7 +62,6 @@ main h2 {
 #font-status.done, #font-status.done::before {
   display: none;
 }
-
 
 #license > span, #license > a {
   font-size: 10px;
@@ -85,7 +87,7 @@ main h2 {
   background: #00546f99;
 }
 #license {
-  padding-top: 1em;
+  padding-top: 3em;
   font-size: 12px;
   display: flex;
   align-items: center;
