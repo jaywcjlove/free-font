@@ -34,16 +34,10 @@ header {
   text-align: center;
 }
 
-@font-face {
-  font-family: 'CustomFont';
-  src: url('../fonts/站酷字体系列/站酷快乐体.ttf') format('truetype'); /* Placeholder for the font URL */
-}
-
 header h1 {
   font-size: 2.5em;
   font-weight: bold;
   padding-top: 1em;
-  font-family: 'CustomFont';
 }
 header p a {
   color: #62bce5;

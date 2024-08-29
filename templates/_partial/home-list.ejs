@@ -1,6 +1,8 @@
 <div>
-  <% const isEnglish = font.path.split("/").includes("english") %>
-  <a href="preview<%=isEnglish ? ".en" : ""%>.html?p=<%=font.path%>&s=<%=font.size%>&t=<%=font.name%>&l=<%-encodeURIComponent(font.license ?? "商免")%><%=font.home ? `&u=${encodeURIComponent(font.home)}` : ""%>" target="_blank">
+  <% const isEnglish = font.path.split("/").includes("english");
+    const previewURL = `preview${isEnglish ? ".en" : ""}.html?p=${font.path}&s=${font.size}&t=${font.name}&l=${encodeURIComponent(font.license ?? "商免")}${font.home ? `&u=${encodeURIComponent(font.home)}` : ""}`;
+  %>
+  <a href="<%=previewURL%>" target="_blank">
     <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
     <p>
       <span><%=font.name%></span>
@@ -10,5 +12,5 @@
       </span>
     </p>
   </a>
-  <a href="https://cdn.jsdelivr.net/gh/jaywcjlove/free-font@main/docs/<%=font.path%>" class="button" download="<%=font.name%>">下载字体</a>
+  <a href="<%=previewURL%>" class="button" download="<%=font.name%>">下载字体</a>
 </div>

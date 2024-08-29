@@ -26,8 +26,12 @@ main h2 {
   color: #818181;
 }
 
-.download a:last-child {
+.download a {
   margin-top: 1em;
+}
+
+.download a:first-child {
+  margin-top: 0 !important;
 }
 .download a {
   text-align: center;

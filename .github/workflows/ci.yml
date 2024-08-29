@@ -44,6 +44,7 @@ jobs:
               <div>
                 <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html" target="_blank">githack.com</a> &nbsp;
                 <a href="https://free-font.vercel.app" target="_blank">vercel.app</a>
+                <a href="https://freefont.netlify.app" target="_blank">netlify.app</a>
               </div>
               <p style="font-weight: 300;">欢迎部署镜像网站，镜像网站将放到这里提供给大家选择</p>
             </div>

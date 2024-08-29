@@ -53,6 +53,12 @@
         <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
       </svg>
     </a>
+    <br />
+    <a href="" id="download_netlify">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
+        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
+      </svg>
+    </a>
   </div>
   <div id="license"></div>
   <div id="preview"></div>
@@ -71,10 +77,43 @@
   <pre contenteditable="true">0 1 2 3 4 5 6 7 8 9</pre>
 </main>
 <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const fontUrl = urlParams.get('p');
+  const fontName = urlParams.get('t');
+  const download = document.getElementById('download');
+  download.href = `https://cdn.jsdelivr.net/gh/jaywcjlove/free-font@main/docs/${fontUrl}`;
+  const svgIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/> </svg>`
+  download.innerHTML = `${svgIcon} 下载地址一：${fontName}`;
+
+  const download2 = document.getElementById('download_githack');
+  download2.href = `https://raw.githack.com/jaywcjlove/free-font/main/docs/${fontUrl}`;
+  download2.innerHTML = `${svgIcon} 下载地址二：${fontName}`;
+
+  const download3 = document.getElementById('download_netlify');
+  download3.href = `https://freefont.netlify.app/${fontUrl}`;
+  download3.innerHTML = `${svgIcon} 下载地址三：${fontName}`;
+
+  const preview = document.getElementById('preview')
+  if (preview && fontName) {
+    preview.innerHTML = `<img src="./images/${fontName}-preview.jpg" alt="${fontName}" />`;
+  }
+
+  const licenseElement = document.getElementById('license');
+  const urlHome = urlParams.get('u');
+  const license = urlParams.get('l');
+  const size = urlParams.get('s');
+  let licenseText = [];
+  if (size) licenseText.push(`<span class="size">${size}</span>`);
+  if (license) licenseText.push(`<span>${license}</span>`);
+  if (urlHome) licenseText.push(`<a href="${urlHome}" target="_blank">来源</a>`);
+  if (fontUrl) licenseText.push(`<a href="https://github.com/jaywcjlove/free-font/tree/main/docs/${fontUrl}" target="_blank">文件</a>`);
+  if (licenseText.length > 0) {
+      licenseElement.innerHTML = licenseText.join(' ');
+  } else {
+    licenseElement.remove();
+  }
+
   window.onload = function() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const fontUrl = urlParams.get('p');
-      const fontName = urlParams.get('t');
       if (fontUrl) {
         let styleTag = document.getElementById('dynamic-style');
         if (!styleTag) {
@@ -110,40 +149,16 @@
             console.error('Failed to load the custom font:', error);
             statusElement.textContent = `加载"${fontName}"失败`;
         });
-
-        const download = document.getElementById('download');
-        download.href = `https://cdn.jsdelivr.net/gh/jaywcjlove/free-font@main/docs/${fontUrl}`;
-        const svgIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/> </svg>`
-        download.innerHTML = `${svgIcon} 下载地址一：${fontName}`;
-
-        const download2 = document.getElementById('download_githack');
-        download2.href = `https://raw.githack.com/jaywcjlove/free-font/main/docs/${fontUrl}`;
-        download2.innerHTML = `${svgIcon} 下载地址二：${fontName}`;
-
-        const preview = document.getElementById('preview')
-        if (preview && fontName) {
-          preview.innerHTML = `<img src="./images/${fontName}-preview.jpg" alt="${fontName}" />`;
-        }
-
-        const licenseElement = document.getElementById('license');
-        const urlHome = urlParams.get('u');
-        const license = urlParams.get('l');
-        const size = urlParams.get('s');
-        let licenseText = [];
-        if (size) licenseText.push(`<span class="size">${size}</span>`);
-        if (license) licenseText.push(`<span>${license}</span>`);
-        if (urlHome) licenseText.push(`<a href="${urlHome}" target="_blank">来源</a>`);
-        if (fontUrl) licenseText.push(`<a href="https://github.com/jaywcjlove/free-font/tree/main/docs/${fontUrl}" target="_blank">文件</a>`);
-        if (licenseText.length > 0) {
-            licenseElement.innerHTML = licenseText.join(' ');
-        } else {
-          licenseElement.remove();
-        }
       }
   };
 </script>
 <footer class="footer">
   您可以在<a href="https://github.com/jaywcjlove/free-font" target="_blank">这里</a>提交商用免费字体 <sup>2.10.0</sup><br />
+  <div>
+    <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html">Githack</a> • 
+    <a href="https://free-font.vercel.app">Vercel</a> • 
+    <a href="https://freefont.netlify.app">Netlify</a>
+  </div>
   <div>
     Made by<a href="https://jaywcjlove.github.io/#/sponsor" target="_blank"> 小弟调调™ </a>with<span class="heart"> ❤</span></span>
   </div>
