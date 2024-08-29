@@ -87,8 +87,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          exclude_assets: 'docs/fonts'
-          publish_dir: ./docs
+          publish_dir: ./website
+
   build:
     if: github.repository == 'jaywcjlove/free-font'
     runs-on: ubuntu-latest
