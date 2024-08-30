@@ -22,11 +22,18 @@
 
 ```js
 {
-  // ⚠️ 自动生成 ------- 不需要修改
+  // ⚠️ ~~~~ 自动生成 ------- 不需要修改
   "name": "剔骨仿宋", // - 根据【文件名】
-  "size": "116 kB",  // - 文字大小
+  "size": "116 kB",  // - 字体大小
+  "byte": 31527296,  // 
   "path": "fonts/其他字体/剔骨仿宋.ttf", // 字体在 web 目录中的位置 - 注意斜杠 `/`
-  // ⚠️ 自动生成 ------- 不需要修改
+  "ctime": 1721208732892, // 创建时间
+  "postscriptName": "tkFangSong",
+  "fullName": "tkFangSong",
+  "familyName": "tkFangSong",
+  "subfamilyName": "Regular",
+  "version": "1.000",
+  // ⚠️ ~~~~ 自动生成 ------- 不需要修改
 
   // 分类
   "type": "艺术体",  // 英文字体放入 `docs/fonts/english` 目录即可

@@ -81,6 +81,11 @@ main h2 {
   color: #909090;
 }
 
+#license span.version {
+  background: #a3a0004d;
+  color: #9ea756;
+}
+
 #license > a:hover {
   background: #009fe9;
   color: white;

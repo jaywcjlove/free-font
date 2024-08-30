@@ -1,6 +1,6 @@
 <div>
   <% const isEnglish = font.path.split("/").includes("english");
-    const previewURL = `preview${isEnglish ? ".en" : ""}.html?p=${font.path}&s=${font.size}&t=${font.name}&l=${encodeURIComponent(font.license ?? "商免")}${font.home ? `&u=${encodeURIComponent(font.home)}` : ""}`;
+    const previewURL = `preview${isEnglish ? ".en" : ""}.html?p=${font.path}&s=${font.size}&t=${font.name}&v=${font.version ?? ""}&l=${encodeURIComponent(font.license ?? "商免")}${font.home ? `&u=${encodeURIComponent(font.home)}` : ""}`;
   %>
   <a href="<%=previewURL%>" target="_blank">
     <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
@@ -8,7 +8,7 @@
       <span><%=font.name%></span>
       <span class="license">
         <i><%=font.license ?? "商免"%></i>
-        <%-font.size ? `<i class="size">${font.size}</i>` : ""%>
+        <%-font.size ? `<i class="size" title="${font.byte} byte">${font.size}</i>` : ""%>
       </span>
     </p>
   </a>

@@ -112,8 +112,10 @@
   const urlHome = urlParams.get('u');
   const license = urlParams.get('l');
   const size = urlParams.get('s');
+  const version = urlParams.get('v');
   let licenseText = [];
   if (size) licenseText.push(`<span class="size">${size}</span>`);
+  if (version) licenseText.push(`<span class="version">v${version}</span>`);
   if (license) licenseText.push(`<span>${license}</span>`);
   if (urlHome) licenseText.push(`<a href="${urlHome}" target="_blank">来源</a>`);
   if (fontUrl) licenseText.push(`<a href="https://github.com/jaywcjlove/free-font/tree/main/docs/${fontUrl}" target="_blank">文件</a>`);
