@@ -17,8 +17,8 @@
   <meta name="twitter:description" content="Free Font - 收录商用免费字体，包括汉字和英文字体，提供免费下载和使用。">
   <meta name="twitter:image" content="https://wangchujiang.com/icons/banner.jpeg">
   <title>Free Font  - 收录商用免费字体(汉字英文字体)</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=2.10.0">
-  <link rel="stylesheet" type="text/css" href="css/preview.css?v=2.10.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=2.11.0">
+  <link rel="stylesheet" type="text/css" href="css/preview.css?v=2.11.0">
 </head>
 <body>
   <a href="https://github.com/jaywcjlove/free-font" target="_blank" class="github-corner">
@@ -42,19 +42,25 @@
 </nav>
 <p>Free Font 收录商用免费字体，已收录 <a href="https://github.com/jaywcjlove/free-font" target="_blank">867</a> 个字体</p>
   <div class="download">
-    <a href="" id="download">
+    <a href="" target="_blank" id="download">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
         <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
       </svg>
     </a>
     <br />
-    <a href="" id="download_githack">
+    <a href="" target="_blank" id="download_githack">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
         <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
       </svg>
     </a>
     <br />
-    <a href="" id="download_netlify">
+    <a href="" target="_blank" id="download_netlify">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
+        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
+      </svg>
+    </a>
+    <br />
+    <a href="" target="_blank" id="download_github">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
         <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
       </svg>
@@ -92,6 +98,10 @@
   const download3 = document.getElementById('download_netlify');
   download3.href = `https://freefont.netlify.app/${fontUrl}`;
   download3.innerHTML = `${svgIcon} 下载地址三：${fontName}`;
+
+  const download4 = document.getElementById('download_github');
+  download4.href = `https://github.com/jaywcjlove/free-font/raw/main/docs/${fontUrl}`;
+  download4.innerHTML = `${svgIcon} 下载地址四：${fontName}`;
 
   const preview = document.getElementById('preview')
   if (preview && fontName) {
@@ -153,11 +163,11 @@
   };
 </script>
 <footer class="footer">
-  您可以在<a href="https://github.com/jaywcjlove/free-font" target="_blank">这里</a>提交商用免费字体 <sup>2.10.0</sup><br />
+  您可以在<a href="https://github.com/jaywcjlove/free-font" target="_blank">这里</a>提交商用免费字体 <sup>2.11.0</sup><br />
   <div>
-    <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html">Githack</a> • 
-    <a href="https://free-font.vercel.app">Vercel</a> • 
-    <a href="https://freefont.netlify.app">Netlify</a>
+    <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html" target="_blank">Githack</a> • 
+    <a href="https://free-font.vercel.app" target="_blank">Vercel</a> • 
+    <a href="https://freefont.netlify.app" target="_blank">Netlify</a>
   </div>
   <div>
     Made by<a href="https://jaywcjlove.github.io/#/sponsor" target="_blank"> 小弟调调™ </a>with<span class="heart"> ❤</span></span>

@@ -15,6 +15,10 @@
   download3.href = `https://freefont.netlify.app/${fontUrl}`;
   download3.innerHTML = `${svgIcon} 下载地址三：${fontName}`;
 
+  const download4 = document.getElementById('download_github');
+  download4.href = `https://github.com/jaywcjlove/free-font/raw/main/docs/${fontUrl}`;
+  download4.innerHTML = `${svgIcon} 下载地址四：${fontName}`;
+
   const preview = document.getElementById('preview')
   if (preview && fontName) {
     preview.innerHTML = `<img src="./images/${fontName}-preview.jpg" alt="${fontName}" />`;
