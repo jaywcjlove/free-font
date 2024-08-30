@@ -127,7 +127,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 由于体积太大 [Github Page](https://jaywcjlove.github.io/free-font/) 已经无法更新，你可以使用下面镜像网站访问字体网站。也可以通过 [Issue](https://github.com/jaywcjlove/free-font/issues) 推荐自己的镜像网站，我将放到下面提供给大家使用：
 
-[`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) 
+[`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) [`Netlify`](https://freefont.netlify.app)
 
 如果你有资源，可以很方便部署字体网站，这非常简单，只需要克隆 `main` 分支代码，将 [`docs`](./docs/) 目录的静态资源部署到你的静态服务就可以了。
 
