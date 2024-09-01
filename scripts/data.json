@@ -11795,5 +11795,19 @@
     "familyName": "PMingI.UVar",
     "subfamilyName": "Regular",
     "version": "8.100"
+  },
+  {
+    "name": "DepartureMono",
+    "path": "docs/fonts/english/other/DepartureMono.otf",
+    "license": "OFL-1.1",
+    "home": "https://departuremono.com/",
+    "size": "51.3 kB",
+    "byte": 51252,
+    "ctime": 1725176771796,
+    "postscriptName": "DepartureMono-Regular",
+    "fullName": "Departure Mono Regular",
+    "familyName": "Departure Mono",
+    "subfamilyName": "Regular",
+    "version": "1.346"
   }
 ]

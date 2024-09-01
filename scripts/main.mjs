@@ -196,7 +196,7 @@ function removeRootPathSegment(filePath) {
             fullName: font.fullName,
             familyName: font.familyName,
             subfamilyName: font.subfamilyName,
-            version: font.version,
+            version: extractVersion(font.version),
           })
         } else {
           resultData[dataIndex].name = fontName;
