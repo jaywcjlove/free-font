@@ -28,7 +28,7 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
-      # - run: mkdir -p website
+      - run: mkdir -p website
       - name: Create info.html page.
         working-directory: website
         run: |
