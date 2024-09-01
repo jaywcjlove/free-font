@@ -28,9 +28,9 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
-      - run: mkdir -p website
+      # - run: mkdir -p website
       - name: Create info.html page.
-        working-directory: website
+        working-directory: docs
         run: |
           cat > info.html << EOF
           <!DOCTYPE html>
@@ -94,7 +94,7 @@ jobs:
       #     cp -rp docs/images ./website
 
       - name: Create README.md
-        working-directory: website
+        working-directory: docs
         run: |
           cat > README.md << EOF
           GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[\`Githack\`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[\`Vercel\`](https://free-font.vercel.app)、[\`Netlify\`](https://freefont.netlify.app)
@@ -104,7 +104,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./fonts
+          publish_dir: ./docs
 
   build:
     if: github.repository == 'jaywcjlove/free-font'
