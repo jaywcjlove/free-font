@@ -13,6 +13,21 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          # this might remove tools that are actually needed,
+          # if set to "true" but frees about 6 GB
+          tool-cache: false
+          
+          # all of these default to true, but feel free to set to
+          # "false" if necessary for your workflow
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
       - run: mkdir -p website
       - name: Create info.html page.
         working-directory: website
@@ -70,13 +85,13 @@ jobs:
           </html>
           EOF
 
-      - name: Move static resource files
-        run: |
-          cp docs/*.html ./website
-          cp -rp docs/css ./website
-          cp -rp docs/icons ./website
-          cp -rp docs/fonts ./website
-          cp -rp docs/images ./website
+      # - name: Move static resource files
+      #   run: |
+      #     cp docs/*.html ./website
+      #     cp -rp docs/css ./website
+      #     cp -rp docs/icons ./website
+      #     cp -rp docs/fonts ./website
+      #     cp -rp docs/images ./website
 
       - name: Create README.md
         working-directory: website
@@ -89,7 +104,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website
+          publish_dir: ./fonts
 
   build:
     if: github.repository == 'jaywcjlove/free-font'
@@ -98,6 +113,21 @@ jobs:
       contents: write
       id-token: write
     steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          # this might remove tools that are actually needed,
+          # if set to "true" but frees about 6 GB
+          tool-cache: false
+          
+          # all of these default to true, but feel free to set to
+          # "false" if necessary for your workflow
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
