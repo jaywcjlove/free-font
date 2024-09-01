@@ -30,7 +30,7 @@ jobs:
           swap-storage: true
       # - run: mkdir -p website
       - name: Create info.html page.
-        working-directory: docs
+        working-directory: website
         run: |
           cat > info.html << EOF
           <!DOCTYPE html>
@@ -85,29 +85,25 @@ jobs:
           </html>
           EOF
 
-      # - name: Move static resource files
-      #   run: |
-      #     cp docs/*.html ./website
-      #     cp -rp docs/css ./website
-      #     cp -rp docs/icons ./website
-      #     cp -rp docs/fonts ./website
-      #     cp -rp docs/images ./website
+      - name: Move static resource files
+        run: |
+          cp docs/*.html ./website
+          cp -rp docs/css ./website
+          cp -rp docs/icons ./website
+          cp -rp docs/images ./website
 
       - name: Create README.md
-        working-directory: docs
+        working-directory: website
         run: |
           cat > README.md << EOF
           GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[\`Githack\`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[\`Vercel\`](https://free-font.vercel.app)、[\`Netlify\`](https://freefont.netlify.app)
           EOF
 
-      - name: Increase Git buffer size
-        run: git config --global http.postBuffer 157286400
-        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./website
 
   build:
     if: github.repository == 'jaywcjlove/free-font'
