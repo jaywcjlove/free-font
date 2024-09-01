@@ -128,7 +128,7 @@
   if (version) licenseText.push(`<span class="version">v${version}</span>`);
   if (license) licenseText.push(`<span>${license}</span>`);
   if (urlHome) licenseText.push(`<a href="${urlHome}" target="_blank">来源</a>`);
-  if (fontUrl) licenseText.push(`<a href="https://freefont.netlify.app/${fontUrl}" target="_blank">文件</a>`);
+  if (fontUrl) licenseText.push(`<a href="https://github.com/jaywcjlove/free-font/tree/main/docs/${fontUrl}" target="_blank">文件</a>`);
   if (licenseText.length > 0) {
       licenseElement.innerHTML = licenseText.join(' ');
   } else {
@@ -144,7 +144,7 @@
             document.head.appendChild(styleTag);
         }
         const fontFaceRule = `
-            @font-face { font-family: 'PreviewFont'; src: url('https://github.com/jaywcjlove/free-font/raw/main/docs/${fontUrl}') format('truetype');}
+            @font-face { font-family: 'PreviewFont'; src: url('https://freefont.netlify.app/${fontUrl}') format('truetype');}
             main, main pre {
                 font-family: 'PreviewFont', sans-serif;
             }
