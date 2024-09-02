@@ -17,8 +17,8 @@
   <meta name="twitter:description" content="Free Font - 收录商用免费字体，包括汉字和英文字体，提供免费下载和使用。">
   <meta name="twitter:image" content="https://wangchujiang.com/icons/banner.jpeg">
   <title>Free Font  - 收录商用免费字体(汉字英文字体)</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=2.11.0">
-  <link rel="stylesheet" type="text/css" href="css/preview.css?v=2.11.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=2.12.0">
+  <link rel="stylesheet" type="text/css" href="css/preview.css?v=2.12.0">
 </head>
 <body>
   <a href="https://github.com/jaywcjlove/free-font" target="_blank" class="github-corner">
@@ -146,15 +146,16 @@
             styleTag.id = 'dynamic-style';
             document.head.appendChild(styleTag);
         }
+        const fontCDN = `https://freefont.netlify.app/${fontUrl}`;
         const fontFaceRule = `
-            @font-face { font-family: 'PreviewFont'; src: url('https://freefont.netlify.app/${fontUrl}') format('truetype');}
+            @font-face { font-family: 'PreviewFont'; src: url('${fontCDN}') format('truetype');}
             main, main pre {
                 font-family: 'PreviewFont', sans-serif;
             }
         `;
         styleTag.innerHTML = fontFaceRule;
         // Define the font face
-        const font = new FontFace('PreviewFont', `url(${fontUrl})`);
+        const font = new FontFace('PreviewFont', `url(${fontCDN})`);
         const statusElement = document.getElementById('font-status');
         document.fonts.ready.then((fontFaceSet) => {
             if (fontFaceSet.check('1em PreviewFont')) {
@@ -178,7 +179,7 @@
   };
 </script>
 <footer class="footer">
-  您可以在<a href="https://github.com/jaywcjlove/free-font" target="_blank">这里</a>提交商用免费字体 <sup>2.11.0</sup><br />
+  您可以在<a href="https://github.com/jaywcjlove/free-font" target="_blank">这里</a>提交商用免费字体 <sup>2.12.0</sup><br />
   <div>
     <a href="https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html" target="_blank">Githack</a> • 
     <a href="https://free-font.vercel.app" target="_blank">Vercel</a> • 

@@ -50,15 +50,16 @@
             styleTag.id = 'dynamic-style';
             document.head.appendChild(styleTag);
         }
+        const fontCDN = `https://freefont.netlify.app/${fontUrl}`;
         const fontFaceRule = `
-            @font-face { font-family: 'PreviewFont'; src: url('https://freefont.netlify.app/${fontUrl}') format('truetype');}
+            @font-face { font-family: 'PreviewFont'; src: url('${fontCDN}') format('truetype');}
             main, main pre {
                 font-family: 'PreviewFont', sans-serif;
             }
         `;
         styleTag.innerHTML = fontFaceRule;
         // Define the font face
-        const font = new FontFace('PreviewFont', `url(${fontUrl})`);
+        const font = new FontFace('PreviewFont', `url(${fontCDN})`);
         const statusElement = document.getElementById('font-status');
         document.fonts.ready.then((fontFaceSet) => {
             if (fontFaceSet.check('1em PreviewFont')) {
