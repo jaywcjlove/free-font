@@ -11854,5 +11854,61 @@
     "familyName": "WenJin Mincho Plane 3",
     "subfamilyName": "Regular",
     "version": "0.500"
+  },
+  {
+    "name": "華英明朝傳承體",
+    "path": "fonts/華英明朝/華英明朝傳承體.ttf",
+    "home": "https://github.com/GuiWonder/HuayingMincho",
+    "license": "IPA-1.0",
+    "size": "28.2 MB",
+    "byte": 28199492,
+    "ctime": 1726580495901,
+    "postscriptName": "HuayingMinchoOld",
+    "fullName": "HuayingMincho Old",
+    "familyName": "HuayingMincho Old",
+    "subfamilyName": "Regular",
+    "version": "1.015"
+  },
+  {
+    "name": "華英明朝繁體",
+    "path": "fonts/華英明朝/華英明朝繁體.ttf",
+    "home": "https://github.com/GuiWonder/HuayingMincho",
+    "license": "IPA-1.0",
+    "size": "28.3 MB",
+    "byte": 28260948,
+    "ctime": 1726580357118,
+    "postscriptName": "HuayingMinchoT",
+    "fullName": "HuayingMincho T",
+    "familyName": "HuayingMincho T",
+    "subfamilyName": "Regular",
+    "version": "1.015"
+  },
+  {
+    "name": "華英明朝舊典體",
+    "path": "fonts/華英明朝/華英明朝舊典體.ttf",
+    "home": "https://github.com/GuiWonder/HuayingMincho",
+    "license": "IPA-1.0",
+    "size": "28.2 MB",
+    "byte": 28205636,
+    "ctime": 1726580482194,
+    "postscriptName": "HuayingMinchoODict",
+    "fullName": "HuayingMincho ODict",
+    "familyName": "HuayingMincho ODict",
+    "subfamilyName": "Regular",
+    "version": "1.015"
+  },
+  {
+    "name": "華英明朝舊印體",
+    "path": "fonts/華英明朝/華英明朝舊印體.ttf",
+    "home": "https://github.com/GuiWonder/HuayingMincho",
+    "license": "IPA-1.0",
+    "size": "28.2 MB",
+    "byte": 28211400,
+    "ctime": 1726580514979,
+    "postscriptName": "HuayingMinchoClassic",
+    "fullName": "HuayingMincho Classic",
+    "familyName": "HuayingMincho Classic",
+    "subfamilyName": "Regular",
+    "version": "1.015"
   }
 ]
