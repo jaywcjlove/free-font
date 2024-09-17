@@ -11812,6 +11812,7 @@
   },
   {
     "name": "WenJinMinchoP0-Regular",
+    "home": "https://github.com/takushun-wu/WenJinMincho",
     "path": "fonts/文津宋体/WenJinMinchoP0-Regular.ttf",
     "license": "OFL-1.1",
     "type": "宋体",
@@ -11826,6 +11827,7 @@
   },
   {
     "name": "WenJinMinchoP2-Regular",
+    "home": "https://github.com/takushun-wu/WenJinMincho",
     "path": "fonts/文津宋体/WenJinMinchoP2-Regular.ttf",
     "license": "OFL-1.1",
     "type": "宋体",
@@ -11840,6 +11842,7 @@
   },
   {
     "name": "WenJinMinchoP3-Regular",
+    "home": "https://github.com/takushun-wu/WenJinMincho",
     "path": "fonts/文津宋体/WenJinMinchoP3-Regular.ttf",
     "license": "OFL-1.1",
     "type": "宋体",
