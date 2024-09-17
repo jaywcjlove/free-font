@@ -11798,7 +11798,7 @@
   },
   {
     "name": "DepartureMono",
-    "path": "docs/fonts/english/other/DepartureMono.otf",
+    "path": "fonts/english/other/DepartureMono.otf",
     "license": "OFL-1.1",
     "home": "https://departuremono.com/",
     "size": "51.3 kB",
@@ -11809,5 +11809,47 @@
     "familyName": "Departure Mono",
     "subfamilyName": "Regular",
     "version": "1.346"
+  },
+  {
+    "name": "WenJinMinchoP0-Regular",
+    "path": "fonts/文津宋体/WenJinMinchoP0-Regular.ttf",
+    "license": "OFL-1.1",
+    "type": "宋体",
+    "size": "21.9 MB",
+    "byte": 21900252,
+    "ctime": 1726578835912,
+    "postscriptName": "WenJinMinchoP0-Regular",
+    "fullName": "WenJin Mincho Plane 0",
+    "familyName": "WenJin Mincho Plane 0",
+    "subfamilyName": "Regular",
+    "version": "0.500"
+  },
+  {
+    "name": "WenJinMinchoP2-Regular",
+    "path": "fonts/文津宋体/WenJinMinchoP2-Regular.ttf",
+    "license": "OFL-1.1",
+    "type": "宋体",
+    "size": "29.4 MB",
+    "byte": 29382056,
+    "ctime": 1726578835825,
+    "postscriptName": "WenJinMinchoP2-Regular",
+    "fullName": "WenJin Mincho Plane 2",
+    "familyName": "WenJin Mincho Plane 2",
+    "subfamilyName": "Regular",
+    "version": "0.500"
+  },
+  {
+    "name": "WenJinMinchoP3-Regular",
+    "path": "fonts/文津宋体/WenJinMinchoP3-Regular.ttf",
+    "license": "OFL-1.1",
+    "type": "宋体",
+    "size": "4.03 MB",
+    "byte": 4033520,
+    "ctime": 1726578835837,
+    "postscriptName": "WenJinMinchoP3-Regular",
+    "fullName": "WenJin Mincho Plane 3",
+    "familyName": "WenJin Mincho Plane 3",
+    "subfamilyName": "Regular",
+    "version": "0.500"
   }
 ]
