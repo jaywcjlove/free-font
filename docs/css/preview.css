@@ -26,6 +26,14 @@ main h2 {
   color: #818181;
 }
 
+div.info {
+  max-width: 620px;
+  margin: 0 auto;
+  background: #ffff004f;
+  font-size: 18px;
+  padding: 12px 21px;
+}
+
 .download a {
   margin-top: 1em;
 }

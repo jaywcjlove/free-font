@@ -1,4 +1,4 @@
-镜像网站：[`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | [`Netlify`](https://freefont.netlify.app)
+镜像网站：[`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | ~~[`Netlify`](https://freefont.netlify.app)~~
 <br />
 <br />
 <br />
@@ -17,6 +17,10 @@
 汉字字体的制作是一项庞大的工程。常用汉字有 6763 个，GBK 标准中有 20902 个，而最新的 GB18030-2022 标准则包含超过 80,000 个字符。由于汉字的复杂性，制作一套完整的中文字体需要大量的专业人士投入精力和时间。我们鼓励大家使用正版字体，共同为中文字体的制作创造一个良好的环境。
 
 所有字体的版权归原作者所有。本站不承担任何法律问题或风险，且不用于商业目的。如果您认为您的版权受到侵犯，请及时联系我，我将立即采取删除措施。本站收集了商用免费字体，但无法完全保证所有收录的字体都不涉及商业用途。若发现有误，请及时提醒我。使用本站内容所产生的风险由用户自行承担。使用本站即表示您已接受本站的使用条款和隐私政策。
+
+> [!CAUTION]
+> 
+> ⚠️ 由于字体文件超过了 1GB，且流量超出了免费使用的界限，导致产生了几十美元的费用。目前我们没有任何捐赠，所以无法承担这些费用。因此，决定取消预览页面下面的字体预览功能。虽然这可能会导致 GitHub 文件下载速度稍慢，但使用上不会受到影响。
 
 ## 添加商免字体
 
@@ -129,7 +133,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 由于体积太大 [Github Page](https://jaywcjlove.github.io/free-font/) 已经无法更新，你可以使用下面镜像网站访问字体网站。也可以通过 [Issue](https://github.com/jaywcjlove/free-font/issues) 推荐自己的镜像网站，我将放到下面提供给大家使用：
 
-[`GitHub Page`](https://jaywcjlove.github.io/free-font/) [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) [`Netlify`](https://freefont.netlify.app)
+[`GitHub Page`](https://jaywcjlove.github.io/free-font/) [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) ~~[`Netlify`](https://freefont.netlify.app)~~
 
 如果你有资源，可以很方便部署字体网站，这非常简单，只需要克隆 `main` 分支代码，将 [`docs`](./docs/) 目录的静态资源部署到你的静态服务就可以了。
 
