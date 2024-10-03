@@ -206,6 +206,13 @@ footer div {
   padding-top: 0.35em;
 }
 
+footer time {
+  font-size: x-small;
+  color: #ffffff4f;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
 footer {
   font-weight: 100;
   text-align: center;
