@@ -11910,5 +11910,35 @@
     "familyName": "HuayingMincho Classic",
     "subfamilyName": "Regular",
     "version": "1.015"
+  },
+  {
+    "name": "霞鹜臻楷",
+    "path": "docs/fonts/霞鹜臻楷/霞鹜臻楷.ttf",
+    "home": "https://github.com/lxgw/LxgwZhenKai",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "size": "10.8 MB",
+    "byte": 10847768,
+    "ctime": 1730293371662,
+    "postscriptName": "LXGWZhenKai",
+    "fullName": "LXGW ZhenKai",
+    "familyName": "LXGW ZhenKai",
+    "subfamilyName": "Regular",
+    "version": "0.702"
+  },
+  {
+    "name": "霞鹜臻楷GB",
+    "path": "docs/fonts/霞鹜臻楷/霞鹜臻楷GB.ttf",
+    "home": "https://github.com/lxgw/LxgwZhenKai",
+    "license": "OFL-1.1",
+    "type": "楷体",
+    "size": "10.8 MB",
+    "byte": 10821548,
+    "ctime": 1730293377361,
+    "postscriptName": "LXGWZhenKaiGB",
+    "fullName": "LXGW ZhenKai GB",
+    "familyName": "LXGW ZhenKai GB",
+    "subfamilyName": "Regular",
+    "version": "0.702"
   }
 ]

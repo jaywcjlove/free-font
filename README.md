@@ -83,8 +83,8 @@ $ npm install # 安装依赖
 ⓵ 生成字体预览海报
 
 ```sh
-# [推荐] 增量生成 - 字体预览海报
-$ npm run one ./docs/fonts/english/Prima/Prima-Regular.otf
+# [推荐] [增量]生成 - 字体预览海报
+$ npm run one -- ./docs/fonts/english/Prima/Prima-Regular.otf
 # [不推荐] 生成所有字体的预览海报
 $ npm start   # 生成字体海报 & 生成 html 网站
 ```
