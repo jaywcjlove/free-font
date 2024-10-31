@@ -12224,5 +12224,33 @@
     "familyName": "Maple Mono",
     "subfamilyName": "Regular",
     "version": "4.2"
+  },
+  {
+    "name": "CozetteVector",
+    "path": "docs/fonts/english/Cozette/CozetteVector.ttf",
+    "home": "https://github.com/slavfox/Cozette",
+    "license": "IPA-1.0",
+    "size": "359 kB",
+    "byte": 358712,
+    "ctime": 1730340226466,
+    "postscriptName": "CozetteVector",
+    "fullName": "CozetteVector",
+    "familyName": "CozetteVector",
+    "subfamilyName": "Medium",
+    "version": null
+  },
+  {
+    "name": "CozetteVectorBold",
+    "path": "docs/fonts/english/Cozette/CozetteVectorBold.ttf",
+    "home": "https://github.com/slavfox/Cozette",
+    "license": "IPA-1.0",
+    "size": "320 kB",
+    "byte": 319716,
+    "ctime": 1730340226486,
+    "postscriptName": "CozetteVectorBold",
+    "fullName": "CozetteVectorBold",
+    "familyName": "CozetteVectorBold",
+    "subfamilyName": "Medium",
+    "version": null
   }
 ]
