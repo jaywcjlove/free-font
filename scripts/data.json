@@ -12050,5 +12050,95 @@
     "familyName": "Lotion SemiBold",
     "subfamilyName": "Italic",
     "version": "1.006"
+  },
+  {
+    "name": "Iosevka-Bold",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Bold.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "44.8 MB",
+    "byte": 44808044,
+    "ctime": 1730338264017,
+    "version": null
+  },
+  {
+    "name": "Iosevka-ExtraBold",
+    "path": "docs/fonts/english/Iosevka/Iosevka-ExtraBold.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "41.1 MB",
+    "byte": 41114552,
+    "ctime": 1730338264086,
+    "version": null
+  },
+  {
+    "name": "Iosevka-ExtraLight",
+    "path": "docs/fonts/english/Iosevka/Iosevka-ExtraLight.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "43.1 MB",
+    "byte": 43138540,
+    "ctime": 1730338264156,
+    "version": null
+  },
+  {
+    "name": "Iosevka-Heavy",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Heavy.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "43.3 MB",
+    "byte": 43323052,
+    "ctime": 1730338264233,
+    "version": null
+  },
+  {
+    "name": "Iosevka-Light",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Light.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "43.8 MB",
+    "byte": 43755556,
+    "ctime": 1730338264301,
+    "version": null
+  },
+  {
+    "name": "Iosevka-Medium",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Medium.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "40.8 MB",
+    "byte": 40846776,
+    "ctime": 1730338264364,
+    "version": null
+  },
+  {
+    "name": "Iosevka-Regular",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Regular.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "40.6 MB",
+    "byte": 40587664,
+    "ctime": 1730338264439,
+    "version": null
+  },
+  {
+    "name": "Iosevka-SemiBold",
+    "path": "docs/fonts/english/Iosevka/Iosevka-SemiBold.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "42.9 MB",
+    "byte": 42928484,
+    "ctime": 1730338264511,
+    "version": null
+  },
+  {
+    "name": "Iosevka-Thin",
+    "path": "docs/fonts/english/Iosevka/Iosevka-Thin.ttc",
+    "home": "https://github.com/be5invis/Iosevka",
+    "license": "OFL-1.1",
+    "size": "43.2 MB",
+    "byte": 43205640,
+    "ctime": 1730338264591,
+    "version": null
   }
 ]
