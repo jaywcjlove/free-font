@@ -11,6 +11,7 @@
   "scripts": {
     "start": "node scripts/main.mjs && npm run build",
     "one": "node scripts/main.mjs -a",
+    "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
     "build": "ejsc \"templates/**/*\" -o \"docs\"",
     "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },
@@ -22,7 +23,7 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "@wcj/ejs-cli": "^1.4.0",
+    "@wcj/ejs-cli": "^2.0.0",
     "fontkit": "^2.0.4",
     "fs-extra": "^11.2.0",
     "pretty-bytes": "^6.1.1",

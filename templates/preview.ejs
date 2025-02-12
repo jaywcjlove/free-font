@@ -1,31 +1,15 @@
 <%- include('./_partial/header', { type: "preview", title: "", pageurl: "preview.html" }); %>
 <header>
   <%- include('./_partial/header-title', { length: DATA.length, type: "" }); %>
-  <div class="download">
-    <a href="" target="_blank" id="download_jsdelivr">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
-        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
-      </svg>
-    </a>
-    <br />
-    <a href="" target="_blank" id="download_githack">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
-        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
-      </svg>
-    </a>
-    <br />
-    <a href="" target="_blank" id="download_github">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-file-earmark-font-fill" viewBox="0 0 16 16" height="1em" width="1em">
-        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5l.057-2z"/>
-      </svg>
-    </a>
-  </div>
+  <div class="download" id="downloads"></div>
   <div id="license"></div>
   <div id="preview"></div>
 </header>
 <main>
   <p id="font-status" align="center"></p>
+  <% if (GLOBAL.docker == false) { %>
   <div class="info">⚠️ 由于字体文件超过了 1GB，且流量超出了免费使用的界限，导致产生了几十美元的费用。目前我们没有任何捐赠，无法承担这些费用。因此，决定取消下面的字体预览功能。虽然这可能会导致 GitHub 文件下载速度稍慢，但使用上不会受到影响。</div>
+  <% } %>
   <h2>简体字预览</h2>
   <pre contenteditable="true">
 天地玄黄，宇宙洪荒。日月盈昃，辰宿列张。寒来暑往，秋收冬藏。
@@ -49,5 +33,5 @@
   <h2>数字预览</h2>
   <pre contenteditable="true">0 1 2 3 4 5 6 7 8 9</pre>
 </main>
-<%- include('./_partial/preview_scripts'); %>
+<%- include('./_partial/preview_scripts', { docker: GLOBAL.docker }); %>
 <%- include('./_partial/footer', { }); %>

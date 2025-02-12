@@ -1,4 +1,7 @@
 {
+  "globalData": {
+    "docker": false
+  },
   "data": {
     "templates/index.ejs": "./scripts/data.json",
     "templates/kai.ejs": "./scripts/data.json",
