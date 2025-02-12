@@ -12,6 +12,9 @@
   <h1>收录商用免费字体</h1>
 </div>
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
+[![CI](https://github.com/jaywcjlove/free-font/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/free-font/actions/workflows/ci.yml)
+
 本项目基于已不再维护的 [字集](https://github.com/wordshub/free-font) 开源项目，旨在收集汉字字体。我创建了这个新项目，并新增了自动生成字体预览封面的脚本，还重新添加了许多中文字体以及一些开源英文字体，以方便《[字帖宝宝](https://github.com/jaywcjlove/copybook-generator)》用户下载和使用。
 
 汉字字体的制作是一项庞大的工程。常用汉字有 6763 个，GBK 标准中有 20902 个，而最新的 GB18030-2022 标准则包含超过 80,000 个字符。由于汉字的复杂性，制作一套完整的中文字体需要大量的专业人士投入精力和时间。我们鼓励大家使用正版字体，共同为中文字体的制作创造一个良好的环境。
