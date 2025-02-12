@@ -168,6 +168,18 @@ jobs:
             
             ${{ steps.changelog.outputs.changelog }}
 
+            ## Docker
+
+            ```shell
+            docker pull wcjiang/free-font:latest
+            ```
+
+            ```shell
+            docker run --name reference --rm -d -p 9677:3000 wcjiang/free-font:latest
+            # Or
+            docker run --name reference -itd -p 9677:3000 wcjiang/free-font:latest
+            ```
+
       - run: npm install
       - run: npm run build:docker
       - name: Free Disk Space

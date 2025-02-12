@@ -14,6 +14,9 @@
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
 [![CI](https://github.com/jaywcjlove/free-font/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/free-font/actions/workflows/ci.yml)
+[![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/free-font)](https://hub.docker.com/r/wcjiang/free-font)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/free-font)](https://hub.docker.com/r/wcjiang/free-font)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wcjiang/free-font)](https://hub.docker.com/r/wcjiang/free-font)
 
 本项目基于已不再维护的 [字集](https://github.com/wordshub/free-font) 开源项目，旨在收集汉字字体。我创建了这个新项目，并新增了自动生成字体预览封面的脚本，还重新添加了许多中文字体以及一些开源英文字体，以方便《[字帖宝宝](https://github.com/jaywcjlove/copybook-generator)》用户下载和使用。
 
@@ -140,7 +143,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 [`GitHub Page`](https://jaywcjlove.github.io/free-font/) [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) ~~[`Netlify`](https://freefont.netlify.app)~~
 
-如果您有资源，可以轻松部署字体网站。只需克隆 `main` 分支并部署 [`docs`](./docs/) 目录中的静态资源，或直接克隆 [gh-pages](https://github.com/jaywcjlove/free-font/tree/gh-pages) 分支到您的静态服务。
+您可以轻松部署字体网站，只需克隆 `main` 分支并部署 [`docs`](./docs/) 目录中的静态资源，或直接使用 [gh-pages](https://github.com/jaywcjlove/free-font/tree/gh-pages) 分支进行静态托管，还可以通过 [Docker 镜像](https://hub.docker.com/r/wcjiang/free-font) 便捷部署。
 
 ## License
 
