@@ -145,6 +145,13 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 您可以轻松部署字体网站，只需克隆 `main` 分支并部署 [`docs`](./docs/) 目录中的静态资源，或直接使用 [gh-pages](https://github.com/jaywcjlove/free-font/tree/gh-pages) 分支进行静态托管，还可以通过 [Docker 镜像](https://hub.docker.com/r/wcjiang/free-font) 便捷部署。
 
+```shell
+docker pull wcjiang/free-font:latest
+docker run --name reference --rm -d -p 9677:3000 wcjiang/free-font:latest
+# Or
+docker run --name reference -itd -p 9677:3000 wcjiang/free-font:latest
+```
+
 ## License
 
 MIT © [Kenny Wong](https://github.com/jaywcjlove)
