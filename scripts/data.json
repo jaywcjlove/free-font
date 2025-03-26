@@ -9957,21 +9957,6 @@
     "version": "0.920"
   },
   {
-    "name": "小帛宋体",
-    "type": "宋体",
-    "home": "https://github.com/Miiiller/Xiaobo-Songti",
-    "license": "OFL-1.1",
-    "path": "fonts/其他字体/小帛宋体.ttf",
-    "size": "41.1 MB",
-    "ctime": 1722402149826,
-    "byte": 41120960,
-    "postscriptName": "XiaoboSongti-",
-    "fullName": "Xiaobo Songti 小帛宋体",
-    "familyName": "Xiaobo Songti 小帛宋体",
-    "subfamilyName": "Regular",
-    "version": "1.501"
-  },
-  {
     "name": "香萃打字机体 W15",
     "type": "艺术体",
     "license": "OFL-1.1",
