@@ -12588,5 +12588,20 @@
     "familyName": "XiangcuiDengcusong",
     "subfamilyName": "Regular",
     "version": "1.0"
+  },
+  {
+    "name": "香萃零度黑2.0",
+    "path": "docs/fonts/香萃/香萃零度黑2.0.ttf",
+    "home": "https://github.com/Miiiller/Xiangcui-ZeroHei",
+    "license": "OFL-1.1",
+    "type": "黑体",
+    "size": "6.94 MB",
+    "byte": 6940636,
+    "ctime": 1743015501516,
+    "postscriptName": "XiangcuiZeroHei-2.0",
+    "fullName": "XiangcuiZeroHei-2.0",
+    "familyName": "XiangcuiZeroHei-2.0",
+    "subfamilyName": "Regular",
+    "version": "1.000"
   }
 ]
