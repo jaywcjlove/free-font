@@ -12573,5 +12573,20 @@
     "familyName": "ZZZ System",
     "subfamilyName": "Regular",
     "version": "1.000"
+  },
+  {
+    "name": "香萃等粗宋",
+    "path": "docs/fonts/香萃/香萃等粗宋.ttf",
+    "home": "https://github.com/Miiiller/Xiangcui-Dengcusong",
+    "license": "OFL-1.1",
+    "type": "宋体",
+    "size": "23.4 MB",
+    "byte": 23375916,
+    "ctime": 1743015212292,
+    "postscriptName": "XiangcuiDengcusong",
+    "fullName": "XiangcuiDengcusong",
+    "familyName": "XiangcuiDengcusong",
+    "subfamilyName": "Regular",
+    "version": "1.0"
   }
 ]
