@@ -182,6 +182,12 @@ jobs:
 
       - run: npm install
       - run: npm run build:docker
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: font-preview-html
       - name: Free Disk Space
         run: |
           echo "Before Cleanup:"
