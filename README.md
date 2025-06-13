@@ -1,4 +1,4 @@
-镜像网站：[`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | ~~[`Netlify`](https://freefont.netlify.app)~~
+镜像网站：[`haoziku.com`](https://haoziku.com/) [`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | ~~[`Netlify`](https://freefont.netlify.app)~~
 <br />
 <br />
 <br />
@@ -141,7 +141,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 
 文件体积过大，GitHub Pages 已无法实时编辑和预览字体。由于 GitHub 的访问速度无法提升，您可以使用以下镜像网站来访问字体网站。如果您有镜像网站推荐，可以通过 [Issue](https://github.com/jaywcjlove/free-font/issues) 提交，我将把它们列在下面供大家使用：
 
-[`GitHub Page`](https://jaywcjlove.github.io/free-font/) [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) ~~[`Netlify`](https://freefont.netlify.app)~~
+[`haoziku.com`](https://haoziku.com/) [`GitHub Page`](https://jaywcjlove.github.io/free-font/) [`Vercel`](https://free-font.vercel.app) [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) ~~[`Netlify`](https://freefont.netlify.app)~~
 
 **✅ 部署方式**
 
