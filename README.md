@@ -86,7 +86,7 @@ IPA开放字型授权条款由日本IPA制定，符合开放原始码促进会�
 $ npm install # 安装依赖
 ```
 
-➊ 生成字体预览海报
+1️⃣ 生成字体预览海报
 
 ```sh
 # ✅ [推荐] [增量]生成 - 字体预览海报
@@ -95,14 +95,14 @@ $ npm run one -- ./docs/fonts/english/Prima/Prima-Regular.otf
 $ npm start   # 生成字体海报 & 生成 html 网站
 ```
 
-➋ 生成 HTML，在生成 HTML 之前，可以为字体[添加分类和官网等](#添加商免字体)信息
+2️⃣ 生成 HTML，在生成 HTML 之前，可以为字体[添加分类和官网等](#添加商免字体)信息
 
 ```sh
 $ npm run dev   # 监听模板改变，生成 html 网站
 $ npm run build # 生成 html 网站
 ```
 
-➌ 字体添加完成，您可以打开 [`docs/index.html`](docs/index.html) 文件在浏览器中预览
+3️⃣ 字体添加完成，您可以打开 [`docs/index.html`](docs/index.html) 文件在浏览器中预览
 
 如何你的电脑是苹果 M1 芯片，需要检查你的 Node.js 版本是否适用于 arm64，然后切换到 arm64 版本的 nodejs
 
