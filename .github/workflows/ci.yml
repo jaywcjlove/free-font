@@ -6,7 +6,7 @@ on:
 
 jobs:
   ghpage: 
-    if: github.repository == 'jaywcjlove/free-font'
+    if: github.repository == 'FreeyW/haoziku.com'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -106,7 +106,7 @@ jobs:
           publish_dir: ./website
 
   build:
-    if: github.repository == 'jaywcjlove/free-font'
+    if: github.repository == 'FreeyW/haoziku.com'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -215,7 +215,7 @@ jobs:
           push: true
           context: .
           platforms: linux/amd64,linux/arm64
-          tags: wcjiang/free-font:latest
+          tags: freeey/haoziku:latest
 
       - name: Build and push image:tags
         uses: docker/build-push-action@v5
@@ -224,4 +224,4 @@ jobs:
           push: true
           context: .
           platforms: linux/amd64,linux/arm64
-          tags: wcjiang/free-font:${{steps.changelog.outputs.version}}
+          tags: freeey/haoziku:${{steps.changelog.outputs.version}}
