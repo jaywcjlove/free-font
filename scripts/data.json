@@ -842,15 +842,15 @@
     "type": "楷体",
     "license": "OFL-1.1",
     "home": "https://github.com/ButTaiwan/iansui",
-    "path": "fonts/其他字体/芫荽.ttf",
-    "size": "8.56 MB",
-    "ctime": 1721364203415,
-    "byte": 8564980,
+    "path": "fonts/ButKo/芫荽.ttf",
+    "size": "9.45 MB",
+    "ctime": 1753108845861,
+    "byte": 9447424,
     "postscriptName": "Iansui-Regular",
     "fullName": "Iansui Regular",
     "familyName": "Iansui",
     "subfamilyName": "Regular",
-    "version": "1.002"
+    "version": "1.012"
   },
   {
     "name": "演示春风楷",
