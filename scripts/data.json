@@ -386,6 +386,7 @@
     "name": "刻石录鋼筆鶴體",
     "type": "手绘体",
     "path": "fonts/刻石录系列/刻石录鋼筆鶴體.ttf",
+    "home": "https://founder.acgvlyric.org/iu/doku.php/造字:開源字型_i.鋼筆鶴體",
     "size": "13.1 MB",
     "ctime": 1724938438439,
     "byte": 13085420,
@@ -398,6 +399,7 @@
   {
     "name": "刻石录明體",
     "path": "fonts/刻石录系列/刻石录明體.ttf",
+    "home": "https://founder.acgvlyric.org/iu/doku.php/造字:開源字型_i.明體",
     "size": "25.1 MB",
     "ctime": 1724938438438,
     "byte": 25129428,
@@ -411,6 +413,7 @@
     "name": "刻石录顏體",
     "type": "艺术体",
     "path": "fonts/刻石录系列/刻石录顏體.ttf",
+    "home": "https://founder.acgvlyric.org/iu/doku.php/造字:開源字型_i.顏體",
     "size": "8.95 MB",
     "ctime": 1721128750985,
     "byte": 8953760,
