@@ -12490,5 +12490,19 @@
     "familyName": "pinyin-wenkai-light",
     "subfamilyName": "Regular",
     "version": "1.10"
+  },
+  {
+    "name": "字由芳华体",
+    "path": "fonts/其他字体/字由芳华体.ttf",
+    "type": "艺术体",
+    "home": "https://mp.weixin.qq.com/s/IryGNcKjYNzhWeZIMWZ44Q",
+    "size": "1.68 MB",
+    "byte": 1681300,
+    "ctime": 1753457204026,
+    "postscriptName": "Hellofont-FangHuaTi",
+    "fullName": "Hellofont FangHuaTi",
+    "familyName": "Hellofont FangHuaTi",
+    "subfamilyName": "Regular",
+    "version": "1.00"
   }
 ]
