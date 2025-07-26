@@ -12523,7 +12523,7 @@
     "name": "创客贴金刚体3.0",
     "path": "fonts/其他字体/创客贴金刚体3.0.ttf",
     "home": "https://www.zcool.com.cn/work/ZNTgwOTI5NjA=.html",
-    "type":"艺术体",
+    "type": "艺术体",
     "size": "1.3 MB",
     "byte": 1295180,
     "ctime": 1753522578093,
@@ -12532,5 +12532,18 @@
     "familyName": "创客贴金刚体-商用免费ckt.cn Bold",
     "subfamilyName": "Regular",
     "version": "3.000"
+  },
+  {
+    "name": "ZQKFreefont",
+    "path": "fonts/english/other/ZQKFreefont.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNjg2OTA5OTI=.html",
+    "size": "18.9 kB",
+    "byte": 18908,
+    "ctime": 1753522911718,
+    "postscriptName": "ZQKfreefont-Bold",
+    "fullName": "ZQKfreefont Bold",
+    "familyName": "ZQKfreefont",
+    "subfamilyName": "Bold",
+    "version": "1.000"
   }
 ]
