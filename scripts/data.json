@@ -12504,5 +12504,19 @@
     "familyName": "Hellofont FangHuaTi",
     "subfamilyName": "Regular",
     "version": "1.00"
+  },
+  {
+    "name": "NotoTraditionalNushu",
+    "path": "fonts/english/other/NotoTraditionalNushu.ttf",
+    "home": "https://github.com/notofonts/nushu/",
+    "license": "OFL-1.1",
+    "size": "265 kB",
+    "byte": 265040,
+    "ctime": 1753521353675,
+    "postscriptName": "NotoTraditionalNushu-Regular",
+    "fullName": "Noto Traditional Nushu Regular",
+    "familyName": "Noto Traditional Nushu",
+    "subfamilyName": "Regular",
+    "version": "2.003"
   }
 ]
