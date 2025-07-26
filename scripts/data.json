@@ -12518,5 +12518,19 @@
     "familyName": "Noto Traditional Nushu",
     "subfamilyName": "Regular",
     "version": "2.003"
+  },
+  {
+    "name": "创客贴金刚体3.0",
+    "path": "fonts/其他字体/创客贴金刚体3.0.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNTgwOTI5NjA=.html",
+    "type":"艺术体",
+    "size": "1.3 MB",
+    "byte": 1295180,
+    "ctime": 1753522578093,
+    "postscriptName": "CKTKingkong",
+    "fullName": "创客贴金刚体-商用免费ckt.cn",
+    "familyName": "创客贴金刚体-商用免费ckt.cn Bold",
+    "subfamilyName": "Regular",
+    "version": "3.000"
   }
 ]
