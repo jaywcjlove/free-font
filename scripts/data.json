@@ -12490,5 +12490,60 @@
     "familyName": "pinyin-wenkai-light",
     "subfamilyName": "Regular",
     "version": "1.10"
+  },
+  {
+    "name": "字由芳华体",
+    "path": "fonts/其他字体/字由芳华体.ttf",
+    "type": "艺术体",
+    "home": "https://mp.weixin.qq.com/s/IryGNcKjYNzhWeZIMWZ44Q",
+    "size": "1.68 MB",
+    "byte": 1681300,
+    "ctime": 1753457204026,
+    "postscriptName": "Hellofont-FangHuaTi",
+    "fullName": "Hellofont FangHuaTi",
+    "familyName": "Hellofont FangHuaTi",
+    "subfamilyName": "Regular",
+    "version": "1.00"
+  },
+  {
+    "name": "NotoTraditionalNushu",
+    "path": "fonts/english/other/NotoTraditionalNushu.ttf",
+    "home": "https://github.com/notofonts/nushu/",
+    "license": "OFL-1.1",
+    "size": "265 kB",
+    "byte": 265040,
+    "ctime": 1753521353675,
+    "postscriptName": "NotoTraditionalNushu-Regular",
+    "fullName": "Noto Traditional Nushu Regular",
+    "familyName": "Noto Traditional Nushu",
+    "subfamilyName": "Regular",
+    "version": "2.003"
+  },
+  {
+    "name": "创客贴金刚体3.0",
+    "path": "fonts/其他字体/创客贴金刚体3.0.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNTgwOTI5NjA=.html",
+    "type": "艺术体",
+    "size": "1.3 MB",
+    "byte": 1295180,
+    "ctime": 1753522578093,
+    "postscriptName": "CKTKingkong",
+    "fullName": "创客贴金刚体-商用免费ckt.cn",
+    "familyName": "创客贴金刚体-商用免费ckt.cn Bold",
+    "subfamilyName": "Regular",
+    "version": "3.000"
+  },
+  {
+    "name": "ZQKFreefont",
+    "path": "fonts/english/other/ZQKFreefont.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNjg2OTA5OTI=.html",
+    "size": "18.9 kB",
+    "byte": 18908,
+    "ctime": 1753522911718,
+    "postscriptName": "ZQKfreefont-Bold",
+    "fullName": "ZQKfreefont Bold",
+    "familyName": "ZQKfreefont",
+    "subfamilyName": "Bold",
+    "version": "1.000"
   }
 ]
