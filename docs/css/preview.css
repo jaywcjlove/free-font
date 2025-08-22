@@ -52,6 +52,15 @@ div.info {
   justify-content: center;
   gap: 0.23em;
   min-width: 180px;
+  font-size: 0.86em;
+}
+
+.download a.baidu {
+  color: white;
+  font-size: 1em;
+}
+.download a svg {
+  fill: white;
 }
 
 .download a:hover {

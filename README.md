@@ -126,14 +126,14 @@ $ npm install # 安装依赖
 # ✅ [推荐] [增量]生成 - 字体预览海报
 $ npm run one -- ./docs/fonts/english/Prima/Prima-Regular.otf
 # ⚠️ [不推荐] 生成所有字体的预览海报
-$ npm start   # 生成字体海报 & 生成 html 网站
+$ npm run all   # 生成字体海报 & 生成 html 网站
 ```
 
 2️⃣ 生成 HTML，在生成 HTML 之前，可以为字体[添加分类和官网等](#添加商免字体)信息
 
 ```sh
 $ npm run dev   # 监听模板改变，生成 html 网站
-$ npm run build # 生成 html 网站
+$ npm run start # 生成 html 网站
 ```
 
 3️⃣ 字体添加完成，您可以打开 [`docs/index.html`](docs/index.html) 文件在浏览器中预览

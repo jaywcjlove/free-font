@@ -9,10 +9,10 @@
     "url": "https://github.com/jaywcjlove/free-font"
   },
   "scripts": {
-    "start": "node scripts/main.mjs && npm run build",
+    "all": "node scripts/main.mjs && npm run build",
     "one": "node scripts/main.mjs -a",
     "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
-    "build": "ejsc \"templates/**/*\" -o \"docs\"",
+    "start": "ejsc \"templates/**/*\" -o \"docs\"",
     "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },
   "keywords": [],

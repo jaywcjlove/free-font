@@ -1,6 +1,15 @@
 <div>
   <% const isEnglish = font.path.split("/").includes("english");
-    const previewURL = `preview${isEnglish ? ".en" : ""}.html?p=${font.path}&s=${font.size}&t=${font.name}&v=${font.version ?? ""}&l=${encodeURIComponent(font.license ?? "商免")}${font.home ? `&u=${encodeURIComponent(font.home)}` : ""}`;
+    const parameters = [
+      `p=${font.path}`,
+      `s=${font.size}`,
+      `t=${font.name}`,
+      `v=${font.version ?? ""}`,
+      `l=${encodeURIComponent(font.license ?? "商免")}`,
+      font.home ? `u=${encodeURIComponent(font.home)}` : "",
+      font.baidu ? `bd=${encodeURIComponent(font.baidu)}` : ""
+    ].filter(Boolean);
+    const previewURL = `preview${isEnglish ? ".en" : ""}.html?${parameters.join("&")}`;
   %>
   <a href="<%=previewURL%>" target="_blank">
     <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
