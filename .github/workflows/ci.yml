@@ -89,7 +89,6 @@ jobs:
         run: |
           cp docs/*.html ./website
           cp -rp docs/css ./website
-          cp -rp docs/icons ./website
           cp -rp docs/images ./website
 
       - name: Create README.md
@@ -104,6 +103,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./website
+          exclude_assets: |
+            fonts/
+            docs/fonts/
+            **/*.ttf
+            **/*.otf
+            **/*.woff
+            **/*.woff2
 
   build:
     if: github.repository == 'jaywcjlove/free-font'
