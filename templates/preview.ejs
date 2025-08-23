@@ -1,9 +1,17 @@
 <%- include('./_partial/header', { type: "preview", title: "", pageurl: "preview.html" }); %>
 <header>
   <%- include('./_partial/header-title', { length: DATA.length, type: "" }); %>
+  <div id="preview"></div>
   <div class="download" id="downloads"></div>
   <div id="license"></div>
-  <div id="preview"></div>
+  <sup class="appinfo">使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>，也是对我的<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>：</sup>
+  <div class="app">
+  <% GLOBAL.myapp.forEach(function(app) { %>
+      <a href="<%= app.href %>" target="_blank">
+        <img width="45px" height="45px" src="appicon/<%= app.image %>" alt="<%= app.title %>" title="<%= app.title %>">
+      </a>
+  <% }); %>
+  </div>
 </header>
 <main>
   <p id="font-status" align="center"></p>

@@ -35,18 +35,20 @@ header {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   font-weight: bold;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 header p a {
   color: #62bce5;
   text-decoration: none;
 }
+
 header p {
-  font-size: 1em;
+  font-size: 0.86em;
   font-weight: 100;
-  padding-bottom: 3em;
+  padding-bottom: 0;
   color: #acacac;
 }
 
@@ -172,9 +174,11 @@ main {
   }
   header p {
     font-size: 1.15em;
+    padding-bottom: 0;
   }
   header h1 {
     padding-top: 2em;
+    padding-bottom: 0;
   }
   a.github-corner svg {
     width: 60px; height: 60px; 
