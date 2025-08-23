@@ -231,7 +231,7 @@ jobs:
         with:
           push: true
           context: .
-          platforms: linux/amd64  # 先只构建 amd64，如果成功再启用 arm64
+          platforms: linux/amd64,linux/arm64
           tags: wcjiang/free-font:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -245,7 +245,7 @@ jobs:
         with:
           push: true
           context: .
-          platforms: linux/amd64  # 先只构建 amd64，如果成功再启用 arm64
+          platforms: linux/amd64,linux/arm64
           tags: wcjiang/free-font:${{steps.changelog.outputs.version}}
           cache-from: type=gha
           cache-to: type=gha,mode=max
