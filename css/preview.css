@@ -113,7 +113,7 @@ div.info {
   background: #00546f99;
 }
 #license {
-  padding-top: 3em;
+  padding-top: 1em;
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -124,4 +124,17 @@ div.info {
 #preview img {
   max-width: 760px;
   width: 100%;
+}
+
+
+.appinfo {
+  padding-top: 3em;
+  display: block;
+}
+.app {
+  max-width: 560px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  padding: 1em 0 3em 0;
 }
