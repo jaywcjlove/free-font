@@ -211,9 +211,12 @@ jobs:
         with:
           driver-opts: |
             network=host
+            image=moby/buildkit:master
           buildkitd-config-inline: |
             [worker.oci]
-              max-parallelism = 2
+              max-parallelism = 1
+            [registry."docker.io"]
+              mirrors = ["mirror.gcr.io"]
             
       - name: Login to Docker Hub
         uses: docker/login-action@v3
@@ -228,10 +231,13 @@ jobs:
         with:
           push: true
           context: .
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64  # 先只构建 amd64，如果成功再启用 arm64
           tags: wcjiang/free-font:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          outputs: type=registry
+          provenance: false
+          sbom: false
 
       - name: Build and push image:tags
         uses: docker/build-push-action@v5
@@ -239,7 +245,10 @@ jobs:
         with:
           push: true
           context: .
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64  # 先只构建 amd64，如果成功再启用 arm64
           tags: wcjiang/free-font:${{steps.changelog.outputs.version}}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          outputs: type=registry
+          provenance: false
+          sbom: false
