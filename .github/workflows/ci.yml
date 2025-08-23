@@ -89,6 +89,7 @@ jobs:
         run: |
           cp docs/*.html ./website
           cp -rp docs/css ./website
+          cp -rp docs/appicon ./website
           cp -rp docs/images ./website
 
       - name: Create README.md
