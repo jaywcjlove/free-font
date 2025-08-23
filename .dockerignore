@@ -28,3 +28,14 @@ yarn.lock
 *.iml
 *.ipr
 *.iws
+
+# Exclude source files and build artifacts
+Dockerfile
+.dockerignore
+.git
+.gitignore
+
+# Keep fonts but exclude any backup or temporary font files
+**/*.bak
+**/*.tmp
+**/*.temp

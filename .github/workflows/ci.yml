@@ -108,6 +108,7 @@ jobs:
   build:
     if: github.repository == 'jaywcjlove/free-font'
     runs-on: ubuntu-latest
+    timeout-minutes: 480  # 8 hours timeout
     permissions:
       contents: write
       id-token: write
@@ -201,13 +202,20 @@ jobs:
 
       # Create Docker Image
       - uses: docker/setup-buildx-action@v3
+        with:
+          driver-opts: |
+            network=host
+          buildkitd-config-inline: |
+            [worker.oci]
+              max-parallelism = 2
+            
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - run: docker buildx prune
+      - run: docker buildx prune -f
 
       - name: Build and push image:latest
         uses: docker/build-push-action@v5
@@ -216,6 +224,8 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           tags: wcjiang/free-font:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Build and push image:tags
         uses: docker/build-push-action@v5
@@ -225,3 +235,5 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           tags: wcjiang/free-font:${{steps.changelog.outputs.version}}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
