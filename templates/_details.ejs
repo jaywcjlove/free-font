@@ -3,8 +3,8 @@
   description: `${name}免费字体下载，收录大量可商用的中文与英文字体，支持个人与商业免费使用，提供高速下载。`,
   keywords: `${name},免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts`
  }); %>
+<%- include('./_partial/header-title', { length: GLOBAL.DATA.length, type: "" }); %>
 <header>
-  <%- include('./_partial/header-title', { length: GLOBAL.DATA.length, type: "" }); %>
   <div id="preview">
     <img src="<%= PUBLIC_PATH %>/images/<%- name %>-preview.jpg" alt="<%- name %>" />
   </div>
@@ -53,6 +53,17 @@
       文件
     </a>
   </div>
+<% if (GLOBAL.relatedFonts.length > 0) { %>
+  <sup class="relatedfonts title">相关字体</sup>
+  <div class="relatedfonts">
+    <% GLOBAL.relatedFonts.forEach(function(font) { %>
+    <% const pageURL = `details/${font.name}.html`; %>
+    <a href="<%=pageURL%>" title="<%=font.name%>">
+      <img src="<%= PUBLIC_PATH %>images/<%=font.name%>-poster.jpg" width="120px" loading="lazy" alt="<%=font.name%>">
+    </a>
+    <% }); %>
+  </div>
+<% } %>
   <sup class="appinfo">使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>，也是对我的<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>：</sup>
   <div class="app">
   <% GLOBAL.myapp.forEach(function(app) { %>

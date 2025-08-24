@@ -22,6 +22,8 @@ const pkg = createRequire(import.meta.url)("../package.json");
     const outputDir = path.join(__dirname, '../docs/details');
     await fs.emptyDir(outputDir);
     for (const data of fontDatas) {
+      const fontName = data.path.replace(/^fonts[\\/](english[\\/]|其他字体[\\/])?(other[\\/])?/, '').replace(/\.[^/.]+$/, '').split("/")[0];
+      const relatedFonts = fontDatas.filter(item => item.name !== fontName && item.path.includes(fontName));
       const content = await toHTML("./templates/_details.ejs", outputDir, {
         './templates/_details.ejs': data
       }, {
@@ -31,14 +33,13 @@ const pkg = createRequire(import.meta.url)("../package.json");
           PACKAGE: pkg,
           DATA: fontDatas,
           isEnglish: data.path.includes("fonts/english/"),
-          docker: argv.includes("-docker")
+          docker: argv.includes("-docker"),
+          relatedFonts: relatedFonts
         }
       });
       const htmlFilePath = path.join(outputDir, `${data.name}.html`);
-      if (htmlFilePath.endsWith("_details.html")) {
-        console.log(`Generate HTML file for font: \x1b[36;1m ${data.name} \x1b[0m`, htmlFilePath, "!");
-      }
       fs.writeFileSync(htmlFilePath, content);
+      console.log(`Generate HTML file for font: \x1b[36;1m ${data.name} \x1b[0m`, htmlFilePath, "!");
     }
     return
   }

@@ -4,9 +4,7 @@
   keywords: "黑体,楷体,宋体,艺术体,手绘体,开源字体,免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts"
 }); %>
 <% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => a.ctime - b.ctime) %>
-<header>
 <%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>
-</header>
 <main>
   <% openSource.sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
