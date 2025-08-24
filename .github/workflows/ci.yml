@@ -5,23 +5,22 @@ on:
       - main
 
 jobs:
-  ghpage: 
+
+  ghpage:
     if: github.repository == 'jaywcjlove/free-font'
     runs-on: ubuntu-latest
     permissions:
       contents: write
       id-token: write
+    outputs:
+      release_successful: ${{ steps.create_release.outputs.successful }}
+      changelog_version: ${{ steps.changelog.outputs.version }}
     steps:
       - uses: actions/checkout@v4
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          # this might remove tools that are actually needed,
-          # if set to "true" but frees about 6 GB
           tool-cache: false
-          
-          # all of these default to true, but feel free to set to
-          # "false" if necessary for your workflow
           android: true
           dotnet: true
           haskell: true
@@ -84,21 +83,61 @@ jobs:
           </body>
           </html>
           EOF
-
       - name: Move static resource files
         run: |
           cp docs/*.html ./website
           cp -rp docs/css ./website
           cp -rp docs/appicon ./website
           cp -rp docs/images ./website
-
       - name: Create README.md
         working-directory: website
         run: |
           cat > README.md << EOF
-          GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[\`Githack\`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[\`Vercel\`](https://free-font.vercel.app)、[\`Netlify\`](https://freefont.netlify.app)
+          GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[`Vercel`](https://free-font.vercel.app)、[`Netlify`](https://freefont.netlify.app)
           EOF
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@main
+        with:
+          package-path: ./package.json
+      - name: Generate Changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@main
+        with:
+          filter-author: (小弟调调™|\@github-actions-bot\@renovate-bot|dependabot|renovate\\[bot\\]|dependabot\\[bot\\]|Renovate Bot)
+          filter: (^[\s]+?[R|r]elease)|(^[R|r]elease)
+          gh-pages: main
+      - name: Create Release
+        id: create_release
+        uses: jaywcjlove/create-tag-action@main
+        if: steps.create_tag.outputs.successful == 'true'
+        with:
+          package-path: ./package.json
+          version: ${{steps.create_tag.outputs.version}}
+          release: true
+          prerelease: false
+          draft: false
+          body: |
+            [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)  
+            备用历史网站: ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/jaywcjlove/free-font/${{ steps.changelog.outputs.gh-pages-short-hash }}/docs/index.html  
+            比较变化: ${{ steps.changelog.outputs.compareurl }}  
+            > [!NOTE]
+            > 
+            > GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[`Vercel`](https://free-font.vercel.app)、[`Netlify`](https://freefont.netlify.app)
 
+            ${{ steps.changelog.outputs.changelog }}
+
+            ## Docker
+
+            ```shell
+            docker pull wcjiang/free-font:latest
+            ```
+
+            ```shell
+            docker run --name reference --rm -d -p 9677:3000 wcjiang/free-font:latest
+            # Or
+            docker run --name reference -itd -p 9677:3000 wcjiang/free-font:latest
+            ```
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -113,7 +152,8 @@ jobs:
             **/*.woff2
 
   build:
-    if: github.repository == 'jaywcjlove/free-font'
+    if: github.repository == 'jaywcjlove/free-font' && needs.ghpage.outputs.release_successful == 'true'
+    needs: ghpage
     runs-on: ubuntu-latest
     timeout-minutes: 480  # 8 hours timeout
     permissions:
@@ -123,12 +163,7 @@ jobs:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          # this might remove tools that are actually needed,
-          # if set to "true" but frees about 6 GB
           tool-cache: false
-          
-          # all of these default to true, but feel free to set to
-          # "false" if necessary for your workflow
           android: true
           dotnet: true
           haskell: true
@@ -139,63 +174,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      # - run: npm install
-      # - run: npm run start
-      - name: Create Tag
-        id: create_tag
-        uses: jaywcjlove/create-tag-action@main
-        with:
-          package-path: ./package.json
-
-      - name: Generate Changelog
-        id: changelog
-        uses: jaywcjlove/changelog-generator@main
-        with:
-          filter-author: (小弟调调™|\@github-actions-bot\@renovate-bot|dependabot|renovate\\[bot\\]|dependabot\\[bot\\]|Renovate Bot)
-          filter: (^[\s]+?[R|r]elease)|(^[R|r]elease)
-          gh-pages: main
-
-      - name: Create Release
-        uses: jaywcjlove/create-tag-action@main
-        if: steps.create_tag.outputs.successful == 'true'
-        with:
-          package-path: ./package.json
-          version: ${{steps.create_tag.outputs.version}}
-          release: true
-          prerelease: false
-          draft: false
-          body: |
-            [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor) 
-            
-            备用历史网站: ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/jaywcjlove/free-font/${{ steps.changelog.outputs.gh-pages-short-hash }}/docs/index.html  
-            比较变化: ${{ steps.changelog.outputs.compareurl }}  
-            
-            > [!NOTE]
-            > 
-            > GitHub [Page](https://jaywcjlove.github.io/free-font/) ，镜像网站访问：[`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html)、[`Vercel`](https://free-font.vercel.app)、[`Netlify`](https://freefont.netlify.app)
-            
-            ${{ steps.changelog.outputs.changelog }}
-
-            ## Docker
-
-            ```shell
-            docker pull wcjiang/free-font:latest
-            ```
-
-            ```shell
-            docker run --name reference --rm -d -p 9677:3000 wcjiang/free-font:latest
-            # Or
-            docker run --name reference -itd -p 9677:3000 wcjiang/free-font:latest
-            ```
-
       - run: npm install
       - run: npm run build:docker
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v4
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./docs
-      #     publish_branch: font-preview-html
       - name: Free Disk Space
         run: |
           echo "Before Cleanup:"
@@ -206,8 +186,6 @@ jobs:
           sudo rm -rf /usr/local/bin/node /usr/local/bin/npm /usr/local/bin/npx
           echo "After Cleanup:"
           df -h
-
-      # Create Docker Image
       - uses: docker/setup-buildx-action@v3
         with:
           driver-opts: |
@@ -218,15 +196,12 @@ jobs:
               max-parallelism = 1
             [registry."docker.io"]
               mirrors = ["mirror.gcr.io"]
-            
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-
       - run: docker buildx prune -f
-
       - name: Build and push image:latest
         uses: docker/build-push-action@v5
         with:
@@ -239,15 +214,14 @@ jobs:
           outputs: type=registry
           provenance: false
           sbom: false
-
       - name: Build and push image:tags
         uses: docker/build-push-action@v5
-        if: steps.create_tag.outputs.successful
+        if: needs.ghpage.outputs.release_successful == 'true'
         with:
           push: true
           context: .
           platforms: linux/amd64,linux/arm64
-          tags: wcjiang/free-font:${{steps.changelog.outputs.version}}
+          tags: wcjiang/free-font:${{needs.ghpage.outputs.changelog_version}}
           cache-from: type=gha
           cache-to: type=gha,mode=max
           outputs: type=registry

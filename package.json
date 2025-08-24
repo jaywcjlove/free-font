@@ -9,10 +9,12 @@
     "url": "https://github.com/jaywcjlove/free-font"
   },
   "scripts": {
-    "all": "node scripts/main.mjs && npm run build",
+    "all": "node scripts/main.mjs && npm run start",
     "one": "node scripts/main.mjs -a",
     "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
-    "start": "ejsc \"templates/**/*\" -o \"docs\"",
+    "build:docker:pages": "node scripts/main.mjs -pages -docker",
+    "start": "ejsc \"templates/**/*\" -o \"docs\" && npm run start:pages",
+    "start:pages": "node scripts/main.mjs -pages",
     "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },
   "keywords": [],
@@ -23,7 +25,7 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "@wcj/ejs-cli": "^2.0.0",
+    "@wcj/ejs-cli": "^2.2.0",
     "fontkit": "^2.0.4",
     "fs-extra": "^11.2.0",
     "pretty-bytes": "^6.1.1",

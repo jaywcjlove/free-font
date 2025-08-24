@@ -7,7 +7,7 @@ main h2:first-of-type {
   margin-top: 0;
 }
 
-main pre {
+main pre, .editor {
   text-align: center;
   font-size: 32px;
   overflow-x: auto;
@@ -16,7 +16,7 @@ main pre {
   margin: 0;
 }
 
-main h2, #font-status {
+main h2, #font-status, div.info {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-weight: 200;
 }
@@ -32,6 +32,14 @@ div.info {
   background: #ffff004f;
   font-size: 18px;
   padding: 12px 21px;
+}
+
+.download {
+  margin-top: 2em;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .download a {

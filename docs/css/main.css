@@ -168,35 +168,6 @@ main {
   padding: 0 12px;
 }
 
-@media (min-width: 600px) {
-  main {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  header p {
-    font-size: 1.15em;
-    padding-bottom: 0;
-  }
-  header h1 {
-    padding-top: 2em;
-    padding-bottom: 0;
-  }
-  a.github-corner svg {
-    width: 60px; height: 60px; 
-  }
-}
-
-@media (min-width: 900px) {
-  main {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 1200px) {
-  main {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
 footer sup {
   position: absolute;
     font-size: 10px;
@@ -222,4 +193,33 @@ footer {
   text-align: center;
   padding-top: 4em;
   padding-bottom: 7em;
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  header p {
+    font-size: 1.15em;
+    padding-bottom: 0;
+  }
+  header h1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  a.github-corner svg {
+    width: 60px; height: 60px; 
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }

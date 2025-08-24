@@ -1,4 +1,7 @@
-<%- include('./_partial/header', { type: "home", title: "开源字体", pageurl: "open-source.html" }); %>
+<%- include('./_partial/header', {
+  type: "home", title: "收录商用免费开源字体｜Free Font｜免费商用字体合集（中文与英文字体）", pageurl: "open-source.html",
+  description: "Free Font - 收录商用免费开源字体，包括汉字和英文字体，提供免费下载和使用。"
+}); %>
 <% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => a.ctime - b.ctime) %>
 <header>
 <%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>

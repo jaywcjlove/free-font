@@ -1,25 +1,14 @@
 <div>
-  <% const isEnglish = font.path.split("/").includes("english");
-    const parameters = [
-      `p=${font.path}`,
-      `s=${font.size}`,
-      `t=${font.name}`,
-      `v=${font.version ?? ""}`,
-      `l=${encodeURIComponent(font.license ?? "商免")}`,
-      font.home ? `u=${encodeURIComponent(font.home)}` : "",
-      font.baidu ? `bd=${encodeURIComponent(font.baidu)}` : ""
-    ].filter(Boolean);
-    const previewURL = `preview${isEnglish ? ".en" : ""}.html?${parameters.join("&")}`;
-  %>
-  <a href="<%=previewURL%>" target="_blank">
+  <% const pageURL = `details/${font.name}.html`; %>
+  <a href="<%=pageURL%>" title="<%=font.name%>">
     <img src="./images/<%=font.name%>-poster.jpg" loading="lazy" alt="<%=font.name%>">
     <p>
       <span><%=font.name%></span>
       <span class="license">
         <i><%=font.license ?? "商免"%></i>
-        <%-font.size ? `<i class="size" title="${font.byte} byte">${font.size}</i>` : ""%>
+        <%-font.size ? `<i class="size">${font.size}</i>` : ""%>
       </span>
     </p>
   </a>
-  <a href="<%=previewURL%>" class="button">下载字体</a>
+  <a href="<%=pageURL%>" class="button">下载字体</a>
 </div>
