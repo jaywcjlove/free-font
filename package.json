@@ -11,7 +11,7 @@
   "scripts": {
     "all": "node scripts/main.mjs && npm run start",
     "one": "node scripts/main.mjs -a",
-    "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
+    "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}' && npm run build:docker:pages",
     "build:docker:pages": "node scripts/main.mjs -pages -docker",
     "start": "ejsc \"templates/**/*\" -o \"docs\" && npm run start:pages",
     "start:pages": "node scripts/main.mjs -pages",
@@ -30,5 +30,8 @@
     "fs-extra": "^11.2.0",
     "pretty-bytes": "^6.1.1",
     "puppeteer": "^22.13.1"
+  },
+  "dependencies": {
+    "html-minifier-next": "^1.2.1"
   }
 }

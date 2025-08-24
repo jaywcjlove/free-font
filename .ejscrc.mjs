@@ -1,4 +1,4 @@
-{
+export default {
   "globalData": {
     "docker": false,
     "myapp": [

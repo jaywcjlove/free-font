@@ -1,6 +1,7 @@
 <%- include('./_partial/header', {
-  type: "preview", title: `${name}字体下载｜Free Font｜免费商用字体合集（中文与英文字体）`, pageurl: "preview.html",
-  description: `${name}免费字体下载，收录大量可商用的中文与英文字体，支持个人与商业免费使用，提供高速下载。 `
+  type: "preview", title: `${name}字体下载｜Free Font｜免费商用字体下载（中文与英文字体）`, pageurl: "preview.html",
+  description: `${name}免费字体下载，收录大量可商用的中文与英文字体，支持个人与商业免费使用，提供高速下载。`,
+  keywords: `${name},免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts`
  }); %>
 <header>
   <%- include('./_partial/header-title', { length: GLOBAL.DATA.length, type: "" }); %>
@@ -61,11 +62,14 @@
   <% }); %>
   </div>
 </header>
+<% if (GLOBAL.docker == false) { %>
+<main>
+  <div class="info">⚠️ 由于项目体积超过 1GB，且流量超出免费额度，每次提交都会产生额外费用。当前项目无捐赠支持，无法承担开销，因此取消字体预览和直接下载功能。改为第三方下载，虽然速度可能稍慢，但不影响使用。</div>
+</main>
+<% } %>
+<% if (GLOBAL.docker == true) { %>
 <main>
   <p id="font-status" align="center"></p>
-  <% if (GLOBAL.docker == false) { %>
-  <div class="info">⚠️ 由于项目体积超过 1GB，且流量超出免费额度，每次提交都会产生额外费用。当前项目无捐赠支持，无法承担开销，因此取消字体预览和直接下载功能。改为第三方下载，虽然速度可能稍慢，但不影响使用。</div>
-  <% } %>
   <% if (GLOBAL.isEnglish == false) { %>
   <h2><%- name %> - 简体字预览</h2>
   <pre class="editor"contenteditable="true">
@@ -96,6 +100,50 @@ Et voluptatum magnam numquam totam cupiditate. Blanditiis necessitatibus aut asp
   <h2><%- name %> - 数字预览</h2>
   <pre contenteditable="true">0 1 2 3 4 5 6 7 8 9</pre>
 </main>
+<script>
+window.onload = function() {
+  const fontUrl = "<%= PUBLIC_PATH %><%= path %>";
+  const fontName = "<%= name %>";
+  if (fontUrl) {
+    let styleTag = document.getElementById('dynamic-style');
+    if (!styleTag) {
+        styleTag = document.createElement('style');
+        styleTag.id = 'dynamic-style';
+        document.head.appendChild(styleTag);
+    }
+    const fontFaceRule = `
+        @font-face { font-family: 'PreviewFont'; src: url('${fontUrl}') format('truetype');}
+        main, main pre {
+            font-family: 'PreviewFont', sans-serif;
+        }
+    `;
+    styleTag.innerHTML = fontFaceRule;
+    // Define the font face
+    const statusElement = document.getElementById('font-status');
+    statusElement.textContent = `"${fontName}"无法加载...`;
+    const font = new FontFace('PreviewFont', `url(${fontUrl})`);
+    document.fonts.ready.then((fontFaceSet) => {
+        if (fontFaceSet.check('1em PreviewFont')) {
+            statusElement.textContent = `"${fontName}"已加载`;
+            statusElement.classList.add('done');
+        } else {
+            statusElement.textContent = `"${fontName}"尚未加载`;
+        }
+    });
+    // Load the font
+    font.load().then((loadedFont) => {
+        document.fonts.add(loadedFont);
+        statusElement.textContent = `"${fontName}"已加载`;
+        statusElement.classList.add('done');
+    }).catch((error) => {
+        statusElement.classList.add('failed');
+        console.error('Failed to load the custom font:', error);
+        statusElement.textContent = `加载"${fontName}"失败`;
+    });
+  }
+};
+</script>
+<% } %>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FD2CJY58JG"></script>
@@ -104,48 +152,5 @@ Et voluptatum magnam numquam totam cupiditate. Blanditiis necessitatibus aut asp
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-FD2CJY58JG');
-</script>
-<script>
-  window.onload = function() {
-    const fontUrl = "<%= PUBLIC_PATH %><%= path %>";
-    const fontName = "<%= name %>";
-    if (fontUrl) {
-      let styleTag = document.getElementById('dynamic-style');
-      if (!styleTag) {
-          styleTag = document.createElement('style');
-          styleTag.id = 'dynamic-style';
-          document.head.appendChild(styleTag);
-      }
-      const fontFaceRule = `
-          @font-face { font-family: 'PreviewFont'; src: url('${fontUrl}') format('truetype');}
-          main, main pre {
-              font-family: 'PreviewFont', sans-serif;
-          }
-      `;
-      styleTag.innerHTML = fontFaceRule;
-      // Define the font face
-      const statusElement = document.getElementById('font-status');
-      statusElement.textContent = `"${fontName}"无法加载...`;
-      const font = new FontFace('PreviewFont', `url(${fontUrl})`);
-      document.fonts.ready.then((fontFaceSet) => {
-          if (fontFaceSet.check('1em PreviewFont')) {
-              statusElement.textContent = `"${fontName}"已加载`;
-              statusElement.classList.add('done');
-          } else {
-              statusElement.textContent = `"${fontName}"尚未加载`;
-          }
-      });
-      // Load the font
-      font.load().then((loadedFont) => {
-          document.fonts.add(loadedFont);
-          statusElement.textContent = `"${fontName}"已加载`;
-          statusElement.classList.add('done');
-      }).catch((error) => {
-          statusElement.classList.add('failed');
-          console.error('Failed to load the custom font:', error);
-          statusElement.textContent = `加载"${fontName}"失败`;
-      });
-    }
-  };
 </script>
 <%- include('./_partial/footer', { }); %>

@@ -126,7 +126,7 @@ div.info {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: 0.45em;
 }
 
 #preview img {
@@ -134,9 +134,8 @@ div.info {
   width: 100%;
 }
 
-
 .appinfo {
-  padding-top: 3em;
+  padding-top: 6em;
   display: block;
 }
 .app {

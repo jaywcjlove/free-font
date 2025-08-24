@@ -7,13 +7,13 @@ import { createRequire } from "module";
 import prettyBytes from 'pretty-bytes';
 import { openSync } from 'fontkit';
 import { toHTML } from '@wcj/ejs-cli';
+import ejsconf from '../.ejscrc.mjs';
 
 import { createPosterImage, removeRootPathSegment, getFontFiles } from './utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const fontDatas = createRequire(import.meta.url)("./data.json");
-const ejsconf = createRequire(import.meta.url)("../.ejscrc.json");
 const pkg = createRequire(import.meta.url)("../package.json");
 
 ;(async () => {
