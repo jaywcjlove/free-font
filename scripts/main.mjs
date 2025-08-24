@@ -7,6 +7,7 @@ import { createRequire } from "module";
 import prettyBytes from 'pretty-bytes';
 import { openSync } from 'fontkit';
 import { toHTML } from '@wcj/ejs-cli';
+import { minify } from 'html-minifier-next';
 import ejsconf from '../.ejscrc.mjs';
 
 import { createPosterImage, removeRootPathSegment, getFontFiles } from './utils.mjs';
@@ -38,7 +39,17 @@ const pkg = createRequire(import.meta.url)("../package.json");
         }
       });
       const htmlFilePath = path.join(outputDir, `${data.name}.html`);
-      fs.writeFileSync(htmlFilePath, content);
+      const result = await minify(content, {
+        // collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeOptionalTags: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        minifyCSS: true,
+        minifyJS: true,
+      });
+      fs.writeFileSync(htmlFilePath, result);
       console.log(`Generate HTML file for font: \x1b[36;1m ${data.name} \x1b[0m`, htmlFilePath, "!");
     }
     return
