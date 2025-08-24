@@ -3,19 +3,10 @@ html {
 }
 body {
   background-color: #282828;
-  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-}
-
-::-webkit-scrollbar {
-  background: transparent;
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-fg-muted);
-  border-radius: 10px;
+  color: white;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -42,28 +33,53 @@ a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
   40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
 }
 
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.website-info {
+  text-align: center;
+  font-size: 0.86em;
+  font-weight: 100;
+  padding-bottom: 3em;
+  color: #ffffff6b;
+}
+
 header {
   color: white;
   padding: 1em;
   text-align: center;
 }
-
-header h1 {
-  font-size: 1.8em;
-  font-weight: bold;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 header p a {
   color: #62bce5;
   text-decoration: none;
 }
-
 header p {
   font-size: 0.86em;
   font-weight: 100;
   padding-bottom: 0;
   color: #acacac;
+}
+
+nav {
+  text-align: center;
+  padding: 0.23em 0;
+  margin-bottom: 0.23em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  --color-header-bg: #3a3a3a8f;
+  background: var(--color-header-bg);
+  backdrop-filter: saturate(180%) blur(0.4rem);
+  background-color: var(--color-header-bg);
+  position: sticky;
+  z-index: 2;
+  top: 0;
 }
 
 nav a {
@@ -76,11 +92,6 @@ nav a.active {
   padding: 2px 4px;
   border-radius: 5px;
   font-weight: 200;
-}
-
-nav {
-  text-align: center;
-  padding-bottom: 1em;
 }
 
 main > div, main > div a, main > div span, main > div img {
@@ -218,6 +229,7 @@ footer {
     padding-bottom: 0;
   }
   header h1 {
+    font-size: 1.8em;
     padding-top: 2em;
     padding-bottom: 2em;
   }

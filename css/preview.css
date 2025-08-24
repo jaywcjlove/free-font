@@ -27,7 +27,7 @@ main h2 {
 }
 
 div.info {
-  max-width: 620px;
+  max-width: 500px;
   margin: 0 auto;
   background: #ffff004f;
   font-size: 18px;
@@ -145,3 +145,35 @@ div.info {
   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
   padding: 1em 0 3em 0;
 }
+
+.relatedfonts.title {
+  margin-top: 6em;
+  padding-bottom: 1em;
+  display: block;
+}
+
+.relatedfonts {
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.23em;
+}
+
+.relatedfonts img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+  display: block;
+  width: 102px;
+}
+
+
+@media (min-width: 600px) {
+  .relatedfonts img {
+    width: 120px;
+  }
+}
+
