@@ -86,9 +86,12 @@ jobs:
       - name: Move static resource files
         run: |
           cp docs/*.html ./website
-          cp -rp docs/css ./website
           cp -rp docs/appicon ./website
+          cp -rp docs/css ./website
+          cp -rp docs/details ./website
           cp -rp docs/images ./website
+          cp -rp docs/icons ./website
+          rm -rf docs/icons/banner.jpeg
       - name: Create README.md
         working-directory: website
         run: |
