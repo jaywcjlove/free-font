@@ -147,7 +147,7 @@ https:/wangchujiang.com/free-font/details/精品點陣體_Circle_Dot.html
 https:/wangchujiang.com/free-font/details/精品點陣體_Gradient.html
 https:/wangchujiang.com/free-font/details/精品點陣體_Square_Dot.html
 https:/wangchujiang.com/free-font/details/精品點陣體-Blur.html
-https:/wangchujiang.com/free-font/details/精品點陣體-Bold_1.html
+https:/wangchujiang.com/free-font/details/精品點陣體-Bold_1.9.html
 https:/wangchujiang.com/free-font/details/苦累蛙圓體-Bold.html
 https:/wangchujiang.com/free-font/details/苦累蛙圓體-ExtraLight.html
 https:/wangchujiang.com/free-font/details/苦累蛙圓體-Light.html
@@ -201,7 +201,7 @@ https:/wangchujiang.com/free-font/details/秋空黑體-M-Light.html
 https:/wangchujiang.com/free-font/details/秋空黑體-M-Medium.html
 https:/wangchujiang.com/free-font/details/秋空黑體-M-Normal.html
 https:/wangchujiang.com/free-font/details/秋空黑體-M-Regular.html
-https:/wangchujiang.com/free-font/details/秋水書体.html
+https:/wangchujiang.com/free-font/details/秋水書体.Bright.html
 https:/wangchujiang.com/free-font/details/全字庫正楷體-98_1.html
 https:/wangchujiang.com/free-font/details/全字庫正楷體-Plus-98_1.html
 https:/wangchujiang.com/free-font/details/全字庫正宋體-98_1.html
@@ -882,7 +882,7 @@ https:/wangchujiang.com/free-font/details/XianzhouSeal-SemiBold.html
 https:/wangchujiang.com/free-font/details/ZZZA-Regular.html
 https:/wangchujiang.com/free-font/details/ZZZSystem-Regular.html
 https:/wangchujiang.com/free-font/details/香萃等粗宋.html
-https:/wangchujiang.com/free-font/details/香萃零度黑2.html
+https:/wangchujiang.com/free-font/details/香萃零度黑2.0.html
 https:/wangchujiang.com/free-font/details/清松手寫體1：圓潤.html
 https:/wangchujiang.com/free-font/details/清松手寫體2：秀氣.html
 https:/wangchujiang.com/free-font/details/清松手寫體3：呆萌.html
@@ -920,7 +920,7 @@ https:/wangchujiang.com/free-font/details/宝宝字帖拼音笔顺体.html
 https:/wangchujiang.com/free-font/details/宝宝字帖拼音音标.html
 https:/wangchujiang.com/free-font/details/字由芳华体.html
 https:/wangchujiang.com/free-font/details/NotoTraditionalNushu.html
-https:/wangchujiang.com/free-font/details/创客贴金刚体3.html
+https:/wangchujiang.com/free-font/details/创客贴金刚体3.0.html
 https:/wangchujiang.com/free-font/details/ZQKFreefont.html
 https:/wangchujiang.com/free-font/details/LINESeedSans_Bd.html
 https:/wangchujiang.com/free-font/details/LINESeedSans_He.html

@@ -23,7 +23,7 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "@wcj/ejs-cli": "^3.1.0",
+    "@wcj/ejs-cli": "^3.1.1",
     "fontkit": "^2.0.4",
     "fs-extra": "^11.2.0",
     "pretty-bytes": "^6.1.1",
