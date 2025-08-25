@@ -1,4 +1,12 @@
+import { minify } from 'html-minifier-next';
+
+/**
+ * @type {import('@wcj/ejs-cli').Options}
+ */
 export default {
+  sitemap: true,
+  sitemapPrefix: "https://wangchujiang.com/free-font/",
+  homepage: "https://jaywcjlove.github.io/free-font/",
   "globalData": {
     "docker": false,
     "myapp": [
@@ -135,6 +143,7 @@ export default {
     ]
   },
   "data": {
+    "templates/_details.ejs": "./scripts/data.json",
     "templates/index.ejs": "./scripts/data.json",
     "templates/kai.ejs": "./scripts/data.json",
     "templates/song.ejs": "./scripts/data.json",
@@ -145,5 +154,18 @@ export default {
     "templates/open-source.ejs": "./scripts/data.json",
     "templates/preview.ejs": "./scripts/data.json",
     "templates/preview.en.ejs": "./scripts/data.json"
-  }
+  },
+  beforeSaveHTML: async (html, output, filename) => {
+    const minHTML = await minify(html, {
+        // collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeOptionalTags: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        minifyCSS: true,
+        minifyJS: true,
+    });
+    return minHTML;
+  },
 }

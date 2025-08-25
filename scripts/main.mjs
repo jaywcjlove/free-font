@@ -6,54 +6,15 @@ import { dirname } from 'path';
 import { createRequire } from "module";
 import prettyBytes from 'pretty-bytes';
 import { openSync } from 'fontkit';
-import { toHTML } from '@wcj/ejs-cli';
-import { minify } from 'html-minifier-next';
-import ejsconf from '../.ejscrc.mjs';
 
 import { createPosterImage, removeRootPathSegment, getFontFiles } from './utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const fontDatas = createRequire(import.meta.url)("./data.json");
-const pkg = createRequire(import.meta.url)("../package.json");
 
 ;(async () => {
   let argv = process.argv;
-  if (argv.includes("-pages")) {
-    const outputDir = path.join(__dirname, '../docs/details');
-    await fs.emptyDir(outputDir);
-    for (const data of fontDatas) {
-      const fontName = data.path.replace(/^fonts[\\/](english[\\/]|其他字体[\\/])?(other[\\/])?/, '').replace(/\.[^/.]+$/, '').split("/")[0];
-      const relatedFonts = fontDatas.filter(item => item.name !== fontName && item.path.includes(fontName));
-      const content = await toHTML("./templates/_details.ejs", outputDir, {
-        './templates/_details.ejs': data
-      }, {
-        skipDiskWrite: true,
-        globalData: {
-          myapp: ejsconf.globalData.myapp,
-          PACKAGE: pkg,
-          DATA: fontDatas,
-          isEnglish: data.path.includes("fonts/english/"),
-          docker: argv.includes("-docker"),
-          relatedFonts: relatedFonts
-        }
-      });
-      const htmlFilePath = path.join(outputDir, `${data.name}.html`);
-      const result = await minify(content, {
-        // collapseWhitespace: true,
-        removeComments: true,
-        removeRedundantAttributes: true,
-        removeOptionalTags: true,
-        removeScriptTypeAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        minifyCSS: true,
-        minifyJS: true,
-      });
-      fs.writeFileSync(htmlFilePath, result);
-      console.log(`Generate HTML file for font: \x1b[36;1m ${data.name} \x1b[0m`, htmlFilePath, "!");
-    }
-    return
-  }
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
