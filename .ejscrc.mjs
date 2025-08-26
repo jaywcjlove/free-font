@@ -1,5 +1,5 @@
 import { minify } from 'html-minifier-next';
-import { buildUrl } from '@wcj/ejs-cli';
+import path from 'path';
 import { writeFileSync } from "fs"
 import datas from './scripts/data.json' assert { type: "json" };
 
@@ -191,7 +191,8 @@ export default {
       if (detail.baidu) {
         result.push(`bd=${encodeChar(detail.baidu)}`)
       }
-      newsitemap += `https://wangchujiang.com/free-font/preview.html?${result.join("&")}\n`;
+      const isEnglish = detail.path.split(path.sep).includes("english");
+      newsitemap += `https://wangchujiang.com/free-font/preview${isEnglish ? ".en" : ""}.html?${result.join("&")}\n`;
     })
     writeFileSync("./docs/sitemap.txt", sitemap + "\n\n" + newsitemap);
     console.log('🎉 Build process completed successfully!');

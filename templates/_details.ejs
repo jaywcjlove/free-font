@@ -1,5 +1,7 @@
 <%- include('./_partial/header', {
-  type: "preview", title: `${name}字体下载｜Free Font｜免费商用字体下载（中文与英文字体）`, pageurl: "preview.html",
+  type: "preview",
+  title: `Free Font - ${name}字体免费下载｜商用免费字体下载`,
+  pageurl: "preview.html",
   description: `${name}免费字体下载，收录大量可商用的中文与英文字体，支持个人与商业免费使用，提供高速下载。`,
   keywords: `${name},免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts`
  }); %>
@@ -62,8 +64,7 @@
   <sup class="relatedfonts title">相关字体</sup>
   <div class="relatedfonts">
     <% relatedFonts.forEach(function(font) { %>
-    <% const pageURL = `details/${font.name}.html`; %>
-    <a href="<%=pageURL%>" title="<%=font.name%>">
+    <a href="<%=PUBLIC_PATH%>details/<%=font.name%>.html" title="<%=font.name%>">
       <img src="<%= PUBLIC_PATH %>images/<%=font.name%>-poster.jpg" width="120px" loading="lazy" alt="<%=font.name%>">
     </a>
     <% }); %>
