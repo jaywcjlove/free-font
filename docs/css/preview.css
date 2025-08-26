@@ -45,13 +45,11 @@ div.info {
 .download a {
   margin-top: 1em;
 }
-.download a:not(.baidu) {
-  padding: 0.35em 0.86em;
-}
 .download a:first-child {
   margin-top: 0 !important;
 }
 .download a {
+  padding: 0.35em 0.86em;
   text-align: center;
   background: #fffefe36;
   border-radius: 2em;
