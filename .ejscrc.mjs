@@ -1,4 +1,7 @@
 import { minify } from 'html-minifier-next';
+import { buildUrl } from '@wcj/ejs-cli';
+import { writeFileSync } from "fs"
+import datas from './scripts/data.json' assert { type: "json" };
 
 /**
  * @type {import('@wcj/ejs-cli').Options}
@@ -168,4 +171,37 @@ export default {
     });
     return minHTML;
   },
+  done: (sitemap = "", options = {}, details = []) => {
+    let newsitemap = ""
+    datas.forEach((detail) => {
+      const result = []
+      if (detail.path) {
+        result.push(`p=${encodeChar(detail.path)}`)
+      }
+      if (detail.size) {
+        result.push(`s=${encodeChar(detail.size)}`)
+      }
+      if (detail.name) {
+        result.push(`t=${encodeChar(detail.name)}`)
+      }
+      if (detail.version) {
+        result.push(`v=${encodeChar(detail.version)}`)
+      }
+      result.push(`l=${encodeChar(detail.license ?? "商免")}`)
+      if (detail.baidu) {
+        result.push(`bd=${encodeChar(detail.baidu)}`)
+      }
+      newsitemap += `https://wangchujiang.com/free-font/preview.html?${result.join("&")}\n`;
+    })
+    writeFileSync("./docs/sitemap.txt", sitemap + "\n\n" + newsitemap);
+    console.log('🎉 Build process completed successfully!');
+  }
+}
+
+const encodeChar = (char) => {
+  // Check if the character is non-ASCII (e.g., Chinese characters)
+  if (/[\u4e00-\u9fa5]/.test(char)) {
+    return char;
+  }
+  return encodeURIComponent(char); // Encode other characters
 }
