@@ -1,0 +1,60 @@
+<%- include('./_partial/header', {
+    type: "preview", title: "",
+    pageurl: "preview.html",
+    description: "免费字体下载，收录大量可商用的中文与英文字体，支持个人与商业免费使用，提供高速下载。",
+    keywords: "免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts"
+}); %>
+<header>
+  <%- include('./_partial/header-title', { length: DATA.length, type: "" }); %>
+  <div id="preview"></div>
+  <div class="download" id="downloads"></div>
+  <div id="license"></div>
+  <sup class="appinfo">使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>，也是对我的<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>：</sup>
+  <div class="app">
+  <% GLOBAL.myapp.forEach(function(app) { %>
+      <a href="<%= app.href %>" target="_blank">
+        <img width="45px" height="45px" src="appicon/<%= app.image %>" alt="<%= app.title %>" title="<%= app.title %>">
+      </a>
+  <% }); %>
+  </div>
+</header>
+<main>
+  <p id="font-status" align="center"></p>
+  <% if (GLOBAL.docker == false) { %>
+  <div class="info">⚠️ 由于项目超过了 1GB，且流量超出了免费使用的界限，导致产生了几十美元的费用。目前我们没有任何捐赠，无法承担这些费用。因此，决定取消下面的字体预览功能。虽然这可能会导致 GitHub 文件下载速度稍慢，但使用上不会受到影响。</div>
+  <% } %>
+  <h2>简体字预览</h2>
+  <pre contenteditable="true">
+天地玄黄，宇宙洪荒。日月盈昃，辰宿列张。寒来暑往，秋收冬藏。
+闰余成岁，律吕调阳。云腾致雨，露结为霜。金生丽水，玉出昆冈。
+剑号巨阙，珠称夜光。果珍李柰，菜重芥姜。海咸河淡，鳞潜羽翔。
+龙师火帝，鸟官人皇。始制文字，乃服衣裳。推位让国，有虞陶唐。
+吊民伐罪，周发殷汤。坐朝问道，垂拱平章。爱育黎首，臣伏戎羌。
+遐迩一体，率宾归王。鸣凤在竹，白驹食场。化被草木，赖及万方。</pre>
+  <h2>繁体字预览</h2>
+  <pre contenteditable="true">
+天地玄黃，宇宙洪荒。日月盈昃，辰宿列張。寒來暑往，秋收冬藏。
+閏餘成歲，律呂調陽。雲騰致雨，露結為霜。金生麗水，玉出崑岡。
+劍號巨闕，珠稱夜光。果珍李柰，菜重芥薑。海鹹河淡，鱗潛羽翔。
+龍師火帝，鳥官人皇。始制文字，乃服衣裳。推位讓國，有虞陶唐。
+弔民伐罪，周發殷湯。坐朝問道，垂拱平章。愛育黎首，臣伏戎羌。
+遐邇一體，率賓歸王。鳴鳳在竹，白駒食場。化被草木，賴及萬方。</pre>
+  <h2>大写字母预览</h2>
+  <pre contenteditable="true">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</pre>
+  <h2>小写字母预览</h2>
+  <pre contenteditable="true">a b c d e f g h i j k l m n o p q r s t u v w x y z</pre>
+  <h2>数字预览</h2>
+  <pre contenteditable="true">0 1 2 3 4 5 6 7 8 9</pre>
+</main>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FD2CJY58JG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FD2CJY58JG');
+</script>
+<%- include('./_partial/preview_scripts', { docker: GLOBAL.docker }); %>
+<%- include('./_partial/footer', { }); %>
