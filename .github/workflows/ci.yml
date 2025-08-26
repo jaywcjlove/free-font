@@ -91,6 +91,7 @@ jobs:
           cp -rp docs/details ./website
           cp -rp docs/images ./website
           cp -rp docs/icons ./website
+          cp -rp docs/sitemap.txt ./website
       - name: Create README.md
         working-directory: website
         run: |
