@@ -56,13 +56,12 @@ div.info {
   box-shadow: 0px 0px 0px 3px #1b1b1b;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   gap: 0.23em;
-  min-width: 180px;
   font-size: 0.86em;
 }
 
 .download a.baidu {
+  padding: 0.35em 0.86em;
   color: white;
   font-size: 1em;
 }
