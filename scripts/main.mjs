@@ -1,21 +1,17 @@
 import fs from 'fs-extra';
 import path from 'path';
 import puppeteer from 'puppeteer';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import { createRequire } from "module";
 import prettyBytes from 'pretty-bytes';
 import { openSync } from 'fontkit';
 
-import { createPosterImage, removeRootPathSegment, getFontFiles } from './utils.mjs';
+import { createPosterImage, removeRootPathSegment, getFontFiles, outputDir } from './utils.mjs';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 const fontDatas = createRequire(import.meta.url)("./data.json");
 
 ;(async () => {
   let argv = process.argv;
-
+  console.log("outputDir", outputDir)
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   if (argv.includes("-a")) {
@@ -30,7 +26,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
         if (dataIndex === -1) {
           resultData.push({
             name: fontName,
-            path: removeRootPathSegment(fontPath),
+            path: removeRootPathSegment(fontPath, outputDir),
             size: prettyBytes(stat.size),
             byte: stat.size,
             ctime: stat.ctime.getTime(),
@@ -42,7 +38,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
           })
         } else {
           resultData[dataIndex].name = fontName;
-          resultData[dataIndex].path = removeRootPathSegment(fontPath);
+          resultData[dataIndex].path = removeRootPathSegment(fontPath, outputDir);
           resultData[dataIndex].size = prettyBytes(stat.size)
           resultData[dataIndex].byte = stat.size
           resultData[dataIndex].ctime = stat.ctime.getTime()

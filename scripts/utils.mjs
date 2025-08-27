@@ -1,3 +1,12 @@
+import fs from 'fs-extra';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export const outputDir = path.join(__dirname, '../docs/');
 
 /* 是否存在汉字 */
 function containsNoChineseCharacters(str) {
@@ -152,10 +161,9 @@ export async function getFontFiles(dirPath) {
   return fontFiles;
 }
 
-export function removeRootPathSegment(filePath) {
-  const segments = filePath.split(path.sep);
-  if (segments.length > 1) {
-      segments.shift(); // 移除第一个路径段
+export function removeRootPathSegment(filePath, outputDir = "") {
+  if (outputDir) {
+    filePath = path.relative(outputDir, filePath);
   }
-  return segments.join(path.sep);
+  return filePath.split(path.sep).join("/");
 }

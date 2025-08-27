@@ -4117,14 +4117,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Bold.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "18.5 MB",
-    "ctime": 1721198045755,
-    "byte": 18546748,
-    "postscriptName": "LXGWWenKai-Bold",
-    "fullName": "LXGW WenKai Bold",
-    "familyName": "LXGW WenKai",
-    "subfamilyName": "Bold",
-    "version": "1.330"
+    "size": "24.3 MB",
+    "ctime": 1756320775976,
+    "byte": 24303068,
+    "postscriptName": "LXGWWenKai-Medium",
+    "fullName": "LXGW WenKai Medium",
+    "familyName": "LXGW WenKai Medium",
+    "subfamilyName": "Regular",
+    "version": "1.521"
   },
   {
     "name": "霞鹜文楷-Light",
@@ -4133,14 +4133,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Light.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "21.3 MB",
-    "ctime": 1721198046058,
-    "byte": 21349268,
+    "size": "27.3 MB",
+    "ctime": 1756320776041,
+    "byte": 27314108,
     "postscriptName": "LXGWWenKai-Light",
     "fullName": "LXGW WenKai Light",
     "familyName": "LXGW WenKai Light",
     "subfamilyName": "Regular",
-    "version": "1.330"
+    "version": "1.521"
   },
   {
     "name": "霞鹜文楷-Mono-Bold",
@@ -4149,14 +4149,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Bold.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "18.6 MB",
-    "ctime": 1721198046064,
-    "byte": 18556434,
-    "postscriptName": "LXGWWenKaiMono-Bold",
-    "fullName": "LXGW WenKai Mono Bold",
-    "familyName": "LXGW WenKai Mono",
-    "subfamilyName": "Bold",
-    "version": "1.330"
+    "size": "24.3 MB",
+    "ctime": 1756320776194,
+    "byte": 24306028,
+    "postscriptName": "LXGWWenKaiMono-Medium",
+    "fullName": "LXGW WenKai Mono Medium",
+    "familyName": "LXGW WenKai Mono Medium",
+    "subfamilyName": "Regular",
+    "version": "1.521"
   },
   {
     "name": "霞鹜文楷-Mono-Light",
@@ -4165,14 +4165,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Light.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "21.4 MB",
-    "ctime": 1721198046070,
-    "byte": 21357986,
+    "size": "27.3 MB",
+    "ctime": 1756320776275,
+    "byte": 27316744,
     "postscriptName": "LXGWWenKaiMono-Light",
     "fullName": "LXGW WenKai Mono Light",
     "familyName": "LXGW WenKai Mono Light",
     "subfamilyName": "Regular",
-    "version": "1.330"
+    "version": "1.521"
   },
   {
     "name": "霞鹜文楷-Mono-Regular",
@@ -4181,14 +4181,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Mono-Regular.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "19.1 MB",
-    "ctime": 1721198046079,
-    "byte": 19093034,
+    "size": "24.8 MB",
+    "ctime": 1756320776350,
+    "byte": 24755996,
     "postscriptName": "LXGWWenKaiMono-Regular",
     "fullName": "LXGW WenKai Mono",
     "familyName": "LXGW WenKai Mono",
     "subfamilyName": "Regular",
-    "version": "1.330"
+    "version": "1.521"
   },
   {
     "name": "霞鹜文楷-Regular",
@@ -4197,14 +4197,14 @@
     "home": "https://github.com/lxgw/LxgwWenKai",
     "path": "fonts/霞鹜/文楷/霞鹜文楷-Regular.ttf",
     "baidu": "1c2npOVBxH3Z5LEvjGkoT7g?pwd=tqe2",
-    "size": "19.1 MB",
-    "ctime": 1721198046084,
-    "byte": 19073964,
+    "size": "24.7 MB",
+    "ctime": 1756320776414,
+    "byte": 24745052,
     "postscriptName": "LXGWWenKai-Regular",
     "fullName": "LXGW WenKai",
     "familyName": "LXGW WenKai",
     "subfamilyName": "Regular",
-    "version": "1.330"
+    "version": "1.521"
   },
   {
     "name": "霞鶩緻宋-经典",
