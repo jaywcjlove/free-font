@@ -88,8 +88,9 @@ jobs:
           cp docs/*.html ./website
           cp -rp docs/appicon ./website
           cp -rp docs/css ./website
-          cp -rp docs/details ./website
+          cp -rp docs/js ./website
           cp -rp docs/images ./website
+          cp -rp docs/details ./website
           cp -rp docs/icons ./website
           cp -rp docs/sitemap.txt ./website
       - name: Create README.md
