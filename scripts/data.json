@@ -13591,5 +13591,29 @@
     "byte": 16791251,
     "ctime": 1743011904212,
     "version": null
+  },
+  {
+    "name": "Caveat-Bold",
+    "path": "fonts/english/caveat/Caveat-Bold.ttf",
+    "size": "303 kB",
+    "byte": 303088,
+    "ctime": 1756402940745,
+    "postscriptName": "Caveat-Bold",
+    "fullName": "Caveat Bold",
+    "familyName": "Caveat",
+    "subfamilyName": "Bold",
+    "version": "2.000"
+  },
+  {
+    "name": "Caveat-Regular",
+    "path": "fonts/english/caveat/Caveat-Regular.ttf",
+    "size": "298 kB",
+    "byte": 297900,
+    "ctime": 1756402936067,
+    "postscriptName": "Caveat-Regular",
+    "fullName": "Caveat Regular",
+    "familyName": "Caveat",
+    "subfamilyName": "Regular",
+    "version": "2.000"
   }
 ]
