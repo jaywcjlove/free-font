@@ -1,7 +1,10 @@
 import { minify } from 'html-minifier-next';
 import path from 'path';
 import { writeFileSync } from "fs"
+import prettyBytes from 'pretty-bytes';
 import datas from './scripts/data.json' assert { type: "json" };
+
+const total = datas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
 
 /**
  * @type {import('@wcj/ejs-cli').Options}
@@ -12,6 +15,7 @@ export default {
   homepage: "https://jaywcjlove.github.io/free-font/",
   "globalData": {
     "docker": false,
+    "totalBytes": prettyBytes(total),
     "myapp": [
       {
         "href": "https://apps.apple.com/app/Vidwall/6747587746",
