@@ -58,6 +58,15 @@ div.info {
   align-items: center;
   gap: 0.23em;
   font-size: 0.86em;
+  position: relative;
+}
+
+.download a.baidu sup {
+  position: absolute;
+  right: 0;
+  font-size: 0.56em;
+  margin: -16px -47px 0 0;
+  color: #909090;
 }
 
 .download a.baidu {
