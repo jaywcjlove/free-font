@@ -30,7 +30,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
       }
       fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
     }
-    return exit(0);
+    return process.exit(1);;
   }
   /// 获取所有字体信息
   if (argv.includes("-info")) {
@@ -49,7 +49,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
       console.log(`Update font info: \x1b[35;1m ${resultData[item].name} \x1b[0m"`);
     }
     fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
-    return exit(0);
+    return process.exit(1);
   }
   if (argv.includes("-a")) {
     let fontPath = argv[argv.length - 1]

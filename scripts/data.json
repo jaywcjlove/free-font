@@ -15347,5 +15347,21 @@
     "version": "2.000",
     "copyright": "Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)",
     "numGlyphs": 1032
+  },
+  {
+    "name": "三极泼墨体",
+    "path": "fonts/其他字体/三极泼墨体.ttf",
+    "home": "https://www.sjtype.com/free.php?id=217",
+    "type": "艺术体",
+    "size": "21 MB",
+    "byte": 20986644,
+    "ctime": 1756459196093,
+    "postscriptName": "pomo",
+    "fullName": "pomo",
+    "familyName": "SJpomo",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 8145
   }
 ]

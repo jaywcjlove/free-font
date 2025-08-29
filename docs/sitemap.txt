@@ -937,6 +937,7 @@ https://wangchujiang.com/free-font/details/文泉驿微米黑.html
 https://wangchujiang.com/free-font/details/文泉驿正黑.html
 https://wangchujiang.com/free-font/details/Caveat-Bold.html
 https://wangchujiang.com/free-font/details/Caveat-Regular.html
+https://wangchujiang.com/free-font/details/三极泼墨体.html
 
 https://wangchujiang.com/free-font/preview.html?p=fonts/阿里巴巴/阿里妈妈刀隶体.ttf&s=5.13%20MB&t=阿里妈妈刀隶体&v=1.000&l=商免&bd=1dYNxbTwZJ6mK8TK9aAe-xg%3Fpwd%3Dr5jw
 https://wangchujiang.com/free-font/preview.html?p=fonts/阿里巴巴/阿里妈妈东方大楷.ttf&s=5.22%20MB&t=阿里妈妈东方大楷&v=1.000&l=商免&bd=1x4xTUxvfpPrk8BDEW8QZhg%3Fpwd%3D4mtj
@@ -1867,3 +1868,4 @@ https://wangchujiang.com/free-font/preview.html?p=fonts/文泉驿系列/文泉�
 https://wangchujiang.com/free-font/preview.html?p=fonts/文泉驿系列/文泉驿正黑.ttc&s=16.8%20MB&t=文泉驿正黑&l=商免&bd=1kXMvxQPRbilyS9XHlKuIVQ%3Fpwd%3Dtqe2
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Bold.ttf&s=303%20kB&t=Caveat-Bold&v=2.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Regular.ttf&s=298%20kB&t=Caveat-Regular&v=2.000&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/三极泼墨体.ttf&s=21%20MB&t=三极泼墨体&v=1.000&l=商免
