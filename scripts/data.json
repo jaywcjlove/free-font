@@ -1,5 +1,21 @@
 [
   {
+    "name": "大正活字",
+    "path": "fonts/其他字体/大正活字.ttf",
+    "home": "https://nukosuki.booth.pm/items/737294",
+    "type": "宋体",
+    "size": "29.9 MB",
+    "byte": 29941384,
+    "ctime": 1756471186215,
+    "postscriptName": "taisyokatujippoi7font",
+    "fullName": "taisyokatujippoi7font",
+    "familyName": "taisyokatujippoi7font",
+    "subfamilyName": "Regular",
+    "version": null,
+    "copyright": "gata, Gutenberg Labo.\n Ryusei Yamaguchi. HORAI Wataru. . modified font of Source Han Serif",
+    "numGlyphs": 15563
+  },
+  {
     "name": "英椎楷书",
     "path": "fonts/其他字体/英椎楷书.ttf",
     "home": "https://www.ac-font.com/jp/detail_jb_007.php",
