@@ -8,6 +8,8 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/宅在家麦克笔.html
+https://wangchujiang.com/free-font/details/标小智龙珠体.html
 https://wangchujiang.com/free-font/details/大正活字.html
 https://wangchujiang.com/free-font/details/英椎楷书.html
 https://wangchujiang.com/free-font/details/润植家刻本简体.html
@@ -964,6 +966,8 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/宅在家麦克笔.ttf&s=17.1%20MB&t=宅在家麦克笔&v=1&l=商免
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/标小智龙珠体.ttf&s=3.71%20MB&t=标小智龙珠体&v=1.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/大正活字.ttf&s=29.9%20MB&t=大正活字&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/英椎楷书.ttf&s=9.41%20MB&t=英椎楷书&v=1.00&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/润植家刻本简体.ttf&s=1.37%20MB&t=润植家刻本简体&l=商免

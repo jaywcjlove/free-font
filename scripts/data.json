@@ -1,5 +1,37 @@
 [
   {
+    "name": "宅在家麦克笔",
+    "path": "fonts/其他字体/宅在家麦克笔.ttf",
+    "home": "https://home.gamer.com.tw/creationDetail.php?sn=4662078",
+    "type": "艺术体",
+    "size": "17.1 MB",
+    "byte": 17093408,
+    "ctime": 1756471459726,
+    "postscriptName": "StarLoveMarker",
+    "fullName": "StarLoveMarker",
+    "familyName": "StarLoveMarker",
+    "subfamilyName": "Regular",
+    "version": "1",
+    "copyright": "FULLY FREE to USE.",
+    "numGlyphs": 21651
+  },
+  {
+    "name": "标小智龙珠体",
+    "path": "fonts/其他字体/标小智龙珠体.ttf",
+    "home": "https://mp.weixin.qq.com/s/S8xwoeY12XZh9EnQpKUZhg",
+    "type": "艺术体",
+    "size": "3.71 MB",
+    "byte": 3709528,
+    "ctime": 1756471307289,
+    "postscriptName": "LogoSCLongZhuTi-Regular",
+    "fullName": "LogoSC LongZhuTi Regular",
+    "familyName": "LogoSC LongZhuTi",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "Copyright 2022-2023 LogoSC LongZhuTi Project Authors. 标小智 is a registered trademark of 上海婷平网络科技有限公司. Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)",
+    "numGlyphs": 15119
+  },
+  {
     "name": "大正活字",
     "path": "fonts/其他字体/大正活字.ttf",
     "home": "https://nukosuki.booth.pm/items/737294",
