@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/鸿雷行书简体.html
 https://wangchujiang.com/free-font/details/云峰飞云体.html
 https://wangchujiang.com/free-font/details/三极泼墨体.html
 https://wangchujiang.com/free-font/details/Caveat-Regular.html
@@ -940,6 +941,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/鸿雷行书简体.otf&s=9.03%20MB&t=鸿雷行书简体&v=2.00&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/云峰飞云体.ttf&s=7.93%20MB&t=云峰飞云体&v=1.00&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/三极泼墨体.ttf&s=21%20MB&t=三极泼墨体&v=1.000&l=需要授权
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Regular.ttf&s=298%20kB&t=Caveat-Regular&v=2.000&l=OFL-1.1

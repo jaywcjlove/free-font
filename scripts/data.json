@@ -1,5 +1,20 @@
 [
   {
+    "name": "鸿雷行书简体",
+    "path": "fonts/其他字体/鸿雷行书简体.otf",
+    "home": "https://www.lofter.com/lpost/73b5c148_2b514fff1",
+    "size": "9.03 MB",
+    "byte": 9028112,
+    "ctime": 1756461334942,
+    "postscriptName": "hongleixingshu",
+    "fullName": "hongleixingshu",
+    "familyName": "hongleixingshu",
+    "subfamilyName": "Regular",
+    "version": "2.00",
+    "copyright": "Copyright © 2022 by 林鸿雷. All rights reserved.",
+    "numGlyphs": 7012
+  },
+  {
     "name": "云峰飞云体",
     "path": "fonts/其他字体/云峰飞云体.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjA3NjgyODQ=.html",
