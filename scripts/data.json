@@ -1,8 +1,25 @@
 [
   {
+    "name": "王强书法体",
+    "path": "fonts/其他字体/王强书法体.ttf",
+    "home": "https://www.zcool.com.cn/work/ZMzQ2NDU4MzY=.html",
+    "type": "手绘体",
+    "size": "4 MB",
+    "byte": 4002708,
+    "ctime": 1756463908724,
+    "postscriptName": "WQSFT_1_1306613_10",
+    "fullName": "WQSFT_1_1306613_10",
+    "familyName": "WQSFT_1_1306613_10",
+    "subfamilyName": "Regular",
+    "version": "1.0",
+    "copyright": "Copyright(c) Tianjin Founder Handwriting Digital Technology Co., Ltd. 2017",
+    "numGlyphs": 6888
+  },
+  {
     "name": "黄凯桦律师手写体",
     "path": "fonts/其他字体/黄凯桦律师手写体.ttf",
     "home": "https://mp.weixin.qq.com/s/XINE7arAyBn4jHoYtcQiOw",
+    "type": "手绘体",
     "size": "5.89 MB",
     "byte": 5892264,
     "ctime": 1756463737504,
