@@ -159,6 +159,10 @@ div.info {
   display: block;
 }
 
+.relatedfonts a img:hover {
+    border: 1px solid #ffffff3b;
+    background: #333;
+}
 .relatedfonts {
   max-width: 560px;
   margin: 0 auto;
@@ -170,6 +174,8 @@ div.info {
 }
 
 .relatedfonts img {
+  transition: all 0.3s;
+  border: 1px solid #ffffff00;
   max-width: 100%;
   height: auto;
   border-radius: 0.5em;
@@ -182,7 +188,7 @@ div.info {
   font-weight: 100;
   color: #909090;
   padding-top: 1em;
-  max-width: 850px;
+  max-width: 560px;
   margin: 0 auto;
 }
 
