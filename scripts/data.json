@@ -1,5 +1,21 @@
 [
   {
+    "name": "万事全兴体",
+    "path": "fonts/其他字体/万事全兴体.ttf",
+    "home": "https://mp.weixin.qq.com/s/f9jagK2VkHTTaWTvytggDg",
+    "type": "宋体",
+    "size": "1.99 MB",
+    "byte": 1988092,
+    "ctime": 1756466901483,
+    "postscriptName": "WSQuanXing-Regular",
+    "fullName": "WSQuanXing Regular",
+    "familyName": "WSQuanXing",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 7580
+  },
+  {
     "name": "汇文仿宋",
     "path": "fonts/其他字体/汇文仿宋.ttf",
     "home": "https://zhuanlan.zhihu.com/p/12669052378",
@@ -5052,7 +5068,7 @@
     "path": "fonts/余繁新语体/余繁细柳体.otf",
     "baidu": "1YkzHbJiS9DmM_HrLNcgqeg?pwd=tqe2",
     "size": "4.76 MB",
-    "ctime": 1721543345268,
+    "ctime": 1756466753787,
     "byte": 4759420,
     "postscriptName": "YuFanXiLiu",
     "fullName": "YuFanXiLiu",
