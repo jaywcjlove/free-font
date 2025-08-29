@@ -1,5 +1,21 @@
 [
   {
+    "name": "汇文仿宋",
+    "path": "fonts/其他字体/汇文仿宋.ttf",
+    "home": "https://zhuanlan.zhihu.com/p/12669052378",
+    "type": "宋体",
+    "size": "15.9 MB",
+    "byte": 15875428,
+    "ctime": 1756466534270,
+    "postscriptName": "HuiwenFangsong-Regular",
+    "fullName": "Huiwen-Fangsong",
+    "familyName": "Huiwen-Fangsong",
+    "subfamilyName": "Regular",
+    "version": null,
+    "copyright": "Font © Copyright 2022 TerryWang.All rights reserved.",
+    "numGlyphs": 22351
+  },
+  {
     "name": "云峰静龙行书",
     "path": "fonts/其他字体/云峰静龙行书.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjAyNDI2MjQ=.html",
