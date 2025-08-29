@@ -50,11 +50,14 @@
     <% if (typeof size !== 'undefined') { %>
     <span class="size"><%- size %></span>
     <% } %>
-    <% if (typeof version !== 'undefined') { %>
+    <% if (typeof version !== 'undefined' && version !== null) { %>
     <span class="version">v<%- version %></span>
     <% } %>
     <% if (typeof license !== 'undefined') { %>
     <span class="license"><%- license %></span>
+    <% } %>
+    <% if (typeof numGlyphs !== 'undefined') { %>
+    <span class="numGlyphs" title="字体中的字形数量">字形数 <%- numGlyphs %></span>
     <% } %>
     <% if (typeof ctime !== 'undefined') { %>
     <span class="ctime" title="添加时间">
@@ -68,6 +71,11 @@
       文件
     </a>
   </div>
+  <% if (typeof copyright !== 'undefined' && copyright !== null) { %>
+  <div class="copyright">
+    <%- copyright %>
+  </div>
+  <% } %>
 <% 
   const fontName = path.replace(/^fonts[\\/](english[\\/]|其他字体[\\/])?(other[\\/])?/, '').replace(/\.[^/.]+$/, '').split("/")[0];
   const relatedFonts = DATA.filter(item => item.name !== fontName && item.path.includes(fontName));

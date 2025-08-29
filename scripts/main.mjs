@@ -9,12 +9,51 @@ import { createPosterImage, removeRootPathSegment, getFontFiles, outputDir } fro
 
 const fontDatas = createRequire(import.meta.url)("./data.json");
 
-const total = fontDatas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
-
 ;(async () => {
   let argv = process.argv;
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  /// 获取单个字体信息
+  if (argv.includes("-i")) {
+    let fontPath = argv[argv.length - 1]
+    if (!!fontPath && fontPath !== "-i") {
+      const resultData = [...fontDatas];
+      const fontName = path.basename(fontPath, path.extname(fontPath)).trim();
+      const dataIndex = resultData.findIndex((item) => item.name === fontName)
+      const font = openSync(fontPath);
+      if (dataIndex > -1) {
+        if (font.copyright) {
+          resultData[dataIndex].copyright = font.copyright
+            .replace(
+              /[<&"]/g,
+              (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]),
+            );
+        }
+        resultData[dataIndex].numGlyphs = font.numGlyphs;
+      }
+      fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
+    }
+    return exit(0);
+  }
+  /// 获取所有字体信息
+  if (argv.includes("-info")) {
+    const resultData = [...fontDatas];
+    for (const item in resultData) {
+      const fontPath = path.join(outputDir, resultData[item].path);
+      const font = openSync(fontPath);
+      if (font.copyright) {
+        resultData[item].copyright = font.copyright
+            .replace(
+              /[<&"]/g,
+              (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]),
+            );
+      }
+      resultData[item].numGlyphs = font.numGlyphs;
+      console.log(`Update font info: \x1b[35;1m ${resultData[item].name} \x1b[0m"`);
+    }
+    fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
+    return exit(0);
+  }
   if (argv.includes("-a")) {
     let fontPath = argv[argv.length - 1]
     if (!!fontPath && fontPath !== "-a") {
@@ -36,6 +75,9 @@ const total = fontDatas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
             familyName: font.familyName,
             subfamilyName: font.subfamilyName,
             version: extractVersion(font.version),
+            copyright: font.copyright,
+            /// 字体中的字形数量
+            numGlyphs: font.numGlyphs,
           })
         } else {
           resultData[dataIndex].name = fontName;
@@ -48,6 +90,8 @@ const total = fontDatas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
           resultData[dataIndex].familyName = font.familyName
           resultData[dataIndex].subfamilyName = font.subfamilyName
           resultData[dataIndex].version = extractVersion(font.version)
+          resultData[dataIndex].copyright = font.copyright
+          resultData[dataIndex].numGlyphs = font.numGlyphs
         }
         await createPosterImage(page, fontPath, fontName);
         fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));

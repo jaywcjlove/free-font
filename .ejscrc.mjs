@@ -3,8 +3,12 @@ import path from 'path';
 import { writeFileSync } from "fs"
 import prettyBytes from 'pretty-bytes';
 import prettier from 'prettier';
-import { parsers as htmlPlugin} from 'prettier/plugins/html';
-import { parsers as postcssPlugin} from 'prettier/plugins/postcss';
+import { parsers as htmlPlugin } from 'prettier/plugins/html';
+import { parsers as postcssPlugin } from 'prettier/plugins/postcss';
+import * as estreePlugin from 'prettier/plugins/estree';
+import { parsers as babelPlugin } from 'prettier/plugins/babel';
+import { parsers as typescriptPlugin } from 'prettier/plugins/typescript';
+import { parsers as acornPlugin } from 'prettier/plugins/acorn';
 import datas from './scripts/data.json' assert { type: "json" };
 
 const total = datas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
@@ -177,7 +181,7 @@ export default {
         minifyCSS: true,
         minifyJS: true,
     });
-    let plugins = [htmlPlugin, postcssPlugin];
+    let plugins = [htmlPlugin, estreePlugin];
     let htmlPrettier = await prettier.format(minHTML, {
         parser: "html",
         tabWidth: 2,

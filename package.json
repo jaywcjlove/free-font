@@ -10,6 +10,8 @@
   },
   "scripts": {
     "all": "node scripts/main.mjs && npm run start",
+    "one:info": "node scripts/main.mjs -i",
+    "one:info:all": "node scripts/main.mjs -info",
     "one": "node scripts/main.mjs -a",
     "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
     "start": "ejsc \"templates/**/*\" -o \"docs\"",

@@ -128,7 +128,7 @@ div.info {
   background: #00546f99;
 }
 #license {
-  padding-top: 1em;
+  padding-top: 2em;
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -175,6 +175,15 @@ div.info {
   border-radius: 0.5em;
   display: block;
   width: 102px;
+}
+
+.copyright {
+  font-size: 0.76em;
+  font-weight: 100;
+  color: #909090;
+  padding-top: 1em;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 
