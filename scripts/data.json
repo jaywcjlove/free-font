@@ -1,5 +1,20 @@
 [
   {
+    "name": "Dob-Bold",
+    "path": "fonts/english/other/Dob-Bold.otf",
+    "home": "https://www.zcool.com.cn/work/ZNDc4OTMyMDg=.html",
+    "size": "9.77 kB",
+    "byte": 9772,
+    "ctime": 1756464915464,
+    "postscriptName": "Dob-Bold",
+    "fullName": "Dob Bold",
+    "familyName": "Dob Bold",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 85
+  },
+  {
     "name": "字帮玩酷体",
     "path": "fonts/其他字体/字帮玩酷体.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjM2NjMxNTY=.html",
@@ -19,6 +34,7 @@
     "name": "摇滚乐 One",
     "path": "fonts/其他字体/摇滚乐 One.ttf",
     "home": "https://github.com/fontworks-fonts/RocknRoll",
+    "license": "OFL-1.1",
     "type": "艺术体",
     "size": "2.68 MB",
     "byte": 2682824,

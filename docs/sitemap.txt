@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/Dob-Bold.html
 https://wangchujiang.com/free-font/details/字帮玩酷体.html
 https://wangchujiang.com/free-font/details/摇滚乐%20One.html
 https://wangchujiang.com/free-font/details/PF频凡胡涂体.html
@@ -952,8 +953,9 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fother%2FDob-Bold.otf&s=9.77%20kB&t=Dob-Bold&v=1.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/字帮玩酷体.ttf&s=18%20MB&t=字帮玩酷体&l=商免
-https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/摇滚乐 One.ttf&s=2.68%20MB&t=摇滚乐 One&v=1.100&l=商免
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/摇滚乐 One.ttf&s=2.68%20MB&t=摇滚乐 One&v=1.100&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/PF频凡胡涂体.ttf&s=5.23%20MB&t=PF频凡胡涂体&v=0.357&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/快看世界体.ttf&s=1.78%20MB&t=快看世界体&v=1.001&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/班马字类.ttf&s=2.72%20MB&t=班马字类&v=1.000&l=商免
