@@ -101,7 +101,7 @@ main > div, main > div a, main > div span, main > div img {
 main > div img {
   width: 100%;
   min-height: 68px;
-  border-radius: 6px;
+  border-radius: 5px;
   margin-bottom: 6px;
 }
 
@@ -112,7 +112,7 @@ main > div a {
 main > div {
   border: 1px solid transparent;
   background: #ffffff0d;
-  border-radius: 5px;
+  border-radius: 8px;
   color: #fff;
   text-decoration: none;
   font-size: 14px;
