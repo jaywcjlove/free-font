@@ -1,5 +1,21 @@
 [
   {
+    "name": "纳米点墙宋",
+    "path": "fonts/其他字体/纳米点墙宋.ttf",
+    "home": "https://github.com/Hansha2011/NanoDyongChyangSong",
+    "type": "宋体",
+    "size": "12.5 MB",
+    "byte": 12474888,
+    "ctime": 1756467043763,
+    "postscriptName": "NanoDyongSongPixel",
+    "fullName": "NanoDyongSong Pixel",
+    "familyName": "NanoDyongSong",
+    "subfamilyName": "Pixel",
+    "version": "1.0",
+    "copyright": "Copyright HSS-NANOFONT - 2024",
+    "numGlyphs": 28620
+  },
+  {
     "name": "万事全兴体",
     "path": "fonts/其他字体/万事全兴体.ttf",
     "home": "https://mp.weixin.qq.com/s/f9jagK2VkHTTaWTvytggDg",

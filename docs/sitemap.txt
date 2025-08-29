@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/纳米点墙宋.html
 https://wangchujiang.com/free-font/details/万事全兴体.html
 https://wangchujiang.com/free-font/details/汇文仿宋.html
 https://wangchujiang.com/free-font/details/云峰静龙行书.html
@@ -957,6 +958,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/纳米点墙宋.ttf&s=12.5%20MB&t=纳米点墙宋&v=1.0&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/万事全兴体.ttf&s=1.99%20MB&t=万事全兴体&v=1.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/汇文仿宋.ttf&s=15.9%20MB&t=汇文仿宋&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/云峰静龙行书.ttf&s=4.35%20MB&t=云峰静龙行书&v=1.000&l=商免
