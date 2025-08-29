@@ -8,6 +8,8 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/纳米民文仿宋.html
+https://wangchujiang.com/free-font/details/纳米扁界黑.html
 https://wangchujiang.com/free-font/details/Rubik-WetPaint-Regular.html
 https://wangchujiang.com/free-font/details/Rubik-Vinyl-Regular.html
 https://wangchujiang.com/free-font/details/Rubik-Storm-Regular.html
@@ -1000,6 +1002,8 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/纳米字库/纳米民文仿宋.ttf&s=10.5%20MB&t=纳米民文仿宋&v=1.003&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.html?p=fonts/纳米字库/纳米扁界黑.ttf&s=4.22%20MB&t=纳米扁界黑&v=2.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FRubik-Goo%2FRubik-WetPaint-Regular.ttf&s=374%20kB&t=Rubik-WetPaint-Regular&v=1.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FRubik-Goo%2FRubik-Vinyl-Regular.ttf&s=342%20kB&t=Rubik-Vinyl-Regular&v=1.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FRubik-Goo%2FRubik-Storm-Regular.ttf&s=1.38%20MB&t=Rubik-Storm-Regular&v=1.000&l=OFL-1.1
@@ -1042,7 +1046,7 @@ https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/润植家�
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/夏蝉圆体.ttf&s=3.78%20MB&t=夏蝉圆体&v=1.001&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/青鹭明朝.otf&s=1.6%20MB&t=青鹭明朝&v=1.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/花馆宋体.ttf&s=122%20kB&t=花馆宋体&v=1.000&l=OFL-1.1
-https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/纳米点墙宋.ttf&s=12.5%20MB&t=纳米点墙宋&v=1.0&l=商免
+https://wangchujiang.com/free-font/preview.html?p=fonts/纳米字库/纳米点墙宋.ttf&s=12.5%20MB&t=纳米点墙宋&v=1.0&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/万事全兴体.ttf&s=1.99%20MB&t=万事全兴体&v=1.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/汇文仿宋.ttf&s=15.9%20MB&t=汇文仿宋&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/云峰静龙行书.ttf&s=4.35%20MB&t=云峰静龙行书&v=1.000&l=商免
