@@ -1,5 +1,21 @@
 [
   {
+    "name": "快看世界体",
+    "path": "fonts/其他字体/快看世界体.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNjQyMzUyNTY=.html",
+    "type": "艺术体",
+    "size": "1.78 MB",
+    "byte": 1784340,
+    "ctime": 1756464298599,
+    "postscriptName": "kuaikanshijieti",
+    "fullName": "快看世界体",
+    "familyName": "快看世界体",
+    "subfamilyName": "Regular",
+    "version": "1.001",
+    "copyright": null,
+    "numGlyphs": 3760
+  },
+  {
     "name": "班马字类",
     "path": "fonts/其他字体/班马字类.ttf",
     "home": "https://mp.weixin.qq.com/s/OsRthYL3ZMI848brECLQow",
