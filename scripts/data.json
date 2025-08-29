@@ -1,5 +1,21 @@
 [
   {
+    "name": "叛逆明朝",
+    "path": "fonts/其他字体/叛逆明朝.ttf",
+    "home": "https://www.fontspace.com/hangyaku-font-f31195",
+    "type": "宋体",
+    "size": "1.25 MB",
+    "byte": 1253556,
+    "ctime": 1756466055267,
+    "postscriptName": "Hangyaku",
+    "fullName": "Hangyaku",
+    "familyName": "Hangyaku",
+    "subfamilyName": "Regular",
+    "version": "019.000",
+    "copyright": "Copyright (c) 2018, Dare-demo Iie",
+    "numGlyphs": 4036
+  },
+  {
     "name": "Dob-Bold",
     "path": "fonts/english/other/Dob-Bold.otf",
     "home": "https://www.zcool.com.cn/work/ZNDc4OTMyMDg=.html",
