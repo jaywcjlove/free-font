@@ -1,5 +1,21 @@
 [
   {
+    "name": "崇羲篆体",
+    "path": "fonts/其他字体/崇羲篆体.otf",
+    "home": "https://xiaoxue.iis.sinica.edu.tw/chongxi/index.htm",
+    "type": "艺术体",
+    "size": "21.8 MB",
+    "byte": 21816592,
+    "ctime": 1756462282556,
+    "postscriptName": "ChongXiSmallSeal",
+    "fullName": "Chong Xi Small Seal",
+    "familyName": "Chong Xi Small Seal",
+    "subfamilyName": "Regular",
+    "version": "1.00",
+    "copyright": "Typeface © Academia Sinica. 2022. All Rights Reserved",
+    "numGlyphs": 11603
+  },
+  {
     "name": "青柳隶书",
     "path": "fonts/其他字体/青柳隶书.ttf",
     "home": "https://opentype.jp/aoyagireisho.htm",
