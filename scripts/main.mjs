@@ -24,10 +24,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
       if (dataIndex > -1) {
         if (font.copyright) {
           resultData[dataIndex].copyright = font.copyright
-            .replace(
-              /[<&"]/g,
-              (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]),
-            );
+            .replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]));
         }
         resultData[dataIndex].numGlyphs = font.numGlyphs;
       }
@@ -75,7 +72,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
             familyName: font.familyName,
             subfamilyName: font.subfamilyName,
             version: extractVersion(font.version),
-            copyright: font.copyright,
+            copyright: font.copyright ? font.copyright.replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])) : null,
             /// 字体中的字形数量
             numGlyphs: font.numGlyphs,
           })
@@ -90,7 +87,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
           resultData[dataIndex].familyName = font.familyName
           resultData[dataIndex].subfamilyName = font.subfamilyName
           resultData[dataIndex].version = extractVersion(font.version)
-          resultData[dataIndex].copyright = font.copyright
+          resultData[dataIndex].copyright = font.copyright ? font.copyright.replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])) : null
           resultData[dataIndex].numGlyphs = font.numGlyphs
         }
         await createPosterImage(page, fontPath, fontName);
