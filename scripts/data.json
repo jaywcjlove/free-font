@@ -1,5 +1,21 @@
 [
   {
+    "name": "润植家刻本简体",
+    "path": "fonts/其他字体/润植家刻本简体.ttf",
+    "home": "https://mp.weixin.qq.com/s/YfBY83N7o2LZsdZjdTLeVQ",
+    "type": "宋体",
+    "size": "1.37 MB",
+    "byte": 1373756,
+    "ctime": 1756470849922,
+    "postscriptName": "nzgrKBJian",
+    "fullName": "nzgr:nzgrKBJian,Regular",
+    "familyName": "nzgrKBJian",
+    "subfamilyName": "Regular",
+    "version": null,
+    "copyright": "copyrighy By nzgr 2012,http://www.runzhijia.art",
+    "numGlyphs": 8106
+  },
+  {
     "name": "夏蝉圆体",
     "path": "fonts/其他字体/夏蝉圆体.ttf",
     "home": "https://booth.pm/zh-cn/items/4525676",
