@@ -1,5 +1,20 @@
 [
   {
+    "name": "黄凯桦律师手写体",
+    "path": "fonts/其他字体/黄凯桦律师手写体.ttf",
+    "home": "https://mp.weixin.qq.com/s/XINE7arAyBn4jHoYtcQiOw",
+    "size": "5.89 MB",
+    "byte": 5892264,
+    "ctime": 1756463737504,
+    "postscriptName": "huangkaihuaLawyerfont",
+    "fullName": "黄凯桦律师手写体",
+    "familyName": "huangkaihuaLawyerfont",
+    "subfamilyName": "Regular",
+    "version": "1.0",
+    "copyright": "AllrightsreservedbyLawyerHuangKaihua",
+    "numGlyphs": 7415
+  },
+  {
     "name": "瑞美加张清平硬笔楷书",
     "path": "fonts/其他字体/瑞美加张清平硬笔楷书.ttf",
     "home": "http://www.cnprint.org/bbs/thread/165/342208/",
