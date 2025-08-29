@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/英椎楷书.html
 https://wangchujiang.com/free-font/details/润植家刻本简体.html
 https://wangchujiang.com/free-font/details/夏蝉圆体.html
 https://wangchujiang.com/free-font/details/青鹭明朝.html
@@ -962,6 +963,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/英椎楷书.ttf&s=9.41%20MB&t=英椎楷书&v=1.00&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/润植家刻本简体.ttf&s=1.37%20MB&t=润植家刻本简体&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/夏蝉圆体.ttf&s=3.78%20MB&t=夏蝉圆体&v=1.001&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/青鹭明朝.otf&s=1.6%20MB&t=青鹭明朝&v=1.000&l=OFL-1.1

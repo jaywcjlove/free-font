@@ -1,5 +1,21 @@
 [
   {
+    "name": "英椎楷书",
+    "path": "fonts/其他字体/英椎楷书.ttf",
+    "home": "https://www.ac-font.com/jp/detail_jb_007.php",
+    "type": "楷体",
+    "size": "9.41 MB",
+    "byte": 9412156,
+    "ctime": 1756470998644,
+    "postscriptName": "ackaisyo",
+    "fullName": "ackaisyo",
+    "familyName": "ackaisyo",
+    "subfamilyName": "Regular",
+    "version": "1.00",
+    "copyright": "adachieve",
+    "numGlyphs": 15563
+  },
+  {
     "name": "润植家刻本简体",
     "path": "fonts/其他字体/润植家刻本简体.ttf",
     "home": "https://mp.weixin.qq.com/s/YfBY83N7o2LZsdZjdTLeVQ",
