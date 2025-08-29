@@ -1,9 +1,25 @@
 [
   {
+    "name": "夏蝉圆体",
+    "path": "fonts/其他字体/夏蝉圆体.ttf",
+    "home": "https://booth.pm/zh-cn/items/4525676",
+    "license": "OFL-1.1",
+    "size": "3.78 MB",
+    "byte": 3776560,
+    "ctime": 1756470719154,
+    "postscriptName": "NatsuzemiMaruGothic-Black",
+    "fullName": "Natsuzemi Maru Gothic Black",
+    "familyName": "Natsuzemi Maru Gothic Black",
+    "subfamilyName": "Regular",
+    "version": "1.001",
+    "copyright": "Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)",
+    "numGlyphs": 7866
+  },
+  {
     "name": "青鹭明朝",
     "path": "fonts/其他字体/青鹭明朝.otf",
     "home": "https://booth.pm/zh-cn/items/4525676",
-    "type": "黑体",
+    "type": "宋体",
     "license": "OFL-1.1",
     "size": "1.6 MB",
     "byte": 1602580,
