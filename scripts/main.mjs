@@ -61,7 +61,7 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
         let dataIndex = resultData.findIndex((item) => item.name === fontName)
         var font = openSync(fontPath);
         if (dataIndex === -1) {
-          resultData.push({
+          resultData.unshift({
             name: fontName,
             path: removeRootPathSegment(fontPath, outputDir),
             size: prettyBytes(stat.size),

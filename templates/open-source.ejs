@@ -8,7 +8,7 @@
 <% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => a.ctime - b.ctime) %>
 <%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>
 <main>
-  <% openSource.sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
+  <% openSource.sort((a, b) => b.ctime - a.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>

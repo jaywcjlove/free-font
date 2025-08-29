@@ -5,7 +5,7 @@
   description: "Free Font - 商用免费英文字体，包括汉字和英文字体，提供免费下载和使用。",
   keywords: "黑体,楷体,宋体,艺术体,手绘体,开源字体,免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts"
 }); %>
-<% const englishData = DATA.filter((item) => item.path.split("/").includes("english")).sort((a, b) => a.ctime - b.ctime) %>
+<% const englishData = DATA.filter((item) => item.path.split("/").includes("english")).sort((a, b) => b.ctime - a.ctime) %>
 <%- include('./_partial/header-title', { length: englishData.length, type: "英文" }); %>
 <main>
   <% englishData.forEach(function(font, idx){ %>

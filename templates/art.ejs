@@ -7,7 +7,7 @@
 }); %>
 <%- include('./_partial/header-title', { length: DATA.filter((item) => item.type == "艺术体").length, type: "艺术体" }); %>
 <main>
-  <% DATA.filter((item) => item.type == "艺术体").sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
+  <% DATA.filter((item) => item.type == "艺术体").sort((a, b) => b.ctime - a.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>

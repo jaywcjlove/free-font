@@ -7,7 +7,7 @@
 }); %>
 <%- include('./_partial/header-title', { length: DATA.length, type: "全部" }); %>
 <main>
-  <% DATA.sort((a, b) => a.ctime - b.ctime).forEach(function(font, idx){ %>
+  <% DATA.sort((a, b) => b.ctime - a.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font }); %>
   <% }); %>
 </main>
