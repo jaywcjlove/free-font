@@ -1,5 +1,21 @@
 [
   {
+    "name": "荷塘月色手写体+Regular",
+    "path": "fonts/其他字体/荷塘月色手写体+Regular.ttf",
+    "home": "https://mp.weixin.qq.com/s/UH2XYR_ey_EOslvx3cz9sQ",
+    "type": "手绘体",
+    "size": "7.18 MB",
+    "byte": 7182636,
+    "ctime": 1756462473960,
+    "postscriptName": null,
+    "fullName": "荷塘月色手写体",
+    "familyName": "荷塘月色手写体",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "(C) Copyright Beijing PrinDigital Technology Co. 2007",
+    "numGlyphs": 7584
+  },
+  {
     "name": "崇羲篆体",
     "path": "fonts/其他字体/崇羲篆体.otf",
     "home": "https://xiaoxue.iis.sinica.edu.tw/chongxi/index.htm",
