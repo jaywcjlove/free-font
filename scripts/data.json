@@ -1,5 +1,22 @@
 [
   {
+    "name": "花馆宋体",
+    "path": "fonts/其他字体/花馆宋体.ttf",
+    "home": "https://github.com/buwuzhengyedexiaoji/huaguansongti",
+    "license":"OFL-1.1",
+    "type": "宋体",
+    "size": "122 kB",
+    "byte": 122412,
+    "ctime": 1756467427124,
+    "postscriptName": "huaguansongti-Regular",
+    "fullName": "huaguansongti Regular",
+    "familyName": "huaguansongti",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "不务正业的小鸡(cod'dte)和纳米字库(nanofont)共同制作",
+    "numGlyphs": 167
+  },
+  {
     "name": "纳米点墙宋",
     "path": "fonts/其他字体/纳米点墙宋.ttf",
     "home": "https://github.com/Hansha2011/NanoDyongChyangSong",
