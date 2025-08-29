@@ -100,9 +100,9 @@ main > div, main > div a, main > div span, main > div img {
 
 main > div img {
   width: 100%;
-  min-height: 68px;
+  min-height: 91px;
   border-radius: 5px;
-  margin-bottom: 6px;
+  background-color: #262626;
 }
 
 main > div a {
@@ -129,6 +129,7 @@ main > div p {
   display: flex;
   align-items: center;
   line-height: 1;
+  padding-top: 6px;
   gap: 5px;
 }
 
@@ -170,7 +171,7 @@ main > div > .button {
   border-radius: 3px;
   font-size: 12px;
   color: #898989;
-  padding: 0 2px;
+  padding: 0 2px 1px 2px;
   transition: all 0.3s;
   position: absolute;
   display: inline-flex;

@@ -1,9 +1,26 @@
 [
   {
+    "name": "青鹭明朝",
+    "path": "fonts/其他字体/青鹭明朝.otf",
+    "home": "https://booth.pm/zh-cn/items/4525676",
+    "type": "黑体",
+    "license": "OFL-1.1",
+    "size": "1.6 MB",
+    "byte": 1602580,
+    "ctime": 1756470547400,
+    "postscriptName": "aosagi",
+    "fullName": "aosagiR",
+    "familyName": "aosagiR",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "(c) 2023 ymnk design works",
+    "numGlyphs": 4514
+  },
+  {
     "name": "花馆宋体",
     "path": "fonts/其他字体/花馆宋体.ttf",
     "home": "https://github.com/buwuzhengyedexiaoji/huaguansongti",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "type": "宋体",
     "size": "122 kB",
     "byte": 122412,
