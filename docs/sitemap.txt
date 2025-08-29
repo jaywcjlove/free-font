@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/金字社统圆体.html
 https://wangchujiang.com/free-font/details/计划楷G-SC.html
 https://wangchujiang.com/free-font/details/计划楷B-SC.html
 https://wangchujiang.com/free-font/details/计划楷A-SC.html
@@ -971,6 +972,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/金字社统圆体.ttf&s=24.6%20MB&t=金字社统圆体&v=1.00&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/计划楷/计划楷G-SC.ttf&s=743%20kB&t=计划楷G-SC&v=0.020&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/计划楷/计划楷B-SC.ttf&s=1.3%20MB&t=计划楷B-SC&v=0.020&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/计划楷/计划楷A-SC.ttf&s=1.09%20MB&t=计划楷A-SC&v=0.020&l=OFL-1.1

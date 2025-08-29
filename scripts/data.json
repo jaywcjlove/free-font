@@ -1,5 +1,21 @@
 [
   {
+    "name": "金字社统圆体",
+    "path": "fonts/其他字体/金字社统圆体.ttf",
+    "home": "https://www.typeface.cn/index.php?title=Project:金字社统圆体",
+    "size": "24.6 MB",
+    "license": "OFL-1.1",
+    "byte": 24568460,
+    "ctime": 1756472853634,
+    "postscriptName": "JinzisheTongyuan",
+    "fullName": "JinzisheTongyuan",
+    "familyName": "JinzisheTongyuan",
+    "subfamilyName": "Regular",
+    "version": "1.00",
+    "copyright": "Roman Czyborra, Paul Hardy, JIN Liuqing",
+    "numGlyphs": 29513
+  },
+  {
     "name": "计划楷G-SC",
     "path": "fonts/计划楷/计划楷G-SC.ttf",
     "home": "https://github.com/Des-Magmeta/PlanKai",
