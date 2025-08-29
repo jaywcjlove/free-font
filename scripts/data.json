@@ -1,5 +1,22 @@
 [
   {
+    "name": "游趣体",
+    "path": "fonts/其他字体/游趣体.ttf",
+    "home": "https://github.com/Des-Magmeta/ChildFunSans",
+    "license": "OFL-1.1",
+    "type": "艺术体",
+    "size": "2.34 MB",
+    "byte": 2340552,
+    "ctime": 1756472279687,
+    "postscriptName": "ChildFunSans-Demo",
+    "fullName": "Child Fun Sans Demo",
+    "familyName": "Child Fun Sans Demo",
+    "subfamilyName": "Regular",
+    "version": "0.210",
+    "copyright": "Copyright 2023-2024 Des-Magmeta (https://github.com/Des-Magmeta/ChildFunSansFusion), Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick/)",
+    "numGlyphs": 10073
+  },
+  {
     "name": "方正甲骨文",
     "path": "fonts/其他字体/方正甲骨文.ttf",
     "home": "https://www.foundertype.com/index.php/FontInfo/index/id/5528",
