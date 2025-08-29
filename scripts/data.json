@@ -1,8 +1,25 @@
 [
   {
+    "name": "青柳隶书",
+    "path": "fonts/其他字体/青柳隶书.ttf",
+    "home": "https://opentype.jp/aoyagireisho.htm",
+    "type": "艺术体",
+    "size": "4.41 MB",
+    "byte": 4412684,
+    "ctime": 1756461763620,
+    "postscriptName": "aoyagireisyosimo2",
+    "fullName": "aoyagireisyosimo2",
+    "familyName": "aoyagireisyosimo2",
+    "subfamilyName": "Regular",
+    "version": "2.01",
+    "copyright": "simo",
+    "numGlyphs": 15563
+  },
+  {
     "name": "鸿雷行书简体",
     "path": "fonts/其他字体/鸿雷行书简体.otf",
     "home": "https://www.lofter.com/lpost/73b5c148_2b514fff1",
+    "type": "艺术体",
     "size": "9.03 MB",
     "byte": 9028112,
     "ctime": 1756461334942,
