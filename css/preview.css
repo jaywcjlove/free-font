@@ -128,7 +128,7 @@ div.info {
   background: #00546f99;
 }
 #license {
-  padding-top: 1em;
+  padding-top: 2em;
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -159,6 +159,10 @@ div.info {
   display: block;
 }
 
+.relatedfonts a img:hover {
+    border: 1px solid #ffffff3b;
+    background: #333;
+}
 .relatedfonts {
   max-width: 560px;
   margin: 0 auto;
@@ -170,11 +174,22 @@ div.info {
 }
 
 .relatedfonts img {
+  transition: all 0.3s;
+  border: 1px solid #ffffff00;
   max-width: 100%;
   height: auto;
   border-radius: 0.5em;
   display: block;
   width: 102px;
+}
+
+.copyright {
+  font-size: 0.76em;
+  font-weight: 100;
+  color: #909090;
+  padding-top: 1em;
+  max-width: 560px;
+  margin: 0 auto;
 }
 
 

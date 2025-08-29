@@ -1865,5 +1865,5 @@ https://wangchujiang.com/free-font/preview.html?p=fonts%2FLINESeedTW%2FLINESeedT
 https://wangchujiang.com/free-font/preview.html?p=fonts%2FLINESeedTW%2FLINESeedTW_Th.ttf&s=6.74%20MB&t=LINESeedTW_Th&v=1.400&l=OFL-1.1&bd=1WsdOz3hOGY0hjp4Myx0loA%3Fpwd%3D788i
 https://wangchujiang.com/free-font/preview.html?p=fonts/文泉驿系列/文泉驿微米黑.ttc&s=5.18%20MB&t=文泉驿微米黑&l=商免&bd=1kXMvxQPRbilyS9XHlKuIVQ%3Fpwd%3Dtqe2
 https://wangchujiang.com/free-font/preview.html?p=fonts/文泉驿系列/文泉驿正黑.ttc&s=16.8%20MB&t=文泉驿正黑&l=商免&bd=1kXMvxQPRbilyS9XHlKuIVQ%3Fpwd%3Dtqe2
-https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Bold.ttf&s=303%20kB&t=Caveat-Bold&v=2.000&l=商免
-https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Regular.ttf&s=298%20kB&t=Caveat-Regular&v=2.000&l=商免
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Bold.ttf&s=303%20kB&t=Caveat-Bold&v=2.000&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fcaveat%2FCaveat-Regular.ttf&s=298%20kB&t=Caveat-Regular&v=2.000&l=OFL-1.1
