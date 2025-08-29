@@ -1,5 +1,21 @@
 [
   {
+    "name": "云峰静龙行书",
+    "path": "fonts/其他字体/云峰静龙行书.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNjAyNDI2MjQ=.html",
+    "type": "宋体",
+    "size": "4.35 MB",
+    "byte": 4346516,
+    "ctime": 1756466305042,
+    "postscriptName": "YUNFENGJINGLONGXINGSHU-",
+    "fullName": "YUN FENG JING LONG XING SHU 常规",
+    "familyName": "YUN FENG JING LONG XING SHU 常规",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "云峰字库",
+    "numGlyphs": 6891
+  },
+  {
     "name": "叛逆明朝",
     "path": "fonts/其他字体/叛逆明朝.ttf",
     "home": "https://www.fontspace.com/hangyaku-font-f31195",
