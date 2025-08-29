@@ -1,5 +1,21 @@
 [
   {
+    "name": "字帮玩酷体",
+    "path": "fonts/其他字体/字帮玩酷体.ttf",
+    "home": "https://www.zcool.com.cn/work/ZNjM2NjMxNTY=.html",
+    "type": "艺术体",
+    "size": "18 MB",
+    "byte": 17965260,
+    "ctime": 1756464811760,
+    "postscriptName": "BangFont-WanKu-Regular",
+    "fullName": "BangFont-WanKu-Regular",
+    "familyName": "BangFontWanKu",
+    "subfamilyName": "Regular",
+    "version": null,
+    "copyright": "Copyright © 2023 Jialun Co., Ltd. All rights reserved.",
+    "numGlyphs": 21989
+  },
+  {
     "name": "摇滚乐 One",
     "path": "fonts/其他字体/摇滚乐 One.ttf",
     "home": "https://github.com/fontworks-fonts/RocknRoll",
