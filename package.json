@@ -30,6 +30,7 @@
     "puppeteer": "^22.13.1"
   },
   "dependencies": {
-    "html-minifier-next": "^1.2.1"
+    "html-minifier-next": "^1.2.1",
+    "prettier": "^3.6.2"
   }
 }

@@ -13595,6 +13595,8 @@
   {
     "name": "Caveat-Bold",
     "path": "fonts/english/caveat/Caveat-Bold.ttf",
+    "home": "https://github.com/googlefonts/caveat",
+    "license": "OFL-1.1",
     "size": "303 kB",
     "byte": 303088,
     "ctime": 1756402940745,
@@ -13607,6 +13609,8 @@
   {
     "name": "Caveat-Regular",
     "path": "fonts/english/caveat/Caveat-Regular.ttf",
+    "home": "https://github.com/googlefonts/caveat",
+    "license": "OFL-1.1",
     "size": "298 kB",
     "byte": 297900,
     "ctime": 1756402936067,

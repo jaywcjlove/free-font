@@ -2,6 +2,9 @@ import { minify } from 'html-minifier-next';
 import path from 'path';
 import { writeFileSync } from "fs"
 import prettyBytes from 'pretty-bytes';
+import prettier from 'prettier';
+import { parsers as htmlPlugin} from 'prettier/plugins/html';
+import { parsers as postcssPlugin} from 'prettier/plugins/postcss';
 import datas from './scripts/data.json' assert { type: "json" };
 
 const total = datas.reduce((sum, item) => sum + (item.byte ?? 0), 0);
@@ -164,7 +167,8 @@ export default {
   },
   beforeSaveHTML: async (html, output, filename) => {
     const minHTML = await minify(html, {
-        // collapseWhitespace: true,
+        collapseWhitespace: true,
+        preserveLineBreaks: true,
         removeComments: true,
         removeRedundantAttributes: true,
         removeOptionalTags: true,
@@ -173,7 +177,14 @@ export default {
         minifyCSS: true,
         minifyJS: true,
     });
-    return minHTML;
+    let plugins = [htmlPlugin, postcssPlugin];
+    let htmlPrettier = await prettier.format(minHTML, {
+        parser: "html",
+        tabWidth: 2,
+        printWidth: 120,
+        plugins: plugins
+    });
+    return htmlPrettier;
   },
   done: (sitemap = "", options = {}, details = []) => {
     let newsitemap = ""

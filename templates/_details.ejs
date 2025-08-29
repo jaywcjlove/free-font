@@ -51,10 +51,15 @@
     <span class="size"><%- size %></span>
     <% } %>
     <% if (typeof version !== 'undefined') { %>
-    <span class="version"><%- version %></span>
+    <span class="version">v<%- version %></span>
     <% } %>
     <% if (typeof license !== 'undefined') { %>
     <span class="license"><%- license %></span>
+    <% } %>
+    <% if (typeof ctime !== 'undefined') { %>
+    <span class="ctime" title="添加时间">
+      <%- new Date(ctime).toLocaleDateString() %>
+    </span>
     <% } %>
     <% if (typeof home !== 'undefined') { %>
     <a href="<%- home %>" target="_blank">来源</a>
