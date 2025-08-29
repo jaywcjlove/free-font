@@ -1,5 +1,21 @@
 [
   {
+    "name": "PF频凡胡涂体",
+    "path": "fonts/其他字体/PF频凡胡涂体.ttf",
+    "home": "http://www.lofter.com/lpost/73b5c148_2b514fff1",
+    "type": "艺术体",
+    "size": "5.23 MB",
+    "byte": 5231164,
+    "ctime": 1756464446489,
+    "postscriptName": "PFanHuTuTi",
+    "fullName": "PFanHuTuTi",
+    "familyName": "PFanHuTuTi",
+    "subfamilyName": "Regular",
+    "version": "0.357",
+    "copyright": "Copyright 2022 CPBYES (C) 2015 Do-Font",
+    "numGlyphs": 4901
+  },
+  {
     "name": "快看世界体",
     "path": "fonts/其他字体/快看世界体.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjQyMzUyNTY=.html",
