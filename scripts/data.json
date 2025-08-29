@@ -1,5 +1,21 @@
 [
   {
+    "name": "班马字类",
+    "path": "fonts/其他字体/班马字类.ttf",
+    "home": "https://mp.weixin.qq.com/s/OsRthYL3ZMI848brECLQow",
+    "type": "艺术体",
+    "size": "2.72 MB",
+    "byte": 2719964,
+    "ctime": 1756464058555,
+    "postscriptName": "CKTBMZL",
+    "fullName": "创客贴班马字类",
+    "familyName": "创客贴班马字类",
+    "subfamilyName": "Bold",
+    "version": "1.000",
+    "copyright": "本字体商用免费。更多请关注www.ckt.cn",
+    "numGlyphs": 2184
+  },
+  {
     "name": "王强书法体",
     "path": "fonts/其他字体/王强书法体.ttf",
     "home": "https://www.zcool.com.cn/work/ZMzQ2NDU4MzY=.html",
