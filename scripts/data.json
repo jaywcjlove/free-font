@@ -1,5 +1,21 @@
 [
   {
+    "name": "栗壳坚坚体",
+    "path": "fonts/栗壳字库/栗壳坚坚体.ttf",
+    "home": "https://www.lifont.cn/archives/fyuFMthn",
+    "type": "手绘体",
+    "size": "6.27 MB",
+    "byte": 6274996,
+    "ctime": 1757239443108,
+    "postscriptName": "LikeJianJianTi-Regular",
+    "fullName": "LikeJianJianTi Regular",
+    "familyName": "LikeJianJianTi",
+    "subfamilyName": "Regular",
+    "version": "2.000",
+    "copyright": "Created by LiFont.",
+    "numGlyphs": 6924
+  },
+  {
     "name": "鼎猎西大体",
     "path": "fonts/其他字体/鼎猎西大体.ttf",
     "home": "https://mp.weixin.qq.com/s/6ZANQNNIrcI3ujVTWN8gcg",

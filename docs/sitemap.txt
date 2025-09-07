@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/栗壳坚坚体.html
 https://wangchujiang.com/free-font/details/鼎猎西大体.html
 https://wangchujiang.com/free-font/details/簡語生活體.html
 https://wangchujiang.com/free-font/details/字嶼雲遊手書.html
@@ -1011,6 +1012,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/栗壳字库/栗壳坚坚体.ttf&s=6.27%20MB&t=栗壳坚坚体&v=2.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/鼎猎西大体.ttf&s=4.8%20MB&t=鼎猎西大体&v=1.0&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/簡語生活體.ttf&s=9.23%20MB&t=簡語生活體&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/字嶼/字嶼雲遊手書.ttf&s=18.6%20MB&t=字嶼雲遊手書&v=1.000&l=商免
