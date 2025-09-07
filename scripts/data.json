@@ -1,5 +1,21 @@
 [
   {
+    "name": "鼎猎西大体",
+    "path": "fonts/其他字体/鼎猎西大体.ttf",
+    "home": "https://mp.weixin.qq.com/s/6ZANQNNIrcI3ujVTWN8gcg",
+    "type": "艺术体",
+    "size": "4.8 MB",
+    "byte": 4801184,
+    "ctime": 1757237397181,
+    "postscriptName": "dingliexidafont",
+    "fullName": "鼎猎西大体",
+    "familyName": "dingliexidafont",
+    "subfamilyName": "Regular",
+    "version": "1.0",
+    "copyright": "AllrightsreservedbyMiaoKeming",
+    "numGlyphs": 7415
+  },
+  {
     "name": "簡語生活體",
     "path": "fonts/其他字体/簡語生活體.ttf",
     "home": "https://github.com/justfont/AbbrFesFont",
