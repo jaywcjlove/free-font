@@ -5,7 +5,7 @@ import { createRequire } from "module";
 import prettyBytes from 'pretty-bytes';
 import { openSync } from 'fontkit';
 
-import { createPosterImage, removeRootPathSegment, getFontFiles, outputDir } from './utils.mjs';
+import { createPosterImage, removeRootPathSegment, getFontFiles, outputDir, extractVersion, getTTCFontsInfo, copyrightFormat } from './utils.mjs';
 
 const fontDatas = createRequire(import.meta.url)("./data.json");
 
@@ -21,10 +21,10 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
       const fontName = path.basename(fontPath, path.extname(fontPath)).trim();
       const dataIndex = resultData.findIndex((item) => item.name === fontName)
       const font = openSync(fontPath);
+      const ttcFonts = (font.type.toLocaleLowerCase() == "ttc") ? getTTCFontsInfo(fontPath) : [];
       if (dataIndex > -1) {
         if (font.copyright) {
-          resultData[dataIndex].copyright = font.copyright
-            .replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]));
+          resultData[dataIndex].copyright = copyrightFormat(font.copyright || ttcFonts[0]?.copyright);
         }
         resultData[dataIndex].numGlyphs = font.numGlyphs;
       }
@@ -38,14 +38,11 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
     for (const item in resultData) {
       const fontPath = path.join(outputDir, resultData[item].path);
       const font = openSync(fontPath);
+      const ttcFonts = (font.type.toLocaleLowerCase() == "ttc") ? getTTCFontsInfo(fontPath) : [];
       if (font.copyright) {
-        resultData[item].copyright = font.copyright
-            .replace(
-              /[<&"]/g,
-              (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]),
-            );
+        resultData[item].copyright = copyrightFormat(font.copyright || ttcFonts[0]?.copyright);
       }
-      resultData[item].numGlyphs = font.numGlyphs;
+      resultData[item].numGlyphs = font.numGlyphs || ttcFonts[0]?.numGlyphs;
       console.log(`Update font info: \x1b[35;1m ${resultData[item].name} \x1b[0m"`);
     }
     fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
@@ -60,7 +57,9 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
         const stat = fs.statSync(fontPath);
         let dataIndex = resultData.findIndex((item) => item.name === fontName)
         var font = openSync(fontPath);
+        const ttcFonts = (font.type.toLocaleLowerCase() == "ttc") ? getTTCFontsInfo(fontPath) : [];
         if (dataIndex === -1) {
+          // console.log("xxx111", fontPath, fontName);
           resultData.unshift({
             name: fontName,
             path: removeRootPathSegment(fontPath, outputDir),
@@ -71,10 +70,10 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
             fullName: font.fullName,
             familyName: font.familyName,
             subfamilyName: font.subfamilyName,
-            version: extractVersion(font.version),
-            copyright: font.copyright ? font.copyright.replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])) : null,
+            version: extractVersion(font.version || ttcFonts[0]?.version),
+            copyright: copyrightFormat(font.copyright || ttcFonts[0]?.copyright),
             /// 字体中的字形数量
-            numGlyphs: font.numGlyphs,
+            numGlyphs: font.numGlyphs || ttcFonts[0]?.numGlyphs,
           })
         } else {
           resultData[dataIndex].name = fontName;
@@ -86,9 +85,9 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
           resultData[dataIndex].fullName = font.fullName
           resultData[dataIndex].familyName = font.familyName
           resultData[dataIndex].subfamilyName = font.subfamilyName
-          resultData[dataIndex].version = extractVersion(font.version)
-          resultData[dataIndex].copyright = font.copyright ? font.copyright.replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])) : null
-          resultData[dataIndex].numGlyphs = font.numGlyphs
+          resultData[dataIndex].version = extractVersion(font.version || ttcFonts[0]?.version)
+          resultData[dataIndex].copyright = copyrightFormat(font.copyright || ttcFonts[0]?.copyright)
+          resultData[dataIndex].numGlyphs = font.numGlyphs || ttcFonts[0]?.numGlyphs
         }
         await createPosterImage(page, fontPath, fontName);
         fs.writeFileSync("./scripts/data.json", JSON.stringify(resultData, null, 2));
@@ -111,12 +110,15 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
         data.size = prettyBytes(stat.size)
         data.byte = stat.size
         data.ctime = stat.ctime.getTime();
-        var font = openSync(filename);
+        const font = openSync(filename);
+        const ttcFonts = (font.type.toLocaleLowerCase() == "ttc") ? getTTCFontsInfo(fontPath) : [];
         data.postscriptName = font.postscriptName
         data.fullName = font.fullName
         data.familyName = font.familyName
         data.subfamilyName = font.subfamilyName
-        data.version = extractVersion(font.version)
+        data.version = extractVersion(font.version || ttcFonts[0]?.version)
+        data.copyright = copyrightFormat(font.copyright || ttcFonts[0]?.copyright)
+        data.numGlyphs = font.numGlyphs || ttcFonts[0]?.numGlyphs
         resultData.push(data);
         await createPosterImage(page, filename, fontName);
       } else {
@@ -127,28 +129,3 @@ const fontDatas = createRequire(import.meta.url)("./data.json");
   }
   await browser.close();
 })();
-
-/**
- * 版本号获取函数
- * ```
- * "Version 1.000;beta"
- * "Version 1.000;Glyphs 3.1.1 (3148)"
- * "Version 2.0.1"
- * "Version 4.56; 4.5.6.0"
- * "Version 1.00;January 14, 2021;FontCreator 12.0.0.2552 32-bit"
- * "Version 1.015;June 12, 2024;FontCreator 14.0.0.2901 64-bit"
- * null,
- * "Version 3.12"
- * "Version 0.0.1 "
- * ```
- */
-function extractVersion(versionString) {
-  // 如果输入是 null 或 undefined，则返回 null
-  if (!versionString) return null;
-  
-  // 使用正则表达式匹配 "Version " 后面的版本号
-  const match = versionString.match(/Version\s([\d.]+)/);
-  
-  // 如果匹配成功，返回第一个捕获组（即版本号），否则返回 null
-  return match ? match[1] : null;
-}

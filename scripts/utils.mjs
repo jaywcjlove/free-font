@@ -1,7 +1,8 @@
 import fs from 'fs-extra';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import path from 'path';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+import { openSync } from 'fontkit';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -51,9 +52,9 @@ const generatePreviewHTMLContent = (fontPath, fileName, character = chineseChara
     body { margin: 0; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background-color: #282828;}
     pre { margin: 0; padding: 0; font-size: 16px;}
     .poem { text-align: center; line-height: 1.5; margin: 20px auto; }
-    .poem-title { font-size: 24px; font-weight: bold; margin-bottom: 3px; }
+    .poem-title { font-size: 32px; margin-bottom: 3px; }
     .poet { font-size: 18px; margin-bottom: 6px; color: #838383; position: absolute; margin-top: 6px;}
-    .poem-content { font-size: 20px; }
+    .poem-content { font-size: 32px; }
     .poster { text-align: center; font-size: 38px; color: #ffffff; }
   </style>
   <title>Font Preview</title>
@@ -166,4 +167,80 @@ export function removeRootPathSegment(filePath, outputDir = "") {
     filePath = path.relative(outputDir, filePath);
   }
   return filePath.split(path.sep).join("/");
+}
+
+/**
+ * Convert a TrueType Collection (TTC) version number to a more readable format.
+ * version: `65536` -> `1.0`
+ * @param {number} version 
+ * @returns {string}
+ */
+function convertTTCVersion(version) {
+  const major = version >> 16;   // 高16位
+  const minor = version & 0xFFFF;  // 低16位
+  return `${major}.${minor}`;
+}
+
+/**
+ * 版本号获取函数
+ * ```
+ * "Version 1.000;beta"
+ * "Version 1.000;Glyphs 3.1.1 (3148)"
+ * "Version 2.0.1"
+ * "Version 4.56; 4.5.6.0"
+ * "Version 1.00;January 14, 2021;FontCreator 12.0.0.2552 32-bit"
+ * "Version 1.015;June 12, 2024;FontCreator 14.0.0.2901 64-bit"
+ * null,
+ * "Version 3.12"
+ * "Version 0.0.1 "
+ * ```
+ */
+export function extractVersion(versionString) {
+  // 如果输入是 null 或 undefined，则返回 null
+  if (!versionString) return null;
+  
+  // 使用正则表达式匹配 "Version " 后面的版本号
+  const match = versionString.match(/Version\s([\d.]+)/);
+  
+  // 如果匹配成功，返回第一个捕获组（即版本号），否则返回 null
+  return match ? match[1] : null;
+}
+
+/** 
+ * 版本号转换
+ * @param {number | string} version
+ * @param {boolean} isTTC
+ * @returns {string | null}
+ */
+export function convertVersion(version, isTTC = false) {
+  if (isTTC) {
+    return convertTTCVersion(version);
+  }
+  return extractVersion(version)
+}
+
+/**
+ * 获取 TTC 文件中所有字体的信息
+ * @param {string} ttcPath - TTC 文件路径
+ * @returns {Array} 字体信息数组
+ */
+export function getTTCFontsInfo(ttcPath) {
+  const collection = openSync(ttcPath);
+  const fontsInfo = collection.fonts.map(f => {
+    return {
+      familyName: f.familyName,
+      subfamilyName: f.subfamilyName,
+      fullName: f.fullName,
+      postscriptName: f.postscriptName,
+      numGlyphs: f.numGlyphs,
+      copyright: f.copyright,
+      version: f.version
+    };
+  });
+  return fontsInfo;
+}
+
+
+export function copyrightFormat(copyright) {
+  return copyright ? copyright.replace(/[<&"]/g, (c) => (({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])) : null;
 }
