@@ -1,5 +1,20 @@
 [
   {
+    "name": "knewave",
+    "path": "fonts/english/other/knewave.ttf",
+    "home": "https://github.com/theleagueof/knewave",
+    "size": "114 kB",
+    "byte": 114360,
+    "ctime": 1757249748802,
+    "postscriptName": "KnewaveOutline",
+    "fullName": "Knewave Outline",
+    "familyName": "Knewave Outline",
+    "subfamilyName": "Regular",
+    "version": "2.000",
+    "copyright": "Copyright (c) 2011 by Tyler Finck. All rights reserved.",
+    "numGlyphs": 211
+  },
+  {
     "name": "文心喜乐体",
     "path": "fonts/其他字体/文心喜乐体.ttf",
     "home": "https://www.gtn9.com/work_show.aspx?id=50ABD0AA0994C71E",
