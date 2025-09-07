@@ -1,5 +1,21 @@
 [
   {
+    "name": "云峰游戏标题简体",
+    "path": "fonts/云峰字库/云峰游戏标题简体.ttf",
+    "home": "https://mp.weixin.qq.com/s/Mcg4AcvJ62tW0Lcxwd9U_g",
+    "type": "手绘体",
+    "size": "15.6 MB",
+    "byte": 15561024,
+    "ctime": 1757234934327,
+    "postscriptName": "Yunfengyouxibiaoti",
+    "fullName": "Yunfengyouxibiaoti",
+    "familyName": "Yunfengyouxibiaoti",
+    "subfamilyName": "Regular",
+    "version": "2.00",
+    "copyright": "云峰字库",
+    "numGlyphs": 6889
+  },
+  {
     "name": "云峰寒蝉体",
     "path": "fonts/云峰字库/云峰寒蝉体.ttf",
     "home": "https://mp.weixin.qq.com/s/qLRQPJf43h15yPgpcNbLNw",
