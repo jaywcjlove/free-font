@@ -1,5 +1,22 @@
 [
   {
+    "name": "云峰寒蝉体",
+    "path": "fonts/云峰字库/云峰寒蝉体.ttf",
+    "home": "https://mp.weixin.qq.com/s/qLRQPJf43h15yPgpcNbLNw",
+    "baidu": "1Bv3uNWfttsKMTucok1n0PQ?pwd=1111",
+    "type": "手绘体",
+    "size": "4.57 MB",
+    "byte": 4571092,
+    "ctime": 1757234592149,
+    "postscriptName": "未定义\u0000\u0000\u0000\u0000\u0000\u0000",
+    "fullName": "云峰寒蝉体",
+    "familyName": "云峰寒蝉体",
+    "subfamilyName": "Regular",
+    "version": "2.00",
+    "copyright": "云峰字库",
+    "numGlyphs": 6937
+  },
+  {
     "name": "重庆山城棒棒体",
     "path": "fonts/云峰字库/重庆山城棒棒体.ttf",
     "home": "https://mp.weixin.qq.com/s/V2rJSmi8dPdVdePB1Hg1LA",
