@@ -1,5 +1,21 @@
 [
   {
+    "name": "字嶼雲遊手書",
+    "path": "fonts/字嶼/字嶼雲遊手書.ttf",
+    "home": "https://fontprime.com/font-detail/153.html",
+    "type": "手绘体",
+    "size": "18.6 MB",
+    "byte": 18642156,
+    "ctime": 1757235877842,
+    "postscriptName": "ZY-yunyoushoushu-TC",
+    "fullName": "ZY-yunyoushoushu-TC",
+    "familyName": "字嶼雲遊手書TC",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "Copyright Shanghai FontPrime Network Technology Co.,Ltd.",
+    "numGlyphs": 7644
+  },
+  {
     "name": "她屿山海",
     "path": "fonts/云峰字库/她屿山海.ttf",
     "home": "https://mp.weixin.qq.com/s/RhhfOfIqWRz32HskiR_K2A",

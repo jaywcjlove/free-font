@@ -89,7 +89,7 @@
   const isEnglish = path.includes("fonts/english/")
 %>
 <% if (relatedFonts.length > 0) { %>
-  <sup class="relatedfonts title">相关字体</sup>
+  <sup class="relatedfonts title">相关字体《<%=fontName%>》</sup>
   <div class="relatedfonts">
     <% relatedFonts.forEach(function(font) { %>
     <a href="<%=PUBLIC_PATH%>details/<%=font.name%>.html" title="<%=font.name%>">
