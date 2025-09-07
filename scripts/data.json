@@ -1,5 +1,22 @@
 [
   {
+    "name": "簡語生活體",
+    "path": "fonts/其他字体/簡語生活體.ttf",
+    "home": "https://github.com/justfont/AbbrFesFont",
+    "type": "艺术体",
+    "license": "OFL-1.1",
+    "size": "9.23 MB",
+    "byte": 9231400,
+    "ctime": 1757236471578,
+    "postscriptName": "AbbrFesFont",
+    "fullName": "AbbrFesFont",
+    "familyName": "AbbrFesFont",
+    "subfamilyName": "Regular",
+    "version": null,
+    "copyright": "Copyright (c) 2025, justfont (https://justfont.com)\n\nThe AbbrFesFont is redistributed by justfont, with Reserved Font Name &quot;AbbrFesFont&quot; and &quot;簡語生活體&quot;, under the SIL Open Font License, Version 1.1.\nThe license is available with a FAQ at: https://openfontlicense.org\n\nThe glyphs part of this project was derived from ChenYuluoyan, under the SIL Open Font License, Version 1.1.",
+    "numGlyphs": 11288
+  },
+  {
     "name": "字嶼雲遊手書",
     "path": "fonts/字嶼/字嶼雲遊手書.ttf",
     "home": "https://fontprime.com/font-detail/153.html",
