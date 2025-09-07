@@ -1,5 +1,21 @@
 [
   {
+    "name": "壹城劳拉手写体",
+    "path": "fonts/其他字体/壹城劳拉手写体.otf",
+    "home": "https://booth.pm/zh-cn/items/4189443",
+    "type": "手绘体",
+    "size": "17.1 MB",
+    "byte": 17059692,
+    "ctime": 1757239832563,
+    "postscriptName": "ItijyouRaurafont-Medium",
+    "fullName": "ItijyouRaurafont Medium",
+    "familyName": "ItijyouRaurafont Med",
+    "subfamilyName": "Regular",
+    "version": "001.000",
+    "copyright": "unnamed",
+    "numGlyphs": 22413
+  },
+  {
     "name": "栗壳坚坚体",
     "path": "fonts/栗壳字库/栗壳坚坚体.ttf",
     "home": "https://www.lifont.cn/archives/fyuFMthn",
