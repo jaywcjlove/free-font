@@ -1,5 +1,22 @@
 [
   {
+    "name": "临海隶书",
+    "path": "fonts/其他字体/临海隶书.ttf",
+    "home": "https://mp.weixin.qq.com/s/-FX7v7-TkPAY0JQzKCVWyA",
+    "baidu": "1-MuN_WLd8NnfR0L01X9MTw?pwd=jbtc",
+    "type": "艺术体",
+    "size": "2.78 MB",
+    "byte": 2783512,
+    "ctime": 1757223227824,
+    "postscriptName": "???-Regular",
+    "fullName": "??? Regular",
+    "familyName": "临海体",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 9311
+  },
+  {
     "name": "纳米民文仿宋",
     "path": "fonts/纳米字库/纳米民文仿宋.ttf",
     "home": "https://github.com/Hansha2011/NanoPyongHanHei",

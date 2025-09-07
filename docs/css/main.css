@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: #62bce5;
   text-decoration: none;

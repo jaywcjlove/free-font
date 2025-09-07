@@ -7,8 +7,9 @@
  }); %>
 <%- include('./_partial/header-title', { length: DATA.length, type: "" }); %>
 <header>
+  <h2><%- name %>字体下载</h2>
   <div id="preview">
-    <img src="<%= PUBLIC_PATH %>images/<%- name %>-preview.jpg" alt="<%- name %>" />
+    <img src="<%= PUBLIC_PATH %>images/<%- name %>-preview.jpg" alt="<%- name %>字体预览" />
   </div>
   <div class="download" id="downloads">
     <% if (typeof officialDownload !== 'undefined' && officialDownload == true) { %>

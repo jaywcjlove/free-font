@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/临海隶书.html
 https://wangchujiang.com/free-font/details/纳米民文仿宋.html
 https://wangchujiang.com/free-font/details/纳米扁界黑.html
 https://wangchujiang.com/free-font/details/Rubik-WetPaint-Regular.html
@@ -1002,6 +1003,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/临海隶书.ttf&s=2.78%20MB&t=临海隶书&v=1.000&l=商免&bd=1-MuN_WLd8NnfR0L01X9MTw%3Fpwd%3Djbtc
 https://wangchujiang.com/free-font/preview.html?p=fonts/纳米字库/纳米民文仿宋.ttf&s=10.5%20MB&t=纳米民文仿宋&v=1.003&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/纳米字库/纳米扁界黑.ttf&s=4.22%20MB&t=纳米扁界黑&v=2.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FRubik-Goo%2FRubik-WetPaint-Regular.ttf&s=374%20kB&t=Rubik-WetPaint-Regular&v=1.000&l=OFL-1.1

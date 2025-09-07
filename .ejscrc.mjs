@@ -169,7 +169,10 @@ export default {
     "templates/preview.ejs": "./scripts/data.json",
     "templates/preview.en.ejs": "./scripts/data.json"
   },
-  beforeSaveHTML: async (html, output, filename) => {
+  beforeSaveHTML: async (html, output, filename, isWatch) => {
+    if (isWatch == true) {
+      return html;
+    }
     const minHTML = await minify(html, {
         collapseWhitespace: true,
         preserveLineBreaks: true,

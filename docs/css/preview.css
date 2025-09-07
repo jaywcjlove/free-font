@@ -1,3 +1,8 @@
+
+header h2 {
+  font-weight: 100;
+}
+
 main {
   grid-template-columns: repeat(1, 1fr);
   border-radius: 1em;
@@ -137,6 +142,8 @@ div.info {
 }
 
 #preview img {
+  border: 3px solid #33333382;
+  border-radius: 1em;
   max-width: 760px;
   width: 100%;
 }
