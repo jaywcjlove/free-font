@@ -104,6 +104,32 @@ div.info {
   display: none;
 }
 
+.website {
+  position: relative;
+  background-color: #641f8499 !important;
+  color: #f3b9ff61 !important;
+}
+.website:hover {
+  background-color: #641f84e0 !important;
+  color: white !important;
+}
+.website:hover::before {
+  opacity: 0.3;
+}
+
+.website::before {
+  content: " ";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  transition: all 0.3s;
+}
+
 #license > span, #license > a {
   font-size: 10px;
   border-radius: 4px;
