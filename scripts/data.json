@@ -1,5 +1,21 @@
 [
   {
+    "name": "文心喜乐体",
+    "path": "fonts/其他字体/文心喜乐体.ttf",
+    "home": "https://www.gtn9.com/work_show.aspx?id=50ABD0AA0994C71E",
+    "type": "手绘体",
+    "size": "8.77 MB",
+    "byte": 8765204,
+    "ctime": 1757249572537,
+    "postscriptName": "WenxinXileFont",
+    "fullName": "Wenxin Xile Font Regular",
+    "familyName": "Wenxin Xile Font",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 4766
+  },
+  {
     "name": "壹城劳拉手写体",
     "path": "fonts/其他字体/壹城劳拉手写体.otf",
     "home": "https://booth.pm/zh-cn/items/4189443",
