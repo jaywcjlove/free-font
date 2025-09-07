@@ -1,5 +1,22 @@
 [
   {
+    "name": "重庆山城棒棒体",
+    "path": "fonts/云峰字库/重庆山城棒棒体.ttf",
+    "home": "https://mp.weixin.qq.com/s/V2rJSmi8dPdVdePB1Hg1LA",
+    "baidu": "1HLuBeaYlhtubLWcuJ_dxgQ?pwd=yfzk",
+    "type": "手绘体",
+    "size": "5.37 MB",
+    "byte": 5372632,
+    "ctime": 1757233759149,
+    "postscriptName": "YunFengchongqingbangbangti",
+    "fullName": "YunFengchongqingbangbangti",
+    "familyName": "YunFengchongqingbangbangti",
+    "subfamilyName": "Regular",
+    "version": "2.00",
+    "copyright": "云峰字库",
+    "numGlyphs": 6767
+  },
+  {
     "name": "乡立方黑体",
     "path": "fonts/其他字体/乡立方黑体.ttf",
     "home": "https://mp.weixin.qq.com/s/WghZUYdd-bTq7uLtaE3vnw",
@@ -795,7 +812,7 @@
   },
   {
     "name": "云峰静龙行书",
-    "path": "fonts/其他字体/云峰静龙行书.ttf",
+    "path": "fonts/云峰字库/云峰静龙行书.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjAyNDI2MjQ=.html",
     "type": "宋体",
     "size": "4.35 MB",
@@ -1035,7 +1052,7 @@
   },
   {
     "name": "云峰飞云体",
-    "path": "fonts/其他字体/云峰飞云体.ttf",
+    "path": "fonts/云峰字库/云峰飞云体.ttf",
     "home": "https://www.zcool.com.cn/work/ZNjA3NjgyODQ=.html",
     "type": "艺术体",
     "size": "7.93 MB",
