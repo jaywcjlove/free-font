@@ -1,5 +1,21 @@
 [
   {
+    "name": "乡立方黑体",
+    "path": "fonts/其他字体/乡立方黑体.ttf",
+    "home": "https://mp.weixin.qq.com/s/WghZUYdd-bTq7uLtaE3vnw",
+    "type": "黑体",
+    "size": "1.11 MB",
+    "byte": 1114924,
+    "ctime": 1757223834021,
+    "postscriptName": "xianglifang-Regular",
+    "fullName": "xianglifang Regular",
+    "familyName": "xianglifang",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": null,
+    "numGlyphs": 6620
+  },
+  {
     "name": "临海隶书",
     "path": "fonts/其他字体/临海隶书.ttf",
     "home": "https://mp.weixin.qq.com/s/-FX7v7-TkPAY0JQzKCVWyA",
