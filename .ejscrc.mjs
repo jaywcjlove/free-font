@@ -25,6 +25,11 @@ export default {
     "totalBytes": prettyBytes(total),
     "myapp": [
       {
+        "href": "https://apps.apple.com/app/VidCrop/6752624705",
+        "title": "VidCrop for macOS",
+        "image":"vidcrop.png"
+      },
+      {
         "href": "https://apps.apple.com/app/Vidwall/6747587746",
         "title": "Vidwall for macOS",
         "image":"vidwall.png"
