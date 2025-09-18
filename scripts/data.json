@@ -1,7 +1,25 @@
 [
   {
+    "name": "PollerOne",
+    "path": "fonts/english/other/PollerOne.ttf",
+    "home": "https://github.com/google-fonts-bower/pollerone-bower",
+    "license": "OFL-1.1",
+    "size": "31.6 kB",
+    "byte": 31588,
+    "ctime": 1758216381713,
+    "postscriptName": "PollerOne-Regular",
+    "fullName": "Poller One",
+    "familyName": "Poller One",
+    "subfamilyName": "Regular",
+    "version": "1.002",
+    "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\nwith Reserved Font Names &quot;Poller&quot; and &quot;Poller One&quot;.",
+    "numGlyphs": 241
+  },
+  {
     "name": "Bahianita",
     "path": "fonts/english/other/Bahianita.ttf",
+    "home": "https://github.com/Omnibus-Type/Bahiana/tree/master/Bahianita",
+    "license": "OFL-1.1",
     "size": "143 kB",
     "byte": 142668,
     "ctime": 1758216047786,
