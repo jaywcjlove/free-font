@@ -1,5 +1,19 @@
 [
   {
+    "name": "Bahianita",
+    "path": "fonts/english/other/Bahianita.ttf",
+    "size": "143 kB",
+    "byte": 142668,
+    "ctime": 1758216047786,
+    "postscriptName": "Bahianita-Regular",
+    "fullName": "Bahianita Regular",
+    "familyName": "Bahianita",
+    "subfamilyName": "Regular",
+    "version": "1.008",
+    "copyright": "Copyright 2018 The Bahianita Project Authors (https://github.com/Omnibus-Type/Bahiana/Bahianita)",
+    "numGlyphs": 1234
+  },
+  {
     "name": "也字工厂小石头",
     "path": "fonts/其他字体/也字工厂小石头.ttf",
     "home": "https://mp.weixin.qq.com/s/numCc38OJoI5XIIBsCR0-w",
