@@ -20,7 +20,7 @@ jobs:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          tool-cache: false
+          tool-cache: true
           android: true
           dotnet: true
           haskell: true
@@ -83,28 +83,64 @@ jobs:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          tool-cache: false
+          tool-cache: true
           android: true
           dotnet: true
           haskell: true
           large-packages: true
           docker-images: true
           swap-storage: true
+      - name: Check Disk Space After Cleanup
+        run: |
+          echo "=== After Initial Cleanup ==="
+          df -h
+          echo "=== Memory Usage ==="
+          free -h
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
-      - run: npm run build:docker
-      - name: Free Disk Space
+      - name: Check Disk Space Before npm install
         run: |
-          echo "Before Cleanup:"
+          echo "=== Before npm install ==="
           df -h
-          sudo rm -rf /usr/local/lib/android /opt/ghc /usr/share/dotnet /usr/share/swift /usr/local/.ghcup
+      - run: npm install
+      - name: Check Disk Space After npm install
+        run: |
+          echo "=== After npm install ==="
+          df -h
+      - run: npm run build:docker
+      - name: Check Disk Space After build
+        run: |
+          echo "=== After build ==="
+          df -h
+      - name: Additional Cleanup Before Docker
+        run: |
+          echo "=== Before Additional Cleanup ==="
+          df -h
+          
+          # Clean npm cache and node modules
+          npm cache clean --force || true
           sudo rm -rf ~/.npm ~/.node-gyp ~/.cache/node-gyp ~/.nvm
           sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /usr/local/bin/node /usr/local/bin/npm /usr/local/bin/npx
-          echo "After Cleanup:"
+          sudo rm -rf node_modules/.cache
+          
+          # Clean system packages and cache
+          sudo apt-get clean
+          sudo apt-get autoremove -y
+          sudo rm -rf /var/lib/apt/lists/*
+          sudo rm -rf /tmp/*
+          sudo rm -rf /var/tmp/*
+          
+          # Clean additional directories
+          sudo rm -rf /usr/local/lib/android /opt/ghc /usr/share/dotnet /usr/share/swift /usr/local/.ghcup
+          sudo rm -rf /usr/share/miniconda /usr/local/share/boost /usr/local/graalvm
+          sudo rm -rf /usr/local/share/powershell /usr/share/swift
+          
+          # Clean logs
+          sudo rm -rf /var/log/* || true
+          
+          echo "=== After Additional Cleanup ==="
           df -h
       - uses: docker/setup-buildx-action@v3
         with:
@@ -114,6 +150,9 @@ jobs:
           buildkitd-config-inline: |
             [worker.oci]
               max-parallelism = 1
+              gc = true
+              gckeepstorage = "2GB"
+              gcpolicy = [{keep-duration = "24h"}, {filters = ["type==source.local"], all = true, keepBytes = 1073741824}]
             [registry."docker.io"]
               mirrors = ["mirror.gcr.io"]
       - name: Login to Docker Hub
@@ -121,7 +160,14 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-      - run: docker buildx prune -f
+      - name: Clean Docker system
+        run: |
+          echo "=== Before Docker cleanup ==="
+          df -h
+          docker system prune -af --volumes
+          docker buildx prune -af
+          echo "=== After Docker cleanup ==="
+          df -h
       - name: Build and push image:latest
         uses: docker/build-push-action@v5
         with:
@@ -134,6 +180,12 @@ jobs:
           outputs: type=registry
           provenance: false
           sbom: false
+      - name: Clean Between Docker Builds
+        run: |
+          echo "=== Cleaning between Docker builds ==="
+          docker system prune -f
+          echo "=== Disk space after cleanup ==="
+          df -h
       - name: Build and push image:tags
         uses: docker/build-push-action@v5
         if: needs.ghpage.outputs.release_successful == 'true'
