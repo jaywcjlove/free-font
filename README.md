@@ -188,8 +188,7 @@ git lfs track "docs/fonts/全字库系列/全字庫正楷體/全字庫正楷體-
 **✅ 部署方式**
 
 1. **克隆主分支并部署静态资源** 克隆 `main` 分支，并部署 [`docs`](./docs/) 目录中的静态文件。
-2. **使用 GitHub Pages 托管** 直接使用 [gh-pages 分支](https://github.com/jaywcjlove/free-font/tree/gh-pages) 进行静态托管，无需额外配置。
-3. **✅ 通过 Docker 镜像部署** 使用 [Docker 镜像](https://hub.docker.com/r/wcjiang/free-font) 快速搭建本地预览服务。
+2. **✅ 通过 Docker 镜像部署** 使用 [Docker 镜像](https://hub.docker.com/r/wcjiang/free-font) 快速搭建本地预览服务。
 
 > [!TIP]
 > 
