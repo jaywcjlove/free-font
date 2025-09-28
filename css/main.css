@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #282828;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #62bce5;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #388db4;
+}
+
+p {
+  padding: 0; margin: 0;
+}
+
+a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
+a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 40px; height: 40px; }
+a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
+
+
+@keyframes octocat-wave {
+  0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
+  20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
+  40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.website-info {
+  text-align: center;
+  font-size: 0.86em;
+  font-weight: 100;
+  padding-bottom: 3em;
+  color: #ffffff6b;
+}
+
+header {
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+header p a {
+  color: #62bce5;
+  text-decoration: none;
+}
+header p {
+  font-size: 0.86em;
+  font-weight: 100;
+  padding-bottom: 0;
+  color: #acacac;
+}
+
+nav {
+  text-align: center;
+  padding: 0.23em 0;
+  margin-bottom: 0.23em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  --color-header-bg: #3a3a3a8f;
+  background: var(--color-header-bg);
+  backdrop-filter: saturate(180%) blur(0.4rem);
+  background-color: var(--color-header-bg);
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+nav a {
+  padding: 2px 4px;
+}
+
+nav a.active {
+  background: #454545;
+  color: #c3c3c3;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+main > div, main > div a, main > div span, main > div img {
+  display: block;
+}
+
+main > div img {
+  width: 100%;
+  min-height: 91px;
+  border-radius: 5px;
+  background-color: #262626;
+}
+
+main > div a {
+  padding: 6px;
+
+}
+main > div {
+  border: 1px solid transparent;
+  background: #ffffff0d;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+main > div:hover {
+  border: 1px solid #ffffff3b;
+  background: #333;
+}
+main > div p {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding-top: 6px;
+  gap: 5px;
+}
+
+main > div .license {
+  font-size: 10px;
+  position: absolute;
+  margin-top: -14px;
+  margin-left: 5px;
+}
+
+main > div .license i.size {
+  background: #4b4b4ba6;
+  color: #909090;
+}
+main > div .license i {
+  padding: 0 2px;
+  border-radius: 3px;
+  font-style: normal;
+  color: #15a52e;
+  background: #00560399;
+
+}
+
+main > div p > span {
+  color: #a1a1a1;
+  position: relative;
+  white-space: nowrap;
+  top: -1px;
+  font-size: 12px;
+}
+
+main > div:hover > .button {
+  background: #2c87b1;
+  color: white;
+}
+
+main > div > .button {
+  background: #3d3d3d;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #898989;
+  padding: 0 2px 1px 2px;
+  transition: all 0.3s;
+  position: absolute;
+  display: inline-flex;
+  right: 6px;
+  bottom: 6px;
+}
+
+
+main > div > .button:hover {
+  background: #007636;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.95rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 12px;
+}
+
+footer sup {
+  position: absolute;
+    font-size: 10px;
+    color: #8d8d8d;
+}
+footer div, footer div a {
+  font-weight: 100;
+}
+footer div {
+  font-size: small;
+  padding-bottom: 0.35em;
+}
+
+footer time {
+  font-size: x-small;
+  color: #ffffff4f;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+footer {
+  font-weight: 100;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 7em;
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  header p {
+    font-size: 1.15em;
+    padding-bottom: 0;
+  }
+  header h1 {
+    font-size: 1.8em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  a.github-corner svg {
+    width: 60px; height: 60px; 
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
