@@ -1,6 +1,7 @@
 <div markdown="1">
   <sup>使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>，也是对我的<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>：</sup>
   <br>
+  <a target="_blank" href="https://github.com/jaywcjlove/vidwall-hub" title="Vidwall Hub for macOS"><img align="center" alt="Vidwall Hub" height="52" width="52" src="https://wangchujiang.com/appicon/vidwall-hub.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/VidCrop/6752624705" title="VidCrop for macOS"><img align="center" alt="VidCrop" height="52" width="52" src="https://github.com/user-attachments/assets/91d2b281-271a-4107-9ef6-f3b11bd6dbac"></a>
   <a target="_blank" href="https://apps.apple.com/app/Vidwall/6747587746" title="Vidwall for macOS"><img align="center" alt="Vidwall" height="52" width="52" src="https://github.com/user-attachments/assets/7b5df70a-ed91-4d4b-85be-f00e60a09ce9"></a>
   <a target="_blank" href="https://wangchujiang.com/mousio-hint/" title="Mousio Hint for macOS"><img align="center" alt="Mousio Hint" height="52" width="52" src="https://github.com/user-attachments/assets/3c0af128-0cef-44e5-a8db-4741dc5a6690"></a>
