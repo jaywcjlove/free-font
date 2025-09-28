@@ -142,18 +142,18 @@ jobs:
             # Or
             docker run --name reference -itd -p 9677:3000 wcjiang/free-font:latest
             ```
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website
-          exclude_assets: |
-            fonts/
-            docs/fonts/
-            **/*.ttf
-            **/*.otf
-            **/*.woff
-            **/*.woff2
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./website
+      #     exclude_assets: |
+      #       fonts/
+      #       docs/fonts/
+      #       **/*.ttf
+      #       **/*.otf
+      #       **/*.woff
+      #       **/*.woff2
 
   build:
     if: github.repository == 'jaywcjlove/free-font' && needs.ghpage.outputs.release_successful == 'true'
