@@ -25,6 +25,16 @@ export default {
     "totalBytes": prettyBytes(total),
     "myapp": [
       {
+        "href": "https://wangchujiang.com/deskmark/",
+        "title": "Deskmark for macOS",
+        "image":"deskmark.png"
+      },
+      {
+        "href": "https://wangchujiang.com/keyzer/",
+        "title": "Keyzer for macOS",
+        "image":"keyzer.png"
+      },
+      {
         "href": "https://wangchujiang.com/vidwall-hub/",
         "title": "Vidwall Hub for macOS",
         "image":"vidwall-hub.png"
