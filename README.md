@@ -35,8 +35,7 @@
 </div>
 <hr>
 
-
-镜像网站：[`haoziku.com`](https://haoziku.com/) [`bestluntan.com`](http://bestluntan.com/) [`ittools.cc`](https://font.ittools.cc) [`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | ~~[`Netlify`](https://freefont.netlify.app)~~
+镜像网站：[`haoziku.com`](https://haoziku.com/) [`font.icu`](https://font.icu) [`bestluntan.com`](http://bestluntan.com/) [`ittools.cc`](https://font.ittools.cc) [`bestluntan.com`](http://bestluntan.com) [`GitHub Page`](https://jaywcjlove.github.io/free-font/) | [`Githack`](https://raw.githack.com/jaywcjlove/free-font/main/docs/index.html) | [`Vercel`](https://free-font.vercel.app) | ~~[`Netlify`](https://freefont.netlify.app)~~
 <br />
 <br />
 <br />

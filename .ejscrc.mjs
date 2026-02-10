@@ -25,6 +25,11 @@ export default {
     "totalBytes": prettyBytes(total),
     "myapp": [
       {
+        "href": "https://wangchujiang.com/screen-test/",
+        "title": "Screen Test for macOS",
+        "image":"screen-test.png"
+      },
+      {
         "href": "https://wangchujiang.com/deskmark/",
         "title": "Deskmark for macOS",
         "image":"deskmark.png"
