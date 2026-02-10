@@ -1,5 +1,22 @@
 [
   {
+    "name": "权衡度量体",
+    "path": "fonts/其他字体/权衡度量体.ttf",
+    "home": "https://github.com/kaonashi-tyc/Zi-QuanHengDuLiang",
+    "license": "MIT",
+    "type": "艺术体",
+    "size": "8.68 MB",
+    "byte": 8677980,
+    "ctime": 1770747728863,
+    "postscriptName": "QuanHengDuLiangJian",
+    "fullName": "QuanHengDuLiang Jian",
+    "familyName": "QuanHengDuLiang",
+    "subfamilyName": "Jian",
+    "version": "001.000",
+    "copyright": "Copyright (c) 2026, Yuchen Tian",
+    "numGlyphs": 6990
+  },
+  {
     "name": "PollerOne",
     "path": "fonts/english/other/PollerOne.ttf",
     "home": "https://github.com/google-fonts-bower/pollerone-bower",

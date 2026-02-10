@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/权衡度量体.html
 https://wangchujiang.com/free-font/details/PollerOne.html
 https://wangchujiang.com/free-font/details/Bahianita.html
 https://wangchujiang.com/free-font/details/也字工厂小石头.html
@@ -1018,6 +1019,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/权衡度量体.ttf&s=8.68%20MB&t=权衡度量体&v=001.000&l=MIT
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fother%2FPollerOne.ttf&s=31.6%20kB&t=PollerOne&v=1.002&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fother%2FBahianita.ttf&s=143%20kB&t=Bahianita&v=1.008&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/也字工厂小石头.ttf&s=3.81%20MB&t=也字工厂小石头&v=1.000&l=商免

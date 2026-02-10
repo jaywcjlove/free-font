@@ -29,7 +29,7 @@
     "fontkit": "^2.0.4",
     "fs-extra": "^11.2.0",
     "pretty-bytes": "^6.1.1",
-    "puppeteer": "^22.13.1"
+    "puppeteer": "24.37.2"
   },
   "dependencies": {
     "html-minifier-next": "^1.2.1",

@@ -195,9 +195,9 @@ export default {
     "templates/preview.en.ejs": "./scripts/data.json"
   },
   beforeSaveHTML: async (html, output, filename, isWatch) => {
-    if (isWatch == true) {
-      return html;
-    }
+    // if (isWatch == true) {
+    //   return html;
+    // }
     const minHTML = await minify(html, {
         collapseWhitespace: true,
         preserveLineBreaks: true,
