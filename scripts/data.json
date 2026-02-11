@@ -1,9 +1,26 @@
 [
   {
+    "name": "EVA明体简体",
+    "path": "fonts/其他字体/EVA明体简体.otf",
+    "home": "https://github.com/kaonashi-tyc/Eva-Ming-Simplified",
+    "license":"CC BY-NC 4.0",
+    "type": "宋体",
+    "size": "25.8 MB",
+    "byte": 25812560,
+    "ctime": 1770772734500,
+    "postscriptName": "SourceHanSerifSC-EvaJian-Heavy",
+    "fullName": "SourceHanSerifSC EvaJian Heavy",
+    "familyName": "SourceHanSerifSC EvaJian",
+    "subfamilyName": "Heavy",
+    "version": "2.003",
+    "copyright": "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "numGlyphs": 65535
+  },
+  {
     "name": "玄宗体",
     "path": "fonts/其他字体/玄宗体.otf",
     "home": "https://github.com/kaonashi-tyc/Zi-XuanZongTi",
-    "license":"OFL-1.1",
+    "license": "OFL-1.1",
     "type": "艺术体",
     "size": "38.6 MB",
     "byte": 38607976,
