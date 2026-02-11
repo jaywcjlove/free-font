@@ -1,5 +1,22 @@
 [
   {
+    "name": "玄宗体",
+    "path": "fonts/其他字体/玄宗体.otf",
+    "home": "https://github.com/kaonashi-tyc/Zi-XuanZongTi",
+    "license":"OFL-1.1",
+    "type": "艺术体",
+    "size": "38.6 MB",
+    "byte": 38607976,
+    "ctime": 1770772328393,
+    "postscriptName": "XuanZongTi-Regular",
+    "fullName": "XuanZongTi",
+    "familyName": "XuanZongTi",
+    "subfamilyName": "Regular",
+    "version": "2.003",
+    "copyright": "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "numGlyphs": 65535
+  },
+  {
     "name": "权衡度量体",
     "path": "fonts/其他字体/权衡度量体.ttf",
     "home": "https://github.com/kaonashi-tyc/Zi-QuanHengDuLiang",

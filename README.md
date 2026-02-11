@@ -82,7 +82,6 @@
   "familyName": "tkFangSong",
   "subfamilyName": "Regular",
   "version": "1.000",
-  "baidu": "1HLuBeaYlhtubLWcuJ_dxgQ?pwd=yfzk", // 百度下载
   // ⚠️ ~~~~ 自动生成 ------- 不需要修改
 
   // 分类
@@ -92,7 +91,9 @@
   // 官网/来源
   "home": 'https://zh.osdn.net/projects/jis2004/wiki/FrontPage',
   // 去官网下载 -> home
-  "officialDownload": true
+  "officialDownload": true,
+  // 百度下载
+  "baidu": "1HLuBeaYlhtubLWcuJ_dxgQ?pwd=yfzk",
 }
 ```
 
