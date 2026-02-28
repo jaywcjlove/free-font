@@ -25,17 +25,22 @@ export default {
     "totalBytes": prettyBytes(total),
     "myapp": [
       {
-        "href": "https://wangchujiang.com/screen-test/",
+        "href": "https://apps.apple.com/app/6758053530",
+        "title": "Scap: Screenshot & Markup Edit for macOS",
+        "image":"scap.png"
+      },
+      {
+        "href": "https://apps.apple.com/app/6757317079",
         "title": "Screen Test for macOS",
         "image":"screen-test.png"
       },
       {
-        "href": "https://wangchujiang.com/deskmark/",
+        "href": "https://apps.apple.com/app/6755948110",
         "title": "Deskmark for macOS",
         "image":"deskmark.png"
       },
       {
-        "href": "https://wangchujiang.com/keyzer/",
+        "href": "https://apps.apple.com/app/6500434773",
         "title": "Keyzer for macOS",
         "image":"keyzer.png"
       },
@@ -115,12 +120,12 @@ export default {
         "image":"paste-quick.png"
       },
       {
-        "href": "https://apps.apple.com/app/6670696072",
+        "href": "https://apps.apple.com/app/6670696072?platform=mac",
         "title": "Quick RSS for macOS/iOS",
         "image":"quick-rss.png"
       },
       {
-        "href": "https://apps.apple.com/app/6670167443",
+        "href": "https://apps.apple.com/app/6670167443?platform=mac",
         "title": "Web Serve for macOS",
         "image":"web-serve.png"
       },
@@ -135,12 +140,12 @@ export default {
         "image":"devtutor.png"
       },
       {
-        "href": "https://apps.apple.com/app/6479819388",
+        "href": "https://apps.apple.com/app/6479819388?platform=mac",
         "title": "RegexMate for macOS/iOS",
         "image":"regex-mate.png"
       },
       {
-        "href": "https://apps.apple.com/app/6479194014",
+        "href": "https://apps.apple.com/app/6479194014?platform=mac",
         "title": "Time Passage for macOS/iOS",
         "image":"time-passage.png"
       },
@@ -150,7 +155,7 @@ export default {
         "image":"iconize-folder.png"
       },
       {
-        "href": "https://apps.apple.com/app/6478511402",
+        "href": "https://apps.apple.com/app/6478511402?platform=mac",
         "title": "Textsound Saver for macOS/iOS",
         "image":"textsound-saver.png"
       },
