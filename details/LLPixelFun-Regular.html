@@ -466,7 +466,15 @@
           ❤</span
         >
       </div>
-      <time datetime="5/11/2026">上次更新于：5/11/2026</time>
+      <time id="update-time">上次更新于：加载中...</time>
+      <script src="../js/last-update.js"></script>
+      <script>
+        if (window.LAST_UPDATE_DATE) {
+          const t = document.getElementById("update-time"),
+            e = window.LAST_UPDATE_DATE.toLocaleDateString();
+          ((t.textContent = "上次更新于：" + e), (t.dateTime = e));
+        }
+      </script>
     </footer>
   </body>
 </html>
