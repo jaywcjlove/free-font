@@ -8,6 +8,8 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/ServerMono-RegularOblique.html
+https://wangchujiang.com/free-font/details/ServerMono-Regular.html
 https://wangchujiang.com/free-font/details/EVA明体简体.html
 https://wangchujiang.com/free-font/details/玄宗体.html
 https://wangchujiang.com/free-font/details/权衡度量体.html
@@ -1021,6 +1023,8 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FServerMono%2FServerMono-RegularOblique.otf&s=37.5%20kB&t=ServerMono-RegularOblique&v=1.200&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FServerMono%2FServerMono-Regular.otf&s=41.8%20kB&t=ServerMono-Regular&v=1.200&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/EVA明体简体.otf&s=25.8%20MB&t=EVA明体简体&v=2.003&l=CC%20BY-NC%204.0
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/玄宗体.otf&s=38.6%20MB&t=玄宗体&v=2.003&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/权衡度量体.ttf&s=8.68%20MB&t=权衡度量体&v=001.000&l=MIT
