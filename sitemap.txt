@@ -8,6 +8,8 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/CozetteCrossedSevenVectorBold.html
+https://wangchujiang.com/free-font/details/CozetteCrossedSevenVector.html
 https://wangchujiang.com/free-font/details/白路彤彤手写体.html
 https://wangchujiang.com/free-font/details/天王星像素.html
 https://wangchujiang.com/free-font/details/快去写作业CJKMono-Regular.html
@@ -1040,6 +1042,8 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FCozette%2FCozetteCrossedSevenVectorBold.ttf&s=568%20kB&t=CozetteCrossedSevenVectorBold&l=IPA-1.0
+https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2FCozette%2FCozetteCrossedSevenVector.ttf&s=650%20kB&t=CozetteCrossedSevenVector&l=IPA-1.0
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/白路彤彤手写体.ttf&s=3.58%20MB&t=白路彤彤手写体&v=1.000&l=商免
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/天王星像素.ttf&s=1.34%20MB&t=天王星像素&l=GPL-3.0
 https://wangchujiang.com/free-font/preview.html?p=fonts/快去写作业/快去写作业CJKMono-Regular.ttf&s=23.4%20MB&t=快去写作业CJKMono-Regular&l=OFL-1.1
