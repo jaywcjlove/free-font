@@ -8,6 +8,9 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/多彩立直麻将字体.html
+https://wangchujiang.com/free-font/details/单色立直麻将字体.html
+https://wangchujiang.com/free-font/details/八丁饰尾体.html
 https://wangchujiang.com/free-font/details/正格点黑.html
 https://wangchujiang.com/free-font/details/袖珍像素体.html
 https://wangchujiang.com/free-font/details/人偶仿宋.html
@@ -1048,6 +1051,9 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/麻将字体/多彩立直麻将字体.otf&s=340%20kB&t=多彩立直麻将字体&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/麻将字体/单色立直麻将字体.otf&s=173%20kB&t=单色立直麻将字体&l=OFL-1.1
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/八丁饰尾体.ttf&s=4.33%20MB&t=八丁饰尾体&v=1.1.0&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/正格点黑.ttf&s=3.88%20MB&t=正格点黑&v=1.0.0&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/袖珍像素体.ttf&s=1.89%20MB&t=袖珍像素体&v=1.0.0&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/人偶仿宋.ttf&s=4.71%20MB&t=人偶仿宋&v=1.1.1&l=OFL-1.1
