@@ -45,6 +45,26 @@ h1 {
   text-align: center;
 }
 
+.site-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin: 0.67em 0;
+}
+
+p.breadcrumb {
+  text-align: center;
+  font-size: 0.86em;
+  color: #ffffff8a;
+  padding: 0.8em 1em 0;
+}
+
+p.breadcrumb span {
+  color: #fff;
+}
+
 .website-info {
   text-align: center;
   font-size: 0.86em;

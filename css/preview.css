@@ -3,6 +3,23 @@ header h2 {
   font-weight: 100;
 }
 
+header h1.font-title {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0.83em 0;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  header h1.font-title {
+    font-size: 1.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 main {
   grid-template-columns: repeat(1, 1fr);
   border-radius: 1em;
