@@ -8,6 +8,7 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/漓雨手书.html
 https://wangchujiang.com/free-font/details/館閣楷-Regular.html
 https://wangchujiang.com/free-font/details/館閣楷-Real.html
 https://wangchujiang.com/free-font/details/館閣楷-C-Regular.html
@@ -1064,6 +1065,7 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/漓雨手书.ttf&s=25%20MB&t=漓雨手书&v=0.107&l=SIL%20OFL%201.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-Regular.ttf&s=16.6%20MB&t=館閣楷-Regular&v=1.7.3&l=MIT
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-Real.ttf&s=4.55%20MB&t=館閣楷-Real&v=1.7.3&l=MIT
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-C-Regular.ttf&s=15.4%20MB&t=館閣楷-C-Regular&v=1.4.0&l=MIT
