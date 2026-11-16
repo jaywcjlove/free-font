@@ -85,13 +85,14 @@ jobs:
       - name: Move static resource files
         run: |
           cp docs/*.html ./website
+          cp docs/*.svg ./website
+          cp docs/*.txt ./website
           cp -rp docs/appicon ./website
           cp -rp docs/css ./website
           cp -rp docs/js ./website
           cp -rp docs/images ./website
           cp -rp docs/details ./website
           cp -rp docs/icons ./website
-          cp -rp docs/sitemap.txt ./website
       - name: Create README.md
         working-directory: website
         run: |
