@@ -1,5 +1,22 @@
 [
   {
+    "name": "漓雨手书",
+    "path": "fonts/其他字体/漓雨手书.ttf",
+    "home": "https://github.com/InkPantherType/LiyuShoushu",
+    "type": "艺术体",
+    "license": "SIL OFL 1.1",
+    "size": "25 MB",
+    "byte": 25024512,
+    "ctime": 1794854171464,
+    "postscriptName": "LiyuShoushu",
+    "fullName": "Liyu Shoushu",
+    "familyName": "Liyu Shoushu R",
+    "subfamilyName": "Regular",
+    "version": "0.107",
+    "copyright": "Copyright 2026 Alexander Tseng. Portions Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji). Licensed under the SIL Open Font License, Version 1.1.\nPortions copyright LXGW and LXGWZhenKai Project Author (https://github.com/lxgw/LxgwZhenKai). Licensed under the SIL Open Font License, Version 1.1.",
+    "numGlyphs": 18828
+  },
+  {
     "name": "館閣楷-Regular",
     "path": "fonts/其他字体/館閣楷/館閣楷-Regular.ttf",
     "home": "https://github.com/wainshine/guangeti",
