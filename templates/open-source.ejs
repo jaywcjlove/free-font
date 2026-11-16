@@ -1,16 +1,17 @@
+<% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => b.ctime - a.ctime) %>
 <%- include('./_partial/header', {
   type: "home",
-  title: "商用免费开源字体｜Free Font｜商用免费字体下载（中文与英文字体）",
+  title: `免费开源字体下载（${openSource.length}款）｜Free Font`,
   pageurl: "open-source.html",
   ogImage: "icons/banner.jpeg",
-  description: "Free Font - 商用免费开源字体，包括汉字和英文字体，提供免费下载和使用。",
-  keywords: "黑体,楷体,宋体,艺术体,手绘体,开源字体,免费字体,商用字体,汉字字体,英文字体,字体下载,免费商用字体,free fonts,commercial free fonts,Chinese fonts,English fonts,font download,free commercial fonts"
+  ogImageAlt: "Free Font 免费开源字体",
+  description: `免费开源字体下载，共 ${openSource.length} 款来自 GitHub 与 GitLab 的可商用字体，支持个人与商业使用。`,
+  keywords: "开源字体,免费开源字体,GitHub 字体,商用字体,字体下载,免费字体"
 }); %>
-<% const openSource = DATA.filter((item) => item.home && (item.home.includes("github.com") || item.home.includes("gitlab.com"))).sort((a, b) => a.ctime - b.ctime) %>
-<%- include('./_partial/header-title', { length: openSource.length, type: "开源字体" }); %>
+<%- include('./_partial/header-title', { length: openSource.length, type: "开源字体", pageHeading: "免费开源字体", pageHeadingHref: PUBLIC_PATH + "open-source.html" }); %>
 <main>
-  <% openSource.sort((a, b) => b.ctime - a.ctime).forEach(function(font, idx){ %>
-    <%- include('./_partial/home-list', { font }); %>
+  <% openSource.forEach(function(font, idx){ %>
+    <%- include('./_partial/home-list', { font, eager: idx === 0 }); %>
   <% }); %>
 </main>
 <!-- Google tag (gtag.js) -->

@@ -1,42 +1,94 @@
+<%
+  const htmlLang = typeof lang !== "undefined" && lang ? lang : "zh-CN";
+  const pageRobots = typeof robots !== "undefined" && robots ? robots : "index,follow";
+  const canonical = GLOBAL.siteOrigin + GLOBAL.seoPath(pageurl || "");
+  const imageUrl = GLOBAL.siteOrigin + GLOBAL.seoPath(ogImage || "icons/banner.jpeg");
+  const imageAlt = typeof ogImageAlt !== "undefined" && ogImageAlt ? ogImageAlt : title;
+  const imageWidth = typeof ogImageWidth !== "undefined" && ogImageWidth ? ogImageWidth : 1280;
+  const imageHeight = typeof ogImageHeight !== "undefined" && ogImageHeight ? ogImageHeight : 640;
+  const locale = htmlLang === "en" ? "en_US" : "zh_CN";
+  const graph = [
+    {
+      "@type": "WebSite",
+      "@id": GLOBAL.siteOrigin + "#website",
+      "name": "Free Font 商用免费字体下载",
+      "url": GLOBAL.siteOrigin,
+      "inLanguage": "zh-CN",
+      "description": "收录可商用免费中文与英文字体，包括黑体、楷体、宋体、艺术体、手绘体和英文字体。",
+      "publisher": {
+        "@type": "Person",
+        "name": "Kenny Wang",
+        "url": "https://github.com/jaywcjlove"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": canonical + "#webpage",
+      "url": canonical,
+      "name": title,
+      "description": description,
+      "inLanguage": htmlLang,
+      "isPartOf": { "@id": GLOBAL.siteOrigin + "#website" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": imageUrl,
+        "width": Number(imageWidth),
+        "height": Number(imageHeight)
+      }
+    }
+  ];
+  if (typeof crumbs !== "undefined" && Array.isArray(crumbs) && crumbs.length) {
+    graph.push({
+      "@type": "BreadcrumbList",
+      "@id": canonical + "#breadcrumb",
+      "itemListElement": crumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": crumb.name,
+        "item": GLOBAL.siteOrigin + GLOBAL.seoPath(crumb.path || "")
+      }))
+    });
+  }
+  if (typeof about !== "undefined" && about) {
+    graph[1].mainEntity = { "@id": about["@id"] };
+    graph.push(about);
+  }
+  const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replace(/</g, "\\u003c");
+%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= htmlLang %>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%=title%></title>
-  <meta name="description" content="<%=description%>">
-  <meta name="keywords" content="<%=keywords%>">
+  <title><%= title %></title>
+  <meta name="description" content="<%= description %>">
+  <meta name="keywords" content="<%= keywords %>">
   <meta name="author" content="Kenny Wang">
-  <meta name="robots" content="index,follow">
-  <meta property="og:title" content="<%=title%>">
-  <meta property="og:description" content="<%=description%>">
+  <meta name="robots" content="<%= pageRobots %>">
+  <link rel="canonical" href="<%= canonical %>">
+  <link rel="icon" href="<%= PUBLIC_PATH %>favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#282828">
+  <meta property="og:locale" content="<%= locale %>">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="<%= description %>">
   <meta property="og:site_name" content="Free Font 商用免费字体下载">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://wangchujiang.com/free-font/<%=pageurl%>">
-  <meta property="og:image" content="https://wangchujiang.com/free-font/<%=ogImage%>">
+  <meta property="og:url" content="<%= canonical %>">
+  <meta property="og:image" content="<%= imageUrl %>">
+  <meta property="og:image:alt" content="<%= imageAlt %>">
+  <meta property="og:image:width" content="<%= imageWidth %>">
+  <meta property="og:image:height" content="<%= imageHeight %>">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="Kenny Wang">
-  <meta name="twitter:title" content="<%=title%>">
-  <meta name="twitter:description" content="<%=description%>">
-  <meta name="twitter:image" content="https://wangchujiang.com/free-font/<%=ogImage%>">
+  <meta name="twitter:title" content="<%= title %>">
+  <meta name="twitter:description" content="<%= description %>">
+  <meta name="twitter:image" content="<%= imageUrl %>">
+  <meta name="twitter:image:alt" content="<%= imageAlt %>">
   <link rel="stylesheet" type="text/css" href="<%= PUBLIC_PATH %>css/main.css?v=<%=GLOBAL.PACKAGE.version%>">
   <% if (/(preview)/.test(type)) { %><link rel="stylesheet" type="text/css" href="<%= PUBLIC_PATH %>css/preview.css?v=<%=GLOBAL.PACKAGE.version%>"><% } %>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Free Font 商用免费字体下载",
-    "url": "<%= PUBLIC_PATH %>",
-    "description": "收录商用免费艺术体字体，包括中文与英文字体，支持商用，免费下载使用。",
-    "author": {
-      "@type": "Person",
-      "name": "Kenny Wang"
-    }
-  }
-  </script>
+  <script type="application/ld+json"><%- jsonLd %></script>
 </head>
 <body>
-  <a href="https://github.com/jaywcjlove/free-font" target="_blank" class="github-corner">
+  <a href="https://github.com/jaywcjlove/free-font" target="_blank" rel="noopener" class="github-corner" aria-label="在 GitHub 查看 Free Font">
     <svg viewBox="0 0 250 250">
       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" fill="#dcdcdc3d"></path>
       <path class="octo-arm" fill="currentColor" style="transform-origin: 130px 106px;" d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"></path>

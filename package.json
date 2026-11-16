@@ -15,8 +15,9 @@
     "one": "node scripts/main.mjs -a",
     "rename:images": "node scripts/rename-images.mjs",
     "rename:images:dry": "node scripts/rename-images.mjs --dry-run",
-    "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}'",
-    "start": "ejsc \"templates/**/*\" -o \"docs\"",
+    "build:docker": "ejsc \"templates/**/*\" -o \"docs\" --global-data '{\"docker\": true}' && node scripts/check-seo.mjs",
+    "start": "ejsc \"templates/**/*\" -o \"docs\" && node scripts/check-seo.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
     "dev": "ejsc \"templates/**/*\" -o \"docs\" -w"
   },
   "keywords": [],

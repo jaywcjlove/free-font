@@ -19,9 +19,8 @@
   <script>
     if (window.LAST_UPDATE_DATE) {
       const timeEl = document.getElementById('update-time');
-      const dateStr = window.LAST_UPDATE_DATE.toLocaleDateString();
-      timeEl.textContent = '上次更新于：' + dateStr;
-      timeEl.dateTime = dateStr;
+      timeEl.dateTime = window.LAST_UPDATE_DATE.toISOString().slice(0, 10);
+      timeEl.textContent = '上次更新于：' + window.LAST_UPDATE_DATE.toLocaleDateString();
     }
   </script>
 </footer>
