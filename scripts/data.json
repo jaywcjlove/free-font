@@ -1,5 +1,19 @@
 [
   {
+    "name": "莲生灵光体",
+    "path": "fonts/其他字体/莲生灵光体.ttf",
+    "size": "8.58 MB",
+    "byte": 8576476,
+    "ctime": 1794851104675,
+    "postscriptName": "LianshengLingguangti-Regular",
+    "fullName": "Liansheng Lingguangti Regular",
+    "familyName": "Liansheng Lingguangti",
+    "subfamilyName": "Regular",
+    "version": "2.231",
+    "copyright": null,
+    "numGlyphs": 7262
+  },
+  {
     "name": "NegaTape",
     "path": "fonts/english/other/NegaTape.ttf",
     "home": "https://github.com/hicchicc/x5y8pxNegaTape",
