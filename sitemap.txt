@@ -8,6 +8,12 @@ https://wangchujiang.com/free-font/hei.html
 https://wangchujiang.com/free-font/handwriting.html
 https://wangchujiang.com/free-font/english.html
 https://wangchujiang.com/free-font/art.html
+https://wangchujiang.com/free-font/details/館閣楷-Regular.html
+https://wangchujiang.com/free-font/details/館閣楷-Real.html
+https://wangchujiang.com/free-font/details/館閣楷-C-Regular.html
+https://wangchujiang.com/free-font/details/館閣楷-C-Real.html
+https://wangchujiang.com/free-font/details/館閣楷-B-Regular.html
+https://wangchujiang.com/free-font/details/館閣楷-B-Real.html
 https://wangchujiang.com/free-font/details/莲生灵光体.html
 https://wangchujiang.com/free-font/details/NegaTape.html
 https://wangchujiang.com/free-font/details/NegaClip.html
@@ -1058,7 +1064,13 @@ https://wangchujiang.com/free-font/details/阿里妈妈方圆体.html
 https://wangchujiang.com/free-font/details/阿里妈妈东方大楷.html
 https://wangchujiang.com/free-font/details/阿里妈妈刀隶体.html
 
-https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/莲生灵光体.ttf&s=8.58%20MB&t=莲生灵光体&v=2.231&l=商免
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-Regular.ttf&s=16.6%20MB&t=館閣楷-Regular&v=1.7.3&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-Real.ttf&s=4.55%20MB&t=館閣楷-Real&v=1.7.3&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-C-Regular.ttf&s=15.4%20MB&t=館閣楷-C-Regular&v=1.4.0&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-C-Real.ttf&s=4.59%20MB&t=館閣楷-C-Real&v=1.4.0&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-B-Regular.ttf&s=15.4%20MB&t=館閣楷-B-Regular&v=1.2.5&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/館閣楷/館閣楷-B-Real.ttf&s=3.77%20MB&t=館閣楷-B-Real&v=1.2.5&l=MIT
+https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/莲生灵光体.ttf&s=8.58%20MB&t=莲生灵光体&v=2.231&l=APL
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fother%2FNegaTape.ttf&s=44.8%20kB&t=NegaTape&v=1.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.en.html?p=fonts%2Fenglish%2Fother%2FNegaClip.ttf&s=50.5%20kB&t=NegaClip&v=1.000&l=OFL-1.1
 https://wangchujiang.com/free-font/preview.html?p=fonts/其他字体/伴旅圓體.ttf&s=6.4%20MB&t=伴旅圓體&v=1.1.0&l=OFL-1.1
