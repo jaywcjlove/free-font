@@ -1,5 +1,22 @@
 [
   {
+    "name": "嗷呜碎瘾黑",
+    "path": "fonts/其他字体/嗷呜碎瘾黑.otf",
+    "home": "https://github.com/howlingFounts/ShatteredDisplay",
+    "license": "SIL OFL 1.1",
+    "size": "5.94 MB",
+    "type": "黑体",
+    "byte": 5940000,
+    "ctime": 1794900153698,
+    "postscriptName": "HowlShatteredDisplay-Regular",
+    "fullName": "Howl Shattered Display Regular",
+    "familyName": "Howl Shattered Display",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "Copyright 2026 howlingFounts (https://github.com/howlingFounts). Copyright 2022-2023 The Unbounded Sans Project Authors (https://github.com/NightFurySL2001/unbounded-sans). Copyright 2020 The Dela Sans Project Authors (https://github.com/syakuzen/DelaGothic).",
+    "numGlyphs": 13837
+  },
+  {
     "name": "爪迹等宽",
     "path": "fonts/其他字体/爪迹等宽.ttf",
     "home": "https://github.com/Carlown/Clawd-Mono",
@@ -71,7 +88,7 @@
     "name": "館閣楷-Regular",
     "path": "fonts/其他字体/館閣楷/館閣楷-Regular.ttf",
     "home": "https://github.com/wainshine/guangeti",
-    "type": "艺术体",
+    "type": "楷体",
     "license": "MIT",
     "size": "16.6 MB",
     "byte": 16640756,
