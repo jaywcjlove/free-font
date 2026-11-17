@@ -1,5 +1,22 @@
 [
   {
+    "name": "爪迹等宽",
+    "path": "fonts/其他字体/爪迹等宽.ttf",
+    "home": "https://github.com/Carlown/Clawd-Mono",
+    "type": "手绘体",
+    "license": "MIT",
+    "size": "15.4 MB",
+    "byte": 15361140,
+    "ctime": 1794892096195,
+    "postscriptName": "ClawdMono-Regular",
+    "fullName": "Clawd Mono Regular",
+    "familyName": "Clawd Mono",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "Clawd Mono. Designed by Claude, an AI model by Anthropic. Unofficial fan typeface.",
+    "numGlyphs": 10705
+  },
+  {
     "name": "遊趣體",
     "path": "fonts/其他字体/遊趣體/遊趣體.ttf",
     "home": "https://github.com/Des-Magmeta/ChildFunSans-TC",
