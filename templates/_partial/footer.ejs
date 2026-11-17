@@ -22,6 +22,16 @@
       timeEl.dateTime = window.LAST_UPDATE_DATE.toISOString().slice(0, 10);
       timeEl.textContent = '上次更新于：' + window.LAST_UPDATE_DATE.toLocaleDateString();
     }
+    if (window.FONT_COUNT != null) {
+      document.querySelectorAll('[data-font-count]').forEach((el) => {
+        el.textContent = window.FONT_COUNT;
+      });
+    }
+    if (window.FONT_TOTAL_SIZE) {
+      document.querySelectorAll('[data-font-total-size]').forEach((el) => {
+        el.textContent = window.FONT_TOTAL_SIZE;
+      });
+    }
   </script>
 </footer>
 </body>

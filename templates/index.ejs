@@ -7,7 +7,7 @@
   description: `Free Font 收录 ${DATA.length} 款可商用免费字体，涵盖黑体、楷体、宋体、艺术体、手绘体与英文字体，可个人和商业使用。`,
   keywords: "免费字体,商用字体,字体下载,黑体,楷体,宋体,艺术体,手绘体,英文字体,开源字体"
 }); %>
-<%- include('./_partial/header-title', { length: DATA.length, type: "全部" }); %>
+<%- include('./_partial/header-title', { type: "全部" }); %>
 <main>
   <% DATA.sort((a, b) => b.ctime - a.ctime).forEach(function(font, idx){ %>
     <%- include('./_partial/home-list', { font, eager: idx === 0 }); %>

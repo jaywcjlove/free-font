@@ -23,4 +23,4 @@
   <a href="<%= PUBLIC_PATH %>index.html">首页</a><% if (crumb.href && crumb.label) { %> · <a href="<%= PUBLIC_PATH %><%= crumb.href %>"><%= crumb.label %></a><% } %> · <span><%= crumb.current %></span>
 </p>
 <% } %>
-<p class="website-info">Free Font 收录了 <a href="https://github.com/jaywcjlove/free-font" target="_blank"><%= length %></a> 个可商用免费字体，方便《<a href="https://github.com/jaywcjlove/copybook-generator" target="_blank" title="字帖宝宝 for macOS">字帖宝宝</a>》用户下载和使用。</p>
+<p class="website-info">Free Font 收录了 <a href="https://github.com/jaywcjlove/free-font" target="_blank"<% if (typeof length === "undefined") { %> data-font-count<% } %>><% if (typeof length !== "undefined") { %><%= length %><% } %></a> 个可商用免费字体，方便《<a href="https://github.com/jaywcjlove/copybook-generator" target="_blank" title="字帖宝宝 for macOS">字帖宝宝</a>》用户下载和使用。</p>
