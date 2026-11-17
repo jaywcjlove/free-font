@@ -193,7 +193,7 @@ main > div:hover > .button {
 main > div > .button {
   background: #3d3d3d;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 10px;
   color: #898989;
   padding: 0 2px 1px 2px;
   transition: all 0.3s;
