@@ -97,7 +97,8 @@
       </nav>
       <p class="website-info">
         Free Font 收录了
-        <a href="https://github.com/jaywcjlove/free-font" target="_blank">1058</a> 个可商用免费字体，方便《<a
+        <a href="https://github.com/jaywcjlove/free-font" target="_blank" data-font-count></a>
+        个可商用免费字体，方便《<a
           href="https://github.com/jaywcjlove/copybook-generator"
           target="_blank"
           title="字帖宝宝 for macOS"
@@ -1566,6 +1567,14 @@
           ((t.dateTime = window.LAST_UPDATE_DATE.toISOString().slice(0, 10)),
             (t.textContent = "上次更新于：" + window.LAST_UPDATE_DATE.toLocaleDateString()));
         }
+        (null != window.FONT_COUNT &&
+          document.querySelectorAll("[data-font-count]").forEach((t) => {
+            t.textContent = window.FONT_COUNT;
+          }),
+          window.FONT_TOTAL_SIZE &&
+            document.querySelectorAll("[data-font-total-size]").forEach((t) => {
+              t.textContent = window.FONT_TOTAL_SIZE;
+            }));
       </script>
     </footer>
   </body>

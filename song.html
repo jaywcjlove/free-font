@@ -1428,6 +1428,14 @@
           ((t.dateTime = window.LAST_UPDATE_DATE.toISOString().slice(0, 10)),
             (t.textContent = "上次更新于：" + window.LAST_UPDATE_DATE.toLocaleDateString()));
         }
+        (null != window.FONT_COUNT &&
+          document.querySelectorAll("[data-font-count]").forEach((t) => {
+            t.textContent = window.FONT_COUNT;
+          }),
+          window.FONT_TOTAL_SIZE &&
+            document.querySelectorAll("[data-font-total-size]").forEach((t) => {
+              t.textContent = window.FONT_TOTAL_SIZE;
+            }));
       </script>
     </footer>
   </body>
