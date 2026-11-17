@@ -1,5 +1,22 @@
 [
   {
+    "name": "香萃积雪宋",
+    "path": "fonts/其他字体/香萃积雪宋.ttf",
+    "home": "https://github.com/Miiiller/Xiangcui-Jixuesong",
+    "license": "SIL OFL 1.1",
+    "type": "宋体",
+    "size": "14.5 MB",
+    "byte": 14514268,
+    "ctime": 1794916884071,
+    "postscriptName": "XIANGCUIJIXUESONG",
+    "fullName": "XIANGCUIJIXUESONG",
+    "familyName": "XIANGCUIJIXUESONG",
+    "subfamilyName": "Regular",
+    "version": "1.000",
+    "copyright": "Copyright (c) 2026, DELL",
+    "numGlyphs": 7250
+  },
+  {
     "name": "嗷呜碎瘾黑",
     "path": "fonts/其他字体/嗷呜碎瘾黑.otf",
     "home": "https://github.com/howlingFounts/ShatteredDisplay",
